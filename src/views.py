@@ -3,11 +3,14 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from django.core.paginator import Paginator
-from django.db.models import Q
+from django.db.models import Q, Prefetch
 from django.urls import reverse
 
-from website.models import Volume, Issue, Article, Author
-from .forms import VolumeForm, IssueForm, ArticleForm, AuthorForm
+from website.models import Volume, Issue, Article, Author, ArticleAuthor
+from .forms import VolumeForm, IssueForm, ArticleForm, AuthorForm, AuthorSlotFormSet
+
+# Reusable prefetch that returns authors in defined position order
+_ordered_authors = Prefetch('authors', queryset=Author.objects.order_by('articleauthor__order'))
 
 
 # ── Authentication ────────────────────────────────────────────────────────────
@@ -38,7 +41,7 @@ def dashboard(request):
     recent_articles = (
         Article.objects
         .select_related('volume', 'issue')
-        .prefetch_related('authors')
+        .prefetch_related(_ordered_authors)
         .order_by('-created_at')[:8]
     )
     return render(request, 'src/dashboard.html', {
@@ -161,7 +164,7 @@ def issue_delete(request, pk):
 @login_required
 def article_list(request):
     query = request.GET.get('q', '').strip()
-    qs = Article.objects.select_related('volume', 'issue').prefetch_related('authors')
+    qs = Article.objects.select_related('volume', 'issue').prefetch_related(_ordered_authors)
     if query:
         qs = qs.filter(
             Q(title__icontains=query) |
@@ -175,26 +178,61 @@ def article_list(request):
     })
 
 
+def _author_initial(article):
+    """Build initial data list for AuthorSlotFormSet from existing article authors."""
+    existing = (
+        ArticleAuthor.objects
+        .filter(article=article)
+        .order_by('order')
+        .values_list('author_id', flat=True)
+    )
+    return [{'author': aid} for aid in existing] + [{}]
+
+
 @login_required
 def article_create(request):
     form = ArticleForm(request.POST or None, request.FILES or None)
-    if form.is_valid():
-        form.save()
+    # Default 3 empty slots for new articles
+    initial = [{}, {}, {}]
+    formset = AuthorSlotFormSet(request.POST or None, prefix='authors', initial=initial)
+    if request.method == 'POST' and form.is_valid() and formset.is_valid():
+        article = form.save()
+        order = 0
+        for f in formset.forms:
+            if not f.cleaned_data:
+                continue
+            author = f.cleaned_data.get('author')
+            if author:
+                ArticleAuthor.objects.create(article=article, author=author, order=order)
+                order += 1
         messages.success(request, 'Article created successfully.')
         return redirect('src:article_list')
-    return render(request, 'src/articles/form.html', {'form': form, 'action': 'Create'})
+    return render(request, 'src/articles/form.html', {
+        'form': form, 'formset': formset, 'action': 'Create',
+    })
 
 
 @login_required
 def article_edit(request, pk):
     article = get_object_or_404(Article, pk=pk)
     form = ArticleForm(request.POST or None, request.FILES or None, instance=article)
-    if form.is_valid():
+    initial = _author_initial(article)
+    formset = AuthorSlotFormSet(request.POST or None, prefix='authors', initial=initial)
+    if request.method == 'POST' and form.is_valid() and formset.is_valid():
         form.save()
+        ArticleAuthor.objects.filter(article=article).delete()
+        order = 0
+        for f in formset.forms:
+            if not f.cleaned_data:
+                continue
+            author = f.cleaned_data.get('author')
+            if author:
+                ArticleAuthor.objects.create(article=article, author=author, order=order)
+                order += 1
         messages.success(request, 'Article updated successfully.')
         return redirect('src:article_list')
     return render(request, 'src/articles/form.html', {
-        'form': form, 'action': 'Edit', 'object': article,
+        'form': form, 'formset': formset, 'action': 'Edit', 'object': article,
     })
 
 

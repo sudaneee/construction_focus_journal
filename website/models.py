@@ -51,12 +51,22 @@ class Author(models.Model):
         return self.full_name
 
 
+class ArticleAuthor(models.Model):
+    article = models.ForeignKey('Article', on_delete=models.CASCADE)
+    author = models.ForeignKey(Author, on_delete=models.CASCADE)
+    order = models.PositiveSmallIntegerField(default=0)
+
+    class Meta:
+        ordering = ['order']
+        unique_together = ('article', 'author')
+
+
 class Article(models.Model):
     title = models.CharField(max_length=500)
     slug = models.SlugField(max_length=500, unique=True)
     abstract = models.TextField()
     keywords = models.CharField(max_length=500, help_text='Comma-separated keywords')
-    authors = models.ManyToManyField(Author, related_name='articles')
+    authors = models.ManyToManyField(Author, through='ArticleAuthor', related_name='articles')
     volume = models.ForeignKey(
         Volume, on_delete=models.SET_NULL, null=True, blank=True, related_name='articles'
     )

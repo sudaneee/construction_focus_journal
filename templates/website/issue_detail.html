@@ -1,4 +1,5 @@
 {% extends 'website/base.html' %}
+{% load journal_extras %}
 
 {% block title %}Vol. {{ volume.volume_number }}, Issue {{ issue.issue_number }} — CFJ{% endblock %}
 
@@ -48,7 +49,7 @@
           <p class="article-list-authors">
             <i class="fas fa-users me-1"></i>
             {% for author in article.authors.all %}
-              <span>{{ author.full_name }}</span>{% if author.affiliation %} <em class="text-muted">({{ author.affiliation }})</em>{% endif %}{% if not forloop.last %}; {% endif %}
+              <sup class="text-muted fw-semibold">{{ forloop.counter|ordinal }}</sup>&nbsp;<span>{{ author.full_name }}</span>{% if author.affiliation %} <em class="text-muted">({{ author.affiliation }})</em>{% endif %}{% if not forloop.last %}; {% endif %}
             {% endfor %}
           </p>
 

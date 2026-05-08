@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Volume, Issue, Author, Article
+from .models import Volume, Issue, Author, Article, ArticleAuthor
 
 
 class IssueInline(admin.TabularInline):
@@ -43,18 +43,25 @@ class AuthorAdmin(admin.ModelAdmin):
     article_count.short_description = 'Articles'
 
 
+class ArticleAuthorInline(admin.TabularInline):
+    model = ArticleAuthor
+    extra = 1
+    fields = ['order', 'author']
+    ordering = ['order']
+
+
 @admin.register(Article)
 class ArticleAdmin(admin.ModelAdmin):
     list_display = ['title', 'volume', 'issue', 'publication_date', 'doi']
     list_filter = ['volume', 'issue', 'publication_date']
     search_fields = ['title', 'abstract', 'keywords']
     prepopulated_fields = {'slug': ('title',)}
-    filter_horizontal = ['authors']
+    inlines = [ArticleAuthorInline]
     date_hierarchy = 'publication_date'
     readonly_fields = ['created_at', 'updated_at']
     fieldsets = [
         ('Basic Information', {'fields': ['title', 'slug', 'abstract', 'keywords']}),
-        ('Classification', {'fields': ['volume', 'issue', 'authors']}),
+        ('Classification', {'fields': ['volume', 'issue']}),
         ('Files', {'fields': ['pdf_file', 'cover_image']}),
         ('Publication', {'fields': ['publication_date', 'doi']}),
         ('Timestamps', {'fields': ['created_at', 'updated_at']}),

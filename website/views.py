@@ -1,9 +1,11 @@
 from django.shortcuts import render, get_object_or_404, redirect
-from django.db.models import Q
+from django.db.models import Q, Prefetch
 from django.contrib import messages
 
 from .models import Volume, Issue, Article, Author
 from .forms import ContactForm
+
+_ordered_authors = Prefetch('authors', queryset=Author.objects.order_by('articleauthor__order'))
 
 SCOPE_TOPICS = [
     'Construction Management',
@@ -34,7 +36,7 @@ def home(request):
     latest_articles = (
         Article.objects
         .select_related('volume', 'issue')
-        .prefetch_related('authors')[:6]
+        .prefetch_related(_ordered_authors)[:6]
     )
     volumes = Volume.objects.prefetch_related('issues').all()[:4]
     stats = {
@@ -87,7 +89,7 @@ def issue_detail(request, volume_number, issue_number):
     articles = (
         issue.articles
         .select_related('volume', 'issue')
-        .prefetch_related('authors')
+        .prefetch_related(_ordered_authors)
     )
     return render(request, 'website/issue_detail.html', {
         'volume': volume,
@@ -98,7 +100,7 @@ def issue_detail(request, volume_number, issue_number):
 
 def article_detail(request, slug):
     article = get_object_or_404(
-        Article.objects.select_related('volume', 'issue').prefetch_related('authors'),
+        Article.objects.select_related('volume', 'issue').prefetch_related(_ordered_authors),
         slug=slug,
     )
     related = (
@@ -106,7 +108,7 @@ def article_detail(request, slug):
         .filter(issue=article.issue)
         .exclude(pk=article.pk)
         .select_related('volume', 'issue')
-        .prefetch_related('authors')[:4]
+        .prefetch_related(_ordered_authors)[:4]
     ) if article.issue else []
     return render(request, 'website/article_detail.html', {
         'article': article,
@@ -127,7 +129,7 @@ def search(request):
                 Q(authors__full_name__icontains=query)
             )
             .select_related('volume', 'issue')
-            .prefetch_related('authors')
+            .prefetch_related(_ordered_authors)
             .distinct()
         )
     return render(request, 'website/search.html', {

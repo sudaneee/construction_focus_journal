@@ -1,4 +1,5 @@
 from django import forms
+from django.forms import formset_factory
 from website.models import Volume, Issue, Article, Author
 
 
@@ -50,9 +51,10 @@ class AuthorForm(forms.ModelForm):
 class ArticleForm(forms.ModelForm):
     class Meta:
         model = Article
+        # 'authors' is excluded — handled by AuthorSlotFormSet in the view
         fields = [
             'title', 'slug', 'abstract', 'keywords',
-            'authors', 'volume', 'issue',
+            'volume', 'issue',
             'pdf_file', 'cover_image',
             'publication_date', 'doi',
         ]
@@ -67,7 +69,6 @@ class ArticleForm(forms.ModelForm):
                 'class': 'form-control',
                 'placeholder': 'construction, sustainability, BIM, ...',
             }),
-            'authors': forms.CheckboxSelectMultiple(attrs={'class': 'authors-checkbox'}),
             'volume': forms.Select(attrs={'class': 'form-select'}),
             'issue': forms.Select(attrs={'class': 'form-select'}),
             'pdf_file': forms.ClearableFileInput(attrs={'class': 'form-control'}),
@@ -88,3 +89,17 @@ class ArticleForm(forms.ModelForm):
         self.fields['doi'].required = False
         self.fields['volume'].required = False
         self.fields['issue'].required = False
+
+
+class AuthorSlotForm(forms.Form):
+    """One ordered author slot — collected into AuthorSlotFormSet."""
+    author = forms.ModelChoiceField(
+        queryset=Author.objects.order_by('full_name'),
+        required=False,
+        widget=forms.Select(attrs={'class': 'form-select'}),
+        empty_label='— Select author —',
+    )
+
+
+# extra=0: slot count is driven entirely by initial data passed in the view
+AuthorSlotFormSet = formset_factory(AuthorSlotForm, extra=0)

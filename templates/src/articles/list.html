@@ -1,4 +1,5 @@
 {% extends 'src/base.html' %}
+{% load journal_extras %}
 
 {% block title %}Articles{% endblock %}
 {% block breadcrumb %}Articles{% endblock %}
@@ -57,7 +58,7 @@
             </td>
             <td class="text-muted small">
               {% for author in article.authors.all|slice:":2" %}
-                {{ author.full_name }}{% if not forloop.last %}, {% endif %}
+                <sup class="fw-semibold">{{ forloop.counter|ordinal }}</sup>&nbsp;{{ author.full_name }}{% if not forloop.last %}, {% endif %}
               {% endfor %}
               {% if article.authors.count > 2 %}
                 <span class="badge bg-light text-muted border">+{{ article.authors.count|add:"-2" }} more</span>

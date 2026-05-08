@@ -57,7 +57,7 @@
           <h5 class="dash-card-title"><i class="fas fa-sitemap me-2"></i>Classification</h5>
         </div>
         <div class="dash-card-body">
-          <div class="row g-3">
+          <div class="row g-3 mb-3">
             <div class="col-md-6">
               <label class="form-label fw-500">Volume</label>
               {{ form.volume }}
@@ -69,17 +69,34 @@
               {% if form.issue.errors %}<div class="invalid-feedback d-block">{{ form.issue.errors|join:", " }}</div>{% endif %}
             </div>
           </div>
-          <div class="mt-3">
-            <label class="form-label fw-500">Authors <span class="text-danger">*</span></label>
-            <div class="authors-checkbox-grid">
-              {{ form.authors }}
+
+          <!-- Authors formset -->
+          <label class="form-label fw-500">Authors <span class="text-danger">*</span>
+            <span class="text-muted small ms-1">— row order = author position</span>
+          </label>
+
+          {{ formset.management_form }}
+          <div id="author-slots">
+            {% for author_form in formset %}
+            <div class="d-flex align-items-center gap-2 mb-2 author-slot" data-slot>
+              <span class="badge bg-secondary author-pos" style="min-width:38px;font-size:.8rem;">
+                {{ forloop.counter }}{% if forloop.counter == 1 %}st{% elif forloop.counter == 2 %}nd{% elif forloop.counter == 3 %}rd{% else %}th{% endif %}
+              </span>
+              {{ author_form.author }}
+              <button type="button" class="btn btn-sm btn-outline-danger btn-remove-slot flex-shrink-0" title="Remove">
+                <i class="fas fa-times"></i>
+              </button>
             </div>
-            {% if form.authors.errors %}<div class="invalid-feedback d-block">{{ form.authors.errors|join:", " }}</div>{% endif %}
-            <div class="form-text mt-1">
-              <a href="{% url 'src:author_create' %}" target="_blank">
-                <i class="fas fa-plus me-1"></i>Add new author
-              </a>
-            </div>
+            {% endfor %}
+          </div>
+
+          <button type="button" class="btn btn-outline-secondary btn-sm mt-1" id="btn-add-author">
+            <i class="fas fa-user-plus me-1"></i>Add Author
+          </button>
+          <div class="form-text mt-2">
+            <a href="{% url 'src:author_create' %}" target="_blank">
+              <i class="fas fa-plus me-1"></i>Create new author
+            </a>
           </div>
         </div>
       </div>
@@ -151,4 +168,59 @@
 </form>
 {% endblock %}
 
-{% block extra_js %}{% endblock %}
+{% block extra_js %}
+<script>
+(function () {
+  const PREFIX = 'authors';
+
+  function getOrdinal(n) {
+    const s = ['th', 'st', 'nd', 'rd'], v = n % 100;
+    return n + (s[(v - 20) % 10] || s[v] || s[0]);
+  }
+
+  function reindex() {
+    document.querySelectorAll('#author-slots [data-slot]').forEach(function (slot, i) {
+      var sel = slot.querySelector('select');
+      sel.name = PREFIX + '-' + i + '-author';
+      sel.id = 'id_' + PREFIX + '-' + i + '-author';
+      slot.querySelector('.author-pos').textContent = getOrdinal(i + 1);
+    });
+    document.getElementById('id_' + PREFIX + '-TOTAL_FORMS').value =
+      document.querySelectorAll('#author-slots [data-slot]').length;
+  }
+
+  // Clone options from the first select on the page for new slots
+  function getOptionsHTML() {
+    var firstSelect = document.querySelector('#author-slots select');
+    return firstSelect ? firstSelect.innerHTML : '';
+  }
+
+  document.getElementById('btn-add-author').addEventListener('click', function () {
+    var slots = document.querySelectorAll('#author-slots [data-slot]');
+    var i = slots.length;
+    var div = document.createElement('div');
+    div.className = 'd-flex align-items-center gap-2 mb-2 author-slot';
+    div.setAttribute('data-slot', '');
+    div.innerHTML =
+      '<span class="badge bg-secondary author-pos" style="min-width:38px;font-size:.8rem;">' + getOrdinal(i + 1) + '</span>' +
+      '<select name="' + PREFIX + '-' + i + '-author" id="id_' + PREFIX + '-' + i + '-author" class="form-select">' +
+      getOptionsHTML() +
+      '</select>' +
+      '<button type="button" class="btn btn-sm btn-outline-danger btn-remove-slot flex-shrink-0" title="Remove">' +
+      '<i class="fas fa-times"></i></button>';
+    div.querySelector('select').value = '';
+    document.getElementById('author-slots').appendChild(div);
+    reindex();
+  });
+
+  document.getElementById('author-slots').addEventListener('click', function (e) {
+    var btn = e.target.closest('.btn-remove-slot');
+    if (!btn) return;
+    var slots = document.querySelectorAll('#author-slots [data-slot]');
+    if (slots.length <= 1) return;
+    btn.closest('[data-slot]').remove();
+    reindex();
+  });
+})();
+</script>
+{% endblock %}

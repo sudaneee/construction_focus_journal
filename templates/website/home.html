@@ -1,5 +1,5 @@
 ﻿{% extends 'website/base.html' %}
-{% load static %}
+{% load static journal_extras %}
 
 {% block title %}Construction Focus Journal A.B.U Zaria — Home{% endblock %}
 
@@ -91,7 +91,7 @@
           <p class="article-card-authors">
             <i class="fas fa-user-circle me-1 text-muted"></i>
             {% for author in article.authors.all %}
-              {{ author.full_name }}{% if not forloop.last %}, {% endif %}
+              <sup class="text-muted">{{ forloop.counter|ordinal }}</sup>&nbsp;{{ author.full_name }}{% if not forloop.last %}, {% endif %}
             {% empty %}—{% endfor %}
           </p>
 
