@@ -1,0 +1,115 @@
+﻿{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login — CFJ Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'css/dashboard.css' %}">
+</head>
+<body class="login-body">
+
+  <div class="login-page">
+    <div class="login-left">
+      <div class="login-left-content">
+        <div class="login-brand">
+          <i class="fas fa-building-columns"></i>
+          <span>Construction Focus Journal A.B.U Zaria</span>
+        </div>
+        <h1 class="login-tagline">Editorial Management<br>Dashboard</h1>
+        <p class="login-description">
+          Manage journal volumes, issues, articles, and authors from one secure location.
+        </p>
+        <div class="login-features">
+          <div class="login-feature">
+            <i class="fas fa-layer-group"></i>
+            <span>Manage Volumes & Issues</span>
+          </div>
+          <div class="login-feature">
+            <i class="fas fa-file-alt"></i>
+            <span>Publish Articles & PDFs</span>
+          </div>
+          <div class="login-feature">
+            <i class="fas fa-users"></i>
+            <span>Author Profiles</span>
+          </div>
+          <div class="login-feature">
+            <i class="fas fa-chart-bar"></i>
+            <span>Publication Statistics</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="login-right">
+      <div class="login-box">
+        <div class="login-box-header">
+          <div class="login-box-icon">
+            <i class="fas fa-lock"></i>
+          </div>
+          <h2>Sign In</h2>
+          <p class="text-muted">Enter your credentials to access the dashboard</p>
+        </div>
+
+        {% if messages %}
+        {% for message in messages %}
+        <div class="alert alert-{{ message.tags }} mb-3" role="alert">
+          <i class="fas fa-exclamation-circle me-2"></i>{{ message }}
+        </div>
+        {% endfor %}
+        {% endif %}
+
+        <form method="post" novalidate>
+          {% csrf_token %}
+          <div class="mb-3">
+            <label class="form-label fw-500">Username</label>
+            <div class="input-group">
+              <span class="input-group-text"><i class="fas fa-user text-muted"></i></span>
+              <input type="text" name="username" class="form-control"
+                     placeholder="Enter username" required autofocus>
+            </div>
+          </div>
+          <div class="mb-4">
+            <label class="form-label fw-500">Password</label>
+            <div class="input-group">
+              <span class="input-group-text"><i class="fas fa-lock text-muted"></i></span>
+              <input type="password" name="password" class="form-control"
+                     placeholder="Enter password" required id="passwordInput">
+              <button type="button" class="btn btn-outline-secondary" id="togglePassword">
+                <i class="fas fa-eye"></i>
+              </button>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary w-100 btn-lg login-submit-btn">
+            <i class="fas fa-sign-in-alt me-2"></i>Sign In
+          </button>
+        </form>
+
+        <div class="login-box-footer">
+          <a href="{% url 'website:home' %}" class="text-muted small">
+            <i class="fas fa-arrow-left me-1"></i>Back to Public Site
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById('togglePassword').addEventListener('click', function() {
+      const input = document.getElementById('passwordInput');
+      const icon = this.querySelector('i');
+      if (input.type === 'password') {
+        input.type = 'text';
+        icon.className = 'fas fa-eye-slash';
+      } else {
+        input.type = 'password';
+        icon.className = 'fas fa-eye';
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+{% extends 'src/base.html' %}
+{% load static %}
+
+{% block title %}{{ action }} Article{% endblock %}
+{% block breadcrumb %}
+  <a href="{% url 'src:article_list' %}">Articles</a> / {{ action }}
+{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <h1 class="page-title">{{ action }} Article</h1>
+</div>
+
+<form method="post" enctype="multipart/form-data" novalidate id="articleForm">
+  {% csrf_token %}
+  <div class="row g-4">
+
+    <!-- Left Column -->
+    <div class="col-lg-8">
+
+      <!-- Basic Info -->
+      <div class="dash-card mb-4">
+        <div class="dash-card-header">
+          <h5 class="dash-card-title"><i class="fas fa-pen me-2"></i>Basic Information</h5>
+        </div>
+        <div class="dash-card-body">
+          <div class="mb-3">
+            <label class="form-label fw-500">Title <span class="text-danger">*</span></label>
+            {{ form.title }}
+            {% if form.title.errors %}<div class="invalid-feedback d-block">{{ form.title.errors|join:", " }}</div>{% endif %}
+          </div>
+          <div class="mb-3">
+            <label class="form-label fw-500">
+              Slug
+              <span class="text-muted small">(auto-generated from title)</span>
+            </label>
+            {{ form.slug }}
+            {% if form.slug.errors %}<div class="invalid-feedback d-block">{{ form.slug.errors|join:", " }}</div>{% endif %}
+          </div>
+          <div class="mb-3">
+            <label class="form-label fw-500">Abstract <span class="text-danger">*</span></label>
+            {{ form.abstract }}
+            {% if form.abstract.errors %}<div class="invalid-feedback d-block">{{ form.abstract.errors|join:", " }}</div>{% endif %}
+          </div>
+          <div class="mb-0">
+            <label class="form-label fw-500">Keywords <span class="text-danger">*</span></label>
+            {{ form.keywords }}
+            <div class="form-text">Separate keywords with commas</div>
+            {% if form.keywords.errors %}<div class="invalid-feedback d-block">{{ form.keywords.errors|join:", " }}</div>{% endif %}
+          </div>
+        </div>
+      </div>
+
+      <!-- Classification -->
+      <div class="dash-card mb-4">
+        <div class="dash-card-header">
+          <h5 class="dash-card-title"><i class="fas fa-sitemap me-2"></i>Classification</h5>
+        </div>
+        <div class="dash-card-body">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label fw-500">Volume</label>
+              {{ form.volume }}
+              {% if form.volume.errors %}<div class="invalid-feedback d-block">{{ form.volume.errors|join:", " }}</div>{% endif %}
+            </div>
+            <div class="col-md-6">
+              <label class="form-label fw-500">Issue</label>
+              {{ form.issue }}
+              {% if form.issue.errors %}<div class="invalid-feedback d-block">{{ form.issue.errors|join:", " }}</div>{% endif %}
+            </div>
+          </div>
+          <div class="mt-3">
+            <label class="form-label fw-500">Authors <span class="text-danger">*</span></label>
+            <div class="authors-checkbox-grid">
+              {{ form.authors }}
+            </div>
+            {% if form.authors.errors %}<div class="invalid-feedback d-block">{{ form.authors.errors|join:", " }}</div>{% endif %}
+            <div class="form-text mt-1">
+              <a href="{% url 'src:author_create' %}" target="_blank">
+                <i class="fas fa-plus me-1"></i>Add new author
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Files -->
+      <div class="dash-card mb-4">
+        <div class="dash-card-header">
+          <h5 class="dash-card-title"><i class="fas fa-paperclip me-2"></i>Files</h5>
+        </div>
+        <div class="dash-card-body">
+          <div class="mb-3">
+            <label class="form-label fw-500">PDF File <span class="text-danger">*</span></label>
+            {{ form.pdf_file }}
+            {% if object and object.pdf_file %}
+            <div class="form-text">
+              Current: <a href="{{ object.pdf_file.url }}" target="_blank">
+                <i class="fas fa-file-pdf me-1 text-danger"></i>{{ object.pdf_file.name }}
+              </a>
+            </div>
+            {% endif %}
+            {% if form.pdf_file.errors %}<div class="invalid-feedback d-block">{{ form.pdf_file.errors|join:", " }}</div>{% endif %}
+          </div>
+          <div class="mb-0">
+            <label class="form-label fw-500">Cover Image <span class="text-muted small">(optional)</span></label>
+            {{ form.cover_image }}
+            {% if object and object.cover_image %}
+            <div class="form-text">
+              Current: <a href="{{ object.cover_image.url }}" target="_blank">View image</a>
+            </div>
+            {% endif %}
+            {% if form.cover_image.errors %}<div class="invalid-feedback d-block">{{ form.cover_image.errors|join:", " }}</div>{% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="col-lg-4">
+      <div class="dash-card mb-4">
+        <div class="dash-card-header">
+          <h5 class="dash-card-title"><i class="fas fa-calendar me-2"></i>Publication</h5>
+        </div>
+        <div class="dash-card-body">
+          <div class="mb-3">
+            <label class="form-label fw-500">Publication Date <span class="text-danger">*</span></label>
+            {{ form.publication_date }}
+            {% if form.publication_date.errors %}<div class="invalid-feedback d-block">{{ form.publication_date.errors|join:", " }}</div>{% endif %}
+          </div>
+          <div class="mb-0">
+            <label class="form-label fw-500">DOI <span class="text-muted small">(optional)</span></label>
+            {{ form.doi }}
+            {% if form.doi.errors %}<div class="invalid-feedback d-block">{{ form.doi.errors|join:", " }}</div>{% endif %}
+          </div>
+        </div>
+      </div>
+
+      <div class="dash-card">
+        <div class="dash-card-body">
+          <button type="submit" class="btn btn-primary w-100 btn-lg mb-3">
+            <i class="fas fa-save me-2"></i>{{ action }} Article
+          </button>
+          <a href="{% url 'src:article_list' %}" class="btn btn-outline-secondary w-100">
+            Cancel
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+{% endblock %}
+
+{% block extra_js %}{% endblock %}

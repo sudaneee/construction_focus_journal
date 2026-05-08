@@ -1,0 +1,86 @@
+{% extends 'website/base.html' %}
+
+{% block title %}Vol. {{ volume.volume_number }}, Issue {{ issue.issue_number }} — CFJ{% endblock %}
+
+{% block content %}
+
+<section class="page-hero">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{% url 'website:home' %}">Home</a></li>
+        <li class="breadcrumb-item"><a href="{% url 'website:volumes' %}">Archive</a></li>
+        <li class="breadcrumb-item"><a href="{{ volume.get_absolute_url }}">Volume {{ volume.volume_number }}</a></li>
+        <li class="breadcrumb-item active">Issue {{ issue.issue_number }}</li>
+      </ol>
+    </nav>
+    <h1 class="page-hero-title">Volume {{ volume.volume_number }}, Issue {{ issue.issue_number }}</h1>
+    <p class="page-hero-subtitle">
+      {{ issue.publication_date|date:"F Y" }}
+      {% if issue.description %} — {{ issue.description }}{% endif %}
+    </p>
+  </div>
+</section>
+
+<section class="py-6">
+  <div class="container">
+    {% if articles %}
+    <p class="text-muted mb-4">{{ articles|length }} article{{ articles|length|pluralize }} in this issue</p>
+    <div class="articles-list">
+      {% for article in articles %}
+      <article class="article-list-item">
+        <div class="article-list-body">
+          <div class="article-list-meta mb-2">
+            {% if article.doi %}
+            <span class="doi-badge">
+              <i class="fas fa-link me-1"></i>DOI: {{ article.doi }}
+            </span>
+            {% endif %}
+            <span class="text-muted small">
+              <i class="far fa-calendar-alt me-1"></i>{{ article.publication_date|date:"d M Y" }}
+            </span>
+          </div>
+
+          <h3 class="article-list-title">
+            <a href="{{ article.get_absolute_url }}">{{ article.title }}</a>
+          </h3>
+
+          <p class="article-list-authors">
+            <i class="fas fa-users me-1"></i>
+            {% for author in article.authors.all %}
+              <span>{{ author.full_name }}</span>{% if author.affiliation %} <em class="text-muted">({{ author.affiliation }})</em>{% endif %}{% if not forloop.last %}; {% endif %}
+            {% endfor %}
+          </p>
+
+          <p class="article-list-abstract">{{ article.abstract|truncatewords:40 }}</p>
+
+          {% if article.get_keywords_list %}
+          <div class="mt-2">
+            {% for kw in article.get_keywords_list %}
+            <span class="keyword-chip">{{ kw }}</span>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+
+        <div class="article-list-actions">
+          <a href="{{ article.get_absolute_url }}" class="btn btn-primary btn-sm">
+            <i class="fas fa-eye me-1"></i>Read
+          </a>
+          <a href="{{ article.pdf_file.url }}" class="btn btn-outline-danger btn-sm" target="_blank">
+            <i class="fas fa-file-pdf me-1"></i>PDF
+          </a>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+    {% else %}
+    <div class="empty-state">
+      <i class="fas fa-file-alt fa-4x mb-3"></i>
+      <p>No articles in this issue yet.</p>
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,179 @@
+{% extends 'src/base.html' %}
+
+{% block title %}Dashboard{% endblock %}
+{% block breadcrumb %}Dashboard{% endblock %}
+
+{% block content %}
+
+<div class="page-header">
+  <div>
+    <h1 class="page-title">Dashboard</h1>
+    <p class="page-subtitle">Welcome back, {{ request.user.username }}. Here's your journal overview.</p>
+  </div>
+  <a href="{% url 'src:article_create' %}" class="btn btn-primary">
+    <i class="fas fa-plus me-2"></i>New Article
+  </a>
+</div>
+
+<!-- Stats Cards -->
+<div class="row g-4 mb-5">
+  <div class="col-xl-3 col-md-6">
+    <div class="stat-card stat-card-volumes">
+      <div class="stat-card-icon">
+        <i class="fas fa-layer-group"></i>
+      </div>
+      <div class="stat-card-body">
+        <span class="stat-card-label">Total Volumes</span>
+        <span class="stat-card-number">{{ total_volumes }}</span>
+        <a href="{% url 'src:volume_list' %}" class="stat-card-link">
+          Manage <i class="fas fa-arrow-right ms-1"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-3 col-md-6">
+    <div class="stat-card stat-card-issues">
+      <div class="stat-card-icon">
+        <i class="fas fa-book-open"></i>
+      </div>
+      <div class="stat-card-body">
+        <span class="stat-card-label">Total Issues</span>
+        <span class="stat-card-number">{{ total_issues }}</span>
+        <a href="{% url 'src:issue_list' %}" class="stat-card-link">
+          Manage <i class="fas fa-arrow-right ms-1"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-3 col-md-6">
+    <div class="stat-card stat-card-articles">
+      <div class="stat-card-icon">
+        <i class="fas fa-file-alt"></i>
+      </div>
+      <div class="stat-card-body">
+        <span class="stat-card-label">Total Articles</span>
+        <span class="stat-card-number">{{ total_articles }}</span>
+        <a href="{% url 'src:article_list' %}" class="stat-card-link">
+          Manage <i class="fas fa-arrow-right ms-1"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-3 col-md-6">
+    <div class="stat-card stat-card-authors">
+      <div class="stat-card-icon">
+        <i class="fas fa-users"></i>
+      </div>
+      <div class="stat-card-body">
+        <span class="stat-card-label">Total Authors</span>
+        <span class="stat-card-number">{{ total_authors }}</span>
+        <a href="{% url 'src:author_list' %}" class="stat-card-link">
+          Manage <i class="fas fa-arrow-right ms-1"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Quick Actions -->
+<div class="row g-4 mb-5">
+  <div class="col-12">
+    <div class="dash-card">
+      <div class="dash-card-header">
+        <h5 class="dash-card-title"><i class="fas fa-bolt me-2"></i>Quick Actions</h5>
+      </div>
+      <div class="dash-card-body">
+        <div class="quick-actions">
+          <a href="{% url 'src:volume_create' %}" class="quick-action-btn">
+            <i class="fas fa-plus-circle"></i>
+            <span>New Volume</span>
+          </a>
+          <a href="{% url 'src:issue_create' %}" class="quick-action-btn">
+            <i class="fas fa-plus-circle"></i>
+            <span>New Issue</span>
+          </a>
+          <a href="{% url 'src:article_create' %}" class="quick-action-btn">
+            <i class="fas fa-file-upload"></i>
+            <span>New Article</span>
+          </a>
+          <a href="{% url 'src:author_create' %}" class="quick-action-btn">
+            <i class="fas fa-user-plus"></i>
+            <span>New Author</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Recent Articles -->
+<div class="dash-card">
+  <div class="dash-card-header">
+    <h5 class="dash-card-title"><i class="fas fa-clock me-2"></i>Recently Added Articles</h5>
+    <a href="{% url 'src:article_list' %}" class="btn btn-outline-primary btn-sm">View All</a>
+  </div>
+  <div class="dash-card-body p-0">
+    {% if recent_articles %}
+    <div class="table-responsive">
+      <table class="table dash-table mb-0">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Authors</th>
+            <th>Volume / Issue</th>
+            <th>Published</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for article in recent_articles %}
+          <tr>
+            <td>
+              <div class="table-article-title">
+                <a href="{{ article.get_absolute_url }}" target="_blank">
+                  {{ article.title|truncatewords:8 }}
+                </a>
+              </div>
+            </td>
+            <td class="text-muted small">
+              {% for author in article.authors.all|slice:":2" %}
+                {{ author.full_name }}{% if not forloop.last %}, {% endif %}
+              {% endfor %}
+              {% if article.authors.count > 2 %}
+                <span class="badge bg-light text-muted">+{{ article.authors.count|add:"-2" }}</span>
+              {% endif %}
+            </td>
+            <td>
+              {% if article.volume %}
+              <span class="badge badge-volume">Vol. {{ article.volume.volume_number }}</span>
+              {% endif %}
+              {% if article.issue %}
+              <span class="badge badge-issue">Iss. {{ article.issue.issue_number }}</span>
+              {% endif %}
+            </td>
+            <td class="text-muted small">{{ article.publication_date|date:"d M Y" }}</td>
+            <td>
+              <div class="table-actions">
+                <a href="{% url 'src:article_edit' article.pk %}" class="table-action-btn edit" title="Edit">
+                  <i class="fas fa-edit"></i>
+                </a>
+                <a href="{% url 'src:article_delete' article.pk %}" class="table-action-btn delete" title="Delete">
+                  <i class="fas fa-trash-alt"></i>
+                </a>
+              </div>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% else %}
+    <div class="empty-dash text-center py-5">
+      <i class="fas fa-file-alt fa-3x text-muted mb-3"></i>
+      <p class="text-muted">No articles yet. <a href="{% url 'src:article_create' %}">Create your first article</a>.</p>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+{% endblock %}

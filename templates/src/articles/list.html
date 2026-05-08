@@ -1,0 +1,109 @@
+{% extends 'src/base.html' %}
+
+{% block title %}Articles{% endblock %}
+{% block breadcrumb %}Articles{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <div>
+    <h1 class="page-title">Articles</h1>
+    <p class="page-subtitle">Manage published articles</p>
+  </div>
+  <a href="{% url 'src:article_create' %}" class="btn btn-primary">
+    <i class="fas fa-file-upload me-2"></i>New Article
+  </a>
+</div>
+
+<div class="dash-card">
+  <div class="dash-card-header">
+    <form class="search-form" action="" method="get">
+      <div class="input-group">
+        <span class="input-group-text"><i class="fas fa-search text-muted"></i></span>
+        <input type="text" name="q" class="form-control" placeholder="Search by title, author, keywords..." value="{{ query }}">
+        {% if query %}
+        <a href="{% url 'src:article_list' %}" class="btn btn-outline-secondary"><i class="fas fa-times"></i></a>
+        {% endif %}
+        <button type="submit" class="btn btn-primary">Search</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="dash-card-body p-0">
+    {% if articles %}
+    <div class="table-responsive">
+      <table class="table dash-table mb-0">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Authors</th>
+            <th>Vol / Issue</th>
+            <th>Published</th>
+            <th>PDF</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for article in articles %}
+          <tr>
+            <td>
+              <div class="table-article-title">
+                <a href="{{ article.get_absolute_url }}" target="_blank">
+                  {{ article.title|truncatewords:10 }}
+                </a>
+                {% if article.doi %}
+                <div class="text-muted" style="font-size: 0.75rem;">DOI: {{ article.doi }}</div>
+                {% endif %}
+              </div>
+            </td>
+            <td class="text-muted small">
+              {% for author in article.authors.all|slice:":2" %}
+                {{ author.full_name }}{% if not forloop.last %}, {% endif %}
+              {% endfor %}
+              {% if article.authors.count > 2 %}
+                <span class="badge bg-light text-muted border">+{{ article.authors.count|add:"-2" }} more</span>
+              {% endif %}
+            </td>
+            <td>
+              {% if article.volume %}<span class="badge badge-volume">Vol. {{ article.volume.volume_number }}</span>{% endif %}
+              {% if article.issue %}<span class="badge badge-issue">Iss. {{ article.issue.issue_number }}</span>{% endif %}
+            </td>
+            <td class="text-muted small">{{ article.publication_date|date:"d M Y" }}</td>
+            <td>
+              <a href="{{ article.pdf_file.url }}" class="table-action-btn view" target="_blank" title="Download PDF">
+                <i class="fas fa-file-pdf text-danger"></i>
+              </a>
+            </td>
+            <td>
+              <div class="table-actions">
+                <a href="{% url 'src:article_edit' article.pk %}" class="table-action-btn edit" title="Edit"><i class="fas fa-edit"></i></a>
+                <a href="{% url 'src:article_delete' article.pk %}" class="table-action-btn delete" title="Delete"><i class="fas fa-trash-alt"></i></a>
+              </div>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% if articles.has_other_pages %}
+    <div class="dash-pagination">
+      {% if articles.has_previous %}
+      <a href="?page={{ articles.previous_page_number }}{% if query %}&q={{ query }}{% endif %}" class="btn btn-sm btn-outline-secondary"><i class="fas fa-chevron-left me-1"></i>Prev</a>
+      {% endif %}
+      <span class="pagination-info">Page {{ articles.number }} of {{ articles.paginator.num_pages }}</span>
+      {% if articles.has_next %}
+      <a href="?page={{ articles.next_page_number }}{% if query %}&q={{ query }}{% endif %}" class="btn btn-sm btn-outline-secondary">Next <i class="fas fa-chevron-right ms-1"></i></a>
+      {% endif %}
+    </div>
+    {% endif %}
+    {% else %}
+    <div class="empty-dash text-center py-5">
+      <i class="fas fa-file-alt fa-3x text-muted mb-3"></i>
+      <p class="text-muted">
+        {% if query %}No articles match "{{ query }}".
+        {% else %}No articles yet. <a href="{% url 'src:article_create' %}">Publish the first one</a>.{% endif %}
+      </p>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,118 @@
+﻿{% extends 'website/base.html' %}
+
+{% block title %}Contact — Construction Focus Journal A.B.U Zaria{% endblock %}
+
+{% block content %}
+
+<section class="page-hero">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{% url 'website:home' %}">Home</a></li>
+        <li class="breadcrumb-item active">Contact</li>
+      </ol>
+    </nav>
+    <h1 class="page-hero-title">Contact Us</h1>
+    <p class="page-hero-subtitle">Reach out to the editorial team</p>
+  </div>
+</section>
+
+<section class="py-6">
+  <div class="container">
+    <div class="row g-5">
+      <!-- Contact Form -->
+      <div class="col-lg-7">
+        <div class="contact-form-card">
+          <h3 class="mb-1">Send a Message</h3>
+          <p class="text-muted mb-4">We'll respond within 2–3 business days.</p>
+          <form method="post" novalidate>
+            {% csrf_token %}
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label class="form-label">Full Name <span class="text-danger">*</span></label>
+                {{ form.name }}
+                {% if form.name.errors %}
+                <div class="invalid-feedback d-block">{{ form.name.errors|join:", " }}</div>
+                {% endif %}
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">Email Address <span class="text-danger">*</span></label>
+                {{ form.email }}
+                {% if form.email.errors %}
+                <div class="invalid-feedback d-block">{{ form.email.errors|join:", " }}</div>
+                {% endif %}
+              </div>
+              <div class="col-12">
+                <label class="form-label">Subject <span class="text-danger">*</span></label>
+                {{ form.subject }}
+                {% if form.subject.errors %}
+                <div class="invalid-feedback d-block">{{ form.subject.errors|join:", " }}</div>
+                {% endif %}
+              </div>
+              <div class="col-12">
+                <label class="form-label">Message <span class="text-danger">*</span></label>
+                {{ form.message }}
+                {% if form.message.errors %}
+                <div class="invalid-feedback d-block">{{ form.message.errors|join:", " }}</div>
+                {% endif %}
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary btn-lg px-5">
+                  <i class="fas fa-paper-plane me-2"></i>Send Message
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-lg-5">
+        <div class="contact-info-section">
+          <h4 class="mb-4">Editorial Office</h4>
+          <div class="contact-info-items">
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <strong>Email</strong>
+                <p><a href="mailto:editor@cfjournal.org">editor@cfjournal.org</a></p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <strong>Address</strong>
+                <p>Department of Civil & Construction Engineering<br>Faculty of Engineering<br>University Campus</p>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fas fa-clock"></i></div>
+              <div>
+                <strong>Response Time</strong>
+                <p>Within 2–3 business days</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-topics mt-4">
+            <h6 class="mb-3">Common Enquiries</h6>
+            <div class="contact-topic-chip">
+              <i class="fas fa-upload me-2"></i>Manuscript Submissions
+            </div>
+            <div class="contact-topic-chip">
+              <i class="fas fa-user-check me-2"></i>Peer Review Queries
+            </div>
+            <div class="contact-topic-chip">
+              <i class="fas fa-copyright me-2"></i>Permissions & Licensing
+            </div>
+            <div class="contact-topic-chip">
+              <i class="fas fa-bug me-2"></i>Technical Issues
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

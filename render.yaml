@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: construction-focus-journal
+    env: python
+    region: frankfurt
+    plan: free
+    buildCommand: "pip install -r requirements.txt && python manage.py collectstatic --no-input && python manage.py migrate"
+    startCommand: "gunicorn DjangoApp.wsgi:application"
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DEBUG
+        value: "False"
+      - key: PYTHON_VERSION
+        value: "3.12.0"
+      - fromDatabase:
+          name: cfj-database
+          property: connectionString
+        key: DATABASE_URL
+
+databases:
+  - name: cfj-database
+    plan: free
+    region: frankfurt

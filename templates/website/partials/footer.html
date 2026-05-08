@@ -1,0 +1,75 @@
+﻿{% load static %}
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-4">
+          <div class="footer-brand">
+            <i class="fas fa-building-columns me-2"></i>
+            <span>Construction Focus Journal A.B.U Zaria</span>
+          </div>
+          <p class="footer-tagline">
+            Advancing knowledge in construction, infrastructure, and built environment research through rigorous peer-reviewed scholarship.
+          </p>
+          <div class="footer-social">
+            <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" title="ResearchGate"><i class="fab fa-researchgate"></i></a>
+            <a href="#" title="Twitter/X"><i class="fab fa-x-twitter"></i></a>
+            <a href="#" title="Academia.edu"><i class="fas fa-graduation-cap"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-4">
+          <h6 class="footer-heading">Journal</h6>
+          <ul class="footer-links">
+            <li><a href="{% url 'website:about' %}">About</a></li>
+            <li><a href="{% url 'website:volumes' %}">Archives</a></li>
+            <li><a href="{% url 'website:contact' %}">Contact</a></li>
+            <li><a href="{% url 'website:search' %}">Search</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-4">
+          <h6 class="footer-heading">Authors</h6>
+          <ul class="footer-links">
+            <li><a href="{% url 'website:about' %}">Aims & Scope</a></li>
+            <li><a href="{% url 'website:about' %}">Submit a Paper</a></li>
+            <li><a href="{% url 'website:about' %}">Review Process</a></li>
+            <li><a href="{% url 'website:about' %}">Author Guidelines</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-4">
+          <h6 class="footer-heading">Contact</h6>
+          <ul class="footer-contact">
+            <li>
+              <i class="fas fa-envelope"></i>
+              <span>editor@cfjournal.org</span>
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Department of Civil Engineering<br>Faculty of Engineering</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="mb-0">
+            &copy; {% now "Y" %} Construction Focus Journal A.B.U Zaria. All rights reserved.
+          </p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <a href="{% url 'src:login' %}" class="footer-admin-link">
+            <i class="fas fa-lock me-1"></i>Editorial Dashboard
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

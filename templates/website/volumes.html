@@ -1,0 +1,71 @@
+﻿{% extends 'website/base.html' %}
+
+{% block title %}Archive — Construction Focus Journal A.B.U Zaria{% endblock %}
+
+{% block content %}
+
+<section class="page-hero">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{% url 'website:home' %}">Home</a></li>
+        <li class="breadcrumb-item active">Archive</li>
+      </ol>
+    </nav>
+    <h1 class="page-hero-title">Journal Archive</h1>
+    <p class="page-hero-subtitle">Browse all published volumes and issues</p>
+  </div>
+</section>
+
+<section class="py-6">
+  <div class="container">
+    {% if volumes %}
+    {% for volume in volumes %}
+    <div class="volume-archive-card mb-4">
+      <div class="volume-archive-header">
+        <div class="volume-archive-title">
+          <div class="volume-number-badge">Vol. {{ volume.volume_number }}</div>
+          <div>
+            <h3>Volume {{ volume.volume_number }}</h3>
+            <span class="text-muted">{{ volume.year }}</span>
+          </div>
+        </div>
+        <a href="{{ volume.get_absolute_url }}" class="btn btn-primary btn-sm">
+          View Volume <i class="fas fa-chevron-right ms-1"></i>
+        </a>
+      </div>
+
+      {% if volume.description %}
+      <p class="volume-description">{{ volume.description }}</p>
+      {% endif %}
+
+      {% if volume.issues.all %}
+      <div class="volume-issues-grid">
+        {% for issue in volume.issues.all %}
+        <a href="{{ issue.get_absolute_url }}" class="issue-chip">
+          <i class="fas fa-book-open me-1"></i>
+          Issue {{ issue.issue_number }}
+          <span class="issue-chip-date">{{ issue.publication_date|date:"M Y" }}</span>
+          <span class="issue-chip-count">{{ issue.articles.count }} art.</span>
+        </a>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      <div class="volume-archive-stats">
+        <span><i class="fas fa-book me-1"></i>{{ volume.issues.count }} Issue{{ volume.issues.count|pluralize }}</span>
+        <span><i class="fas fa-file-alt me-1"></i>{{ volume.articles.count }} Article{{ volume.articles.count|pluralize }}</span>
+      </div>
+    </div>
+    {% endfor %}
+    {% else %}
+    <div class="empty-state">
+      <i class="fas fa-box-open fa-4x mb-3"></i>
+      <h4>No volumes published yet</h4>
+      <p class="text-muted">Check back soon for new publications.</p>
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+{% endblock %}

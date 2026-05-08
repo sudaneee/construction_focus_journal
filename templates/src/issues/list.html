@@ -1,0 +1,91 @@
+{% extends 'src/base.html' %}
+
+{% block title %}Issues{% endblock %}
+{% block breadcrumb %}Issues{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <div>
+    <h1 class="page-title">Issues</h1>
+    <p class="page-subtitle">Manage journal issues</p>
+  </div>
+  <a href="{% url 'src:issue_create' %}" class="btn btn-primary">
+    <i class="fas fa-plus me-2"></i>New Issue
+  </a>
+</div>
+
+<div class="dash-card">
+  <div class="dash-card-header">
+    <form class="search-form" action="" method="get">
+      <div class="input-group">
+        <span class="input-group-text"><i class="fas fa-search text-muted"></i></span>
+        <input type="text" name="q" class="form-control" placeholder="Search issues..." value="{{ query }}">
+        {% if query %}
+        <a href="{% url 'src:issue_list' %}" class="btn btn-outline-secondary"><i class="fas fa-times"></i></a>
+        {% endif %}
+        <button type="submit" class="btn btn-primary">Search</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="dash-card-body p-0">
+    {% if issues %}
+    <div class="table-responsive">
+      <table class="table dash-table mb-0">
+        <thead>
+          <tr>
+            <th>Volume</th>
+            <th>Issue No.</th>
+            <th>Publication Date</th>
+            <th>Articles</th>
+            <th>Description</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for issue in issues %}
+          <tr>
+            <td><span class="badge badge-volume">Vol. {{ issue.volume.volume_number }}</span></td>
+            <td><strong>Issue {{ issue.issue_number }}</strong></td>
+            <td>{{ issue.publication_date|date:"d M Y" }}</td>
+            <td><span class="badge badge-article">{{ issue.articles.count }}</span></td>
+            <td class="text-muted small">{{ issue.description|truncatewords:10|default:"—" }}</td>
+            <td>
+              <div class="table-actions">
+                <a href="{{ issue.get_absolute_url }}" class="table-action-btn view" target="_blank" title="View"><i class="fas fa-eye"></i></a>
+                <a href="{% url 'src:issue_edit' issue.pk %}" class="table-action-btn edit" title="Edit"><i class="fas fa-edit"></i></a>
+                <a href="{% url 'src:issue_delete' issue.pk %}" class="table-action-btn delete" title="Delete"><i class="fas fa-trash-alt"></i></a>
+              </div>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% if issues.has_other_pages %}
+    <div class="dash-pagination">
+      {% if issues.has_previous %}
+      <a href="?page={{ issues.previous_page_number }}{% if query %}&q={{ query }}{% endif %}" class="btn btn-sm btn-outline-secondary">
+        <i class="fas fa-chevron-left me-1"></i>Prev
+      </a>
+      {% endif %}
+      <span class="pagination-info">Page {{ issues.number }} of {{ issues.paginator.num_pages }}</span>
+      {% if issues.has_next %}
+      <a href="?page={{ issues.next_page_number }}{% if query %}&q={{ query }}{% endif %}" class="btn btn-sm btn-outline-secondary">
+        Next <i class="fas fa-chevron-right ms-1"></i>
+      </a>
+      {% endif %}
+    </div>
+    {% endif %}
+    {% else %}
+    <div class="empty-dash text-center py-5">
+      <i class="fas fa-book-open fa-3x text-muted mb-3"></i>
+      <p class="text-muted">
+        {% if query %}No issues match "{{ query }}".
+        {% else %}No issues yet. <a href="{% url 'src:issue_create' %}">Create the first one</a>.{% endif %}
+      </p>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}
