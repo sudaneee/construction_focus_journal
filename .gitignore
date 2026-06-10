@@ -9,7 +9,7 @@ __pycache__/
 dist/
 build/
 .eggs/
-
+cfj_logo.jpeg
 # Virtual environment
 myenv/
 venv/

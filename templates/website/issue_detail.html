@@ -49,7 +49,7 @@
           <p class="article-list-authors">
             <i class="fas fa-users me-1"></i>
             {% for author in article.authors.all %}
-              <sup class="text-muted fw-semibold">{{ forloop.counter|ordinal }}</sup>&nbsp;<span>{{ author.full_name }}</span>{% if author.affiliation %} <em class="text-muted">({{ author.affiliation }})</em>{% endif %}{% if not forloop.last %}; {% endif %}
+              <span>{{ author.full_name }}</span>{% if author.affiliation %} <em class="text-muted">({{ author.affiliation }})</em>{% endif %}{% if not forloop.last %}; {% endif %}
             {% endfor %}
           </p>
 

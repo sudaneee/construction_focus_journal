@@ -58,7 +58,7 @@
           <p class="article-list-authors">
             <i class="fas fa-users me-1"></i>
             {% for author in article.authors.all %}
-              <sup class="text-muted fw-semibold">{{ forloop.counter|ordinal }}</sup>&nbsp;{{ author.full_name }}{% if not forloop.last %}, {% endif %}
+              {{ author.full_name }}{% if not forloop.last %}, {% endif %}
             {% endfor %}
           </p>
           <p class="article-list-abstract">{{ article.abstract|truncatewords:35 }}</p>

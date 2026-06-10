@@ -5,19 +5,51 @@
 
 {% block content %}
 
-<!-- Hero Section -->
+<!-- Hero Carousel -->
 <section class="hero">
+  <div id="heroCarousel" class="carousel slide hero-carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-lg-10">
+              <div class="hero-badge">
+                <i class="fas fa-award me-2"></i>Peer-Reviewed Open Access Journal
+              </div>
+              <h1 class="hero-title hero-title-sm">Construction Focus</h1>
+              <p class="hero-subtitle hero-subtitle-sm mb-1">
+                Journal of Construction Management and Engineering
+              </p>
+              <p class="hero-issn">
+                ISSN: {{ site_settings.issn|default:"2006-0262" }} | EISSN: {{ site_settings.eissn|default:"Pending" }}
+              </p>
+
+              <p class="hero-subtitle hero-subtitle-sm">
+                The <strong>Construction Focus Journal A.B.U Zaria (CFJ)</strong> is a peer-reviewed academic
+                publication dedicated to advancing the frontiers of knowledge in construction engineering,
+                infrastructure development, and the built environment. Our vision is to be the leading
+                platform for disseminating high-impact, rigorous research that shapes the future of the
+                construction industry — embracing sustainability, digital innovation, and evidence-based practice.
+              </p>
+
+              <h2 class="hero-scope-title">Scope &amp; Focus Areas</h2>
+              <div class="hero-scope-tags">
+                {% for topic in scope_topics %}
+                <span class="hero-scope-tag">{{ topic }}</span>
+                {% endfor %}
+              </div>
+
+              <a href="{% url 'website:about' %}" class="btn btn-primary mt-3">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-lg-8">
-        <div class="hero-badge">
-          <i class="fas fa-award me-2"></i>Peer-Reviewed Open Access Journal
-        </div>
-        <h1 class="hero-title">Construction Focus Journal A.B.U Zaria</h1>
-        <p class="hero-subtitle">
-          Advancing knowledge in construction engineering, infrastructure development,
-          and the built environment through rigorous peer-reviewed research.
-        </p>
         <form class="hero-search" action="{% url 'website:search' %}" method="get">
           <div class="search-wrapper">
             <i class="fas fa-search search-icon"></i>
@@ -45,10 +77,59 @@
       </div>
     </div>
   </div>
-  <div class="hero-wave">
-    <svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#f8f9fa"/></svg>
+</section>
+
+<!-- Current Issue -->
+{% if current_issue %}
+<section class="section-toc py-6">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <h2 class="section-title">Current Issue</h2>
+        <p class="section-subtitle">{{ current_issue }} &mdash; {{ current_issue.publication_date|date:"M Y" }}</p>
+      </div>
+      <a href="{{ current_issue.get_absolute_url }}" class="btn btn-outline-primary">
+        View Issue <i class="fas fa-arrow-right ms-1"></i>
+      </a>
+    </div>
+
+    {% if current_issue_articles %}
+    <div class="toc-list">
+      {% for article in current_issue_articles %}
+      {% include 'website/partials/article_toc_item.html' %}
+      {% endfor %}
+    </div>
+    {% else %}
+    <div class="empty-state">
+      <i class="fas fa-newspaper fa-3x mb-3"></i>
+      <p>No articles in this issue yet.</p>
+    </div>
+    {% endif %}
   </div>
 </section>
+{% endif %}
+
+<!-- Featured Articles -->
+{% if featured_articles %}
+<section class="section-articles py-6 bg-light-green">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <h2 class="section-title">Featured Articles</h2>
+        <p class="section-subtitle">Highlighted research selected by the editorial board</p>
+      </div>
+    </div>
+
+    <div class="row g-4">
+      {% for article in featured_articles %}
+      <div class="col-lg-4 col-md-6">
+        {% include 'website/partials/article_card.html' %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
 
 <!-- Latest Articles -->
 <section class="section-articles py-6">
@@ -67,55 +148,7 @@
     <div class="row g-4">
       {% for article in latest_articles %}
       <div class="col-lg-4 col-md-6">
-        <article class="article-card">
-          <div class="article-card-meta">
-            {% if article.volume %}
-            <span class="meta-badge volume-badge">
-              Vol. {{ article.volume.volume_number }}
-            </span>
-            {% endif %}
-            {% if article.issue %}
-            <span class="meta-badge issue-badge">
-              Issue {{ article.issue.issue_number }}
-            </span>
-            {% endif %}
-            <span class="meta-date">
-              <i class="far fa-calendar-alt me-1"></i>{{ article.publication_date|date:"M Y" }}
-            </span>
-          </div>
-
-          <h3 class="article-card-title">
-            <a href="{{ article.get_absolute_url }}">{{ article.title }}</a>
-          </h3>
-
-          <p class="article-card-authors">
-            <i class="fas fa-user-circle me-1 text-muted"></i>
-            {% for author in article.authors.all %}
-              <sup class="text-muted">{{ forloop.counter|ordinal }}</sup>&nbsp;{{ author.full_name }}{% if not forloop.last %}, {% endif %}
-            {% empty %}—{% endfor %}
-          </p>
-
-          <p class="article-card-abstract">
-            {{ article.abstract|truncatewords:30 }}
-          </p>
-
-          {% if article.get_keywords_list %}
-          <div class="article-card-keywords">
-            {% for kw in article.get_keywords_list|slice:":3" %}
-            <span class="keyword-chip">{{ kw }}</span>
-            {% endfor %}
-          </div>
-          {% endif %}
-
-          <div class="article-card-footer">
-            <a href="{{ article.get_absolute_url }}" class="btn-read-more">
-              Read Article <i class="fas fa-arrow-right ms-1"></i>
-            </a>
-            <a href="{{ article.pdf_file.url }}" class="btn-pdf" target="_blank" title="Download PDF">
-              <i class="fas fa-file-pdf"></i>
-            </a>
-          </div>
-        </article>
+        {% include 'website/partials/article_card.html' %}
       </div>
       {% endfor %}
     </div>
@@ -128,17 +161,17 @@
   </div>
 </section>
 
-<!-- Browse Volumes -->
+<!-- Archives -->
 {% if volumes %}
 <section class="section-volumes py-6 bg-light-green">
   <div class="container">
     <div class="section-header">
       <div>
-        <h2 class="section-title">Browse by Volume</h2>
-        <p class="section-subtitle">Explore our journal archive</p>
+        <h2 class="section-title">Archives</h2>
+        <p class="section-subtitle">Browse past volumes and issues</p>
       </div>
       <a href="{% url 'website:volumes' %}" class="btn btn-outline-primary">
-        All Volumes <i class="fas fa-arrow-right ms-1"></i>
+        All Archives <i class="fas fa-arrow-right ms-1"></i>
       </a>
     </div>
     <div class="row g-4">

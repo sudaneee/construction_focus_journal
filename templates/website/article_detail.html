@@ -52,9 +52,6 @@
               <div class="author-item">
                 <div class="author-avatar">{{ author.full_name|first|upper }}</div>
                 <div>
-                  <div class="text-muted small mb-1" style="font-weight:600;letter-spacing:.03em;">
-                    {{ forloop.counter|ordinal }} Author
-                  </div>
                   <strong>{{ author.full_name }}</strong>
                   {% if author.affiliation %}
                   <div class="text-muted small">{{ author.affiliation }}</div>

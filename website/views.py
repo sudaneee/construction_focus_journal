@@ -33,6 +33,25 @@ SCOPE_TOPICS_FULL = [
 
 
 def home(request):
+    featured_articles = (
+        Article.objects
+        .filter(is_featured=True)
+        .select_related('volume', 'issue')
+        .prefetch_related(_ordered_authors)[:3]
+    )
+    current_issue = (
+        Issue.objects
+        .select_related('volume')
+        .order_by('-publication_date')
+        .first()
+    )
+    current_issue_articles = []
+    if current_issue:
+        current_issue_articles = (
+            current_issue.articles
+            .select_related('volume', 'issue')
+            .prefetch_related(_ordered_authors)
+        )
     latest_articles = (
         Article.objects
         .select_related('volume', 'issue')
@@ -45,6 +64,9 @@ def home(request):
         'authors': Author.objects.count(),
     }
     return render(request, 'website/home.html', {
+        'featured_articles': featured_articles,
+        'current_issue': current_issue,
+        'current_issue_articles': current_issue_articles,
         'latest_articles': latest_articles,
         'volumes': volumes,
         'stats': stats,

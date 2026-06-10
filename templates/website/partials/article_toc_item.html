@@ -1,0 +1,20 @@
+<div class="toc-item">
+  <div class="toc-item-main">
+    <h3 class="toc-item-title">
+      <a href="{{ article.get_absolute_url }}">{{ article.title }}</a>
+    </h3>
+    <p class="toc-item-authors">
+      {% for author in article.authors.all %}
+        {{ author.full_name }}{% if not forloop.last %}, {% endif %}
+      {% empty %}—{% endfor %}
+    </p>
+  </div>
+  <div class="toc-item-actions">
+    <a href="{{ article.get_absolute_url }}" class="btn-toc-abstract">Abstract</a>
+    {% if article.pdf_file %}
+    <a href="{{ article.pdf_file.url }}" class="btn-toc-pdf" target="_blank" title="Download PDF">
+      <i class="fas fa-file-pdf me-1"></i>PDF
+    </a>
+    {% endif %}
+  </div>
+</div>

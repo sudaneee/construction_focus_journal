@@ -3,6 +3,32 @@ from django.utils.text import slugify
 from django.urls import reverse
 
 
+class SiteSettings(models.Model):
+    site_name = models.CharField(max_length=200, default='Construction Focus Journal')
+    department = models.CharField(max_length=300, default='Department of Building')
+    faculty = models.CharField(max_length=300, default='Faculty of Environmental Design')
+    institution = models.CharField(max_length=300, default='Ahmadu Bello University Zaria, Nigeria')
+    logo = models.ImageField(upload_to='site/', blank=True, null=True)
+    issn = models.CharField(max_length=50, blank=True, default='2006-0262')
+    eissn = models.CharField(max_length=50, blank=True)
+
+    class Meta:
+        verbose_name = 'Site Settings'
+        verbose_name_plural = 'Site Settings'
+
+    def __str__(self):
+        return self.site_name
+
+    def save(self, *args, **kwargs):
+        self.pk = 1
+        super().save(*args, **kwargs)
+
+    @classmethod
+    def load(cls):
+        obj, _ = cls.objects.get_or_create(pk=1)
+        return obj
+
+
 class Volume(models.Model):
     volume_number = models.PositiveIntegerField(unique=True)
     year = models.PositiveIntegerField()
@@ -77,6 +103,7 @@ class Article(models.Model):
     cover_image = models.ImageField(upload_to='covers/', blank=True, null=True)
     publication_date = models.DateField()
     doi = models.CharField(max_length=200, blank=True, verbose_name='DOI')
+    is_featured = models.BooleanField(default=False, help_text='Show this article in the Featured Articles section on the homepage')
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 

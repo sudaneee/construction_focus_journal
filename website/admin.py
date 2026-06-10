@@ -1,5 +1,16 @@
 from django.contrib import admin
-from .models import Volume, Issue, Author, Article, ArticleAuthor
+from .models import Volume, Issue, Author, Article, ArticleAuthor, SiteSettings
+
+
+@admin.register(SiteSettings)
+class SiteSettingsAdmin(admin.ModelAdmin):
+    fields = ['site_name', 'department', 'faculty', 'institution', 'logo', 'issn', 'eissn']
+
+    def has_add_permission(self, request):
+        return not SiteSettings.objects.exists()
+
+    def has_delete_permission(self, request, obj=None):
+        return False
 
 
 class IssueInline(admin.TabularInline):
@@ -52,8 +63,8 @@ class ArticleAuthorInline(admin.TabularInline):
 
 @admin.register(Article)
 class ArticleAdmin(admin.ModelAdmin):
-    list_display = ['title', 'volume', 'issue', 'publication_date', 'doi']
-    list_filter = ['volume', 'issue', 'publication_date']
+    list_display = ['title', 'volume', 'issue', 'publication_date', 'doi', 'is_featured']
+    list_filter = ['volume', 'issue', 'publication_date', 'is_featured']
     search_fields = ['title', 'abstract', 'keywords']
     prepopulated_fields = {'slug': ('title',)}
     inlines = [ArticleAuthorInline]
@@ -63,6 +74,6 @@ class ArticleAdmin(admin.ModelAdmin):
         ('Basic Information', {'fields': ['title', 'slug', 'abstract', 'keywords']}),
         ('Classification', {'fields': ['volume', 'issue']}),
         ('Files', {'fields': ['pdf_file', 'cover_image']}),
-        ('Publication', {'fields': ['publication_date', 'doi']}),
+        ('Publication', {'fields': ['publication_date', 'doi', 'is_featured']}),
         ('Timestamps', {'fields': ['created_at', 'updated_at']}),
     ]
