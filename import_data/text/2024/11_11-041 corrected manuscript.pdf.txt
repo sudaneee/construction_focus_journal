@@ -1,0 +1,242 @@
+--- PAGE 1 ---
+Construction Focus, Vol 17, No 1, (2024) 140 – 157    
+ 
+ASSESSING FACTORS HINDERING BUILDING INFORMATION MODELLING 
+(BIM) ADOPTION AMONG NIGERIAN FACILITIES MANAGEMENT 
+PRACTITIONERS 
+AJAYI Opeyemi Michael1, BILAU Abdulquadri Ade2*, AKA Adefemi3, DODO 
+Mansir4, ALBERT Idowu5. 
+1Department of Built Environemnt, Aalto University, Otakaari, Espoo, Finland. 
+2Department of Technology Education, Lagos State University of Education, Oto/Ijanikin, 
+Lagos, Nigeria. 
+3Department of Building, Federal University of Technology, Minna, Nigeria. 
+4Department of Building, Ahmadu Bello University, Zaria, Nigeria. 
+5Department of Building, Federal University of Technology, Akure, Nigeria. 
+ 
+Correspondence: bilauaa@lasued.edu.ng  
+ 
+ 
+ABSTRACT 
+Building Information Modelling (BIM) offers significant potential to enhance performance, 
+collaboration, and data management within the  Facilities Management (FM)  industry. 
+However, its adoption in Nigeria remains limited.  This study aims to assess the key  factors 
+hindering BIM adoption among Nigerian FM practitioners.  A quantitative research 
+approach was employed, drawing on both secondary data from literature and primary data 
+from a structured questionnaire survey. Of the 120 questionnaires distributed,  102 valid 
+responses were analyzed using descriptive statistics and factor analysis. The findings suggest 
+that while BIM can substantially enhance FM operations, its adoption is hindered by several 
+underlying issues. The  five most critical hindering factors  include the  absence of best 
+practices and guidelines, the unavailability of BIM experts, the lack of knowledge regarding 
+BIM benefits,  the high cost of adoption procedures, and the  absence of technological 
+experience among employees. Further factor analysis revealed that these challenges can be 
+grouped into three major components: Data and Technology Systems–related, Cost–related, 
+and Knowledge and Regulation –related factors. The study concludes that addressing these 
+barriers through targeted training, inst itutional guidelines, and cost -reduction strategies is 
+essential to foster BIM integration in FM practice. Improving awareness and policy support 
+can enable Nigerian FM professionals to leverage BIM for enhanced operational efficiency 
+and sustainable asset management. 
+ 
+KEYWORDS: BIM Adoption, Building Information Modeling, Facility Management, 
+Facility Management Practitioners. 
+ 
+INTRODUCTION 
+Facility Management (FM) is a 
+multidisciplinary profession that ensures the 
+functionality of the built environment by 
+integrating people, place, process and 
+technology (Durdyev et al., 2022 ). FM roles 
+include maintenance management, 
+emergency preparedness, business 
+continuity, communication, finance, project 
+management, leadership, environmental 
+--- PAGE 2 ---
+Ajayi et al. 
+141 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+stewardship, real estate, quality and 
+technology (Okwe et al., 2023), and generally 
+aim to improve the performance of facilities 
+and assets (Okoro et al., 2020). 
+Despite FM’s importance, conventional 
+operating methods create inefficiencies and 
+performance challenges ( Olanreweju et al., 
+2021). These inefficiencies contribute to 
+significant costs through poor operation and 
+asset management (Arayici et al., 2012). 
+Digital technologies have been proposed to 
+reduce such losses; authors note that tools 
+like BIM (Building Information Modelling) , 
+blockchain, and the Internet of Things can 
+improve FM processes (Acre and Wyckmans, 
+2015; Newman et al., 2020; Li et al., 2019; 
+Olanrewaju et al., 2021). In particular, BIM 
+supports data exchange and virtual 
+interoperability and can serve as a database 
+for maintenance management (Zhao et al., 
+2019: Eastman 2011; Pärn et al., 2017). Other 
+documented benefits include improved FM 
+performance and efficiency (Kassem et al., 
+2015), competitive advantage (Naghshbandi, 
+2016), cost and value benefits with reduced 
+maintenance problems (Aziz et al., 2016), 
+knowledge repository functions (Succar  and 
+Sher, 2014), and better data management and 
+project quality (Motamedi et al., 2014). 
+While BIM’s benefits across the project life 
+cycle are well documented, its use remains 
+concentrated in pre -construction and 
+construction phases (Bamgbose et al., 2024;  
+Durdyev et al., 2022; Okwe et al., 2022; 
+Arayici et al., 2012), leaving FM largely 
+unexplored (Edirisinghe et al., 201 6; 
+Olanrewaju et al., 2021). Therefore, this 
+study addresses the gap by assessing the 
+underlying factors hindering BIM adoption 
+among Nigerian FM practitioners, to 
+strengthen the evidence base and inform 
+policy and practice to improve BIM uptake in 
+FM. Findings will contribute to academic 
+knowledge and offer practical guidance for 
+policymakers and FM professionals. 
+LITERATURE REVIEW 
+Factors hindering building information 
+modelling adoption in the facilities 
+management industry 
+The criteria that permit or impede the 
+adoption of Building Information Modelling 
+(BIM) in the Facilities Management (FM) 
+industry have been identified as  BIM 
+Adoption Factors  (Ullah et al., 2020). 
+Whereas Hochscheid and Halin (2018) noted 
+that BIM implementation forms part of a 
+lengthy and challenging innovation process, 
+it is important to distinguish between the 
+determinants of BIM adoption and the factors 
+that enable or hinde r its success . Previous 
+studies have increasingly examined the level 
+of BIM adoption and the benefits associated 
+with its implementation in FM (Bonanomi et 
+al., 2016; Kassem et al., 2015) . Although 
+BIM offers significant advantages, numerous 
+factors have limited its use within FM.  To 
+improve its application in the FM phase, BIM 
+should extend beyond the design and 
+construction stages (Lin et al., 2014), as its 
+wider utilization can reduce costs linked to 
+software, hardware, and staff training 
+(Migilinskas et al., 2013).  Studies across 
+countries show that adoption drivers differ by 
+context. In the United Kingdom, competition 
+and client demand have been key motivators 
+for BIM adoption (Eadie et al., 2013), while 
+in South Korea,  governmental support  was 
+the most critical factor (Kim et al., 2016). 
+Similarly, awareness, innovation readiness, 
+and ease of implementation were highlighted 
+in Australia (Hong et al., 2016 ). These 
+findings suggest that local context strongly 
+shapes adoption patterns, emphasizing the 
+need to explore Nigeria’s FM environment, 
+where institutional structures and 
+technological preparedness remain evolving. 
+Technological Barriers 
+Technological barriers remain a major 
+challenge to BIM adoption in 
+FM. Interoperability difficulties between 
+BIM and existing FM software  have been 
+--- PAGE 3 ---
+Assessing factors hindering BIM.…. 
+142 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+consistently reported ( Kassem et al., 2015; 
+Naghshbandi, 2016; Singh et al., 2017; 
+Olanrewaju et al., 202 1). In Nigeria, FM 
+organizations often depend on fragmented 
+digital tools, making integration 
+difficult. Data is rarely centralized, leading to 
+disjointed information systems that limit 
+collaboration and decision -making (Dixit et 
+al., 2019). Furthermore,  the absence of best 
+practices, guidelines, and standard 
+procedures for BIM use in FM reduces 
+consistency and confidence (Naghshbandi, 
+2016;Eastman et a l., 2011 ). Limited 
+technological experience among FM 
+employees also slows digital transformation, 
+while concerns about  data ownership and 
+privacy risks  further discourage adoption 
+(Kassem et al., 2015).  These technological 
+limitations indicate that Nigerian FM firms 
+require both capacity development and 
+clearer standa rds to ensure interoperability 
+and data reliability  (Olapade and Ekemode, 
+2018)  
+ 
+Organizational Barriers 
+Organizational challenges also hinder BIM 
+adoption. FM professionals’ unfamiliarity 
+with BIM tools (Lin , 2014; Olapade and 
+Ekemode, 2018)  and the unavailability of 
+BIM experts in the FM sector (Jang and 
+Collinge, 2020)  have resulted in low 
+operational readiness.  In many Nigerian 
+organizations, there is limited upper 
+management support and a lack of strategic  
+direction for digital adoption ( Toyin and 
+Memowo, 2023 ). Traditional practices 
+remain deeply rooted and are often viewed as 
+more trustworthy (Sahil, 2016; Araszkiewicz, 
+2017). Moreover, the late engagement of FM 
+stakeholders in project planning and design  
+phases prevents them from influencing BIM 
+integration strategies early enough (Jang and 
+Collinge, 2020) . This organizational inertia 
+contributes to the continued reliance on 
+conventional approaches and reduces 
+opportunities for innovation in Nigerian FM 
+practice. 
+Cost and Policy Constraints 
+The financial burden  associated with BIM 
+adoption is one of the strongest deterrents in 
+the FM sector (Ahmed, 2018). High software 
+and hardware costs and  expensive training 
+requirements discourage firms, particularly 
+small and medium -sized FM enterprises  
+(Kassem et al., 2015; Ahmed, 2018; Ma et al., 
+2019). Similarly, the high cost of the overall 
+adoption process (Sun et al., 
+2017) and uncertainty regarding return on 
+investment make it difficult for practitioners 
+to justify transitioning from traditional 
+methods. From a policy perspective, the lack 
+of comprehensive legal frameworks (Liu and 
+Issa, 2013)  and insufficient government 
+support contribute to slow adoption in 
+developing contexts. In Nigeria, where BIM 
+mandates and standardized policies are still 
+emerging, these gaps amplify the challenges 
+faced by FM organizations.  Strengthening 
+regulatory frameworks and offering 
+incentives could therefore play a key role in 
+improving BIM uptake. 
+Summary and Link to Nigerian FM 
+Context 
+Overall, the reviewed literature shows that 
+technological limitations, organizational 
+resistance, and cost -policy constraints 
+collectively hinder BIM adoption in 
+FM. While these barriers are consistent with 
+global findings,  their impact is more 
+pronounced in Nigeria  due to limited digital 
+literacy, high implementation costs, and the 
+absence of national standards.  This 
+underscores the need for context -specific 
+strategies tailored to Nigeria’s FM 
+environment to encourage BIM integration 
+and improve operational efficiency. 
+The factors hindering BIM adoption in the 
+FM industry have been compiled and 
+presented in Table 1. 
+ 

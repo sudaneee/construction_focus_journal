@@ -1,0 +1,247 @@
+--- PAGE 1 ---
+Construction Focus. Vol 14. No 1, (2021) 103 – 111      
+ 
+ASSESSMENT OF THE BARRIERS OF SUSTAINABLE PROCUREMENT 
+ADOPTION IN NIGERIAN CONSTRUCTION INDUSTRY 
+ADEBISI Ibrahim Adekunle and SAIDU Minin Mohammed 
+Department of Quantity Surveying, Ahmadu Bello University, Zaria 
+Correspondence: smminin@yahoo.com  
+ 
+ABSTRACT  
+Sustainable Procurement (SP) is a strategic tool for achieving sustainable development, balancing 
+economic, social, and environmental objectives in project delivery. Sustainable Procurement (SP) 
+integrates environmental, social, and economic considerations into public procurement to achieve 
+long-term value for money and sustainable development outcomes. Despite its global adoption 
+and documented benefits, SP remains nascent in the Nigerian construction industry. This study 
+aims to assess and rank the critical barriers impeding the adoption of SP in Nigeria. A quantitative 
+research approach was employed. Through a comprehensive literature review, 16 barriers to SP 
+adoption were identified. A structured questionnaire was distributed to a purposively selected 
+sample of 99 construction professionals (Architects, Quantity Surveyors, Structural and Services 
+Engineers) in Nigeria. Seventy -nine valid responses were analysed using descriptive statistics 
+(mean scores, standard deviation) . The analysis revealed that all  16 barriers are significant 
+impediments to SP adoption. The most critical barriers are: (1) lack of expertise in applying green 
+building materials, (2) lack of awareness of SP concepts, and (3) lack of understanding of the SP 
+concept. This study provides the first empirically published ranking of SP adoption barriers within 
+the Nigerian construction context. It offers crucial insights for policymakers, industry regulators, 
+and professionals by pinpointing the most severe obstacles. The findings underscore the need for 
+targeted educational interventions, policy reforms, and cross -disciplinary collaboration to foster 
+a conducive environment for SP adoption. 
+ 
+KEYWORDS: Barriers, Construction Industry, Green Building Materials (GBM), Nigeria, 
+Sustainable Procurement. 
+ 
+INTRODUCTION 
+Globally, Sustainable Procurement (SP) is 
+defined by UNEP (2015) as meeting 
+organisational needs while generating 
+societal and environmental benefits and 
+minimising harm , and has emerged as a 
+critical tool for embedding sustainability into 
+infrastructure development. S ustainable 
+Procurement balances economic efficiency 
+with environmental stewardship and social 
+equity (Kennard, 2006; UNEP, 2013).  The 
+construction industry is a significant driver of 
+economic growth but also a major consumer 
+of resources and a  contributor to 
+environmental degradation (Shen et al ., 
+2017). In response, Sustainable Procurement 
+(SP) has emerged as a strategic process to 
+integrate sustainability principles; economic, 
+environmental, and social , into the 
+procurement of goods, services, and works 
+(UNEP, 2017). By leveraging their 
+substantial purchasing power, which can 
+account for up to 20% of GDP in developing 
+countries like Nigeria, governments can use 
+--- PAGE 2 ---
+Assessment of the barriers to sustainable… 
+ 
+104 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+SP to drive market transformation towards 
+sustainability (Hyacinth et al., 2017). 
+In developed economies, SP has been linked 
+to benefits such as whole -life cost savings, 
+improved transparency, enhanced brand 
+image, and reduced environmental impact 
+(Ageron et al., 2012; McMurray et al., 2014). 
+However, its adoption varies significantly, 
+with developing countries like Nigeria 
+lagging (Adebayo, 2015). The Nigerian 
+Public Procurement Act (2007) focuses 
+primarily on the Lowest Responsive Bid and 
+procedural transparency, with no explicit 
+provisions for sustainability criteria 
+(Hyacinth et al., 2017). This legal and policy 
+gap, coupled with industry -specific 
+challenges, has stifled SP adoption. 
+Existing research has identified diverse 
+barriers to SP across different national 
+contexts, including lack of awareness, higher 
+initial costs, corruption, and unavailability of 
+green materials (Walker & Brammer, 2009; 
+Mensah & Ameyaw, 2012; Shen et al., 2017). 
+However, these barriers are context-specific, 
+and their significance in the Nigerian 
+construction industry remains underexplored. 
+Therefore, this study seeks to fill this gap by 
+assessing and ranking the barriers to SP 
+adoption in Nigeria.  
+LITERATURE REVIEW 
+The Concept of Sustainable Procurement 
+Sustainable Procurement (SP) moves beyond 
+traditional procurement's focus on initial cost 
+to incorporate environmental and social 
+considerations throughout the project 
+lifecycle (Kennard, 2006). It is defined as a 
+process whereby organi sations meet their 
+needs for goods, services, and works in a way 
+that achieves value for money on a whole-life 
+basis, generating benefits for society and the 
+economy while minimi sing environmental 
+damage (UNEP, 2017). The three pillars of 
+SP are: 
+• Environmental: Minimi sing negative 
+ecological impacts throughout a product's 
+life cycle (extraction, manufacture, use, 
+disposal) (Musa & Aderonmu, 2016). 
+• Social: Promoting fair labour practices, 
+human rights, community benefits and 
+social equity (Hyacinth et al., 2017). 
+• Economic: Achieving value for money 
+through whole -life costing, including 
+operational efficiency , local economic 
+development, maintenance, and disposal 
+costs (Hyacinth et al., 2017). 
+Sustainable Procurement in Developing 
+Countries 
+In developing nations like Ghana and Kenya, 
+public procurement is a major economic 
+driver, making reforms crucial  (Hyacinth et 
+al., 2017 ). In Ghana, government 
+procurement constitutes over 18% of GDP 
+and half the national budget, much of which 
+is funded by overseas aid, linking 
+procurement reform directly to aid 
+effectiveness. Kenya has also advanced its 
+system, notably with the 2007 Public  
+Procurement and Disposal Act. 
+The push for Sustainable Public Procurement 
+(SPP) is driven by environmental concerns 
+and its potential to foster sustainable 
+development. Following a 2012 
+recommendation in Kenya to create an SPP 
+strategy, Ghana launched its own initiative in 
+2010. This w as formalised through a three -
+year, $2.7 million Swiss -funded project 
+managed by Ghana ’s Public Procurement 
+Authority (PPA)  (Hyacinth et al ., 2017 ; 
+Schweizer, 2010). The project aims to embed 
+principles of sustainability, transparency, and 
+accountability into the procurement process. 
+In practice, Kenya has implemented SPP -
+related policies, such as awarding 10% of 
+public contracts to youth -owned businesses 
+and promoting the use of solar power and 
+energy-saving appliances. In Ghana, the PPA 
+is leading awareness campaigns, which have 
+been well-received by internationally 
+engaged companies seeing new business 
+opportunities. However, local firms still 
+--- PAGE 3 ---
+Adebisi et al. 
+105 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+require sensitisation and technical support. A 
+significant challenge for Ghana is that its 
+primary Public Procurement Act is not yet 
+fully complete, making it risky to implement 
+a comprehensive SPP system  (Hyacinth et 
+al., 2017). 
+Barriers to Sustainable Procurement 
+Adoption 
+A synthesis of global literature reveals a 
+consistent set of challenges to SP 
+implementation. Walker and Brammer 
+(2009), in a UK study, identified financial 
+constraints, lack of awareness, and 
+conflicting priorities as primary barriers. In 
+Ghana, Mensah an d Ameyaw (2012) found 
+that a lack of understanding of SP concepts, 
+higher initial costs, and absence of 
+government interest were most significant. 
+McMurray et al. (2014) highlighted a lack of 
+resources, expertise, and political support in 
+Malaysia. In Chin a, Shen et al . (2017) 
+reported that the lack of attractiveness of 
+green building materials (GBM) to 
+consumers, unavailability of GBM, and lack 
+of government incentives were major 
+hurdles. Other commonly cited barriers 
+include corruption, technical concerns with 
+GBM, an d a lack of top management 
+commitment (de Souza Dutra et al ., 2017). 
+This study consolidates these into 16 key 
+barriers for investigation in the Nigerian 
+context. 
+Drivers and Enablers 
+Drivers or facilitators of sustainable 
+procurement are forces which create positive 
+pressure to develop, adopt and implement 
+sustainable procurement strategies by 
+creating opportunities or threats which must 
+be addressed by the procurement function in 
+any organisation (Kariuki & Kwasira, 2012). 
+These drivers will enable the creation of 
+conditions favourable to the effective and 
+efficient introduction, adoption, 
+implementation and acceptance of 
+sustainable procurement processes and 
+practices. However, driver s appear to be 
+similar across regions or countries. 
+The drivers/facilitators of sustainable 
+procurement for increased focus on 
+sustainability include; increased pressure for 
+greater corporate responsibility and 
+accountability; possible damage to the 
+environment throughout the production 
+processes; growing a wareness of the 
+operational, financial and reputational risks 
+of unsustainable business practices; 
+Corporate environmental vision; Good 
+understanding of the business benefits; 
+Implementing green procurement goals to job 
+descriptions and incentive programs for key 
+staff; Initiatives taken by the government; 
+Availability of green product information 
+from reliable database; Clear requirements of 
+green characteristics for performance -based 
+specification; Availability of advanced green 
+technology for constructio n purpose; 
+Adequate life -cycle considerations for 
+projects; Selecting materials by their low 
+risks to the environment; Facilitating cross 
+references for green performance assessment 
+of buildings (e.g. BEAM -Plus); Adopting 
+green practices or procedures (e.g . waste 
+management); Design of products for 
+reduced consumption of material or energy; 
+Design of products for reuse, recycling, 
+recovery of material, component parts 
+(Akenroye et al ., 2013; Mcmurray et al ., 
+2014; Wong  et al., 2016).  Factors such as 
+scarcity of resources, legislation and legal 
+frameworks, stakeholder pressure and 
+concerns together with reputational risk and 
+opportunities are likely to drive public 
+organisational measures for sustainable 
+procurement. 
+RESEARCH METHODOLOGY 
+Research Approach 
+Quantitative data was required due to the 
+nature and volume of data needed, and for the 
+possibility of general isability. A cross-
+sectional survey was conducted using a 

@@ -1,0 +1,253 @@
+--- PAGE 1 ---
+Construction Focus, Vol 17, No 1, (2024) 29 – 45                         
+ 
+CONTRIBUTION OF CONDENSATION TO DAMPNESS ON EXTERNAL 
+SURFACES OF WALLS: A CASE STUDY OF BORNO AND YOBE STATES IN 
+NORTH EASTERN NIGERIA 
+ 
+MACHINA Musa Adamu¹, UMAR Bello², LAWAL Yerima Sallau², IBRAHIM 
+Muhammad Mustapha² 
+ 
+¹ Department of Building, University of Maiduguri, Nigeria. 
+² Department of Building, Ahmadu Bello University, Zaria-Nigeria. 
+ 
+Correspondence: musamachina272@gmail.com 
+ 
+ 
+ABSTRACT 
+Series of efforts were made from various quotas over the decades to curtail dampness on 
+external surfaces of walls and yet the menace has continued unabated, particularly in 
+Nigeria. This is because ‘underground moisture’ from rain and other sources of wat er is 
+erroneously believed to be the only cause of the menace. This study provides a lasting 
+solution to the problem by acknowledging ‘persistent condensation’ as another cause of 
+dampness on external surfaces of walls. It investigates where the problem lies in the context 
+of ‘persistent condensation’: Is it with the type of coating used on external surfaces of walls 
+or with construction professionals? Structured questionnaires were used in sourcing field 
+data and Chi-Square was the statistical tool utilised in analysis. Results in the study indicate 
+that, the use of tex -cote coating and tiles can alleviate dampness on external surfaces of 
+walls. Further analysis however, has exonerated construction professionals from possessing 
+insufficient knowledge on the general causes of dampness in buildings, but it failed to spare 
+them from possessing sufficient knowledge on the mechanism of ‘persistent condensation’. 
+Recommendations include among others, the general use of tex -cote coating and tiles on 
+surfaces prone to condensation and keeping construction professionals abreast on the 
+sources and causes of condensation on external surfaces of walls by organizing periodic 
+workshops and seminars. 
+ 
+KEYWORDS: Atmospheric moisture, Clear -sky radiation, Condensation, Dampness, 
+External surfaces of walls 
+ 
+INTRODUCTION 
+Condensation is the process by which a gas 
+changes its state to liquid. In the realm of 
+building and construction however, the 
+term ‘condensation’ may refer to the 
+conversion of water vapour in the air to 
+liquid water on the surfaces of structural 
+elements. This wetting mechanism occurs 
+when a moist air comes in contact with 
+surfaces that are at or below the dew point 
+temperature of the air (Rafferty, 2022; 
+Duncan, 2021). 
+Condensation is a commonly seen 
+phenomenon. It can be observed on 
+surfaces of canned drinks taken out of the 
+fridge and left in the open. It can be seen 
+on bath room mirrors during showers, or 
+on window glasses in the morning, 
+especially during raining sea sons 
+(Duncan, 2021 ; Susan, 2020) . Just as 
+condensation takes place on indoor 
+--- PAGE 2 ---
+Contribution of condensation to dampness…  
+30 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria.  
+surfaces, it also occurs outside the 
+building. The water seen dropping from 
+the roof in the morning, especially during 
+raining season even when it does not rain, 
+is as a result of condensation that took 
+place on the roof the previous night. The 
+water droplets or frost normally observed 
+on grasses in the morning, especially 
+during raining season even when it does 
+not rain, are all due to condensation that 
+took place the previous night ( Ronald, 
+2024; Broan, 2018). Outdoor condensation 
+occurs on any surface wh ich is left 
+exposed to the atmosphere in the night. 
+This implies that even structural elements, 
+such as floors and walls that are left 
+exposed to the atmosphere are not spared 
+from condensation in the night ( William, 
+2021; Banjo, 2021) . Condensation that 
+takes place on surfaces is referred to as 
+‘Surface Condensation’. Surface 
+condensation appears as a film of moisture 
+or as beads of water on the surface and it 
+is always very obvious on harder and 
+impervious surfaces. An absorbent surface 
+may not show conde nsation at first, but it 
+will show as the condensation persists 
+(McMullan, 2022).  
+Condensation that persists for a long time, 
+particularly on absorbent surfaces, will 
+eventually cause dampness ( Xue et al , 
+2022) and, if left untreated on building 
+facades, may lead to serious visual 
+nuisance as it is the case all over urban 
+centers in Nigeria (Ayokunle et al, 2023; 
+Zakkariyya et al , 2020) . In fact, the 
+problem of dampness on external surfaces 
+of building facades has remained unabated 
+for decades in Nigeria because 
+‘underground moisture’ from rain and 
+other sources of water is erroneously 
+believed as the only cause of the problem 
+(Ayokunle et al, 2023; Nwankwo, 1999); 
+Zakkariyya et al,  2020; Joseph, 2021; 
+Okoli & Kehinde , 2002; Sani et al,2022; 
+Ayokunle et al,  2023). This study 
+therefore provides a lasting solution to the 
+problem by treasuring ‘persistent 
+condensation’ as another cause of 
+dampness on external surfaces of walls. 
+Therefore, the aim of the study is to find 
+lasting solution to the problem of 
+dampness on external surfaces of 
+buildings in Borno and Yobe states, 
+Nigeria and this is expected to be 
+accomplished through review of all 
+previously identified causes of the menace 
+and acknowledging ‘persistent 
+condensation’ as another cause of 
+dampness on external surfaces of 
+buildings. To this end, the study is to 
+conduct series of empi rical investigation 
+in the context of ‘Persistent Condensation 
+on External Surfaces’ of buildings, analyse 
+all results obtained from the investigation, 
+establish the actual causes of the menace, 
+and recommend lasting solutions to the 
+problem of dampness on external surfaces 
+of buildings in the two states.          
+ 
+LITERATURE REVIEW 
+Steam, Water Vapour, Condensation 
+and Evaporation 
+Steam and mist are not water vapour, 
+rather, they are suspended droplets of 
+water liquid. Water vapour or moisture, 
+which is invisible, is also naturally formed 
+above liquid water. This process is called 
+evaporation and it occurs because some 
+liquid molecules gain enough energy from 
+chance collision with other molecules, to 
+escape from the liquid surface and become 
+vapour molecules (McMullan, 2022;  
+Rafferty, 2022; Vitro Architectural Glass, 
+2024). Therefore, if the air space above a 
+liquid is enclosed then evaporated vapour 
+molecules will collect in the space and as 
+they collect, some molecules continually 
+return (condense) to the liquid state and 
+eventually the number of molecules 
+evaporating become equal to the number 
+of molecules condensing. At this moment, 
+--- PAGE 3 ---
+Machina et al.  
+31 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+the air in the space is said to be saturated 
+(figure 1). This means, the space contains 
+the maximum amount of water vapour 
+possible at that temperature. The water 
+vapour has reached its ‘Dew Point’ and 
+therefore, any additional vapour into the 
+space at tha t temperature will be 
+condensed into liquid state (Bertley, 2020; 
+McMullan, 2022; Rafferty, 2022) . The 
+pressure exerted on the walls of the space 
+at that moment is called Saturated Vapour 
+Pressure (SVP).  
+The situation, however, will be different 
+with increased in temperature on the 
+liquid. At that higher temperature, even 
+though more liquid molecules will 
+evaporate from the liquid into the space 
+thereby increasing the moisture content of 
+the space, the space now acquires a higher 
+saturation point giving rise to higher dew 
+point and hence higher SVP. In other 
+words, increased temperature on liquid 
+releases more moisture and increases both 
+the dew point and SVP of the air above it 
+(Bertley, 2020; McMullan, 2022; Rafferty, 
+2022). 
+Conversely, if an unsaturated sample of 
+moist air is cooled then the sample will, at 
+a certain temperature, become saturated. If 
+the sample is further cooled below this 
+dew point temperature, then some of the 
+water vapour must condense to liquid 
+state. This equally implies that, if moist air 
+is in contact with a surface and the 
+temperature of the surface happens to drop 
+below the dew point temperature of the air, 
+condensation will inevitably occur on the 
+surface (Bertley, 2020;  McMullan, 2022; 
+Rafferty, 202 2). Therefore, the general 
+requirements for any condensation to 
+occur are moist air (also called moisture or 
+humidity) and change in temperature (cold 
+air or cold surface).  
+ 
+ 
+ 
+Problems associated with Condensation 
+Condensation can lead to quite a number 
+of problems. These problems could be 
+mild in nature or much more severe 
+depending on the persistent and duration 
+of the condensation. However, some of the 
+potential dangers posed by persistent 
+condensation according to Bertley,2020; 
+Duncan, 2021, are:  
+(i) Mould growth,  
+(ii) Stain on walls, windows and doors,  
+(iii) Damages to electrical appliances, 
+ (iv) Corrosion of metals, and  
+(v) Wood rot  
+ 
+Sources of Condensation 
+While sources of condensation on and 
+within objects in a constructed structure 
+are mainly showering and bathing, 
+laundry, cooking, breathing, air 
+conditioning (Joseph, 2021; Xue et al,  
+2022), and pattern of use of the building, 
+the major sources of condensation on 
+surfaces of the structure are as follows: 
+(i) The Atmosphere. 
+The atmosphere contains about 5 per cent 
+water vapour by weight and yet the 
+condensation effect produced by this 
+relatively small percentage of vapour on 
+constructed structures is considerably 
+alarming. It is however understood that, 
+most of the moisture i n the atmosphere is 
+as a result of evaporation of water 
+molecules from the sea, which is believed 
+to cover about two -third of the mother 
+earth’s surface  (Teichol, 2018; Rafferty, 
+2022; McMullan, 2022).  
+(ii) Thermal Bridge 
+When a material of high conductivity is 
+made to pass completely through a 
+structural element, such as wall, floor, 
+roof, etc, then the thermal insulation of that 
+element is said to be ‘Bridged’, that is, the 
+insulation of the elements is lowered at 
+that po ints of bridging ( Maxwell, 2020; 
+McMullan, 2022).  

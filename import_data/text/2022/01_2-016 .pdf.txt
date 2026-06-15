@@ -1,0 +1,269 @@
+--- PAGE 1 ---
+Construction Focus, Vol 15, No1, (2022), 11 - 25   
+INTEGRATING ACCESSIBILITY INTO NIGERIAN UNIVERSITY 
+CAMPUSES THROUGH A CO-DESIGN APPROACH TO INCLUSIVE 
+LANDSCAPES AT ABU ZARIA 
+GIDADO Usman Muhammad1, ABDULLAHI Usman Muhammad1, MAIWADA 
+Amina2 
+1Department of Architecture, Ahmadu Bello University, Zaria, Nigeria. 
+2Department of Geography & Environmental Studies, Ahmadu Bello University, Zaria, 
+Nigeria. 
+ 
+Correspondence: usmanmgidado@gmail.com  
+ABSTRACT 
+Many Nigerian university campuses remain physically and socially inaccessible to 
+persons with disabilities (PWDs), reflecting outdated planning legacies that privilege 
+able-bodied users. At Ahmadu Bello University (ABU) Zaria, these barriers limit mobility, 
+participation, and psychological well -being among students and staff with disabilities. 
+This study aims to integrate accessibility into Nigerian university campuses through a co-
+design approach that fosters inclusive landscape environments. A qualitative , 
+participatory research design was employed, combining co -design workshops, 
+participatory mapping, and semi -structured interviews with students, staff, and 
+administrators with disabilities. Findings revealed critical deficiencies, including a lack 
+of ramps, tactile paving, accessible pathways, and sensory -friendly spaces. Participants 
+described emotional distress and exclusion resulting from segregated movement patterns 
+and inadequate wayfinding systems. Three priority intervention zones were i dentified: 
+academic cores, pedestrian corridors, and recreational landscapes , where inclusive 
+design could improve both physical accessibility and social interaction. The study 
+recommends embedding inclusive design principles within university master plans and 
+policy frameworks, ensuring continuous engagement of PWDs in all stages o f planning 
+and implementation. By demonstrating the transformative potential of co -designed 
+campus landscapes, this study contributes to advancing inclusive education policies, 
+sustainable campus development, and equitable design practices within Nigerian higher 
+education and across Sub-Saharan Africa. 
+KEYWORDS: Accessibility; Co -Design; Inclusive Design; Participatory Mapping; 
+University Campuses 
+INTRODUCTION 
+Accessibility in the built environment is 
+essential to social inclusion, human rights, 
+and sustainable development. The United 
+Nations Convention on the Rights of 
+Persons with Disabilities (UNCRPD, 2006) 
+affirms that all individuals should have 
+equal acces s to educational, social, and 
+physical environments without 
+discrimination. Within higher education, 
+accessibility ensures equal participation, 
+independence, and dignity for persons with 
+disabilities (PWDs). However, in Nigeria 
+and other developing context s, university 
+campuses remain largely exclusionary, 
+shaped by colonial and modernist planning 
+legacies that prioritize able -bodied users 
+over inclusivity (Obi & Chukwuma, 2020; 
+Ibrahim & Sani, 2021). 
+This lack of accessibility reflects a broader 
+neglect of inclusive and universal design 
+principles in campus planning and 
+architectural practice. Studies show that 
+university environments often lack ramps, 
+tactile guidance systems, and accessible 
+signage, making movement difficult for 
+people with physical, visual, or auditory 
+impairments (Adewale et al., 2019; 
+--- PAGE 2 ---
+Integrating Accessibility into Nigerian ….. 
+12 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University, Zaria, Nigeria.  
+Oladipo, 2022). Social barriers, including 
+stigma and dependence, further contribute 
+to feelings of exclusion and lower academic 
+engagement (Ogunyemi & Adedoyin, 
+2020). These barriers contravene Nigeria’s 
+Disability Act of 2018 and weaken progress 
+toward Sustainable Development Goal 4 on 
+inclusive and equitable education (United 
+Nations, 2015). 
+Ahmadu Bello University (ABU) Zaria 
+exemplifies these accessibility challenges. 
+Its campus, planned in the early 1960s, 
+predates modern accessibility standards and 
+universal design frameworks. Many of its 
+spaces remain physically and 
+psychologically challe nging, with uneven 
+pathways, poorly designed ramps, and a 
+lack of tactile or sensory navigation aids 
+(Yusuf & Umar, 2021). These deficiencies 
+hinder access to lecture halls, hostels, and 
+recreational areas, limiting inclusion and 
+well-being among students and staff with 
+disabilities. 
+Globally, co -design and participatory 
+approaches are increasingly recognized as 
+effective methods for fostering inclusivity. 
+Co-design actively involves end users, 
+particularly marginalized groups in shaping 
+environments that reflect their lived 
+experiences (Sanders & Stappers, 2014). In 
+campus settings, participatory mapping 
+enables PWDs to identify barriers and 
+propose spatial interventions rooted in daily 
+realities (Mahmoud et al., 2020). Yet, in 
+Nigeria, few studies have applied such 
+participatory frame works to enhance 
+accessibility. Most focus narrowly on 
+infrastructural audits, overlooking 
+emotional and social dimensions of 
+disability (Ogunyemi & Adedoyin, 2020; 
+Oladipo, 2022). 
+This study addresses that gap by integrating 
+accessibility into Nigerian university 
+campuses through a co -design approach 
+that promotes inclusive landscape 
+environments, using ABU Zaria as a case 
+study. It examines existing barriers, 
+explores user experien ces, identifies 
+intervention zones, and proposes inclusive 
+landscape strategies to inform policy, 
+design education, and campus 
+development. 
+LITERATURE REVIEW 
+Concept of Accessibility and Inclusive 
+Design in Higher Education 
+Accessibility is an essential component of 
+human rights, equality, and sustainable 
+development. The United Nations 
+Convention on the Rights of Persons with 
+Disabilities (UNCRPD, 2006)  defines 
+accessibility as the right of all individuals to 
+participate fully in society without physical, 
+social, or institutional barriers. Within 
+higher education, accessibility extends 
+beyond mere physical entry to encompass 
+equitable participation, incl usion, and 
+autonomy in learning and social 
+engagement (Ogunyemi & Adedoyi n, 
+2020). The concept of inclusive design or 
+universal design emerged from this 
+recognition, emphasizing the creation of 
+environments usable by all people, 
+regardless of ability, without the need for 
+adaptation or specialized design (Sanders & 
+Stappers, 2014). 
+In the context of university campuses, 
+inclusive design integrates considerations 
+for mobility, sensory, and cognitive 
+differences into spatial planning, 
+architecture, and landscape design. 
+However, in most Nigerian universities, 
+accessibility is narrowly understood as a 
+technical requirement rather than a holistic 
+framework for social inclusion (Adewale et 
+al., 2019). This limited interpretation leads 
+to partial or symbolic interventions, such as 
+installing isolated ramps or handrails, 
+without addressing b roader systemic and 
+environmental barriers. According to 
+Ibrahim and Sani (2021), accessibility 
+should not only focus on infrastructure but 
+also involve policies, attitudes, and spatial 
+relationships that promote participation and 
+dignity for all users. 
+Accessibility Challenges in Nigerian 
+University Campuses 
+Several studies have documented the 
+persistent inaccessibility of Nigerian 
+--- PAGE 3 ---
+Gidado et al., 
+Page | 13 
+Construction Focus 
+Department of Building, Ahmadu Bello University, Zaria, Nigeria.  
+university campuses. Obi and Chukwuma 
+(2020) attribute this to inherited colonial 
+planning traditions and modernist design 
+philosophies that prioritized vehicular 
+circulation and compartmentalized land 
+uses over pedestrian mobility and social 
+inclusion. As a result, circulation networks, 
+buildings, and open spaces often exclude 
+persons with disabilities (PWDs). 
+Adewale et al. (2019) found that most 
+Nigerian campuses lack essential 
+accessibility features such as ramps, tactile 
+paving, elevators, and signage in braille. 
+Similarly, Oladipo (2022) reported that 
+even when ramps exist, they are often too 
+steep or poorl y positioned, rendering them 
+ineffective. In addition, inadequate lighting, 
+uneven pavements, and inaccessible 
+restrooms exacerbate mobility challenges. 
+These deficiencies not only create physical 
+barriers but also produce psychological and 
+social isolatio n among students and staff 
+with disabilities (Ogunyemi & Adedoyin, 
+2020). 
+At Ahmadu Bello University (ABU) Zaria, 
+the challenges are particularly pronounced 
+due to its age and expansive layout. The 
+campus, developed in the early 1960s, 
+predates the global discourse on universal 
+design. Yusuf and Umar (2021) observed 
+that ABU’s terrain and spatial configuration 
+create multiple levels of accessibility 
+difficulty, especially across pedestrian 
+corridors, academic zones, and residential 
+areas. The lack of tactile guidance systems 
+and accessible seating contributes to 
+exclusion from ev eryday academic and 
+social life. These findings underscore the 
+need for a shift from reactive physical 
+modifications to proactive, participatory, 
+and integrated planning approaches that 
+include PWDs as central stakeholders. 
+Policy and Legal Frameworks for 
+Disability Inclusion 
+Globally, the rights of persons with 
+disabilities are safeguarded through 
+frameworks such as the UNCRPD (2006)  
+and the 2030 Agenda for Sustainable 
+Development (United Nations, 2015). 
+Specifically, Sustainable Development 
+Goal 4 promotes inclusive and equitable 
+quality education, while Goal 11 advocates 
+for inclusive, safe, and sustainable cities 
+and human settlements. In Nigeria, the 
+Discrimination Against Persons with 
+Disabilities (Prohibition) Act of 2018  
+provides legal backing for accessibility, 
+mandating public institutions to ensure 
+barrier-free access to facilities, including 
+educational environments. 
+Despite these policy frameworks, 
+enforcement remains weak. Ibrahim and 
+Sani (2021) argue that while Nigerian 
+universities are legally obligated to provide 
+accessible environments, institutional 
+implementation is hampered by limited 
+funding, low awareness, and lack of 
+technical expertise. Most campus master 
+plans do not explicitly include accessibility 
+standards or landscape design guidelines 
+for inclusion (Obi & Chukwuma, 2020). 
+Consequently, disability inclusion often 
+relies on ad hoc measures rather than 
+systematic planning. 
+In this context, accessibility is not merely a 
+design or architectural issue but a 
+governance and policy challenge that 
+requires cross -disciplinary collaboration. 
+Integrating accessibility into campus design 
+must therefore be seen as both a social and 
+institutional responsibility, linking spatial 
+planning with inclusive education policy. 
+This study situates itself within this policy-
+practice disconnect, proposing co-design as 
+a strategy to operationalize inclusive 
+principles at the campus level. 
+Co-Design and Participatory 
+Approaches in Inclusive Planning 
+Co-design, also known as participatory or 
+collaborative design, has emerged as a 
+transformative approach in addressing 
+social and spatial inequalities. It involves 
+active collaboration between designers and 
+end-users throughout the design process to 
+ensure outcomes that reflect lived 
+experiences and local needs (Sanders & 
+Stappers, 2014). The philosophy of co -
+design rests on the belief that users are 

@@ -1,0 +1,268 @@
+--- PAGE 1 ---
+Construction Focus, Vol 16, No 1, (2023) 41 – 53             
+EVALUATION OF THE INTERRELATIONSHIPS AMONG THE CAUSES OF 
+WALL CRACKS IN RESIDENTIAL BUILDINGS USING ASSOCIATION 
+RULE MINING 
+LAWAL Yarima Sallau1, ISHAQ Ziyadul Hassan1, IBRAHIM Aliyu Makarfi1, 
+ISAH Ibrahim1, TAHIR Usman Sintali1 
+1 Department of Building, Ahmadu Bello University Zaria, Nigeria 
+Correspondence: yerimasallau@gmail.com 
+ABSTRACT 
+Building cracks significantly impact structural integrity, maintenance costs, and 
+occupant satisfaction. While numerous studies have investigated the causes of cracks, 
+determining primary contributors remains complex due to the interconnected nature of 
+underlying factors. This study examines the synergistic relationships among the causes 
+of wall cracks  in residential buildings to identify dominant crack contributing factors. 
+160 residential blocks at Ahmadu Bello University's Area F staff quarters were surveyed 
+to identify buildings that exhibits cracks . 73 buildings exhibiting visible cracks were 
+purposively selected for detailed evaluation. Visual inspection was conducted to measure 
+crack dimensions on all the 73 selected buildings. In addition, systematic evaluation was 
+conducted using a checklist to identify and evaluate crack -inducing factors.  Singular 
+cause analysis (SCA) and Association Rule Mining (ARM) technique were used to analyse 
+the data. The SCA  identified three predominant crack causes: root growth (29.21%), 
+improper landscaping (22.28%), and drought conditions (17.82%). More so, ARM 
+technique implemented through RapidMiner software demonstrated strong associations  
+between the identified causes of cracks , with root growth showing complete correlation 
+(confidence: 1.00) when combined with drought and roof leakage effects (lift: 1.237), 
+indicating significant multiplicative impacts. These findings highlight the importance of 
+considering combined environmental and structural factors in crack formation. Based on 
+these insights, the study recommends implementing strategic vegetation management 
+plans, including proper tree placement protocols  to mitigate root -related structural 
+damage. The research has contributed by evaluating the complex interactions between 
+multiple crack -inducing factors, offering  a foundation for  data-driven solutions for 
+proactive wall crack management in residential buildings. 
+KEYWORDS: Association Rule Mining,  Evaluation, Interrelationships, Residential 
+Buildings, Wall Cracks. 
+INTRODUCTION 
+The per sistent issue of cracks in 
+buildings represents a global challenge 
+that affects structural performance, 
+aesthetic quality, and long -term 
+durability. As noted by Arvind (2017), 
+these structural imperfections occur 
+when induced stresses exceed the 
+inherent strength  capacity of the 
+material. The origins of such stresses are 
+multifaceted, arising from both external 
+factors – including dead and live loads, 
+wind action, seismic activity, and 
+foundation settlement  – and internal 
+factors such as thermal fluctuations, 
+moisture variation, and chemical 
+reactions. 
+Cracks typically manifest as complete or 
+partial separations within concrete 
+matrices, resulting from tensile stresses 
+that surpass the material’s capacity 
+(Yunusa et al., 2015). While complete 
+prevention of crack s remains a 
+challenge, uncontrolled cracking can 
+lead to consequences extending beyond 
+aesthetic deterioration. Such cracks can 
+--- PAGE 2 ---
+Evaluation of the interrelationships ……. 
+42 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+compromise structural integrity, 
+accelerate material degradation, and 
+significantly increase maintenance costs 
+(Arvind, 2017). 
+Despite extensive research into 
+individual factors  causing cracks in 
+buildings (Aljassani & Han, 2013; Lee et 
+al., 2019; Park et al., 2020 ), a critical 
+knowledge gap persists regarding the 
+complex interrelationships among 
+multiple contributing elements. As Lee 
+et al. (2019) emphasize, a holistic 
+understanding of crack formation 
+requires an analysis of the synergistic 
+effects between various factors causing 
+cracks. 
+This study specifically investigates wall 
+cracks in the residential quarters of 
+Ahmadu Bello University (Area F), 
+where preliminary observations indicate 
+significant cracking issues. Although 
+previous studies have catalogued 
+individual causes, interactions  among 
+factors such as root growth, soil 
+conditions, roof or plumbing leakages, 
+and moisture variation remain 
+unexplored in this context. The present 
+research employs Association Rule 
+Mining (ARM)  – an advanced data 
+mining technique (Kamsu-Foguem et al., 
+2013a) – to evaluate and quantify the 
+relationships between multiple crack -
+inducing factors. 
+The application of ARM in construction 
+defect analysis represents a major 
+advancement toward data -driven 
+decision-making in the built 
+environment. Unlike traditional methods 
+that examine isolated causes, ARM 
+uncovers hidden relationships among 
+multiple interacting factors (Park et al., 
+2020). By identifying co -occurring 
+variables and generating interpretable, 
+rule-based insights , ARM supports 
+preventive maintenance, risk prediction, 
+and informed decision -making 
+throughout a building’s lifecycle. 
+Overall, AR M marks a shift from 
+reactive to proactive defect management, 
+enhancing the durability, safety, and 
+sustainability of buildings, especially in 
+resource-constrained tropical settings  
+(Lee et al., 2019). 
+By moving beyond singular causation 
+approaches, this research aims to 
+evaluate the interrelationships among 
+multiple crack -inducing factors with a 
+view to providing a foundation for 
+proactive defect management in 
+buildings. Additionally, the study seeks 
+to establish a comprehensive basis for 
+understanding the complex 
+interrelationships among the causes  of 
+wall cracks , thereby facilitating more 
+effective prevention and remediation 
+approaches. 
+LITERATURE REVIEW 
+Causes of Wall Cracks 
+Wall cracks in buildings result from a 
+complex interplay of structural, 
+environmental, material, and human -
+related factors  (Chitte & Sonawane, 
+2018). Fundamentally, cracks appear 
+when the tensile stresses in structural 
+components exceed their material 
+strength, leading to separation along 
+planes of weakness. According to Gurmu 
+et al. (2020), the most frequent causes of 
+cracking in ground floor systems of low-
+rise residential buildings include 
+inadequate site drainage, poor soil 
+drainage, drought, plumbing leaks, tree 
+root activity, and inappropriate 
+landscaping. Using inspection reports 
+from 250 residential buildings in 
+Melbourne, the authors identifie d site 
+and soil drainage deficiencies as the two 
+most significant causes of distress, while 
+landscaping had a lesser effect. 
+Environmental conditions, particularly 
+drought-induced soil shrinkage and 
+swelling, are major contributors to wall 
+and slab cracking. Soils with high clay 
+content are especially vulnerable to 
+volume change during dry and wet 
+cycles (Corti et al., 2011; Tol l et al., 
+2012). Drought reduces soil moisture, 
+leading to differential settlement and 
+wall movement (Wiltshier, 2007). 
+--- PAGE 3 ---
+Lawal et al. 
+43 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+Similarly, plumbing leakages and 
+defective surface drainage can cause 
+localized soil saturation, erosion, and 
+swelling beneath foundations, leading to 
+cracking (El -Garhy & Wray, 2006; 
+Mokhtari & Dehghani, 2012). Poor 
+drainage design, water ponding, and 
+inadequate slope around buildings were 
+also found to exacerbate structural 
+distress (Zumrawi et al., 2017). 
+The influence of tree roots on soil 
+moisture variation is another critical 
+factor. Trees extract water from 
+expansive soils, causing localized 
+shrinkage and differential settlement 
+near foundations (McLean, 2009; Li & 
+Guo, 2016). These effects are often more 
+pronounced in reactive soils and 
+temperate climates (Biddle, 2001). 
+Subsurface drainage deficiencies further 
+compound the problem by preventing 
+adequate moisture control, while poor 
+landscaping and overwatering can 
+aggravate foundation instability 
+(Murphy, 2010; Houston et al., 2011). 
+Collectively, these findings indicate that 
+wall cracks are seldom caused by a 
+single factor but rather by the interaction 
+of multiple environmental and 
+workmanship-related influences (Gurmu 
+et al., 2020). Understanding these 
+interdependencies provides a ne cessary 
+foundation for developing mitigation 
+strategies to improve the structural 
+integrity of buildings. 
+Use of Association Rule Mining 
+Technique in Construction 
+The adoption of Association Rule 
+Mining (ARM) represents a significant 
+step toward data -driven defect analysis 
+in the construction industry. ARM 
+uncovers if – then relationships between 
+variables revealing hidden patterns 
+among categorical datasets without 
+predefined hypotheses (Han et al., 2011). 
+Lee et al. (2019) integrat ed ARM with 
+Social Network Analysis (SNA) for 
+construction defect analysis using 2,949 
+defect records. Their study demonstrated 
+that managerial issues  – such as 
+“inadequate protection” and 
+“interference from other trades”  – were 
+central defect causes. Gurmu et al. 
+(2020) extended this application to 
+ground-floor systems, using ARM to 
+identify co -occurring defect patterns 
+across inspection data. They found that 
+“poor site drainage” and “soil drainage 
+deficiency” exhibited the highest out -
+degree centrality, signifying their 
+systemic impact on building distress. 
+Subsequent studies have diversified 
+ARM applications. Park et al. (2020) 
+analyzed 9,054 non -conformance 
+records to derive defect-generation rules 
+validated by domain experts; Cheng et 
+al. (2015) introduced a GA-based multi-
+level ARM to enhance rule accurac y; 
+Ayhan et al. (2020) used ARM to 
+correlate accident attributes; and Rith 
+and Lee (2021) applied it to evaluate 
+reflective cracking in asphalt pavements. 
+More recently, Kim et al. (2023) used 
+ARM to extract post -handover defect 
+association rules in apartment buildings, 
+demonstrating its scalability to large 
+datasets. These studies collectively 
+establish ARM as a robust analytical tool 
+for discovering latent relationships 
+among construction defects and 
+operational factors, facilitating 
+predictive maintenance and evidence -
+based quality management (Kamsu -
+Foguem et al., 20 13b; Lee et al., 2019 ; 
+Wu & Liu 2021). 
+Advantages of ARM for Construction 
+Defect Analysis 
+The primary advantage of ARM is its 
+ability to process large, non -numeric 
+datasets and reveal complex multi-factor 
+associations without prior modeling 
+assumptions (Lee et al., 2019). It 
+quantifies relationships using support, 
+confidence, and lift, metrics that measure 
+frequency, reliability, and significance of 
+associations. This makes ARM 
+particularly suited to defect log analysis, 
+where most variables (e.g., defect type, 

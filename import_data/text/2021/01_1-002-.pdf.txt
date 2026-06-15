@@ -1,0 +1,252 @@
+--- PAGE 1 ---
+Construction Focus, Vol 14, No 1, (2021) 1 – 11  
+RETHINKING DISTRUST IN THE NIGERIAN CONSTRUCTION SECTOR: 
+CRITICALLY BRIDGING CONCEPTUAL MISCONCEPTIONS WITH 
+THEORETICAL FOUNDATIONS 
+UMAR Bello1, ABDULAZEEZ Abubakar Dardau1, IBRAHIM Ahmad Doko2, DODO 
+Mansir1.  
+1 Department of Building, Ahmadu Bello University Zaria, Nigeria 
+2 Department of Quantity Surveying, Ahmadu Bello University Zaria, Nigeria. 
+ 
+Correspondence:  b.umarbd@gmail.com 
+ 
+ABSTRACT 
+Distrust is often portrayed as the opposite of trust, with negative connotations that 
+overshadow its functional role in project governance. In the Nigerian construction industry, 
+where projects are complex, multi-stakeholder, and risk-prone, this view is widespread. This 
+study critically rethinks distrust by contrasting how construction professionals conceptualize 
+it with how it is theoretically defined in the literature. Using a qualitative research design, 
+data were collected through semi-structured interviews with eight senior professionals across 
+multiple disciplines and analyzed using thematic content analysis. The findings reveal three 
+dominant practitioner interpretations of distrust: breach of agreement or obligation, loss of 
+confidence in character or competence, and violation of relational expectations. These 
+interpretations reflect a narrow, moralized view of distrust, which contrasts sharply with 
+established theoretical foundations that frame distrust as a rational, proactive response to 
+uncertainty and risk. By exposing this conceptual gap, the study clarifies distrust as both 
+distinct from and complementary to trust, advancing theoretical understanding and offering 
+practical insights for improving project governance, accountability, and stakehold er 
+engagement in high-risk construction environments. 
+ 
+KEYWORDS: Construction Industry, Distrust, Project Governance, Trust. 
+ 
+INTRODUCTION 
+Trust and distrust are pivotal constructs in 
+shaping interpersonal and organizational 
+relationships, particularly in sectors like 
+construction that are inherently 
+fragmented and high-risk. While trust has 
+been widely promoted as a catalyst for 
+collaboration, productivity, and project 
+success (Mayer , Davis & Schoorman,  
+1995; Cheung, Chow & Wong, 2011), the 
+concept of distrust remains poorly 
+understood, especially in the Nigerian 
+construction industry. Rather than being 
+treated as a distinct and meaningful 
+construct, distrust is often mistakenly 
+viewed as merely the absence of trust or an 
+inherently destructive force ( Kramer, 
+1994;Cofta, 2006). 
+This oversimplified perception has 
+contributed to a prevailing misconception 
+within the Nigerian construction industry: 
+that distrust must be eliminated for 
+effective project delivery. Consequently, 
+efforts aimed at enhancing project 
+performance tend to fo cus exclusively on 
+building trust , through team building, 
+partnering strategies, or collaborative 
+contracts, without recognizing the 
+--- PAGE 2 ---
+Rethinking distrust.…. 
+2 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+contextual, rational, and sometimes 
+beneficial role that distrust can play in 
+managing risk, enforcing accountability, 
+and protecting stakeholder interests 
+(Soares, 2012; Hardin, 1993). 
+In reality, distrust can serve as a legitimate 
+and rational response to uncertainty, past 
+negative experiences, institutional 
+weakness, or opportunistic behaviour that 
+threaten project outcomes. When 
+understood as a cognitive or behavio ural 
+expression of perceived risk or 
+misalignment of interests, distrust 
+functions not as an anomaly but as a signal, 
+prompting stakeholders to implement 
+safeguards such as detailed contracts, 
+performance bonds, or third -party 
+oversight (Lau, 2011; Jarvinen & 
+Brenders, 2020).  Yet, in Nigerian 
+construction discourse and practice, such 
+rational distrust is often stigmatized or 
+mischaracterized as conflictual, unethical, 
+or unprofessional. 
+The core problem this paper addresses is 
+the widespread misconception of distrust 
+in the Nigerian construction industry ; 
+specifically, the failure to distinguish 
+between destructive distrust (rooted in 
+malice or hostility) and constructive 
+distrust (rooted in rational caution and risk 
+awareness).  
+This misunderstanding has significant 
+consequences for policy, project 
+governance, and professional behaviour in 
+the industry. For instance, distrust is not 
+merely the absence of trust but can act as a 
+functional mechanism that spurs the 
+adoption of preventive controls, 
+contractual protections, and third -party 
+verifications ( Sores, 2012 ; Cofta, 2006). 
+More recent studies affirm that distrust , 
+when based on evidence, can coexist with 
+trust and even foster more prudent 
+decision-making by exposing power 
+asymmetries, performance risks, or 
+reputational concerns (Issa , Zyaed & 
+Salem, 2018; Bauer , Kastenhofer & 
+Allgaier, 2019). Without acknowledging 
+this duality, practitioners may continue to 
+stigmatize rational safeguards as toxic 
+behaviour, thereby undermining efforts to 
+build robust, context -sensitive trust 
+frameworks in construction partnershi ps. 
+The Nigerian construction context, with its 
+challenges of corruption, opportunistic 
+behaviour and weak enforcement 
+mechanisms, underscores the need to 
+reframe distrust as a legitimate cognitive 
+and behavioral response to institutional 
+uncertainty (Ikuabe & Oke, 2019; Emborg, 
+Daniels, & Walker, 2020). 
+Against this background, the aim of this 
+paper is to identify and examine how 
+professionals and practitioners within the 
+Nigerian construction industry understand 
+the concept of distrust, and to compare 
+these perspectives with the theoretical and 
+empirical definitions established in 
+scholarly literature. While distrust has 
+gained increasing recognition as a 
+legitimate construct in project governance 
+theory, its meaning and role remain poorly 
+conceptualized in Nigerian construction 
+practice, where it is ofte n conflated with 
+interpersonal failure or moral breakdown.  
+This misalignment between practice and 
+theory constitutes a critical conceptual gap 
+that undermines effective project 
+governance and stakeholder collaboration. 
+By critically bridging this gap, the study 
+not only clarifies the conceptual 
+boundaries between trust and distrust but 
+also highlights the strategic and functional 
+role of distrust in governance, risk 
+management, and collaborative project 
+delivery. The significance of this research 
+lies in its potential to inform both scholarly 
+debate and practical interventions aimed at 
+fostering more balanced trust –distrust 
+dynamics in complex construction 
+environments.  
+ 
+--- PAGE 3 ---
+Umar et al. 
+3 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+LITERATURE REVIEW 
+Trust: Meaning and Related Constructs 
+Trust is a foundational concept in human 
+relationships and organizational 
+interactions, frequently cited as a 
+prerequisite for cooperation, 
+collaboration, and performance. However, 
+despite its widespread use, trust remains a 
+complex and multifaceted constr uct, 
+defined differently across disciplines and 
+cultural contexts (Mayer et al., 1995; Jiang 
+et al., 2016). In the construction industry, 
+where multiple stakeholders with diverse 
+interests must work together under 
+conditions of uncertainty and limited 
+oversight, trust becomes particularly 
+significant (Cheung, Chow, & Wong, 
+2011). 
+Early conceptualizations of trust, such as 
+that by Deutsch (1958), framed it as an 
+expectation of behaviour that carries more 
+potential negative consequences if 
+unfulfilled than positive consequences if 
+fulfilled. This introduced the essential 
+element of risk inherent in trusting 
+relationships. Building on this, Gambetta 
+(1988) emphasized trust as a belief in the 
+high probability that another party will act 
+beneficially or at least not harmfully, even 
+in the absence of direct oversight. These 
+definitions hi ghlight trust as a 
+psychological state rooted in both 
+expectation and vulnerability. 
+A widely accepted and influential 
+definition by Mayer, et al (1995) describes 
+trust as “the willingness of a party to be 
+vulnerable to the actions of another party 
+based on the expectation that the other will 
+perform a particular action important to 
+the trustor, irrespective of the ability to 
+monitor or control tha t other party”   This 
+understanding introduced the integrative 
+model of trust, incorporating key 
+antecedents; ability, benevolence, and 
+integrity, that shape perceived 
+trustworthiness. In construct ion contexts, 
+this model has been influential in 
+evaluating interpersonal and 
+interorganizational relationships (Lau, 
+2011). 
+In recent years (from 2011), trust has been 
+operationalized in construction 
+management as the willingness of project 
+team members to share information and 
+collaborate without fear of opportunistic 
+exploitation (Pinto et al., 2009; Cheung et 
+al., 2011). It supports coordination, 
+encourages knowledge sharing, and 
+reduces the need for extensive contractual 
+controls, especially in complex and fast -
+paced project environments. 
+However, trust is often conflated with 
+related concepts such as trustworthiness, 
+cooperation, and reliability, though these 
+represent distinct constructs. 
+Trustworthiness refers to the qualities or 
+attributes (e.g., competence or integrity) 
+that make an in dividual or organization 
+deserving of trust (Hardin, 2002; Chen, 
+Saparito, & Belkin, 2011). Trust is the 
+decision to take a risk based on the 
+perception of trustworthiness. Similarly, 
+cooperation is an outcome of trust but can 
+also occur in the absence of trust when 
+regulated through external controls or 
+mutual benefits (Lewicki et al., 2006). 
+Reliability, though related to trust, pertains 
+to the consistent fulfilment of obligations 
+or expectations over time , it may 
+contribute to trust but does not constitute it 
+(McEvily & Tortoriello, 2011). 
+Distinguishing trust from these related 
+constructs is essential to accurately 
+interpret stakeholder behavio ur in 
+construction projects. For example, a 
+contractor might be reliable in delivering 
+work on schedule, yet still be viewed with 
+distrust due to perceived opportunism or 
+lack of transparency. Conversely, a 
+stakeholder may be trusted based on 
+reputation, ev en in the absence of 

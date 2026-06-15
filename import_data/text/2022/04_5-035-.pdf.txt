@@ -1,0 +1,253 @@
+--- PAGE 1 ---
+Construction Focus, Vol 15, No 1, (2022) 50 – 57                   
+ 
+ 
+AN ASSESSMENT OF THE EFFECT OF FASKARI DAM WATER ON 
+COMPRESSIVE STRENGTH OF CONCRETE 
+MAMMAN Mas’udu1, ABDULLAHI Sulaiman Faskari2, KHALIL Ismail 
+Muhammad1 
+1Department of Building, Ahmadu Bello University Zaria, Nigeria  
+2Government Science Secondary School Faskari  
+Correspondence: masudmamman@yahoo.co.uk 
+ABSTRACT  
+In dry season , Faskari town experiences scarcity of water. This resulted to difficulty in 
+sourcing water for domestic use as well as for construction works. This necessitates the 
+community in Faskari town to depend on Faskari Earth Dam Water in dry season for 
+construction works though, its physical appearance looks rowdy. This paper evaluates the 
+suitability of Faskari Earth Dam Water for concrete work. Physical properties such as 
+colour, odour , etc, as well as Chemical  characteristics of the water were exa mined. A 
+concrete was produced using the tap water and Faskari Dam water where the workability 
+and compressive strength of the concrete   were evaluated. . The study revealed that Faskari 
+Earth Dam Water has a pH value of 7.3, Chloride concentration of 0.22 mg/l, Sulphate 
+concentration of 0.00 mg/l which are within the permissible limit stipulated for water to be 
+used for concrete production. It was also found out that the water is dark brown in colour 
+and has a smelling odour. The slump test results of the  concrete mix produce with Faskari 
+Earth dam water was found to be 11mm this indicates low workable concrete mix. Also, the 
+28 days compressive strength of  concrete produced with Faskari Earth Dam Water is 
+approximately 96.67% of the  control sample. Hence, based on the test carried out it was 
+concluded that Faskari Earth Dam Water is suitable for concrete work. Therefore, water 
+source from Faskari Earth Dam Water can be used for concrete production.  
+KEYWORDS: Compressive strength, Concrete, Faskari Earth Dam, Water, workability.  
+ 
+INTRODUCTION 
+Concrete is one of the most widely used 
+construction materials for both building and 
+civil engineering construction  works 
+(Kosmatka, 1988; Spelman & Lee, 2022). 
+Concrete is made up of cement, aggregates 
+and water. All the constituents play vital role 
+in determining concrete properties (Shetty 
+2005). Water initiates hydration process, 
+determines the workability of concrete mi x 
+and is use for curing. It has been established 
+that water that is fit for drinking and free from 
+impurities should be used for concrete works 
+(Shetty 2005; Neville 2006).  
+Production of concrete involves; batching, 
+mixing with water, transporting and 
+compacting (Obande, 1990). Concrete has 
+two important states (fresh and harden), 
+water plays important role in the two stages. 
+Fresh or plastic concrete is a freshly mixed 
+material which can be moulded into any 
+shape. At fresh state, consistency, cohesion 
+and workability are the most important 
+properties of concrete.  
+Workability facilitates compaction and 
+transportation without segregation (Oktar, 
+1996). Workability of concrete is the 
+property that determines the effort required to 
+manipulate a freshly mixed quantity of 
+--- PAGE 2 ---
+Mas’ud et al.                   
+51 
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+concrete with minimum loss of homogeneity 
+ASTM C125 (2000). Slump test is one of the 
+commonest methods of determining concrete 
+workability. The quality of hardened 
+concrete can be said to be dependent on the 
+properties at its fresh stage. It is therefore, 
+important that properties of fresh concrete 
+should be checked and ensured compliance 
+with specified requirement. Quantity and 
+quality of mixing water have a major role in 
+determining these properties.  
+At hardened state, it is imperative that the 
+compressive strength of concrete satisfied its 
+designed strength. Hence, compressive 
+strength is usually considered in judging the 
+quality of concrete as it is directly related to 
+its density, permeability, tensile strength and 
+chemical resistance.  It is important to note 
+that adequate curing is one of the key factors 
+for achieving optimum compressive strength. 
+Also, water pay a major role in hydration 
+process, mixing, finishing and curing of 
+concrete. 
+There are three (3) major sources of water in 
+Faskari town namely; wells, boreholes, and 
+Faskari earth dam. Faskari earth dam was 
+constructed in the year 1973 for agricultural 
+activities. The Dam is located in the eastern 
+part of Faskari town of Katsina state. It has 
+length of about 400metres with a breadth of 
+250metres and the depth is about 7 metre s. 
+The people in Faskari town depends on the 
+wells and boreholes water for their domestic 
+and other uses, while the Faskari earth dam is 
+used for irrigation and  livestock drinking. 
+However, during dry season (February to 
+April), water table drops in the wells and 
+boreholes. Therefore, the water from the 
+Faskari Earth dam is commonly used for 
+construction works. As a result of the large 
+number of animals that use the dam as 
+compared with its size, the colour and odour 
+of the water change s. This among other 
+reasons makes the quality of the water for 
+construction work  question able. Caribbean 
+(2013) recommended that water suspected to 
+contain some impurities should b e tested to 
+determine whether the impurities can affect 
+the concrete strength development. Based on 
+this there is need to investigate the properties 
+of the Faskari Earth Dam Water and its effect 
+on fresh properties and compressive strength 
+of  concrete. 
+Water in concrete 
+After mixing and placement, concrete los es 
+its plasticity, solidifies and hardens due to a 
+chemical reaction known as hydration. For 
+concrete production, hydration occur s when 
+water reacts with the cement, thus b inds the 
+aggregates together and eventually forming a 
+stone like material (Isabella, 2015). This 
+reaction is responsible for the properties and 
+quality of the final concrete. Hence, the 
+quality of the cement paste determines the 
+characteristics of concrete. Also the strength 
+of the paste, in turn, depends on the mixing 
+water and water ceme nt ratio (Sahu, 2004). 
+High quality concrete is produced by 
+lowering the water -cement ratio, provided 
+the concrete is properly mixed, placed, 
+consolidated and cured.  Thus, the quantity of 
+water should be adequate to initiate hydration 
+and give adequate workability (Shetty, 2005). 
+Cement requires time to fully hydrate before 
+it acquires expected strength and hardness, 
+thus concrete must be cured once it has been 
+placed for optimum hydration. Curing is the 
+process of keeping concrete under a specific 
+environmental condition until hyd ration is 
+relatively complete (Tsivilis, 2000). Water is 
+very essential for this process, thus quality of 
+water for this process has to be ensured. 
+Moreover, the quality of water can further 
+affect some important properties of concrete, 
+such as setting time, workability, 
+compressive strength and durability (Nikhil 
+et al, 2014). Generally, water which is fit for 
+drinking may be considered suitable for 
+making concrete. However, some water may 
+not be fit for drinking but suitable for use in 
+concrete.  
+--- PAGE 3 ---
+An assessment of the effect of Faskari Dam water 
+52 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+In order to define the quality of water for 
+making concrete, it is necessary to 
+understand the effects of various impurities 
+on the concrete properties. Excessive 
+impurities in water for mixing and curing of 
+concrete affect not only its setting time but 
+also its strength, workability and durability. 
+Based on this, Neville (2006) recommended 
+some limits of impurities of water to be 
+tolerated for concrete production. 
+Neville (2006) opined that water with pH 
+range of 6.0 to 8.0 is good for concreting. 
+Furthermore, mixing water with high content 
+of suspended solids needs to be tested before 
+use in concrete work. According to ASTM 
+C1602 (2018) compressive strength and 
+setting time are the concrete performance 
+requirements of mixing water. Natural waters 
+that are slightly acidic are harmless, but water 
+containing humus or organic acids may 
+adversely affect the hardening of concrete 
+(Neville, 1996).  Chatveera et al  (2006) 
+observed that the use of recycled sludge 
+water as mixing water for concrete reduces 
+workability and strength of concrete. Su et. al 
+(2002) investigate the effect of various types 
+of mixing water on the properties of mortar 
+and concrete and reported that wash water is 
+good for concrete mixing. 
+However, the basic requirement of water for 
+concrete is that it should be fit for drinking. 
+The question that comes to mind is the 
+availability of potable water for concrete 
+work. But in developing countries like 
+Nigeria, only a few percent of the populace 
+has access to adequate potable water for their 
+domestic consumption. This implies that it 
+will be difficult for an average contractor to 
+afford potable water in construction works 
+(concrete) all the time. Therefore, there is a 
+need to investigate the suit ability of the 
+alternative sources of water for concrete 
+production. 
+ 
+ 
+ 
+MATERIALS AND METHODS 
+Materials 
+Water: Two water samples were used for the 
+research. Public tap water fit for drinking  as 
+a control sample  and Faskari Earth Dam 
+Water  as test s pecimen. Faskari Earth Dam 
+Water was collected at the point where the 
+water is more disturbed.  
+Cement: The cement used was Dangote 
+brand of Portland Limestone.  
+Clean air -dried river sand  obtained from 
+Shika area was used as fine aggregate.  
+crushed granite stones of 20mm maximum 
+size were used as coarse aggregates.  
+Methods 
+Physical properties of the water were 
+investigated by observations  as shown in 
+Table1. Chemical analysis of water sample 
+from the Faskari Earth Dam was carried out 
+in the Multi User Research Laboratory of 
+Department of Chemistry, Ahmadu Bello 
+University Zaria  the result is presented in 
+Table 2.  Initial and final setting time of the 
+cement were tested using both tap water and 
+Faskari earth Dam water by use of vicar 
+apparatus in accordance with NIS 447 (2003) 
+and ASTM 191 (2004) provisions  the result 
+shown in Table 3. 
+For the production of the concrete ratio 1:2:4 
+was adopted for the concrete mix. Also , 
+materials were batched by weight, mixed and 
+compacted manually. For both the control 
+and test samplea concrete mixes, workability 
+test was carried out by use of slump test based 
+on ASTM 143 (1994) guidelines. Slump test 
+was carried out in the Laboratory of 
+Department of Building, Ahmadu Bello 
+University Zaria. Forty numbers (40) of 
+100mm x 100mm x 100mm co ncrete cubes 
+where produced, cured and tested for 
+compressive strength test at 7 days, 14 days 
+21 days 28 days. At each testing period five 
+(5) cubes were selected and crushed.  The 
+compressive strength test result is on Figure 
+1.  
+ 

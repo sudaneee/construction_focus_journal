@@ -1,0 +1,245 @@
+--- PAGE 1 ---
+Construction Focus, Vol 17. No 1, (2024). 1 – 15                        
+ 
+AN ASSESSMENT OF IT TOOLS REQUIRED FOR DIGITAL 
+TRANSFORMATION OF GSCM PROCESSES IN THE NIGERIAN 
+CONSTRUCTION INDUSTRY 
+BELLO Amina Sani1, ABDULLAHI Muhammad1, AHMADU Hassan Adavariku1, 
+ABUBAKAR Muawiya2, SANI Amina Bashir1. 
+1Department of Quantity Surveying, Ahmadu Bello University, Zaria 
+2Department of Building, Ahmadu Bello University, Zaria 
+ 
+Correspondence: ammabee615@gmail.com 
+ 
+ABSTRACT 
+Green Supply Chain Management (GSCM) is poised to be instrumental in guiding the 
+construction sector toward more environmentally sustainable practices. As the industry 
+increasingly embraces digital tools to automate supply chain processes, there is a growi ng 
+necessity to integrate GSCM principles. This shift not only enhances operational efficiency 
+but also aligns with the broader goal of fostering sustainability within construction practices. 
+Hence, this study is aimed at assessing GSCM processes in construction and tool s required 
+for digital transformation. To achieve this, a quantitative approach was adopted. A total of 
+398 questionnaires were sent to construction professionals in Nigeria, through purposive 
+sampling. The data obtained from the survey was analy zed using descriptive statistics, 
+specifically means and percentages.  The results revealed “Green construction ( 4.30) to be 
+the most applied process, followed by Green Procurement ( 4.26) and Green Design (4.26). 
+The study also revealed the most important tools for digital transformation of the processes 
+in GSCM to be: BIM (4.10), Blockchain technology (3.96) and RFID with IOT sensors (3.86). 
+The study recommends that Organizations should leverage the digital transformation tools 
+that are essential for advancing sustainable practices in the construction industry by 
+optimizing operations and fostering greater accountability throughout the supply chain. 
+KEYWORDS: Construction, Digital Transformation, GSCM, IT tools, Nigeria, Processes 
+ 
+INTRODUCTION 
+Climate change, driven by rising greenhouse 
+gas (GHG) emissions and resource depletion, 
+presents one of the most significant 
+challenges of the twenty -first century 
+(UNEP, 2010). The construction sector is a 
+major contributor to this crisis, accounting 
+for approximately one-third of global carbon 
+emissions, one-third of global resource 
+consumption, 40% of the world’s energy 
+consumption, 40% of global waste generated, 
+and 25% of total water consumption  (Wang 
+et al. 2022 ). In response to these 
+environmental ch allenges, Green Supply 
+Chain Management (GSCM) has been 
+adopted in the construction industry to 
+mitigate these impacts. According to Ali et al. 
+(2023), GSCM streamlines supply chain 
+processes and promotes sustainable practices 
+that significantly reduce the environmental 
+footprint of construction activities. 
+Digital transformation is revolutioni sing 
+various industries, with the construction 
+sector at the forefront. As noted by 
+--- PAGE 2 ---
+An assessment of IT tools…..  
+2 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+Samuelson and Stehn (2023), the 
+construction industry faces unique 
+challenges, such as fragmentation and a 
+project-based structure, which necessitate 
+innovative approaches to enhance 
+operational efficiency and sustainability. 
+Lerman et al. (2022) opined that t he 
+integration of digital tools into GSCM 
+processes is vital for addressing these 
+challenges, optimising resource utilisation, 
+and minimising environmental impacts . 
+Recent studies underscore the importance of 
+adopting digital procurement platforms, 
+supply chain management software, and IoT 
+technologies to streamline operations  
+(Attaran, 2020;  Althabatah et al., 2023; 
+Ikevuje et al., 2024) . For example, a report 
+from The Build Chain highlights how 
+contractors like Rasico Construction and 
+THB have successfully leveraged digital 
+procurement platforms to improve material 
+sourcing processes, achieving significant 
+time savings and enhanced proje ct delivery 
+(The Build Chain, 2023). Furthermore, the 
+shift towards digital supply chain 
+management is not solely foc used on 
+efficiency; it represents a strategic move 
+towards a more sustainable construction 
+industry that aligns with contemporary 
+environmental goals (Raiden & King, 2021). 
+Several studies have explored the digital 
+transformation of conventional construction 
+supply chains (Wang et al., 2020; Hijazi et 
+al., 2022). Cherian et al. (2021) developed a 
+framework for digital transformation in 
+construction supply chains. However, there 
+remains a gap in comprehensive studies 
+assessing the Information Technology (IT) 
+tools necessary for the digital transformation 
+of GSCM in construction.  This will provide 
+construction firms with the knowledge 
+needed to select, implement, and leverage IT 
+tools effectively within GSCM frameworks. 
+This supports transformational change 
+towards more sustainable, efficient, and 
+accountable construction supply chains, 
+which are increasingly demanded by 
+regulators, clients, and society. 
+ Therefore, this study aims to evaluate 
+GSCM processes within the construction 
+industry alongside the tools required for their 
+digital transformation 
+LITERATURE REVIEW 
+Concept of GSCM in Construction 
+Green Supply Chain Management (GSCM) 
+involves managing all activities related to 
+minimizing the environmental impact of a n 
+organization’s supply chains  
+(Balasubramanian & Shukla, 2017). The goal 
+is to achieve zero net harm to the 
+environment from all the supply chains that 
+contribute to the production of its final 
+products. This approach is aimed at reducing 
+the environmental footprint of companies and 
+promoting sustainability (Goncalves & Silva, 
+2021; Paletta et al. ). GSCM is considered to 
+be the most effective management tool that 
+aims to in tegrate environmental 
+sustainability thinking into the built 
+environment (Oyefusi et al. 2022). 
+Several studies, though not all, considered 
+the objectives of GSCM. These were argued 
+to be: increasing the competitive advantage 
+of a firm (Woo et al., 2016), providing 
+stakeholders with added value (Da Rocha et 
+al. (2009), and improving the performance of 
+a supply chain ecologically, economically, 
+and operationally (Balasubramanian  & 
+Shukla, 2017). 
+GSCM Processes in Construction 
+Green Supply Chain Management (GSCM) 
+integrates environmental factors into 
+traditional Supply Chain Management 
+(SCM) practices, covering the entire lifecycle 
+from design to end -of-life management 
+(Setyaning et al., 2020). Its application in 
+construction spans key supply chain phases: 
+pre-contract, contract, and post -contract 
+(Yevu et al., 2021). 
+--- PAGE 3 ---
+Bello et al.  
+3 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+At the pre-contract stage, GSCM emphasizes 
+optimizing processes such as bidding, 
+evaluation, and supplier sourcing to ensure 
+sustainability and compliance with 
+environmental standards. The contract stage 
+targets green logistics and sustainable 
+production o f construction materials and 
+components, minimizing environmental 
+impacts during project execution. Post -
+contract phases focus on ongoing green 
+operations and maintenance (Naniekh et al., 
+2019). 
+Several frameworks have been developed to 
+articulate GSCM in construction. For 
+example, Naniekh et al. (2019) propose five 
+core concepts: green initiation, green product 
+design, green material management, green 
+construction, and green operation and 
+maintenance. Wibowo et al. (2018) expand 
+this to include 22 dimensions and 82 
+elements across these concepts, stressing 
+comprehensive stakeholder involvement and 
+performance measurement. Similarly, 
+Wiguna et al. (2021) highlight the importance 
+of managing hazardo us materials, waste 
+reduction, and management support systems 
+(EMS, ISO 14001) as essentials for GSCM 
+implementation. 
+Badi (2019) offers a systemic view, defining 
+GSCM as a holistic approach to minimize 
+environmental harm while improving 
+competitiveness and stakeholder value, 
+driven by environmental regulations and 
+business efficiency demands. Oyefusi et al. 
+(2024) further extend this by linking GSCM 
+with regenerative supply chain management, 
+emphasizing innovation toward restoration 
+and long-term ecological resilience. 
+Eco/Green Design 
+This is of paramount importance for the 
+sector, as decisions made  during this stage 
+will significant ly influence the life -cycle 
+environmental impact of  the building  
+(Balasubramanian &  Shukla, 2017 ; 
+Handayani et al., 2021 ). Green design in 
+construction supply chain management refers 
+to the integration of environmental 
+considerations throughout the entire supply 
+chain of a construction project, from design 
+and material sourcing to construction and 
+waste management (Albayrak & Ozdemir, 
+2022; Ding et al., 2021). This approach aims 
+to minimize the construction process 's 
+environmental impact a nd c reate more 
+sustainable and resource-efficient buildings. 
+Green Procurement/Purchasing 
+According to Titus and Brochner (2005), 
+Construction procurement is a key activity 
+within the supply chain associated with the 
+provision of construction works and forms an 
+integral part of supply chain management 
+functions. Procurement as such is an integral 
+part of construction projects and occ urs at 
+any point in a project cycle where external 
+resources are required to provide supplies 
+and services in any combination green 
+procurement, also known as environmentally 
+preferable purchasing (EPP), plays a vita l 
+role in green supply chain management 
+(GSCM) within the construction industry  
+(Pomponi & Moncaster,  2017). By 
+integrating environmental considerations 
+into the entire purchasing process, 
+construction companies can significantly 
+reduce their environmental impact and 
+promote sustainable practices throughout 
+their supply chains (Zhu et al., 2014). 
+Green Transportation 
+According to Oyefusi et al. (2022), Statistics 
+show that transportation alone is responsible 
+for a seventh of greenhouse gas emissions. 
+As a result, the Intergovernmental Panel on 
+Climate Change (IPCC) concludes that 
+transport systems must seek to concurrently 
+enhance mobility, and build resilience to 
+climate change. Furthermore,  Woods & 
+Hollnagel (2017)  opined that the built 
+environment professionals must seek to 
+design, construct, use, and operate  transport 
+infrastructure in a way that optimises 

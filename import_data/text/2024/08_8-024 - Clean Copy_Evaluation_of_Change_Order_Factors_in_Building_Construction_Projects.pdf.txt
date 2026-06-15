@@ -1,0 +1,276 @@
+--- PAGE 1 ---
+Construction Focus, Vol 14, No 1 (2024), 100 – 113       
+ 
+AN EVALUATION OF CHANGE ORDER FACTORS AFFECTING BUILDING 
+CONSTRUCTION PROJECTS IN NIGERIA 
+LAWAL Yarima Sallau1, ISHAQ Ziyadul Hassan1, IBRAHIM Aliyu Makarfi1, 
+ISHAQ Nafiu1, MACHINA Musa Adamu2 
+ 
+1 Department of Building, Ahmadu Bello University Zaria, Nigeria. 
+2 Department of Building, University of Maiduguri, Nigeria. 
+ 
+Correspondence: yerimasallau@gmail.com 
+ABSTRACT 
+Construction projects (CPs) are inherently prone to change orders (COs) due to their 
+complex, dynamic, and capital -intensive nature, as well as the involvement of multiple 
+stakeholders. COs if left unmanaged, can significantly compromise overall project 
+success. Although numerous studies have investigated change order factors globally, the 
+occurrence and influence CO exert in projects vary across regions and may change over 
+time. This study evaluated the likelihood of occurrence (LO) of CO factors and the extent 
+to which the factors could result in COs in building construction projects. Quantitative 
+research approach was adopted. Structured questionnaires were administered to 
+construction practitioners to collect data using convenience sampling technique. Da ta 
+were analyzed using descriptive statistics and the Kruskal–Wallis test. Findings revealed 
+‘change in economic conditions’, ‘change of schedule ‘, and ‘unforeseen problems’, to 
+be the CO factors with highest LO in CPs. Additionally, ‘change in economic conditions’, 
+clients’ inflexible stance on project’, ‘errors and omissions in design’ were found to be 
+the top CO factors with highest tendency of resulting in CO in CPs. The Kruskal –Wallis 
+test further revealed no statistically significant difference in respondents’ overall ratings. 
+The study concludes that, several CO factors have high LO in CPs which could potentially 
+results to changes during CPs execution . The study recommends early identification of 
+potential factors that could result to changes in CPs to minimise cost and time variations 
+in CPs execution. 
+KEYWORDS: Building, Construction projects, Change orders, Change order factors,  
+Nigeria 
+ 
+INTRODUCTION 
+Change orders (COs), also referred to as 
+variations or modification requests, are a 
+prevalent phenomenon in construction 
+projects worldwide, including building 
+projects in Nigeria. While COs may arise 
+from legitimate project needs  – such as 
+unforeseen site conditions, client -driven 
+changes, or regulatory revisions  – they 
+frequently disrupt planned schedules, 
+budgets, and workflows, creating 
+cascading challenges for project 
+stakeholders. Typically occurring during 
+the construction phase, COs modify the 
+original contract scope, often resulting in 
+adjustments to project costs, timelines, 
+and overall performance (Khalifa & 
+Mahamid, 2019; Kim et al., 2020). 
+Parker (2002) defines a CO as any 
+deviation from the initially agreed -upon 
+construction plans, specifications, or 
+methods. These deviations can 
+significantly influence project outcomes, 
+particularly in developing economies 
+like Nigeria, where COs have been 
+strongly associated with delays, cost 
+overruns, disputes, and even project 
+abandonment (Aibinu & Jagboro, 2002; 
+Al-Kofahi, Mahdavian, & Oloufa, 2020). 
+ 
+COs can be categorized based on their 
+nature and necessity as additive 
+--- PAGE 2 ---
+Lawal et al. 
+101 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+(introducing additional work and 
+increasing cost/time) and deductive 
+(removing work elements and reducing 
+cost/time), or partial terminations 
+involving substantial scope 
+modifications (Luke & Farkey, 2018). 
+By predictability, COs may be 
+anticipated (forese en and planned in 
+advance) or emergent (unforeseen and 
+arising during execution). By necessity, 
+they may be required (mandatory for 
+project completion) or elective (initiated 
+at stakeholder discretion). While some 
+COs can improve outcomes – enhancing 
+quality, optimizing costs, or accelerating 
+schedules – detrimental COs often 
+impair performance, leading to 
+inefficiencies, conflicts, and reduced 
+productivity (Shrestha, Shrestha, & 
+Zeleke, 2019). 
+Empirical research across global 
+contexts reveals recurring drivers and 
+effects of COs. In Palestine, Mujahed 
+(2015) identified owners and consultants 
+as primary initiators of COs due to 
+frequent design changes and added work, 
+leading to significant time a nd cost 
+overruns. Similarly, Khalifa and 
+Mahamid (2019) and Alkhattabi et al. 
+(2023) found that in Saudi Arabia, 
+owner-initiated additions, design errors, 
+poor coordination, and financial 
+constraints are the most frequent triggers 
+of Cos – with up to 75% of cases deemed 
+preventable through better planning and 
+communication. Studies by Senouci et 
+al. (2016) and Jarkas and Mubarak 
+(2016) further emphasize that weak 
+scope management, inadequate 
+documentation, and poor stakeholder 
+coordination are key CO determinants in 
+developing regions. 
+To mitigate these effects, researchers 
+have proposed several change order 
+management (COM) frameworks. Abad, 
+Eshtehardian, and Taghizade (2019) 
+developed a fuzzy fault -tree model to 
+proactively assess CO risks, while 
+Gunduz and Mohammad (2020) and 
+employed multi-criteria and structural 
+equation modeling approaches to link 
+effective CO management with project 
+success. Their findings underscore the 
+critical role of communication, 
+documentation, and dispute resolution 
+mechanisms in controlling CO frequency 
+and impact. More recently, Shabani and 
+Nik-Bakht (2021) and Du et al. (2019) 
+highlighted the potential of system 
+dynamics and multi -agent modeling in 
+visualizing the ripple effects of COs on 
+productivity and project duration. 
+Despite growing scholarly attention, 
+construction projects in Nigeria continue 
+to experience frequent and disruptive 
+change orders, often resulting in 
+significant cost and time overruns. Most 
+existing studies have focused on 
+individual CO causes or mitigat ion 
+mechanisms in developed or Middle 
+Eastern contexts, with limited empirical 
+evidence addressing how multiple CO 
+factors interact within Nigeria’s socio -
+economic and institutional environment. 
+The absence of localized, data -driven 
+analysis limits the abi lity of Nigerian 
+construction practitioners  and 
+policymakers to prioritize high -impact 
+CO drivers and d evelop effective 
+mitigation strategies. 
+Although several international studies 
+(e.g., Abad et al., 2019  and Gunduz & 
+Mohammad, 2020) have explored 
+change-order management using 
+advanced modeling techniques, few have 
+examined the likelihood and impact of 
+CO factors specific to building projects 
+in developing countries, particularly 
+Nigeria. Also, CO factors are not alike 
+across all regions and the potential 
+degree of impact may change with time . 
+Moreover, prior research es rarely focus 
+on factors uniquely affecting Nigerian 
+construction projects. T hus, there 
+remains a clear need for an empirical 
+investigation tailored to Nigeria’s 
+context to bridge this knowledge gap. 
+This study aims to evaluate  the 
+likelihood of occurrence of CO factors 
+and the extent to which the se factors 
+--- PAGE 3 ---
+An evaluation of change order…..  
+102 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+could result into CO in building 
+construction projects in Nigeria , with a 
+view to providing foundation  for 
+developing practical insights and 
+management strategies to minimizing 
+CO-related disruptions thus, improving 
+project delivery outcomes. 
+LITERATURE REVIEW 
+Causes of Change Orders in 
+Construction Projects 
+Change orders (COs) are inevitable in 
+complex construction environments, 
+reflecting necessary adjustments to 
+design, scope, or conditions encountered 
+during execution. However, they often 
+lead to disputes, cost overruns, and 
+schedule delays if poorly manag ed 
+(Hanna & Iskandar, 2017; Senouci et al., 
+2016). A wide range of causes has been 
+identified across project contexts.  
+Design-related factors – including errors, 
+omissions, and inadequate detailing – are 
+among the most frequent triggers (Jarkas 
+& Mubarak, 2016; Oladiran & Onatayo, 
+2018; Khalifa Khalafallah & Shalaby, 
+2019). Owner -initiated scope changes, 
+financial constraints, and late decision -
+making also contribute significantly to 
+CO incidence (Khalifa & Mahamid, 
+2019; Kim et al., 2020 ; Alkhattabi et al, 
+2023; Lawal et al., 2024 ). Contractor -
+related issues, such as resource 
+shortages, coordination lapses, and poor 
+communication, further amplify CO 
+occurrence ( Gbleyi, 2002 ; Du et al., 
+2019). Environmental and unforeseen 
+conditions – such as latent ground r isks, 
+unexpected site obstructions, or climatic 
+variations – introduce additional 
+variability (Kim et al., 2020; Shrestha & 
+Shrestha, 2019). Also, Lawal et al. 
+(2024), identified, harmonized and 
+categorized CO factors as planning 
+related factors (change in scope of work, 
+change of schedule, value engineering, 
+inadequate strategic planning); client 
+related factors (clients’ financial 
+problem, client’s inflexible stance on 
+project demand); design and consultant 
+related factors  (errors and omissions in 
+design, conflicts between contract 
+documents, consultant's lack of 
+judgment and experience, non-compliant 
+design with government regulations, 
+design complexity); contractor -related 
+factors (lack of contractor’s involvement 
+in design, contractor's desired 
+profitability, defective workmanship, 
+health and safety regulations 
+considerations); material and equipment 
+related factors (technology change, 
+unavailability of materials); coordination 
+and communication related factors 
+(impediment in prompt decision-making 
+process, lack of coordination among 
+stakeholders); procurement related 
+factors (poor procurement process, long 
+lead procurement); and external 
+conditions related factors (different site 
+conditions, adverse weather conditio n, 
+change in government regulations, 
+change in economic conditions, socio -
+cultural factors, unforeseen problems).  
+Moreover, procurement methods 
+influence the frequency and magnitude 
+of COs, with design -bid-build projects 
+generally showing higher CO rates 
+compared to design  & build 
+arrangements (Alleman et al., 2020). In 
+developing countries like Nigeria, these 
+causes are compounded by unstable 
+economic conditions, limited 
+stakeholder coordination, and weak 
+documentation culture, leading to 
+compounded CO imp acts on delivery 
+outcomes (Aibinu & Jagboro, 2002; Al -
+Kofahi et al., 2020). 
+ 
+Change Orders  in Developing 
+Countries 
+The dynamics of COs differ 
+considerably across global regions due to 
+variations in institutional maturity, 
+procurement culture, and economic 
+stability. In developing countries, 
+including Nigeria, COs tend to occur 
+more frequently and have more severe 
+effects due to inadequate planning, weak 
+governance structures, and fluctuating 

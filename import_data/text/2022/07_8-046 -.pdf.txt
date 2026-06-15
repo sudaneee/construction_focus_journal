@@ -1,0 +1,259 @@
+--- PAGE 1 ---
+Construction Focus, Vol 15, No 1, (2022) 83 – 91             
+  
+APPRAISAL OF THE MITIGATING MEASURES TO THE CHALLENGES OF 
+PROJECT COST CONTROL TECHNIQUES IN NIGERIA 
+SAIDU Minin Mohammed and ADAMU Idris 
+Department of Quantity Surveying, Ahmadu Bello University, Zaria 
+Correspondence: smminin@yahoo.com  
+ 
+ABSTRACT 
+Effective project cost control is paramount for the successful delivery of construction 
+projects within budget. However, the application of cost control techniques in Nigeria is 
+fraught with challenges, including the use of obsolete methods, poor site mana gement, 
+and fluctuating material prices. While these challenges are well -documented, research 
+on specific mitigating measures remains scarce. This study aims to identify and appraise 
+the mitigating measures to the challenges of cost control techniques from the perspective 
+of Nigerian quantity surveyors. A quantitative research approach was employed, utilising 
+a cross-sectional survey design. A sample of 168 quantity surveyors from consultancy 
+and contracting firms in Abuja, Kaduna, and Kano was selected using simple random 
+sampling. Data were collected via a structured questionnaire and analy sed using 
+descriptive statistics (mean, standard deviation, and ranking) with the Statistical Package 
+for the Social Sciences (SPSS). The study achieved a 44% response rate (n=73). Findings 
+revealed that all thirteen identified mitigating measures were considered important. The 
+most critical measure was Development of a proper system  of site management  and 
+supervision, followed by Engaging the right professionals from the inception of the 
+project. The least critical, though still important, measure was Creating awareness on 
+the use of available tools and technology.  The research concludes that a holistic 
+implementation of the appraised measures is crucial for enhancing cost control efficacy 
+in the Nigerian construction industry. It is recommended that firms prioritise development 
+of proper systems of site management and supervision, while professional bodies should 
+encourage continuous practice development through workshops/seminars. 
+ 
+KEYWORDS: Construction Industry, Cost Control, Mitigating Measures, Nigeria, 
+Project Management, Quantity Surveying. 
+ 
+INTRODUCTION 
+The construction industry is a fundamental  
+and critical  driver of economic growth in 
+developing nations, contributing 
+significantly to the Gross Domestic Product 
+(GDP), Gross Fixed Capital Formation, and 
+fostering development through 
+infrastructure provision (Sanusi, 2008). In 
+Nigeria, despite its strategic importance, 
+the industry's performance is often marred 
+by persistent challenges, most notably 
+project cost overruns (Rahman et al., 2013). 
+The inability to complete projects within 
+their approved budgets represents a major 
+threat to contractors' profitability, client 
+satisfaction, and the overall sustainability 
+of infrastructure development.  
+Cost control, a fundamental component of 
+project cost management, is the practice of 
+identifying, monitoring, and reducing 
+project expenses to ensure objectives are 
+met within the stipulated budget ( PMI, 
+2021; Will, 2020). It is instrumental in 
+minimising resource wastage and 
+--- PAGE 2 ---
+Appraisal of the mitigating measures…. 
+84 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+enhancing profitability (Adjei et al., 2018). 
+Its primary objective is to identify and 
+reduce business expenses, thereby 
+maximising value and profitability 
+(Olawale & Sun, 2010).  
+Numerous techniques facilitate effective 
+cost control, ranging from traditional 
+methods like cost -value reconciliation to 
+modern tools such as Earned Value 
+Analysis (EVA), Critical Path Method 
+(CPM), and speciali sed software like 
+Primavera and Microsoft Project (Opatunji, 
+2018; Malkanthi et al., 2017). However, the 
+effective application of these techniques in 
+Nigeria is hindered by significant 
+challenges, including poor project 
+preparation, fluctuating prices of raw 
+materials, the use of obsolete methods, and 
+inadequate site management , and lack of 
+risk analysis, to monitor expenditure and 
+manage variances from the baseline plan  
+(Nuhu, 2019; Opatunji, 2018). 
+Previous research has extensively 
+documented these challenges, which 
+include fluctuations in material prices, poor 
+site management, inadequate project 
+preparation, inconsistent government 
+policies, and the use of obsolete methods 
+(Adjei et al., 2018; Opatunji, 2018). While 
+the problems are well -identified, a 
+significant research gap exists concerning 
+the systematic appraisal of measures to 
+mitigate these challenges. As noted by 
+Nuhu (2019), there is a pressing need for 
+scholarly inquiry into s olutions that can 
+enhance the efficacy of cost control 
+practices. 
+This study addresses this gap by 
+empirically investigating the mitigating 
+measures available to construction 
+professionals in Nigeria. It focuses 
+specifically on the perspectives of Quantity 
+Surveyors, who, as construction economists 
+and cost managers, are  central to the 
+financial stewardship of projects. The aim 
+of this research is to appraise the 
+importance of various mitigating measures 
+to the challenges of project cost control 
+techniques in Nigeria. This is achieved 
+through the following objectives:  to 
+identify potential mitigating measures to 
+the challenges of project cost control from 
+existing literature; to appraise the identified 
+mitigating measures based on the 
+perceptions of professional Quantity 
+Surveyors in Nigeria. 
+The findings are intended to provide 
+actionable insights for quantity surveyors 
+and other construction professionals to 
+fully realise the benefits of robust cost 
+control practices, with a view to improving 
+cost performance on construction projects, 
+thereby enhancing the industry's overall 
+efficiency and reliability. 
+LITERATURE REVIEW 
+Project Cost Control and Its Techniques 
+Project cost control is a dynamic process 
+within cost management, focused on 
+influencing the factors that create changes 
+to the cost baseline and managing changes 
+when they occur (PMI, 2021). Its purpose is 
+to limit client expenditure to the agreed 
+budget and ensure value for money. Over 
+the years, a wide array of techniques has 
+been developed to aid professionals in 
+managing construction costs. These can be 
+broadly categori sed into traditional and 
+modern methods. Traditional techniques 
+include the bill of quantities (B OQ), 
+approximate estimating, and cost -value 
+reconciliation (Seeley, 1996). While still 
+relevant, these methods are often 
+supplemented or replaced by modern, more 
+dynamic techniques.  Modern techniques 
+leverage analytical and software -based 
+approaches to provide real -time project 
+insights. These include: 
+Earned Value Analysis (EVA) : A 
+quantitative technique for evaluating 
+project performance by integrating scope, 
+schedule, and cost metrics (Cost 
+Performance Index, Schedule Performance 
+Index) to forecast project outcomes (Lucas, 
+2008; Opatunji, 2018). 
+Risk Analysis : This involves identifying, 
+quantifying, and developing responses to 
+financial risks that could impact project 
+--- PAGE 3 ---
+Saidu et al. 
+85 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+costs, thereby creating contingency plans 
+and mitigating potential overruns 
+(Agnieszka & Mariusz, 2015). 
+Project Scheduling and Network Analysis 
+(PERT/CPM): Program Evaluation and 
+Review Technique (PERT) and Critical 
+Path Method (CPM) are used to plan, 
+schedule, and control project timelines and 
+associated costs, allowing for optimi sation 
+and resource allocation (Gurcharan & 
+Jagdish, 2013). 
+Whole-Life Costing : This technique 
+evaluates the total cost of ownership, 
+encompassing initial capital costs as well as 
+subsequent operational, maintenance, and 
+disposal costs, facilitating more sustainable 
+and economically sound design choices 
+(Ashworth, 2002). 
+Project Management Software: Tools such 
+as Primavera and Microsoft Project have 
+become indispensable for integrating 
+scheduling, resource allocation, and 
+cost/budget tracking, providing a 
+centralised platform for project control 
+(Corey et al., 2018). 
+Challenges to Effective Cost Control in 
+Nigeria 
+Despite the availability of these 
+techniques, their successful 
+implementation in the Nigerian 
+construction industry faces significant 
+impediments. Adjei et al. (2018) and 
+Opatunji (2018) identified several key 
+challenges, which can be synthesised into 
+three categories: 
+Human and Managerial Factors : These 
+include a lack of knowledge regarding 
+modern tools and technologies, inconsistent 
+application of cost control processes, and 
+over-emphasis on results while ignoring the 
+underlying causes of variances (Adjei et al., 
+2018). Furthermore, a lack of professional 
+development and an unwillingness to 
+abandon obsolete methods hinder progress 
+(Benjaoran, 2009). 
+Process and Systemic Factors : Many 
+firms, particularly small and medium-sized 
+enterprises (SMEs), lack formal cost 
+control systems tailored to their needs. 
+Other issues include poor project site 
+management, inaccurate cost estimating 
+methods, and flawed procurement 
+practices, such as the over-reliance on the 
+lowest-bid award system, which can lead to 
+quality compromises and contractor failure 
+(Malkanthi et al., 2017; Opatunji, 2018). 
+External and Environmental Factors: The 
+Nigerian construction environment is 
+characterized by high volatility. 
+Fluctuations in the prices of raw materials, 
+inadequate funding, delayed payments 
+from clients (especially government 
+agencies), and inconsistent public policies 
+create a high -risk environment that 
+complicates budgeting and cost control 
+(Nuhu, 2019; Sanni & Hashim, 2013). 
+Mitigating Measures for Cost Control 
+Challenges 
+In response to these challenges, the 
+literature suggests several mitigating 
+measures. Nuhu (2019) and Opatunji 
+(2018) emphasi se the importance of 
+continuous professional development 
+through workshops and seminars to bridge 
+the knowledge gap. The adoption of clear 
+communication channels and the 
+development of robust site management 
+and supervision systems are also 
+highlighted as c ritical (Nuhu, 2019). 
+Thwala (2018) argues that engaging the 
+right professionals from project inception is 
+a foundational step to pre-empting many 
+cost-related issues. Furthermore, 
+addressing systemic problems requires 
+providing suitable cost control processes 
+for firms, ensuring adequate budget 
+provisions, and adjusting government 
+policies to facilitate prompt payments to 
+contractors, t hereby improving cash flow 
+and reducing project delays (Opatunji, 
+2018; Nuhu, 2019). This study seeks to 
+appraise these and other measures (Table 1) 
+within the Nigerian context. 

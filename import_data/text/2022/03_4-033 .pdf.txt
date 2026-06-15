@@ -1,0 +1,269 @@
+--- PAGE 1 ---
+Construction Focus, Vol 15, No 1, (2022), 36 – 49          
+ 
+ASSESSMENT OF HEALTH AND SAFETY INFORMATION 
+MANAGEMENT ON CONSTRUCTION SITES IN ABUJA, NIGERIA 
+ 
+KADI Olabanji Micheal1, SHITTU Abdulazeez Adewale2, AJAYI Oluwaseun 
+David1, AUDU Benjamin1, AMADUOBOGHA Ebiela Christy1 
+ 
+1Ibrahim Usman Jibril Institute for the Built Environment, Nasarawa State 
+University Keffi. 
+2Department of Quantity Surveying, Federal University of Technology, Minna  
+ 
+Correspondence: mikeolabanji@gmail.com  
+ 
+ABSTRACT 
+Rapid urbanisation and the growing construction activities in Abuja have heightened 
+workplace risks and underscored the importance of effective health and safety (H&S) 
+information management. This study assessed the types, accessibility, and perceived 
+usefulness of H&S information on construction sites in Abuja, Nigeria, with a view 
+to evaluating their role in promoting safer work environments. Data were collected 
+through structured questionnaires administered to 120 respondents, comprising 
+management perso nnel and operatives across ten active construction sites. 
+Descriptive and inferential statistics, including frequency distributions, mean 
+ranking, and the Chi -square Test of Independence, were employed in the analysis. 
+Findings revealed that personal prote ctive equipment (PPE) usage guidelines 
+(83.5%), toolbox talks (79.6%), and risk assessment reports (74.1%) were the most 
+accessible forms of safety information on construction sites, reflecting a strong 
+emphasis on preventive safety practices. Conversely, hazard identification charts 
+(46.3%), emergency plans (42.6%), and first aid procedures (39.8%) were less 
+accessible, highlighting persistent weaknesses in hazard communication and 
+emergency preparedness. The Chi-square analysis (χ²(1) = 0.458, p = 0.499) showed 
+no significant difference between management and operatives in access to PPE 
+usage guidelines, indicating equitable dissemination across job roles. The study 
+concludes that while safety information dissemination in Abuja’s construction sector 
+demonstrates moderate inclusivity and awareness, significant gaps remain in the 
+communication of hazard and emergency -related information. It recommends 
+stronger regulatory enforcement of safety communication standards through 
+periodic audits and the adoption of multiple communication channels such as visual 
+signage, mobile alerts, and scheduled drills to improve accessibility, preparedness, 
+and compliance across all staff categories. 
+ 
+KEYWORDS: Abuja, Construction Sites, Health and Safety, Information, 
+Management. 
+ 
+ 
+INTRODUCTION 
+Rapid urbanisation and Nigeria's 
+construction boom especially  in Abuja 
+have intensified project complexity and 
+risk. Globally, construction remains one 
+of the most hazardous industries, with 
+falls, machinery accidents, and structural 
+failures causing a disproportionately 
+high share of occupational injuries and 
+fatalities (International Labour 
+Organisation [ILO], 2019). In Nigeria, 
+weak enforcement of safety regulations 
+and patchy recordkeeping exacerbate 
+--- PAGE 2 ---
+Kadi et al.  
+37 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+these risks (Akinwale & Olusanya, 2016; 
+Ajayi et al., 2015). 
+Effective health and safety (H&S) 
+management in construction depends on 
+robust information systems that capture 
+and disseminate data such as induction 
+records, toolbox talks, incident reports, 
+and safety documentation. When these 
+systems are effectively ma naged, they 
+support early hazard identification, 
+corrective action, and continuous 
+organisational learning, thereby 
+enhancing overall site safety. However, 
+evidence suggests that in Nigeria’s 
+construction sector, these information 
+systems are often poorly structured or 
+entirely absent (Emuze et al., 2014). This 
+weakness in information management 
+contributes to fragmented 
+communication, poor documentation, 
+and inadequate feedback mechanisms. 
+In the context of Abuja, studies have 
+revealed that many construction 
+organisations underreport incidents to 
+protect corporate reputation, leading to 
+unreliable safety statistics and weak 
+institutional memory. Consequently, 
+accident trends are poorly under stood, 
+and lessons from past incidents are rarely 
+incorporated into preventive measures. 
+Furthermore, Shittu et al. (2018) found 
+that adherence to safety standards across 
+firms in the Federal Capital Territory is 
+inconsistent and largely dependent on 
+individual organisational culture and 
+worker attitudes rather than systematic 
+information management. 
+Taken together, these findings highlight 
+that while existing research has 
+identified poor compliance and 
+underreporting as challenges, there is 
+limited empirical understanding of how 
+the management of health and safety 
+information itself including its 
+collection, storage, dissemination, and 
+use affects safety performance on 
+Nigerian construction sites. This gap 
+underscores the need to assess the 
+effectiveness of health and safety 
+information management systems in 
+Abuja’s construction industry and their 
+role in improving safety outcomes.Wang 
+& Wu (2018) noted that H&S 
+information management is a 
+performance-orientated approach to 
+construction by establishing a 
+safe working environment free of 
+accidents and ill health. Wang & Wu 
+(2018) pointed  out that one of the 
+leading causes of fatal hu man accidents 
+is inadequate provision of H&S 
+information. To minimise the 
+occurrences of accidents and risks on 
+construction sites, effective knowledge 
+and information sharing on H&S is 
+becoming imperative (Boadu et al.,  
+2020). The  study by Ezeet et al.  
+(2020) concluded that there was a  low 
+implementation of H&S information 
+management practices on construction 
+project sites by construction 
+organisations. This conclusion was 
+based on the high number of major 
+accidents observed in the study. 
+Construction o rganisations are thus 
+required to implement good H&S 
+management practices by 
+communicating a large amount of H&S 
+information to site operators, visitors, 
+and the general public so they can enjoy 
+the full benefits inherent in a sa fe work 
+environment. 
+ In this regard, Tanko et al.  (2020) 
+referred to policies to guide the 
+management of H&S information in the 
+industry. Despite this, measures and 
+techniques have evolved to better 
+minimise accidents and reduce the risks 
+of hazards, thereby ensuring effective 
+H&S management in the indus try. 
+Adebiyi et al. (2020) pointed out that for 
+a successful project delivery, 
+construction organisations should 
+provide H&S information, instruction, 
+and training to site operatives in a clear, 
+concise, and correct manner so t hat they 
+can carry out their responsibilities fully 
+aware of risks involved and measures to 
+prevent them. Against this background, 
+this study was conducted to identify and 
+--- PAGE 3 ---
+Assessment of health and safety information   
+38 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+assess H&S information on construction 
+sites to manage the information 
+effectively to enhance a safe work 
+environment.  
+Wang & Wu (2018) identified some 
+H&S information, such as the company’s 
+H&S policy, accident statistics, risks 
+associated with the current job, potential 
+risks to the H&S of the workers, location 
+and nature of hazards in the workplace, 
+and emergency and fi rst aid procedures. 
+Ignacio et al.  (2019) and Tanko et al.  
+(2020) emphasised the importance of 
+using, maintaining, and replacing 
+protective equipment. Adebiyi  et al.  
+(2020) also pointed out some H&S 
+information, such as preventive and 
+protective measures f or the risks and 
+hazards on site, procedures for safe 
+operation, site rules, and best practices in 
+the company. Other H&S information 
+includes injury and incident reporting 
+procedures, accident investigation, 
+procedures for resolving H&S issues, 
+disciplinary policy, learning from 
+accidents, and the identities of those who 
+have a role within the organisation’s 
+H&S management system. Despite the 
+existence of national and organisational 
+safety frameworks, the management of 
+health and safety (H&S) information o n 
+construction sites in Abuja remains 
+weak, inconsistent, and largely informal. 
+Many construction firms lack structured 
+systems for collecting, storing, and 
+disseminating safety-related information 
+such as risk assessments, hazard 
+registers, and incident reports. This often 
+leads to poor knowledge transfer, limited 
+accountability, and reactive rather than 
+preventive safety practices. The result is 
+persistent safety lapses, underreporting 
+of accidents, and inadequate learning 
+from past incidents. Consequently, there 
+is insufficient empirical understanding of 
+how the effectiveness of H&S 
+information management influences 
+safety performance on construction sites 
+in Abuja.  This study is significant 
+because it provides empirical evidence 
+on the state of H&S information 
+management practices within Abuja’s 
+construction sector. It advances 
+knowledge by linking information 
+management processes such as 
+collection, storage, dissemination, and 
+utilization with overall safety 
+performance outcomes. The aim of this 
+study is  to assess the effectiveness of 
+health and safety information 
+management on construction sites in 
+Abuja. 
+ 
+LITERATURE REVIEW  
+Health and Safety Management 
+Practices  
+H&S management practices are the 
+policies, procedures, and strategies 
+implemented by the organisation 
+targeted to the H&S of the workers 
+(Smallwood, 2013). The implementation 
+of H&S policies therefore influences the 
+practices of workers. Furthermore, Yap 
+and Lee (2019) opine that management 
+commitment contributes to best practices 
+and productive workers. According to 
+Witcher and Yario (2014), H&S 
+management practices influence 
+workers' knowledge, skills, motivation, 
+decision-making, attitudes, and 
+perceptions. 
+ Construction workers need a healthy and 
+safe environment to work in. Studies 
+have shown the link between H&S 
+management practices and work site 
+H&S performance (Cheng et al.,  2012; 
+Yap et al., 2019; Adebowale et al., 2020). 
+Several studies conducted in different 
+parts of the world with respect to H&S 
+management practices suggest different 
+interpretations. Mahila et al.  (2021) 
+categorised H&S management practices 
+into three groups, namely incentive 
+factors, process factors, and personal 
+factors. Cheng et al . (2012) view H&S 
+practices as H&S management 
+information, process, and committees.  
+Ismail et al.  (2012) reviewed studies 
+conducted in different countries such as 
+Australia, China, Finland, Jordan, 

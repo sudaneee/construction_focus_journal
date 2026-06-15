@@ -1,0 +1,237 @@
+--- PAGE 1 ---
+Construction Focus, Vol 14, No 1, (2021) 36 – 46  
+IMPROVISED TECHNIQUES OF EARTH BRICKS STABILISATION WITH 
+CASSAVA STARCH 
+KHALIL Ismail Muhammad1, MAMMAN Mas’ud 1, GETSO Ibrahim Abdullahi1 
+LAWAL Habiba Musa2 
+1Department of Building, Ahmadu Bello University, Zaria, Nigeria 
+2Department of Building, Nuhu Bamalli Polytechnic, Zaria, Nigeria 
+Correspondence: khalismail4ward@gmail.com  
+ 
+ABSTRACT 
+Compressed Earth Bricks technology is anchored in an initial concern to provide a new, 
+economically and socially relevant response to housing production for the World’s very poor. 
+As at now the information fully available on stabilisation of Compressed Stabilised Earth 
+Bricks (CSEBs) with alternative materials are on partial replacement of cement but not the 
+use of cassava starch alone. This work is aimed at improvising Earth Brick Stabilisation 
+techniques with cassava starch as the only binder. The adopted techniques are ‘Instant Dry 
+Mix (IDM)’; ‘Delayed Dry Mix (DDM)’; and ‘Cooked Paste Mix (CPM)’. Mechanical 
+properties of the specimens were determined after curing for 7, 14 and 28 days. From the 
+results of Compaction Characteristics and Compressive Strength of samples at 28days, the 
+CPM technique performs best with compressive strength of 2.71N/mm 2, greater than the 
+NBRRI minimum requirement of 1.65 N/mm 2 for compressed earth bricks. The volume of 
+cassava starch increases when cooked, therefore, it is concluded that CPM process is the 
+most appropriate technique of cassava starch bricks (CSBs) stabilisation that  can be cost 
+effective in low-cost housing development. Bricks produced using CPM can be applied for 
+the construction of walls in low rise buildings with proper protection from dampness as CS 
+is susceptible to water. 
+KEYWORDS: Alternative materials, Brick, Cassava starch, Housing production, 
+Stabilisation. 
+ 
+INTRODUCTION 
+Compressed stabilised  earth bricks 
+(CSEBs) are compressed earth bricks 
+(CEBs) made up of soil, water, and a 
+binder such as lime or cement to increase 
+strength ( Lime, 2001) . CSEBs are 
+applicable in various earth structures such 
+as houses, garages, workshops, garden 
+sheds, and a host of others. ILO-WEP 
+(1997), posited that the appropriate 
+stabilisation of CEBs requires soil 
+containing fine gravel/sand as the skeletal 
+frame of the brick, then silt and clay to 
+bind the sand particles together while 
+stabilisers are then added to control 
+expansion, strength and abrasion. 
+Stabilisation of soil with chemical binders 
+such as cement, involves similar technique 
+of mixing soil and binder in dry form first, 
+followed by the addition water to produce 
+sandcrete blocks and earth bricks. 
+CEB technology, as reviewed by GTZ 
+(1995), is anchored in an initial concern to 
+provide a new, economically and socially 
+relevant response to housing production 
+for the World’s poor population. The very 
+low carbon footprint of CSEB, compared 
+to concrete materials and cement stabilised 
+--- PAGE 2 ---
+Khalil et al.  
+37 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+ 
+bricks, asserted by MecoConcept (2013), 
+makes it an ultimate environmentally 
+friendly building material. F urther 
+stabilisation of CEBs with a binding agent, 
+produces CSEB which minimises linear 
+expansion that occur when water is added 
+to clay fraction and improves strength as 
+well as controls abrasion.  
+Housing delivery is a major problem 
+confronting the underdeveloped world 
+with several housing policies put in place 
+but without housing delivery. Population 
+growth rate in these parts of the world is 
+higher than the rate of housing provision 
+because the ac tual housing delivery 
+processes are not sustainable, (Daramola, 
+Alagbe, Aduwo, & Ogbiye, 2013) . 
+Challenges of housing in terms of quality 
+and quantity as observed by Ibimilua, 
+(2011), seem to be the same all over the 
+world. The poor have less access to 
+housing while the rich have upper hand in 
+accessing housing. In rural areas of 
+Nigeria, housing is generally inadequate in 
+terms of quality, while in urban areas the 
+major problem is th at of quantity. 
+Enhancing the quality of buildings in rural 
+areas requires the upgrading of rural 
+building materials such as earth and local 
+binders like cassava starch. In urban areas 
+where shortage in quantity is experienced, 
+developing cheaper but quality materials 
+such as CSEBs would go a long way to 
+ease the problem (Khalil, 2017). 
+Technological advancement has 
+contributed to greater productivity and 
+lesser construction cost and has even 
+reduced the adverse effects of construction 
+on the environment in many countries. But 
+developing countries are far from the 
+benefits of technology t o meet the 
+increasing demand of shelter for even the 
+low-income population. The United 
+Nations Centre for Human Settlements 
+(UNCHS) over the past decades, has been 
+promoting the development of appropriate, 
+energy-efficient and environmentally -
+sound constru ction technologies, which 
+heavily rely on locally available resources 
+(HABITAT, 2008).  The construction 
+industry is said to be the backbone of 
+national economic and social development 
+as revealed by several studies such as  
+(HABITAT, 1989) ; (Kerali, 2001)  and 
+(Namango., 2006). This is evident during 
+the periods of national economic growth 
+where construction activities grow more 
+rapidly than the economy as a whole.  
+Earth, as Gernot (2007)  posited, is a 
+naturally available material which is easy 
+to use even with low craft and skills. It 
+absorbs and desorbs humidity faster to a 
+higher extent than any other material; 
+produces hardly any environmental 
+waste; and balances indoor climate and 
+moisture movements creating a healthy 
+environment. Earth, according to Anant 
+and Murmu (2018), is abundantly 
+available in nature , has invariably been 
+the major construction material for 
+providing housing and other structures 
+around the world. Globally, it is estimated 
+that one third of the world’s population 
+lives in earth buildings acclaimed Little & 
+Morton (2001) . These are both modern 
+and traditional buildings, which occur in 
+most cultures and climates. In Nigeria, the 
+basic wall construction material in most 
+traditional architectures asserted by 
+Egenti, Khatib, & Oloke (2014) , is earth, 
+usually arranged in simple low -cost and 
+self-help construction methods. 
+Several simple publications on selecting 
+earth materials and brick presses are 
+available around the globe. Wayne (2011), 
+sited that some of these publications are 
+found with Brick pressing machine 
+manufacturers and that the United Nations 
+(UN) has simple soils testing information, 
+while many universities provide tests for 
+soils as well. In addition, soil engineering 
+has be en done in laboratories for road 
+--- PAGE 3 ---
+Improvised techniques.…. 
+38 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+ 
+construction materials which are basically 
+the same materials that are good for use in 
+walls, floors and arched roofs. All these 
+are based on cement, lime, and other 
+chemical stabilising agents. As at now no 
+information is fully available on processes 
+of CSEBs stabilisation with cassava starch 
+as an alternative material. 
+Cassava starch is an abundant and 
+environmentally friendly additive that is 
+used as soil stabiliser in mud walls and 
+mud construction locally in some areas of 
+Nigeria. Khalil (2005) , asserted that 
+cassava starch is used in the manufacture 
+of conical mud balls (local walling units) 
+called ‘tubali’, and also in wall rendering 
+as stabiliser in some parts of Northern 
+Nigeria. 
+According to Pacheco-Torgal & Jalali 
+(2012), earth construction has received an 
+increased attention by the scientific 
+community in the 1990s as illustrated by 
+several published research articles when 
+compared to decades before then. Earth 
+construction has a major expression in 
+developing countries and its importance 
+can be seen in some of the environmental 
+benefits associated with it such as 
+economic issues; renewable resource; little 
+waste generation; energy conservation; 
+minimal carbon dioxide emissions; and 
+proper indoor air quality. Little & Morton 
+(2001), have established that the principal 
+reason for using earth -based materials is 
+the excellent sustainability characteristics 
+exhibited by these materials. These 
+include low carbon emissions, efficient 
+use of finite resources, minimising 
+pollution, waste, a nd use of benign 
+materials, local sourcing and 
+biodegradability, but cassava starch cannot 
+be applied in much the same way as 
+cement in stabilizing soil for bricks 
+production. 
+Cement is directly added to soil, mixed 
+thoroughly before water is added to initiate 
+the hydration process that binds soil 
+particles together. Hydration does not 
+occur when cold water gets in contact with 
+cassava starch, therefore it is pertinent that 
+brick stabilisation techniques with cassava 
+starch (CS), are investigated so as to avail 
+scholars and end users with firsthand 
+information on its application as soil 
+stabiliser. 
+  
+MATERIALS AND METHODS 
+Materials 
+The materials for this research include 
+laterite as the primary material; cassava 
+starch as binder; and water. 
+                       
+                 Plate I: Laterite Soil        Plate II: Cassava Starch Powder              
+        
+The laterite soil was obtained from a 
+borough pit located at Biye in Sabon gari 
+local Government Area of Kaduna State. 
+The laterite was dried; screened pulverised 
+and sieved through the No. 4 sieve (5mm 
+aperture size). Cassava starch was 
+obtained in granular form from Sabon gari 
+market in Zaria, Kaduna State, Nigeria. It 
+was washed to remove dirt before 
+pulverising and sieving to powder as 
+shown in plate II.  

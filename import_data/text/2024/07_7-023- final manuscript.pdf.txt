@@ -1,0 +1,271 @@
+--- PAGE 1 ---
+Construction Focus, Vol 17, No 1, (2024) 94 – 109     
+ 
+A SYSTEMATIC REVIEW OF QUALITY ASSURANCE IN PREFABRICATED 
+AND MODULAR CONSTRUCTION 
+SADA Zainab1, YAHYA Kauthar2, ALHASSAN Faiza Abdullahi2 
+ 
+ 1Department of Architecture, Faculty of Environmental Design, 
+Ahmadu Bello University, Zaria 
+ 
+2Department of Architecture, College of Environmental Studies, Kaduna Polytechnic 
+Correspondence: zsada3@gmail.com  
+ 
+ABSTRACT 
+Prefabricated and modular construction (PMC) is increasingly adopted for its potential 
+to improve speed, cost efficiency, and sustainability in the built environment. However, 
+ensuring consistent quality across off-site manufacturing and on-site assembly remains a 
+significant challenge. This study conducts a systematic review of 25 peer -reviewed 
+publications (2010–2024) to examine quality assurance (QA) methods, frameworks, and 
+digital tools applied within PMC projects. The review identifies four key domains of QA 
+advancement: (1) Digital integration, including Building Information Modelling (BIM), 
+Internet of Things (IoT), and Artificial Intelligence (AI), which collectively reduce defect 
+rates by 27–40%; (2) Standardised QA frameworks such as ISO 9001, Lea n-DfMA, and 
+Statistical Process Control (SPC); (3) Implementation challenges, including skill gaps, 
+fragmented supply chains, and weak regulatory oversight; and (4) Regional disparities, 
+where developed regions such as the UK and Singapore demonstrate higher QA maturity 
+compared to emerging markets. Findings suggest that QA in modular construction must 
+evolve from a fragmented technical activity to a digitally enabled, lifecycle -wide 
+discipline supported by harmonised standards and workforce training. The paper 
+recommends integrated digital QA platforms, modular-specific certifications, and policy 
+intervention to enhance quality consistency and global scalability. 
+KEYWORDS: Modular Construction, Off-site Manufacturing, Prefabrication, Quality 
+Assurance 
+ 
+INTRODUCTION 
+The global construction industry is 
+undergoing a paradigm shift through the 
+increasing adoption of Prefabricated and 
+Modular Construction (PMC) methods. 
+These techniques  characterised by the 
+off-site manufacturing of components 
+and on -site assembly  offer significant 
+advantages in speed, cost efficiency, and 
+environmental performance. They have 
+become particularly relevant in the 
+context of rapid urbanisation and the 
+global push for sustainable development 
+(Kamali & Hewage, 2016; Li et al ., 
+2020). As Yeh (2021) observes, modular 
+construction has evolved from a niche 
+practice to a mainstream delivery 
+approach in response to the growing 
+demand for housing and infrastructure, 
+especially in high-density urban areas. 
+In developed contexts such as Singapore 
+and the United Kingdom, PMC has been 
+successfully deployed across residential, 
+commercial, and institutional projects 
+through the use of Building Information 
+Modelling (BIM), Lean -DfMA 
+principles, and integrated QA s ystems 
+(Lawson et al.,  2014; BCA, 2023). 
+However, the situation differs across 
+emerging economies, where policy 
+support, digital readiness, and skilled 
+labour availability are comparatively 
+limited. 
+--- PAGE 2 ---
+Sada et al.  
+95 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+In Nigeria and other parts of Sub -
+Saharan Africa, prefabrication and 
+modular methods are gradually gaining 
+traction. Pilot initiatives such as the 
+Lafarge Affordable Modular Housing 
+Project and the Nigerian Building and 
+Road Research Institute (NBRRI)  
+prototype housing systems have 
+demonstrated potential for improving 
+quality and speed in public infrastructure 
+delivery. Yet, local adoption remains 
+constrained by fragmented quality 
+standards, inconsistent regulatory 
+frameworks, and limited integration o f 
+digital QA tools. Similar challenges are 
+observed across African nations like 
+South Africa and Ghana, where modular 
+practices are expanding but often 
+without formal QA certification schemes 
+or clear technical benchmarks (NBRRI, 
+2023; CIDB South Africa, 2022). 
+Despite the advantages of PMC, 
+ensuring consistent quality across 
+decentralised manufacturing facilities 
+and diverse project environments 
+remains a significant challenge. Quality 
+problems often stem from design errors, 
+inadequate inspection protocols, and 
+poor coordination between factory and 
+site processes (Pan & Sidwell, 2011). 
+Without harmonised QA frameworks 
+and robust digital monitoring systems, 
+the efficiency gains of modular 
+construction risk being undermined by 
+rework, defects, and client 
+dissatisfaction. 
+Therefore, this study undertakes a 
+systematic review of global and regional 
+literature on QA in prefabricated and 
+modular construction. The objective is to 
+identify key frameworks, tools, and best 
+practices, highlight existing 
+implementation gaps, particularly within 
+developing contexts  and propose 
+strategies for establishing a digitally 
+enabled, standardised QA system 
+adaptable to both developed and 
+emerging economies. 
+LITERATURE REVIEW AND 
+THEORETICAL FRAMEWORK 
+The literature on Quality Assurance 
+(QA) in Prefabricated and Modular 
+Construction (PMC) reflects a growing 
+shift toward digitisation, standardisation, 
+and integrated management systems. 
+However, research remains unevenly 
+distributed, with most studies eme rging 
+from developed contexts such as the 
+United Kingdom, Singapore, and East 
+Asia (Lawson et al ., 2014; Pan et al ., 
+2018). Limited attention has been paid to 
+how these QA frameworks can be 
+contextualised and adapted for 
+developing countries, including tho se in 
+Africa, where policy environments and 
+industrial capacities differ significantly. 
+Digital Quality Assurance Tools 
+Digital technologies such as Building 
+Information Modelling (BIM), the 
+Internet of Things (IoT), and Artificial 
+Intelligence (AI) have been widely 
+adopted to enhance QA processes in 
+modular construction. BIM supports 
+early design -stage QA by facilitating 
+clash detection, spatial coordination, and 
+digital simulation of component 
+interfaces (Zhang et al ., 2020). IoT 
+sensors embedded in modular units 
+enable real -time monitoring of 
+temperature, humidity, and stress, 
+allowing for predictive maintenance and 
+defect prevention (Zhang et al ., 2021). 
+AI-driven image recognition has also 
+demonstrated up to 92% accuracy in 
+detecting manufacturing defects (Zhou et 
+al., 2023). 
+In the African context, however, 
+adoption remains limited due to 
+infrastructural and capacity constraints. 
+Studies by the Nigerian Building and 
+Road Research Institute (NBRRI, 2023) 
+and Construction Industry Development 
+Board South Africa (CIDB, 2022) note  
+that while some firms employ BIM for 
+design, its integration with QA remains 
+minimal. Strengthening digital literacy 
+and affordable technology access are 
+--- PAGE 3 ---
+A systematic review.…. 
+96 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+therefore essential to support regional 
+QA improvement. 
+QA Frameworks and Standards 
+Standardised frameworks underpin the 
+reliability of modular construction. The 
+ISO 9001 Quality Management System 
+remains the global benchmark, ensuring 
+process consistency and continual 
+improvement (Jang & Kim, 2021). 
+Complementary systems such as Lean -
+DfMA (Design for Manufacture and 
+Assembly) and Statistical Process 
+Control (SPC) enhance precision during 
+production and assembly stages 
+(Eastman et al ., 2018; Singh et al ., 
+2022). 
+Regionally, the Build  offsite Property 
+Assurance Scheme (BOPAS) in the UK 
+and the Prefabricated Prefinished 
+V olumetric Construction (PPVC) 
+accreditation in Singapore serve as 
+robust QA certification models (BCA, 
+2023; BOPAS, 2023). These initiatives 
+combine digital verification , factory 
+accreditation, and lifecycle assurance 
+mechanisms. 
+By contrast, Nigeria and other 
+developing countries lack modular -
+specific QA certification frameworks. 
+The Standards Organisation of Nigeria 
+(SON) and NBRRI have made progress 
+in developing national building quality 
+benchmarks, but modular manufacturing 
+standards are still evolving. The absence 
+of unified QA schemes hinders investor 
+confidence and scalability in 
+prefabricated housing. 
+Theoretical Foundations: TQM, 
+Lean, and Six Sigma 
+Quality assurance in modular 
+construction draws upon three 
+foundational management theories: Total 
+Quality Management (TQM), Lean 
+Construction, and Six Sigma. 
+I. TQM focuses on continuous 
+improvement, stakeholder 
+collaboration, and prevention of 
+defects (Oakland, 2014). 
+II. Lean Construction, adapted from 
+the Toyota Production System, 
+eliminates waste and streamlines 
+workflows through value stream 
+mapping and Just -In-Time 
+delivery (Pasquire & Connolly, 
+2002). 
+III. Six Sigma applies statistical tools 
+to minimise process variation, 
+typically through the Define –
+Measure–Analyse–Improve–
+Control (DMAIC) cycle 
+(Mastroianni & Abdelhamid, 
+2003). 
+These frameworks provide the 
+theoretical foundation for digital and 
+process-based QA in modular 
+construction. While they have been 
+successfully integrated into 
+manufacturing in the UK and Asia, their 
+adaptation within African modular firms 
+remains limited due to a lack of 
+standardised data collection and 
+performance tracking mechanisms. 
+Regional and Policy Perspectives  
+While global research on quality 
+assurance (QA) in prefabricated and 
+modular construction is extensive, much 
+of it originates from technologically 
+advanced economies such as the UK, 
+Japan, Singapore, and China (Blismas & 
+Wakefield, 2009; Mao et al ., 2022). In 
+contrast, emerging regions  particularly 
+Sub-Saharan Africa  remain 
+underrepresented in scholarly discourse, 
+despite rapid urbanisation and housing 
+deficits driving interest in modular 
+approaches. 
+In recent years, African governments and 
+research institutions have started 
+recognising the strategic role of QA in 
+industrialised construction. The African 
+Union’s Agenda 2063 explicitly 
+promotes sustainable industrialisation 
+through modular and offsite construction 
+technologies as part of its broader 
+“Africa We Want” vision (AU, 2021). 
+Similarly, the Economic Commission for 
+Africa (ECA, 2022) highlights the need 

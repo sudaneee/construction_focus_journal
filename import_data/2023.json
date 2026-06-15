@@ -1,0 +1,102 @@
+[
+  {
+    "order": 1,
+    "source_file": "1-004 - corrected Manuscript.pdf",
+    "title": "Risk Management and Building Project Delivery in Anambra State, Nigeria",
+    "authors": [
+      {"full_name": "Ebenezer Oluebube Adimekwe", "affiliation": "Department of Building, Nnamdi Azikiwe University, Awka, Anambra State, Nigeria", "email": ""},
+      {"full_name": "Kevin Chucks Okolie", "affiliation": "Department of Building, Nnamdi Azikiwe University, Awka, Anambra State, Nigeria", "email": ""},
+      {"full_name": "Cosmas Oseyende Ehimioboh", "affiliation": "Department of Building, Dennis Osadebay University, Asaba, Delta State, Nigeria", "email": "cosmas.ehimioboh@dou.edu.ng"},
+      {"full_name": "Ndidi Blessing Iheama", "affiliation": "Department of Building, Nnamdi Azikiwe University, Awka, Anambra State, Nigeria", "email": ""}
+    ],
+    "abstract": "Frequent delays, cost overruns, and poor-quality outcomes continue to undermine building construction project delivery in Anambra State, Nigeria, necessitating the need to evaluate the underlying causes of these inefficiencies. This study examined the effects of internal and external risk factors on project performance and identified the most critical risks influencing delivery outcomes. A survey research design was adopted, and structured questionnaires were distributed to 172 built environment professionals, including Architects, Builders, Engineers, and Quantity Surveyors, out of which 132 responses were validated, representing a 76.7% response rate. Data were analyzed using descriptive statistics such as mean score and standard deviation, and results were ranked by significance. Findings revealed that among internal risks, inaccurate cost estimation (mean = 4.71), delays in approval/documentation (mean = 4.49), and poor scheduling (mean = 4.49) ranked highest, indicating that financial and managerial inefficiencies critically affect project performance. For external risks, legislation and government policy (mean = 4.71), financial failure (mean = 4.49), and political changes (mean = 4.33) were most influential, reflecting regulatory and economic instability. The dominant impacts of these risks were cost overrun and time overrun, these factors collectively led to (mean = 5.00), followed by project abandonment (mean = 3.92), underscoring the severe implications of poor planning and weak risk control. It therefore recommends enforcing strict cost and schedule controls, strengthening financial and risk management systems, ensuring policy stability, and enhancing project monitoring. Furthermore, capacity building, stakeholder collaboration, and digital project management adoption should be prioritized to enhance efficiency and sustainability.",
+    "keywords": "Anambra State, Building Construction, Project Delivery, Risk, Risk Management",
+    "doi": ""
+  },
+  {
+    "order": 2,
+    "source_file": "2-007 - corrected Manuscript.pdf",
+    "title": "Prediction of Abrasion Resistance of LBPA Concrete Using ANN",
+    "authors": [
+      {"full_name": "Jamilu Ya'u", "affiliation": "Department of Building Technology, Abubakar Tafawa Balewa University, Bauchi, Nigeria", "email": "yaumsc3748@gmail.com"},
+      {"full_name": "Sanusi Gambo", "affiliation": "Department of Building, Ahmadu Bello University, Zaria, Nigeria", "email": ""},
+      {"full_name": "Ibrahim Aliyu", "affiliation": "Department of Civil Engineering, Ahmadu Bello University, Zaria, Nigeria", "email": ""},
+      {"full_name": "Lawan Shettima", "affiliation": "Department of Building Technology, Abubakar Tafawa Balewa University, Bauchi, Nigeria", "email": ""},
+      {"full_name": "Ibrahim Ali", "affiliation": "Department of Building Technology, Abubakar Tafawa Balewa University, Bauchi, Nigeria", "email": ""},
+      {"full_name": "Zubairu Waziri Adamu", "affiliation": "Department of Building Technology, Abubakar Tafawa Balewa University, Bauchi, Nigeria", "email": ""}
+    ],
+    "abstract": "The construction industry relies heavily on Portland cement (PC), a critical component of concrete. However, Portland cement is costly and has significant environmental drawbacks. Cement production is the third-largest contributor to global CO₂ emissions, following fossil fuel combustion and deforestation. This study aimed to investigate the effects of partially replacing cement with Locust Bean Pod Ash (LBPA) on the properties of concrete containing 0%, 5%, 10%, and 15% LBPA. The Department of Environment (DoE) method of mix design was adopted to produce 72 specimens. Concrete properties such as workability, compressive strength, and abrasion resistance were examined. A Conditional Tabular Generative Adversarial Network (CTGAN) was utilized to expand the dataset to 500 samples for Artificial Neural Network (ANN) model prediction of LBPA concrete properties. The recorded slump values were 50 mm for 0% replacement, 45 mm for 5%, 42 mm for 10%, and 38 mm for 15%, respectively. Compressive strength tests showed a reduction in strength with increasing LBPA replacement levels. The average 28-day compressive strength values for 0%, 5%, 10%, and 15% LBPA replacements were 23.13 N/mm², 21.14 N/mm², 18.53 N/mm², and 14.62 N/mm², respectively. The control specimen had an average 28-day abrasion resistance of 0.101%, while samples with 5%, 10%, and 15% LBPA replacements exhibited values of 0.073%, 0.100%, and 0.130%, respectively. ANN models were employed to predict the abrasion resistance of LBPA concrete. The models demonstrated high accuracy, with R² values ranging from 0.82 to 0.97, and minimal errors, confirming their reliability. It is recommended that Limestone-based Cement (LBC) be replaced with Locust Bean Pod Ash (LBPA) at levels of up to 10%. The abrasion resistance of LBPA concrete falls within the BS 8204-2:2003 standards, indicating adequate wear resistance even at higher LBPA replacement levels. The successful application of ANN models in predicting the abrasion resistance of LBPA concrete highlights its potential as a sustainable cement alternative, supporting its use in concrete production.",
+    "keywords": "Abrasion Resistance, Artificial Neural Network (ANN), Compressive Strength, Locust Bean Pod Ash, Workability",
+    "doi": ""
+  },
+  {
+    "order": 3,
+    "source_file": "3-012- corrected manuscript.pdf",
+    "title": "The 'Glass Ceiling' of Women Quantity Surveyors: Myth or Reality?",
+    "authors": [
+      {"full_name": "Fatima Muhammad Bello", "affiliation": "Department of Quantity Surveying, Ahmadu Bello University, Zaria", "email": "fateezahra@gmail.com"},
+      {"full_name": "Kulomri Jipato Adogbo", "affiliation": "Department of Quantity Surveying, Ahmadu Bello University, Zaria", "email": ""},
+      {"full_name": "Joy Joshua Maina", "affiliation": "Department of Architecture, Ahmadu Bello University, Zaria", "email": ""}
+    ],
+    "abstract": "The glass ceiling remains a pervasive barrier to the advancement of women in the construction industry, despite their increasing entry into various professions within the sector. Despite the well-documented nature of the glass ceiling phenomenon, its specific impact on female Quantity Surveyors in the Nigerian construction industry remains a significant research gap. This study therefore empirically investigates the existence and underlying dynamics of this barrier for women Quantity Surveyors (QS). A pilot quantitative survey was administered through snow-ball sampling to female QS with over five years of experience and data was analysed using descriptive statistics. The findings reveal a fundamental dichotomy in career trajectories: women who overcame the ceiling were driven by a desire for positive change, career progression, and continuous learning, whereas those who remained constrained cited a perceived immutability of the ceiling (lack of confidence) and family commitments that forced them to forgo opportunities. In conclusion, this research confirms the existence of a glass ceiling for women QS and uncover a fundamental divergence in career trajectories, determined by factors such as personal ambition versus constraints like low confidence and family duties. Consequently, it is recommended that female Quantity Surveyors be supported in pursuing leadership roles and continuous learning, whilst institutional support systems should be established to build confidence through structured mentorship and family-friendly policies.",
+    "keywords": "Barrier, Career, Glass Ceiling, Quantity Surveyors, Women",
+    "doi": ""
+  },
+  {
+    "order": 4,
+    "source_file": "4-025 - Clean Copy_Evaluation_of the Interrelationships Among the Causes of Wall Cracks in Residential Building.pdf",
+    "title": "Evaluation of the Interrelationships Among the Causes of Wall Cracks in Residential Buildings Using Association Rule Mining",
+    "authors": [
+      {"full_name": "Yarima Sallau Lawal", "affiliation": "Department of Building, Ahmadu Bello University, Zaria, Nigeria", "email": "yerimasallau@gmail.com"},
+      {"full_name": "Ziyadul Hassan Ishaq", "affiliation": "Department of Building, Ahmadu Bello University, Zaria, Nigeria", "email": ""},
+      {"full_name": "Aliyu Makarfi Ibrahim", "affiliation": "Department of Building, Ahmadu Bello University, Zaria, Nigeria", "email": ""},
+      {"full_name": "Ibrahim Isah", "affiliation": "Department of Building, Ahmadu Bello University, Zaria, Nigeria", "email": ""},
+      {"full_name": "Usman Sintali Tahir", "affiliation": "Department of Building, Ahmadu Bello University, Zaria, Nigeria", "email": ""}
+    ],
+    "abstract": "Building cracks significantly impact structural integrity, maintenance costs, and occupant satisfaction. While numerous studies have investigated the causes of cracks, determining primary contributors remains complex due to the interconnected nature of underlying factors. This study examines the synergistic relationships among the causes of wall cracks in residential buildings to identify dominant crack contributing factors. 160 residential blocks at Ahmadu Bello University's Area F staff quarters were surveyed to identify buildings that exhibits cracks. 73 buildings exhibiting visible cracks were purposively selected for detailed evaluation. Visual inspection was conducted to measure crack dimensions on all the 73 selected buildings. In addition, systematic evaluation was conducted using a checklist to identify and evaluate crack-inducing factors. Singular cause analysis (SCA) and Association Rule Mining (ARM) technique were used to analyse the data. The SCA identified three predominant crack causes: root growth (29.21%), improper landscaping (22.28%), and drought conditions (17.82%). More so, ARM technique implemented through RapidMiner software demonstrated strong associations between the identified causes of cracks, with root growth showing complete correlation (confidence: 1.00) when combined with drought and roof leakage effects (lift: 1.237), indicating significant multiplicative impacts. These findings highlight the importance of considering combined environmental and structural factors in crack formation. Based on these insights, the study recommends implementing strategic vegetation management plans, including proper tree placement protocols to mitigate root-related structural damage. The research has contributed by evaluating the complex interactions between multiple crack-inducing factors, offering a foundation for data-driven solutions for proactive wall crack management in residential buildings.",
+    "keywords": "Association Rule Mining, Evaluation, Interrelationships, Residential Buildings, Wall Cracks",
+    "doi": ""
+  },
+  {
+    "order": 5,
+    "source_file": "5-026- Mechanical Properties of Laterite Bricks Produced with Plastic Waste as Bi.pdf",
+    "title": "Experimental Evaluation of the Mechanical Properties of Laterite Bricks Produced with Plastic Waste as Binder",
+    "authors": [
+      {"full_name": "Ismail Muhammad Khalil", "affiliation": "Department of Building, Ahmadu Bello University, Zaria, Nigeria", "email": "khalismail4ward@gmail.com"},
+      {"full_name": "Becky Oboro Abadaki", "affiliation": "Department of Building, Ahmadu Bello University, Zaria, Nigeria", "email": ""},
+      {"full_name": "Obumneme Godwin Okoli", "affiliation": "Department of Building, Nnamdi Azikiwe University, Awka, Anambra State, Nigeria", "email": ""},
+      {"full_name": "Sanusi Gambo", "affiliation": "Department of Building, Ahmadu Bello University, Zaria, Nigeria", "email": ""}
+    ],
+    "abstract": "Three key issues bordering developing nations such as housing deficit, waste management and depletion of environmental resources are rampant in Nigeria. Perhaps utilising plastic wastes as alternative materials, specifically in brick production, can be a viable approach to solving these issues. This paper seeks to apply plastic waste as a binder to completely replace cement with the view of producing Stabilised Earth Bricks. Laterite soil was combined with melted plastic to produce brick specimens. The specimens were cured in open air and tested for Densification (Df), Compressive Strength (Cs) and Flexural Strength (Fs). An average compressive strength of 8.20N/mm² at 3 days was recorded for the Laterite Plastic Bricks (LPBs). LPBs have been discovered to be light in weight yet possessing compressive strength comparable to standard requirements of Compressed Stabilised Earth Bricks. This indicates that LPBs can be considered as appropriate building materials.",
+    "keywords": "Alternative materials, Bricks, Laterite, Plastics, Waste management",
+    "doi": ""
+  },
+  {
+    "order": 6,
+    "source_file": "6-029_ corrected manuscript.pdf",
+    "title": "An Assessment of Stakeholders' Unethical Practices in Building Construction Projects",
+    "authors": [
+      {"full_name": "Usman Joshua Oguche", "affiliation": "Department of Building, Ahmadu Bello University, Zaria, Nigeria", "email": "usmanjoshuaoguche@gmail.com"},
+      {"full_name": "Shehu Muhammad", "affiliation": "Department of Building, Ahmadu Bello University, Zaria, Nigeria", "email": ""},
+      {"full_name": "Mohammed Mustapha Saad", "affiliation": "Department of Building, Ahmadu Bello University, Zaria, Nigeria", "email": ""}
+    ],
+    "abstract": "Despite the existence of national building codes and regulatory bodies, unethical practices remain a national problem that has led to a surge in the number of building collapses, resulting in the loss of lives, and properties, and health and safety catastrophes that cause damage to the environment. The study assessed professionals' perceptions of stakeholders' unethical practices in building construction projects to mitigate the severity of the misconduct. The study is aimed at identifying the most common forms of unethical practices at the pre-construction and construction stages of building construction projects. The study used survey methods through a structured questionnaire. Purposive sampling technique was used and the sample size was 77 for the survey. The major findings at the pre-construction and construction stages are collusive tendering (bid rigging) at 4.70 (75.36%); bribery and cash inducement at 4.55 (68.12%); and illegal award of tender at 4.54 (65.22%). At the construction stage, report falsification at 4.51 (57.97%); non-adherence to welfare, health, and safety at 4.48 (56.07%); and overlapping and ghosting at 4.45 (56.07%). The study concluded that stakeholders should stand for their integrity due to the significance of the major findings recorded at the pre-construction and construction stages of building projects. The study recommended that stakeholders should exhibit the hallmark of professional excellence by adhering to professional values to mitigate the severity of the misconduct.",
+    "keywords": "Bribery, Construction, Projects, Stakeholders, Unethical Practices",
+    "doi": ""
+  },
+  {
+    "order": 7,
+    "source_file": "7-030- corrected Utilisation of Building Information Modelling Capabilities .pdf",
+    "title": "Utilisation of Building Information Modelling Capabilities in Small Building Projects",
+    "authors": [
+      {"full_name": "Ziyadul Hassan Ishaq", "affiliation": "Department of Building, Ahmadu Bello University, Zaria, Nigeria", "email": "ziyadishaq2@gmail.com"},
+      {"full_name": "Yarima Sallau Lawal", "affiliation": "Department of Building, Ahmadu Bello University, Zaria, Nigeria", "email": ""},
+      {"full_name": "Sunday Edidiong Charles", "affiliation": "Department of Building, Ahmadu Bello University, Zaria, Nigeria", "email": ""},
+      {"full_name": "Ibrahim Isah", "affiliation": "Department of Building, Ahmadu Bello University, Zaria, Nigeria", "email": ""},
+      {"full_name": "Abdullahi Taiwo Abdulrazaq", "affiliation": "Building Department, Ladoke Akintola University of Technology, Ogbomosho, Nigeria", "email": ""}
+    ],
+    "abstract": "Building Information Modelling (BIM) has emerged as a transformative force in the construction industry, promising improved project efficiency, cost savings, and enhanced collaboration. However, empirical studies to assess the utilisation of BIM capabilities are still lacking. This study assesses utilisation of BIM capabilities in small building projects. Quantitative research method comprising questionnaire survey was used for this study. Data was obtained using close ended structured questionnaires distributed to 53 professionals in built environment. Descriptive statistic (frequency, mean and standard deviations) and Inferential statistics (Kruskal-Wallis test) were used to analyse the data. Findings revealed a high level of awareness of construction professionals regarding the benefits of BIM, with 'accurate visualisation of design' (MS=4.68), 'project quality enhancement' (4.54) and 'faster project delivery' (4.52) being the most recognised benefits. The findings of the study further revealed that the utilisation of BIM capabilities in small projects varies, with capabilities like 'design visualisation' (3.68), finding widespread use, while others, such as 'achieving energy efficiency and sustainability' (1.76), lags behind. Moreover, the findings also revealed that lack of government support or incentives (4.80), high cost of BIM implementation (4.76), and limited digital education and training (4.50) to be the significant barriers to utilisation of BIM capabilities. The study concludes that there is a moderate utilisation of BIM capabilities in small building projects. The study recommends that public and private organisations in the construction sector should provide support to train and upskill construction professionals on BIM tools to drive its successful utilisation in construction projects.",
+    "keywords": "Barriers, BIM capabilities, Building Information Modelling (BIM), Small building projects, Utilisation",
+    "doi": ""
+  }
+]

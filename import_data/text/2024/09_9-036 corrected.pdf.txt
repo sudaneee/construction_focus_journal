@@ -1,0 +1,243 @@
+--- PAGE 1 ---
+Construction Focus, Vol 17, No 1, (2024) 114 – 121 
+ASSESSMENT OF THE POTENTIAL BENEFITS AND BARRIERS TO ADOPTING 
+LEAN CONSTRUCTION PRINCIPLES BY CLIENT ORGANISATIONS IN 
+NIGERIA 
+IBRAHIM Muhammad Laminu1 *, AHMADU Hassan Adaviriku2 , MUHAMMAD 
+Ahmad Sani3 , SHEHU Ismail Umar4, NENSOK Mohammed Hassan5 
+1* Department of Quantity Surveying, Federal University Birnin Kebbi (FUBK), Nigeria. 
+2&3 Department of Quantity Surveying, Ahmadu Bello University (ABU), Zaria, Nigeria. 
+4&5 Department of Building, Federal University Birnin Kebbi (FUBK), Nigeria. 
+Correspondence: im.laminu@fubk.edu.ng  
+ABSTRACT: 
+The principles of lean construction are designed and intended to minimise waste throughout 
+the construction process, thereby delivering greater value for money to the Client. However, 
+the potential benefits and barriers to adopting lean construction princi ples by the Client’s 
+organisations in Nigeria have not been established, which is critical towards successful 
+implementation. Thus, this study identified and assessed the potential benefits and barriers of 
+adopting lean construction principles by client organisations in Nigeria. Quantitative research 
+approach was adopted and questionnaires were distributed to the respondents. The target 
+respondents are TETFUND beneficiary institutions. 67 copies of the questionnaire were 
+distributed and 67% (45 copies of th e questionnaire) were retrieved. The data collected was 
+analysed using descriptive statistics that includes: frequency tables showing percentages, 
+mean and Standard Deviation (SD). Maximise productivity and reduced waste are the most 
+significant potential benefits of adopting lean construction principles by the client sector in 
+Nigeria. While Poor planning, Inadequate resources, Corruption practices, Lack of awareness 
+programmes and Lack of design constructability are identified as the major barriers of 
+adopting lean construction principles. The Study reveals that the client sector of the Nigerian 
+Construction Industry (NCI) acknowledges the potential benefit of adopting Lean Construction 
+principles even though the barriers identified will hinder the success ful implementation. 
+However, there is need for more capacity building programmes and awareness campaign on 
+the concept of lean construction principles in Nigeria. All stakeholders concerned should 
+consider integrating lean construction into the tertiary ed ucation curriculum because of its 
+importance and benefits to the construction industry at large.   
+KEYWORDS: Client Organisations, Lean Construction Principles, Lean Concept, Tertiary 
+Institutions, TETFund. 
+  
+--- PAGE 2 ---
+Ibrahim et al. 
+115 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+INTRODUCTION  
+Lean Construction (LC) is defined as a way 
+of managing work, reducing waste and 
+adding value in construction (Howell & 
+Reed, 2007). The idea of applying the lean 
+production principle to construction was 
+analyzed by some of the researchers in the 
+Construction industry since 1990s (Salem, 
+Solomon, Genaidy & Luegring, 2005). LC 
+differs from present traditional construction 
+management practice, it is generally based 
+on production management principles, and 
+it gives better result in all kinds of projects 
+(Salem et al. , 2005). According to 
+Aigbavboa et al. (2016) and Kasimu et al. 
+(2019), the Lean Construction Principles 
+(LCP) have been established as means of 
+minimizing the waste in the process, 
+duration, cost and labour of construction 
+projects. Mohammed et al.  (2019) 
+described LCP as means of delivering value 
+to the customers and eliminating things that 
+do not add value to clients. Hence, LC is 
+seen as an alternative approach that could 
+significantly improve effective project 
+delivery in the Construction Industry, 
+thereby reducing waste and increasing 
+productivity and added value. 
+In attempt to ascertain successful 
+implementation and effectiveness of the 
+LCP, researchers conducted studies on LCP 
+in some countries like Brazil (Silva and 
+Cardoso, 1999), Chile (Alarcon & Ashley, 
+1999), the UK (Common  et al.,  2000), 
+Singapore (Dulaimi & Tanamas, 2001) , 
+Abu Dhabi (Raid, 2012) , Malaysia 
+(Muhammad et al., 2013), Turkey (Algan & 
+Yasemin, 2013), and Nigeria (Ahiakwo et 
+al., 2013) and India (Gowtham & 
+Sivakumar, 2017) . However, effective 
+implementation of Lean Construction 
+Principles (LCP) critically depends on the 
+readiness of the Construction Industry to 
+adopt the Concept as well as identifying the 
+potential benefits and barriers of adopting 
+the LCP. With this, it is important for the 
+Nigerian construction industry to  equally 
+explore widely , the benefits of l ean 
+construction, in order to attain the best 
+practice and also to improve service 
+delivery process in the Construction 
+Industry (Olamilokun, 2017).  
+Olamilokun (2017) investigated the 
+readiness of Nigerian construction related 
+professionals (Consultants) to adopt lean 
+construction principles , while further 
+studies by Owoseni (2017) and Mohammed 
+et al. (2019) assessed the readiness of the 
+Nigerian building contracting 
+(construction) firms. Ibrahim et al. (2024) 
+also conducted a study to assess the Client’s 
+organisations in adopting LCP.  
+Adoption of LCP can only be achieved 
+when all the sectors of the Nigerian 
+Construction Industry (NCI) have a fair 
+level of awareness and stake to adopt it . 
+Yet, the perception of the Client’s sector of 
+the NCI on the benefits and barriers to adopt 
+lean Construction principle is not known  
+which is very critical towards successful 
+adoption LCP. Hence, this constitute a gap 
+in knowledge which this study sets out to 
+fill. 
+LITERATURE REVIEW 
+Lean Construction: Concept and 
+Principles 
+The Concept of Lean construction  was 
+derived from the Toyota Production 
+System, which focuses on creating value for 
+clients while minimizing waste throughout 
+the construction process . Key principles 
+include value identification, waste 
+elimination, continuous flow, pull -based 
+production, and continuous improvement 
+(Howell, 1999). Unlike traditional 
+construction methods, lean construction 
+fosters collaboration and flexibility, 
+enabling teams to adapt to project changes 
+efficiently. LCP are one of such innovative 
+processes that bring about the much needed 
+continuous improvement and desired 
+change in the construction industry  
+(Olamilokun, 2015). 
+In developed economies, lean construction 
+has gained traction due to its proven 
+benefits. Countries like the United States 
+and Japan have successfully integrated lean 
+principles into their construction projects, 
+resulting in improved efficiency and cost 
+--- PAGE 3 ---
+Assessment of the potential benefits …. 
+116 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+savings (Ballard & Howell, 2013). In 
+contrast, developing nations face unique 
+challenges, including limited access to 
+advanced technologies and inadequate 
+training programs. 
+The adoption of LC in Nigeria is still in its 
+infancy. This makes it very critical to 
+investigate the factors that will facilitate 
+and those that will hinder the successful 
+adoption of LCP by the stakeholders’ 
+organizations and the entire construction 
+industry   
+Potential Benefits to Adopting LCP 
+LC has led to considerable improvement in 
+the performance of CI professionals, 
+particularly in design, construction and 
+facility management  (Olamilokun et al.,  
+2017). T he application of lean 
+methodologies has shown potential to 
+enhance project delivery by streamlining 
+workflows and fostering collaboration 
+among stakeholders involved in 
+construction projects (Hamzeh et al., 2019). 
+The benefits arise from the core lean 
+principles seeking to minimize waste and 
+optimize efficiency throughout the 
+construction processes.  LCP is seen as 
+drivers/facilitators that can help the 
+building industry to improve its 
+productivity by ensuring effective 
+communication and collaboration among 
+all project stakeholders from inception to 
+completion of building projects  (Salem et 
+al., 2005). Several LC related studies have 
+been reported, especially those that have to 
+do with its success stories and inherent 
+benefits (Olamilokun et al. , 2017). 
+However, this study adopted eight (8) 
+potential benefits for adopting LCP in 
+Nigeria, identified by Olamilokun et al.  
+(2017) and Owoseni (2017), which are: 
+i. Improved design; 
+ii. Improved health and safety; 
+iii. Improved quality, fewer 
+defect; 
+iv. Greater customer 
+satisfaction; 
+v. Maximise productivity; 
+vi. Reduced cost and inventory; 
+vii. Reduced waste; 
+viii. Reduced project schedule; 
+ 
+Barriers to Adopting LCP  
+Studies have identified several barriers, 
+including, poor planning, corruption, a lack 
+of technical expertise, insufficient 
+awareness, and cultural resistance to 
+change ( Olamilokun 2015 & Owoseni, 
+2017; Aisha et al.,  2019; Nwaki et al.,  
+2021; Ogunbiyi et al.,  2021 However, 
+Olamilokun et al.  (2017) and Owoseni 
+(2017) revealed that the barriers hindering 
+the adoption of LCP can be classified into 
+six broad categories, they are: Management 
+issues, Financial issues, Educational issues, 
+Government issues, Human attitudinal 
+issues and Technical issues. This study 
+adopts these broad classifications of 
+barriers to conduct assessment of barrier 
+factors to adopt LCP by the clients’ 
+organisation in Nigeria.   
+METHODOLOGY 
+Quantitative research approach was 
+adopted due to the nature of the research 
+problem and the data needed which requires 
+data from many respondents in an 
+economical and fast way . TETFUND 
+beneficiary Tertiary institutions are the 
+target population of this study. A list of the 
+tertiary institutions that are TETFUND 
+beneficiaries was obtained from the 
+TETFUND website www.tetfund.gov.ng in 
+March 2024 which shows that there are 200 
+institutions that are TETFUND beneficiary 
+in Nigeria. For this research, a total number 
+67 was arrived as the sample size usi ng 
+Kish (1965) sampling formula. Purposive 
+sampling technique which is a non -
+probability sampling technique was used in 
+selecting the client organizations that are 
+beneficiaries of TETFUND, taking note of 
+ease of access to getting data, limited 
+resources (time and budget) and logistical 
+constraints, in addition to that not all the 
+institutions have enough 
+experience/projects to provide reliable 
+answers to the question  especially new 
+established tertiary institutions.  

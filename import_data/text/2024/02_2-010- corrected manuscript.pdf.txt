@@ -1,0 +1,256 @@
+--- PAGE 1 ---
+Construction Focus, Vol 17, No 1, (2024) 16 – 28                                        
+INFLUENCE OF CRUSHED GRANITE AND WASHED GRAVEL ON THE 
+MECHANICAL PROPERTIES OF CONCRETE 
+ 
+SOYINGBE Aliu Adebayo 1, *JAGO Ayomikun Christopher1, OJEBISI Olatunji1, 
+LAWAL Charles Emmanuel2. 
+ 
+1 Department of Building, University of Lagos, Lagos, 101017, Nigeria. 
+2Department of Civil Engineering and Construction, Georgia Southern University, 
+Statesboro, Georgia 30460, USA. 
+        
+Correspondence: jagoayomikun@gmail.com 
+ 
+ABSTRACT 
+The mechanical performance of concrete is strongly influenced by the type of coarse 
+aggregate used, especially in regions where natural materials vary widely. In Nigeria, 
+crushed granite and washed gravel are among the most commonly used aggregates, yet their 
+comparative effects on concrete strength and durability are not clearly established.  This 
+study investigates the effect of aggregate type; crushed granite and washed gravel on the 
+compressive strength and abrasion resistance of concrete to guide optimal material selection 
+for construction.  Concrete specimens were produced using a nominal mix ratio of 1:2:3 
+(cement: fine aggregate: coarse aggregate) and cured for 7, 14, and 28 days. Mechanical 
+properties were evaluated through compressive strength tests and Los Angeles abrasion 
+resistance tests. Concrete made with crushed granite achieved higher compressive strength 
+across all curing ages, reaching 28.89 MPa at 28 days, compared to 27.11 MPa for washed 
+gravel. Conversely, washed gravel exhibited greater a brasion resistance with a lower 
+percentage mass loss (27.07%) than granite (35.70%), indicating stronger resistance to 
+surface wear. Crushed granite is more suitable for structural and load-bearing applications 
+requiring higher compressive capacity, while washed gravel performs better in pavement or 
+finishing works where surface durability against friction and abrasion is essential. 
+ 
+KEYWORDS: Abrasion Resistance, Coarse Aggregates, Compressive Strength, Concrete, 
+Crushed Granite, Washed Gravel. 
+ 
+INTRODUCTION 
+Concrete remains the backbone of modern 
+infrastructure, valued for its adaptability, 
+affordability, and structural reliability. In 
+rapidly developing nations such as Nigeria, 
+concrete is extensively used in residential, 
+commercial, and infrastructural projects from 
+roadways and high -rise buildings to bridges 
+and dams (Langer, 2016; Singh et al., 2023). 
+While the strength and durability of concrete 
+are often associated with cement quality, a 
+significant proportion of its mechanical 
+performance particularly c ompressive 
+strength and wear resistance depends on the 
+characteristics of its coarse aggregates, which 
+typically account for 60% to 75% of its 
+volume (Kılıç et al., 2008; Kosmatka et al., 
+2002). Among the most accessible and 
+widely used coarse aggregates in Nigeria are 
+crushed granite and washed gravel. Crushe d 
+granite is derived from hard rock sources and 
+is characterised by its angular, rough texture, 
+which promotes mechanical interlock and 
+strong bonding with the cement paste , in 
+contrast, washed gravel commonly sourced 
+from riverbeds is rounded and smoother, 
+leading to improved workability but 
+sometimes at the expense of compressive 
+--- PAGE 2 ---
+Soyinbge et al. 
+17 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+performance (Chat et al., 2015; Singh et al., 
+2023). Mechanical indicators such as 
+compressive strength and abrasion resistance 
+are critical for evaluating  suitability of 
+concrete in structural and surface 
+applications. Compressive strength 
+determines the load -bearing capacity, while 
+abrasion resistance reflects how well the 
+surface withstands friction, wear, and impact 
+which are vital in pavements, factory floors, 
+and similar contexts (Kılıç et al., 2008; Li et 
+al., 2011; Bamigboye et al., 2016). 
+Studies have explored how aggregate 
+properties influence concrete behavio ur. For 
+example, Chat et al. (2015) reported that 
+properly washed gravel improved strength 
+compared to unwashed variants, likely due to 
+the removal of silt and clay impurities. 
+Similarly, Kılıç et al. (2008) and Bamigboye 
+et al. (2019) observed that crushed granite 
+consistently delivers higher compressive 
+strength due to its mineral content and 
+angular geometry. Despite these insights, few 
+empirical comparisons exist where both 
+aggregate types are tested under standardised 
+mix ratios and curing conditions.  The 
+mechanical performance of concrete is 
+significantly influenced by the type, texture, 
+and mineralogy of the coarse aggregate used. 
+Numerous comparative studies have 
+explored how crushed granite and natural 
+gravel affect key properties such as 
+compressive strength and abrasion resistance 
+under various environmental and mix 
+conditions. Chat et al. (2015) conducted a 
+comparative study in Nigeria using natural 
+gravel and crushed granite as coarse 
+aggregates in concrete. The ir results 
+indicated that crushed granite yielded higher 
+compressive strength values at all curing 
+stages, attributing this to the angular shape 
+and rough surface texture of granite, which 
+improve bond strength within the cement 
+matrix. A similar regional study by 
+Onwasigwe and Onodagu  (2024) supported 
+this claim, reporting that concrete with river 
+gravel consistently underperformed 
+compared to granite -based concrete under 
+identical curing conditions. International 
+findings echo these results. Kılıç et al. (2008) 
+observed that concrete made with crushed 
+granite had both superior compressive 
+strength and surface bonding compared to 
+concrete containing rounded gravel. 
+However, they noted that gravel improved 
+abrasion resistance, likely due to its denser 
+packing and reduced interfacial voids. This 
+trade-off was further explored by Li et al. 
+(2011), who concluded that concrete’s 
+resistance to wear often correlates with, but is 
+not always proportional to, compressive 
+strength. Bamigboye et al. (2019) advanced 
+this by examining blended aggregates and 
+found that strategic ratios of gravel and 
+granite could balance compressive 
+performance with durability an approach that 
+could optimi se material use in Nigerian 
+construction. Sharma & Vyas (2023)  
+investigated the use of granite waste as partial 
+replacement for natural aggregates and found 
+notable improvement in compressive 
+strength with minimal trade -offs in abrasion 
+resistance, pointing to the significance of 
+aggregate surface properties. Meanwhi le, 
+Zhang et al. (2020) emphasised that crushed 
+sand or granite enhanced concrete's 
+resistance to surface degradation due to better 
+particle angularity and cement paste 
+adhesion. Li et al. (2011) noted that while 
+granite aggregates improve strength and 
+stiffness in both normal and high -
+performance concrete, their influence on 
+wear resistance varies based on 
+microstructural interaction with the cement 
+matrix. Finally, Singh et al. (2016) and 
+Amani et al. (2021) highlighted sustainability 
+by evaluating the use of granite cutting waste 
+and marble -granite powder combinations, 
+respectively. Both studies confirmed that 
+modified or recycled granite aggregates 
+could maintain structural performance while 
+--- PAGE 3 ---
+Influence of crushed granite.…. 
+18 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+enhancing abrasion resistance and reducing 
+environmental impact. 
+Across these studies, a clear conceptual 
+pattern emerges: the mechanical behaviour of 
+concrete is strongly governed by the physical 
+and mineralogical attributes of its coarse 
+aggregates. Angular and rough -textured 
+aggregates such as crushed granite tend to  
+form stronger interfacial bonding with 
+cement paste, resulting in higher compressive 
+strength and improved stiffness. In contrast, 
+rounded aggregates like washed gravel 
+reduce internal friction and packing voids, 
+enhancing workability and often improving 
+abrasion and impact resistance due to more 
+uniform stress distribution under surface 
+wear. Mineral composition also plays a 
+crucial role, as harder, more crystalline 
+aggregates generally enhance strength, while 
+smoother grains limit microcracking under 
+repeated frictional forces. These relationships 
+provide an important theoretical basis for 
+comparing granite and gravel under 
+controlled conditions, helping explain why 
+their performance diverges across different 
+mechanical tests. 
+Although crushed granite and washed gravel 
+are widely used in Nigerian construction, 
+their mechanical behavio ur presents a 
+practical performance trade -off, granite 
+typically enhances compressive strength, 
+while washed gravel often improves abrasion 
+and impact resistance. However, direct 
+comparative data generated under a uniform 
+mix design and identical curing conditions 
+remain limited. This lack of controlle d 
+evidence makes aggregate selection largely 
+experience-based rather than performance -
+driven. Theref ore, this study provides a 
+systematic comparison of both aggregates to 
+generate clearer, context -specific guidance 
+for engineers and practitioners in Nigeria. 
+This study aims to evaluate and compare the 
+mechanical performance of concrete 
+incorporating two commonly used coarse 
+aggregates in Nigeria crushed granite and 
+washed gravel. Specifically, it seeks to 
+achieve the following objectives: 
+1. To assess the abrasion resistance of 
+crushed granite and washed gravel. 
+2. To compare the compressive strength 
+development of concrete made with 
+crushed granite and washed gravel. 
+ 
+MATERIALS AND METHOD 
+This study adopted an experimental approach 
+using crushed granite and washed gravel as 
+coarse aggregates. The investigation focused 
+on two mechanical properties: compressive 
+strength and abrasion resistance. A standard 
+concrete mix ratio of 1:2:3 (cement: sand: 
+coarse aggregate) was employed across all 
+test batches to maintain consistency and 
+isolate the effects of the aggregate type.  The 
+mechanical tests adopted in this study were 
+selected based on their established relevance 
+in assessing aggregate perform ance in 
+structural concrete. The Los Angeles 
+abrasion test was included to determine the 
+degradation resistance of aggregates under 
+mechanical wear, which is essential for 
+pavements and surface applications. The 
+impact test was conducted to evaluate the 
+toughness of aggregates and their ability to 
+withstand sudden or shock loading, a 
+property that influences concrete resilience 
+under dynamic loads. Compressive strength 
+testing was carried out because it represents 
+the most widely used indicator of structura l 
+performance and determines suitability for 
+load-bearing applications. Together, these 
+tests provide a comprehensive understanding 
+of how each aggregate type influences 
+concrete performance in real construction 
+scenarios. To ensure reliability of results, all 
+tests were conducted in at least two replicates 
+for each aggregate type. During sample 
+preparation, moulds were cleaned, uniformly 
+oiled, and compacted using identical 
+procedures to minimise inconsistencies. 
+Aggregate samples were oven -dried to 
+constant weight and sieved to standardi sed 

@@ -1,0 +1,207 @@
+--- PAGE 1 ---
+Construction Focus, Vol 16, No 1(2023), 13 - 27    
+ 
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+PREDICTION OF ABRASION RESISTANCE OF LBPA CONCRETE USING ANN 
+YA’U Jamilu1, GAMBO Sanusi2, ALIYU Ibrahim3, SHETTIMA Lawan1, ALI 
+Ibrahim1, ADAMU Zubairu Waziri1 
+ 
+1Department of Building Technology, Abubakar Tafawa Balewa University Bauchi, 
+Nigeria 
+2Department of Building, Ahamadu Bello University Zaria, Nigeria 
+3Department of Civil Engineering, Ahamadu Bello University Zaria, Nigeria. 
+ 
+Correspondence: yaumsc3748@gmail.com 
+ 
+ 
+ 
+ABSTRACT 
+The construction industry relies heavily on Portland cement (PC), a critical component of 
+concrete. However, Portland cement is costly and has significant environmental drawbacks. 
+Cement production is the third-largest contributor to global CO₂ emissions, following fossil 
+fuel combustion and deforestation.  This study aimed to investigate the effects of partially 
+replacing cement with Locust Bean Pod Ash (LBPA) on the properties of concrete containing 
+0%, 5%, 10%, and 15% LBPA. The Department of Environment (DoE) method of mix design 
+was adopted to produce 72 specimens. Concrete properties such as workability, compressive 
+strength, and abrasion resistance were examined.  A Conditional Tabular Generative 
+Adversarial Network (CTGAN) was utilized to expand the dataset to 500 samples for 
+Artificial Neural Network ( ANN) model prediction of LBPA concrete properties. The 
+recorded slump values were 50 mm for 0% replacement, 45 mm for 5%, 42 mm for 10%, and 
+38 mm for 15%, respectively. Compressive strength tests showed a reduction in strength with 
+increasing LBPA replace ment levels. The average 28 -day compressive strength values for 
+0%, 5%, 10%, and 15% LBPA replacements were 23.13 N/mm², 21.14 N/mm², 18.53 N/mm², 
+and 14.62 N/mm², respectively. The control specimen had an average 28 -day abrasion 
+resistance of 0.101%, while samples with 5%, 10%, and 15% LBPA replacements exhibited 
+values of 0.073%, 0.100%, and 0.130%, respectively. ANN models were employed to predict 
+the abrasion resistance of LBPA concrete. The models demonstrated high accuracy, with R² 
+values ranging from  0.82 to 0.97, and minimal errors, confirming their reliability. It  is 
+recommended that Limestone-based Cement (LBC) be replaced with Locust Bean Pod Ash 
+(LBPA) at levels of up to 10%. The abrasion resistance of LBPA concrete falls within the BS 
+8204-2:2003 standards, indicating adequate wear resistance even at higher LBPA 
+replacement levels. The successful application of ANN models in predicting the abrasion 
+resistance of LBPA concrete highlights its potential as a sustainable cement alternative, 
+supporting its use in concrete production. 
+KEYWORDS: Abrasion Resistance, Artificial Neural Network (ANN), Compressive 
+Strength, Locust Bean Pod Ash, Workability.  
+ 
+ 
+--- PAGE 2 ---
+Prediction of abrasion resistance of LBP A……..    
+14 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+INTRODUCTION 
+Background to the Study 
+The rapid pace of global infrastructure 
+development has significantly increased the 
+demand for concrete, reaffirming its status as 
+the most widely used construction material 
+worldwide. Concrete is a man -made 
+composite primarily composed of cement and 
+natural aggregates such as gravel, sand, or 
+crushed stone. In some cases, artificial 
+aggregates such as blast furnace slag, 
+expanded clay, or broken brick can be used 
+as alternatives (Ali et al., 2019). Standard 
+concrete consists of limestone-based cement, 
+aggregates, water, and occasionally, 
+chemical admixtures (Nwaobakata & Eme, 
+2018). 
+The construction industry relies heavily on 
+Portland cement (PC), a critical component 
+of concrete (Ibedu, Akinola, & Omole, 
+2023). However, PC is costly and has 
+significant environmental drawbacks. 
+Cement production is the third -largest 
+contributor to glo bal CO₂ emissions, 
+following fossil fuel combustion and 
+deforestation (Salawu, 2018). It is estimated 
+that cement manufacturing emits between 0.8 
+and 1.3 tons of CO₂ per ton of cement 
+produced, accounting for approximately 8 –
+10% of global emissions (Wilson , 2015). As 
+a result, reducing cement usage is essential 
+for minimizing greenhouse gas emissions 
+(Olubajo, Adebayo, & Aluko, 2020). 
+The drive for sustainable and 
+environmentally responsible construction 
+practices has led to increased research into 
+the use of agricultural and industrial by -
+products as supplementary cementitious 
+materials (SCMs). One promising candidate 
+is locust bean po d ash (LBPA), valued for 
+both its availability and beneficial properties. 
+Locust bean pod husks are an agricultural 
+waste product derived from processing the 
+African locust bean fruit, commonly found in 
+northern Nigeria during harvest seasons. 
+Globally, on going research focuses on 
+recycling such wastes to support 
+environmental sustainability (Ali et al., 
+2019). 
+Studies have shown that replacing up to 20% 
+of cement with LBPA can maintain or even 
+enhance the compressive strength of 
+concrete, while higher replacement levels 
+may reduce strength but improve 
+sustainability (Shubbar et al., 2018; Smith, 
+2017; Patel & Ng uyen, 2020). The 
+pozzolanic activity of LBPA contributes to 
+these effects by refining the concrete’s 
+microstructure and improving pore 
+distribution, which influences both early- and 
+long-term strength characteristics (Garcia, 
+Martinez, & Fernandez, 2017). However, 
+further research is needed to optimize the use 
+of LBPA, particularly in determining the 
+ideal replacement ratios that balance 
+mechanical performance with environmental 
+benefits (Smith, 2018; Lee & Davis, 2018). 
+Utilizing LBPA as a partial cement 
+replacement offers considerable 
+sustainability advantages. It helps reduce the 
+carbon footprint associated with cement 
+production by lowering reliance on PC 
+(Olutoge et al., 2015). Additionally, 
+repurposing locust bean po d waste mitigates 
+environmental pollution by converting 
+agricultural residues into valuable 
+construction materials (Adewuyi & Olaoye, 
+2018). This approach promotes sustainable 
+construction, improves resource efficiency, 
+and supports the circular economy by  
+reintegrating waste into the production cycle 
+(Olawale & Ayodele, 2020). 
+Given the variability in LBPA’s chemical 
+composition, the application of machine 
+learning techniques such as Artificial Neural 
+Networks (ANNs) is becoming increasingly 
+valuable. ANNs are capable of modeling 
+complex, nonlinear relationships between 
+input va riables and concrete properties, 
+making them effective in predicting the 
+compressive strength and durability of 
+concrete containing various SCMs (Zhao et 
+--- PAGE 3 ---
+Ya’u et al.  
+15 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+al., 2019; Li et al., 2017). This study aims to 
+investigate the influence of LBPA on 
+concrete performance and to develop an 
+ANN model to predict its properties, 
+addressing critical research gaps and 
+supporting the development of optimized, 
+sustainable concrete mixtures. 
+ 
+LITERATURE REVIEW 
+Neural Networks (ANN - Artificial Neural 
+Network) 
+An Artificial Neural Network (ANN) is a 
+concept in the field of artificial intelligence 
+that attempts to mimic the network of 
+neurons that make up the human brain, 
+enabling computers to understand 
+information and make decisions in a human -
+like manner (Thakur & Konde, 2021). In 
+recent years, Artificial Neural Networks 
+(ANNs) have been widely used across 
+various application domains . Most 
+applications employ feedforward ANNs 
+along with the backpropagation (BP) learning 
+algorithm. Several variations of the 
+traditional BP algorithm and alternative ANN 
+training methods have also been developed 
+(Qamar & Zardari, 2023).
+ 
+Figure 1: The architecture of an artificial neural network  
+Source: Qamar  & Zardari (2023). 
+ 
+i. Input Layer: As the name suggests, 
+it accepts inputs in several different 
+formats provided by the programmer. 
+ii. Hidden Layer: The hidden layer 
+presents in-between input and output 
+layers. It performs all the calculations 
+to find hidden features and patterns. 
+iii. Output Layer: The input goes 
+through a series of transformations 
+using the hidden layer, which finally 
+results in output  that is conveyed 
+using this layer. 
+Application of ANNs in prediction of 
+concrete containing supplementary 
+cementitious material   
+Researchers have increasingly focused on 
+incorporating various SCMs, including fly 
+ash, slag, and silica fume, into concrete mixes 
+to enhance performance and reduce 
+environmental impact. For instance, Özcan et 
+al. (2019) compared the accuracy of 
+predicting the compressive strength of silica 
+fume concrete using Artificial Neural 
+Networks (ANNs) and Fuzzy Logic (FL). 
+The study utilized 48 different samples with 
+four water -to-cement ratios, three cement 

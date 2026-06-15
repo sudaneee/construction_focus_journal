@@ -1,0 +1,283 @@
+--- PAGE 1 ---
+Construction Focus, Vol 14, No 1, (2021) 61 – 71  
+61 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+CRITICAL SUCCESS FACTORS FOR IMPLEMENTING MODULAR 
+INTEGRATED CONSTRUCTION IN ABUJA, NIGERIA 
+ 
+KADI Olabanji Micheal¹, SHITTU Abdulazeez Adewale2, AUDU Benjamin¹, AJAYI 
+Oluwaseun David1, AMADUOBOGHA Ebiela Christy1 
+ 
+1Ibrahim Usman Jibril Institute for the Built Environment, Nasarawa State University Keffi. 
+2Department of Quantity Surveying, Federal University of Technology, Minna  
+ 
+Correspondence: mikeolabanji@gmail.com  
+ 
+ABSTRACT 
+The adoption of Modular Integrated Construction (MIC) has been increasingly recognised as a 
+transformative approach to improving efficiency, quality, and sustainability in the construction 
+industry. However, its successful implementation in developing countries such as Nigeria 
+remains limited due to industr y-specific challenges. This study examines the critical success 
+factors (CSFs) for implementing MIC in the Nigerian construction sector. A survey research 
+design was adopted, targeting professionals from 51 construction firms in Abuja with experience 
+or kn owledge of MIC. Data were collected using a structured questionnaire and analysed 
+through descriptive statistics, Relative Importance Index (RII), and Factor Analysis using IBM 
+SPSS. The Kaiser-Meyer-Olkin (KMO) value of 0.594 and Bartlett’s Test of Sphericity (p < 0.05) 
+confirmed the adequacy of the sample for factor analysis, which extracted seven principal 
+components accounting for 73.35% of the total variance. The identified CSFs include: (1) 
+adequate experience and knowledge of key players, (2) effecti ve project planning and 
+scheduling, (3) strong supply chain integration, (4) infrastructure readiness, (5) standardisation 
+and mass production, (6)  suitable procurement strategies, and (7) availability of skilled 
+workforce. Cross -referencing with previous studies reveals a strong alignment with global 
+findings while emphasising the unique contextual challenges in Nigeria, such as skill gaps and 
+infrastructure limitations. The study concludes that strategic emphasis on these CSFs will 
+enhance MIC adoption an d recommends policy, training, and infrastructure development to 
+support its growth. 
+ 
+KEYWORDS: Construction Industry, Critical Success Factors, Modular Integrated 
+Construction, Prefabrication. 
+ 
+INTRODUCTION 
+Building construction is often a complex and 
+demanding process, characterized by 
+challenges such as extreme weather 
+conditions, excessive working heights, and 
+limited site accessibility (Yang et al.,  2017). 
+These inherent risks have long been 
+recognized, prompting the adoption of various 
+strategies aimed at improving efficiency, 
+safety, and overall project performance (Wuni 
+et al.,  2019). One of the most prominent 
+approaches advocated by industry experts is 
+the use of prefabricated building components, 
+which transfers a significant portion of 
+construction activities from the field to a 
+controlled factory environment (Navaratnam 
+et al., 2019). 
+Prefabrication shifts the construction process 
+from on -site fabrication to off -site 
+manufacturing, allowing site activities to focus 
+primarily on assembly . While this practice is 
+not entirely new since components like doors, 
+windows, and bricks were traditionally 
+produced on -site modern construction now 
+depends largely on prefabricated, factory -
+manufactured elements that are delivered 
+ready for installation (Generalova et al., 2016). 
+Among the various prefabrication approaches, 
+modular construction stands out for its 
+extensive use of factory-based assembly, with 
+research showing that a higher degree of 
+prefabrication often results in greater project 
+benefits (Anthony et al., 2013). 
+--- PAGE 2 ---
+Critical Success Factors for Implementing………  
+62 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+Extensive literature has documented the 
+positive impact of modular construction on 
+productivity, environmental sustainability, 
+health, and economic outcomes (Wei & 
+Voellm, 2016; Alwan et al., 2017; Dave et al., 
+2014; Generalova et al.,  2016). Studies have 
+explored its application in low - and high-rise 
+buildings (Lawson et al.,  2012), assessed its 
+feasibility (Velamati, 2012), and analyzed its 
+time, cost, and quality benefits (Yoon et al.,  
+2015). Furthermore, modular construction has 
+been linked to energy an d cost efficiency 
+(Wuni & Shen, 2019), disaster risk reduction 
+(Wagemann, 2012), job creation, green city 
+development (Volder & Dvorak, 2014), and 
+climate change adaptation (Kamali & Hewage, 
+2016; Lee et al., 2014). 
+Despite these documented advantages, the 
+adoption of modular construction in many 
+developing countries, including Nigeria, 
+remains limited (Kibert, 2016; Lundholm et 
+al., 2014). The Nigerian construction industry 
+continues to rely predominantly on traditional 
+building methods, often using untested 
+materials and inefficient processes, leading to 
+delays, cost overruns, and quality shortfalls  
+(Sholanke et al., 2019). As a result, project 
+delivery frequently fails to meet planned 
+timelines and budgets. Recent s tudies suggest 
+that the integration of modular construction 
+could play a vital role in enhancing national 
+development by improving construction 
+efficiency and quality (Sholanke et al., 2019). 
+Given the potential of modular integrated 
+construction (MIC) to address these persistent 
+challenges, there is a need to identify the 
+critical success factors that can drive its 
+effective implementation in Nigeria. 
+Understanding these factors will not only 
+facilitate the adoption of MIC but also support 
+the broader objectives of sustainable 
+construction, cost control, and improved 
+project outcomes in the Nigerian construction 
+sector. 
+To achieve the aim, the following objective is 
+formulated to:  
+1. To examine the critical success factors for 
+implementing modular integrated 
+construction as a building construction 
+method. 
+LITERATURE REVIEW  
+Modular Construction 
+Construction processes and the built 
+environment have great impact on the 
+environment, human well-being, as well as the 
+overall economy. Sustainable construction in 
+the environmental, social and economic 
+dimensions is feasible through practical 
+innovations and developments (Nahmans, & 
+Ikuma, 2012). Modular construction portrays 
+the use of off -site pre-designed building units 
+or parts that are conveyed to site as 
+components of a building called modules 
+(Steel Constructi on ,2017 . In ). Modular 
+construction off ers several advantages over 
+traditional building methods, including the 
+production of high -quality components under 
+controlled factory conditions, cost efficiency 
+through economies of scale, and shorter 
+construction timelines. It also provides 
+valuable opp ortunities for workforce 
+development by promoting technical skill 
+acquisition among semi -skilled workers, 
+thereby enhancing overall economic value 
+(Boyd, Khalfan, & Maqsood, 2013). 
+Modular construction can be used for either 
+temporary or permanent building structures 
+and are not subject to severe weather 
+conditions unlike site -built structures. The 
+modular construction concept can be applied 
+to all types of building construction incl uding 
+offices, hotels, houses and retail stores (Akok, 
+& Prakask, 2017; Wuni et al., 2020). Modular 
+construction occurs in phases which are: 
+predesign, design, develop, detail, order, 
+fabricate, deliver and assembly (Smith,2016). 
+Success factors for modular integrated 
+construction projects 
+Given the limited amount of published 
+research on MiC projects, bespoke success 
+factors can hardly be retrieved directly from 
+the literature (Wuni and Shen 2019a). 
+However, there are some relevant studies on 
+the success factors for other OSM techniques 
+such as industrialized building systems (IBS), 
+prefabricated prefinished volumetric 
+construction (PPVC), modular construction,  
+prefabrication, prework, and volumetric 
+modular construction which are relevant to 
+--- PAGE 3 ---
+Kadi et al. 
+63 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+MiC projects (Hwang et al.,  2018). This is 
+because MiC has many similarities with the 
+modus operandi of  
+these OSM techniques. Thus, the research 
+conducted a comprehensive review of the 
+relevant literature to identify the success 
+factors which may be applicable to MiC 
+projects.  
+Song et al.,  (2005) found that the prominent 
+CSFs for pre work on industrial projects 
+include realistic economic analysis, early 
+commitment to the approach, availability of 
+skilled management team,  and availability of 
+sound infrastructure network for transporting 
+the modules to site. Tam et al.  (2007) 
+identified suitable procurement  strategy and 
+contracting to be a CSF for prefabricated 
+construction projects. Blismas (2007) 
+summarized the 5 top CSFs for modular  
+construction projects as robust design 
+specification and early design freeze, effective 
+supply chain management, early involvement 
+of key  participants, suitable procurement 
+strategy, and relevant experience  and 
+knowledge of key players. Blismas and 
+Wakefield (2009) conducted a questionnaire 
+survey and identified that early commitment is 
+a CSF for OSM projects. 
+ Pan et al . (2012) conducted a questionnaire 
+survey in the UK and found that robust 
+engineering specification, design robustness 
+and early design freeze constitute CSFs for  
+industrialized housing projects. Choi et al.  
+(2016) concluded that  timely design freeze, 
+long lead equipment specification, fabricator/  
+supplier involvement, and effective risk 
+management are the four  prominent CSFs for 
+industrial modular construction projects.  Li et 
+al. (2018) conducted a questionnaire survey in 
+China and found that the  prominent CSFs for 
+planning and control of  prefabricated 
+construction projects include involvement of 
+key players at the earliest stages of the project, 
+adequate knowledge  and experience of key 
+participants, effective communication and  
+information sharing among project 
+participants, efficient use of  information and 
+communication technology, and proper 
+coordination between onsite and off -site 
+trades. Even though a plethora of research 
+have expounded on the CSFs for various OSM 
+techniques, there is no specific empirical study 
+on CSFs for MiC in the extant literature (Wuni 
+and Shen 2019). Nonetheless, the  
+comprehensive review of the literature 
+provided a good framework and reference 
+point to identify the CSFs which may be  
+relevant to MiC projects.  
+METHODOLOGY 
+This study adopted a survey research design 
+due to the complexity, diversity, and 
+fragmentation of the Nigerian construction 
+industry. The survey approach enabled the 
+collection of data from professionals across 
+selected construction firms to assess critic al 
+success factors for Modular Integrated 
+Construction (MIC).  The research population 
+comprised 255 construction firms registered in 
+Abuja, as obtained from the Abuja Business 
+Directory (2024 edition). However, 
+preliminary screening was conducted through 
+phone calls, emails, and brief inquiries to 
+determine which firms had prior knowledge or 
+practical experience with Modern 
+Industrialised Construction (MIC) techniques. 
+This step was necessary because not all 
+construction firms in Abuja are familiar with 
+or have implemented MIC practices, which 
+remain relatively new in Nigeria’s 
+construction sector. 
+Based on the outcome of this screening 
+exercise, only 51 firms indicated that they had 
+either used MIC, had an understanding of its 
+processes, or were considering its adoption in 
+their future projects. These firms therefore 
+constituted the effective popula tion for this 
+study, as they were most relevant to the 
+research objectives. From each firm, one 
+professional such as a project manager, 
+architect, engineer, or quantity surveyor was 
+selected as a respondent, based on their 
+involvement in decision -making or  technical 
+implementation of construction methods. 
+Given the relatively small and specific 
+population, a snowball sampling technique 
+was employed. This approach was appropriate 
+because MIC adoption is relatively rare in 
+Nigeria, making it challenging to locate all 
+potential respondents. Following Masuku an d 
+Singh’s (2014) recommendation for small 
+populations, the study used the entire 

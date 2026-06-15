@@ -1,0 +1,217 @@
+--- PAGE 1 ---
+Construction Focus, Vol 15, No 1, (2022) 26 – 35    
+ 
+THE MULTIDIMENSIONALITY OF DISTRUST: A CRITICAL REVIEW OF 
+CONCEPTUAL EVOLUTION AND APPLICATIONS IN CONSTRUCTION 
+MANAGEMENT. 
+UMAR Bello1, ABDULAZEEZ Abubakar Dardau1, IBRAHIM Ahmad Doko2, DODO 
+Mansir1.  
+1 Department of Building, Ahmadu Bello University Zaria, Nigeria 
+2 Department of Quantity Surveying, Ahmadu Bello University Zaria, Nigeria. 
+ 
+Correspondence:  b.umarbd@gmail.com 
+ 
+ABSTRACT 
+This paper presents a critical review of the multidimensional nature of distrust, examining 
+its conceptual evolution and operationalization across various disciplines, with a focus on 
+construction management. The study adopts a structured literature review  methodology, 
+systematically analyzing peer-reviewed articles, book chapters, and institutional reports from 
+reputable academic databases. Key themes explored include cognitive-affective, behavioral, 
+institutional, and interpersonal dimensions of distrust,  alongside their interactions and 
+sector-specific manifestations. The review highlights inconsistencies in definitions, 
+measurement approaches, and empirical gaps, particularly in understudied contexts such as 
+project-based industries and the Global South. Findings underscore the need for integrated 
+frameworks and standardized measurement tools to advance theoretical understanding and 
+practical applications. The paper concludes with recommendations for future research, 
+emphasizing cross-sectoral studies, mixed-method approaches, and context-sensitive models 
+to better address distrust in high-risk environments like construction projects. 
+ 
+Key words: Effective Dimensions, Behavioral Manifestations, Construction Management, 
+Distrust, Institutional Distrust, Multidimensionality 
+ 
+INTRODUCTION 
+Distrust is increasingly recognized as a 
+distinct construct from trust, characterized 
+not merely by its absence but by negative 
+expectations, heightened vigilance, and 
+protective behaviors across different domains 
+including governance, healthcare, 
+technology, and construction (Kramer, 1999; 
+Shea et al., 2008). In sociological and 
+organizational research, distrust is 
+conceptualized as a strategic mechanism for 
+managing uncertainty and risk rather than a 
+purely emotional response (Luhmann, 1979; 
+Sitkin & Roth, 1993). 
+Over the past two decades, research has 
+moved beyond unidimensional views to a 
+multidimensional understanding of distrust 
+encompassing cognitive, affective, 
+behavioral, institutional, and interpersonal 
+dimensions (Lewicki et al., 1998; Guo et al., 
+2017). These dimensions interact in complex 
+ways, shaping individual perceptions, 
+governance structures, and collective 
+outcomes. 
+In the construction management context, 
+distrust is particularly salient. Project 
+environments are characterized by 
+fragmentation, high uncertainty, role 
+ambiguity, and significant financial and 
+safety risks. Such conditions amplify 
+negative expectations a nd increase reliance 
+on contractual controls and oversight 
+--- PAGE 2 ---
+Umar et al. 
+27 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+mechanisms to manage risk (Jiang et al., 
+2017; Wang et al., 2021). Empirical research 
+indicates that distrust manifests in layered 
+governance practices, such as formal 
+reporting, monitoring, and sanctions, which 
+both reflect and reinforce institutional 
+weaknesses in many project settings. 
+Despite this growing recognition, conceptual 
+clarity and sector-specific integration remain 
+limited. Existing studies often treat distrust as 
+a simple inverse of trust, overlooking its 
+multidimensional structure and its strategic 
+role in construction gover nance. This 
+fragmentation has led to inconsistent 
+definitions and weak theoretical integration, 
+particularly in under-researched contexts like 
+the Global South. 
+This paper therefore aims to critically review 
+the conceptual evolution of distrust and its 
+application to construction management, 
+drawing on cross -disciplinary literature to 
+clarify its core dimensions, theoretical roots, 
+and contextual manifestations. I t seeks to 
+establish a clearer conceptual framework that 
+can inform empirical research and 
+governance practice in construction. 
+Working Definition of Distrust  
+This paper adopts the definition by Kramer 
+(1999) and Lewicki et al.  (1998), framing 
+distrust as “a confident negative expectation 
+regarding another’ s conduct, intentions, or 
+reliability.” This anticipatory perspective 
+aligns with the governance and risk 
+management characteristics of construction 
+projects, where distrust is often embedded in 
+institutional mechanisms such as contracts, 
+performance bonds, and verification systems. 
+ 
+LITERATURE REVIEW 
+Theoretical Roots of Distrust 
+The conceptual roots of distrust can be traced 
+to classical sociology and early 
+organizational psychology, where distrust 
+was distinguished from low trust as an active, 
+deliberate mechanism to navigate uncertainty 
+(Luhmann, 1979; Sitkin & Roth, 1993). Early 
+perspectives viewed distrust as the negative 
+endpoint of a trust continuum (Deutsch, 
+1958; Rotter, 1967), but later models 
+established it as a separate construct with 
+unique antecedents, processes, and outcomes 
+(Lewicki et al., 1998; Hardin, 2002; Kramer, 
+1999). These developments set the 
+foundation for multidimensional frameworks 
+encompassing cognitive, affective, and 
+behavioral components (Cummings & 
+Bromiley, 1996; Schoorman et al., 2007). 
+Multidimensional Perspectives 
+Modern distrust theory recognizes at least 
+five dimensions: 
+1. Cognitive distrust : rational judgments 
+about competence and reliability; 
+2. Affective distrust: emotional suspicion 
+and fear of opportunism; 
+3. Behavioral distrust:  actions such as 
+monitoring or avoidance (Sitkin & Roth, 
+1993); 
+4. Institutional distrust:  loss of faith in 
+governance structures and regulations 
+(Hardin, 2002); 
+5. Interpersonal distrust:  relational 
+suspicion based on past experiences 
+(Lewicki et al., 1998). 
+This multidimensional framing has been 
+applied in fields like healthcare (Rose et al., 
+2004), political science, and organizational 
+governance. However, application in 
+construction remains underdeveloped. 
+ 
+General Frameworks and Sectoral Gaps 
+Existing models (e.g., Lewicki et al., 1998; 
+Kramer, 1999) are well established but do not 
+adequately reflect the high -risk, temporary, 
+and fragmented nature of construction 
+projects. Construction contexts elevate 
+institutional distrust to a central, rathe r than 
+background factor, unlike in many 
+organizational settings (Wang et al., 2021). 
+Weak regulatory enforcement, opportunistic 
+contracting, and role ambiguity exacerbate 
+--- PAGE 3 ---
+The multidimensionality of distrust.…. 
+28 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+distrust at multiple levels (Jiang et al., 2017). 
+This mismatch highlights the conceptual 
+misalignment between traditional 
+frameworks and construction realities, 
+pointing to research opportunities for 
+adaptation and extension of these models. 
+                                      
+Figure 1: Conceptual framework illustrating the multidimensional nature of distrust and the 
+interaction between its cognitive, affective, behavioral, institutional, and interpersonal 
+dimensions 
+ 
+To synthesize the theoretical perspectives and 
+thematic strands reviewed, this paper 
+develops a conceptual framework illustrating 
+the multidimensional structure of distrust. As 
+shown in Figure 1, distrust is conceptualized 
+as a central construct that manifests through 
+five interrelated dimensions: cognitive, 
+affective, behavioral, institutional, and 
+interpersonal.  
+These dimensions interact dynamically rather 
+than operating in isolation. Cognitive and 
+affective distrust shape perceptions and 
+judgments; behavioral distrust reflects 
+protective actions and monitoring 
+mechanisms; institutional distrust emerges 
+from systemic weaknesses; and interpersonal 
+distrust is rooted in dyadic and team -level 
+interactions. The interplay among these 
+dimensions provides the theoretical 
+foundation for understanding how distrust 
+functions across multiple levels of analysis, 
+including its translation into construction 
+management practice. 
+Relevance to Construction Management 
+By situating distrust within its 
+multidimensional theoretical roots and 
+contextualizing it for the construction 
+industry, this paper addresses a disciplinary 
+gap. A refined conceptual understanding of 
+distrust can enhance governance strategies, 
+inform cont ract design, and support more 
+resilient project delivery mechanisms in 
+high-uncertainty environments (Kostis et al., 
+2022; Guo et al., 2017). 
+METHODOLOGY  
+This study adopts a structured literature 
+review approach aimed at critically 
+examining the conceptual evolution and 
+multidimensional framing of distrust. A 
+structured review method was preferred 
+because it allows for systematic mapping and 
+synthesis of conceptual developments across 
+disciplines (Snyder, 2019). 

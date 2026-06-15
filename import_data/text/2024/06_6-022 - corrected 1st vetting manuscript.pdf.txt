@@ -1,0 +1,245 @@
+--- PAGE 1 ---
+Construction Focus, Vol 17, No 1, (2024) 78 – 92                                                 
+COMPARATIVE IMPACT OF PROCUREMENT-RELATED CONTRIBUTORS 
+ON COST AND TIME PERFORMANCE OF SUBEB BUILDING PROJECTS IN 
+KADUNA STATE 
+ 
+JIYA Victoria Hassana1, KADO Dikko2, DODO Mansir2. 
+ 1Department of Civil and Environmental Engineering, Air Force Institute of Technology, 
+Kaduna, Nigeria. 
+2Department of Building, Faculty of Environmental Design, 
+Ahmadu Bello University, Zaria, Nigeria 
+ 
+Correspondence: hassvics@gmail.com  
+ 
+ 
+ABSTRACT 
+In construction, n umerous factors known as contributors such as procurement processes/ 
+procedures, directions etc that brings about the achievement of client’s project objectives 
+have potentials to impact project performance outcomes.  Hence, the need through field 
+survey investigates the comparative impact of 20 Procurement Related Contributors (PRC) 
+with 4 sub - groups ( project payment , procurement, selection  and conditions of contract 
+related factors) impact on the cost and time performance of building projects.  Data was 
+collected through 105 questionnaires distributed to construction professionals  in State 
+Universal Basic Education Board (SUBEB) building projects in Kaduna State and analyzed 
+using SPSS 22, applying Mean Score (MS), ranking etc. The research discovered that, the 
+respondent’s highest response scale for cost is moderate impact = 2.50 -3.49 and time is 
+high impact =3.50 -4.49 with (50% and 80% overall response for most factors). 
+Additionally, the highest impact factors from the 4 sub -groups are: Payment arrangement 
+motivations to contractor on both cost and time performance (MS = 3.90 and 4.80 
+respectively). Procurement method type and project responsibilities/contractual obligations 
+to people/organization on cost (MS = 4.08 each) and variation orders in project on time 
+(MS = 4.47). Participation of many decision makers on both cost and time performance (MS 
+= 4.06 and 4.50 respectively). Contract documents coherent with t he existing legal 
+framework and contract conditions type on cost and time (MS = 3.65 and 4.20 respectively). 
+It recommended that the highest impact factors should be given more priority compare to 
+others by the construction professionals, in any building construction projects for better 
+cost and time performance.   
+  
+KEY WORDS: Building Projects, Cost Performance, Procurement Contributors, SUBEB 
+and Time Performance.  
+INTRODUCTION 
+In the construction industry, the issue of 
+project performance cannot be over 
+emphasized, this is because  construction 
+project success is often evaluated for 
+performance dimensions cost and time 
+inclusive. Cost and time are  one of the 
+most significant dimensions of 
+construction project performance and the 
+driving force of project success ( Babalola 
+et al., 2015;  Saraf, 2015 Mohammed, 
+2016). Soewin and Chinda, (2018); 
+--- PAGE 2 ---
+Jiya, et al. 
+79 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+Mahmoud, (2020); Bekr, (2017).  all 
+affirmed that the completion of any project 
+within the estimated cost and time are the 
+basic criteria for the success of any 
+construction project regardless of size and 
+complexity of project . In recent time due 
+to the abnormal increase in the cost and 
+over time of projects, cost and time of 
+construction projects has received the 
+attention of most stakeholders. This is 
+because cost and time are among the major 
+considerations from inception throughout 
+the construction project life cycle. It is 
+however obvious  from previous studies  
+(Dissanayaka and Kumaraswamy , 2002; 
+Nyangwara, and Datche, 2015; Mahmoud, 
+2020; Jiya et al., 2024) that achieving cost 
+and time performance of any construction 
+project, cost  and time  dimension 
+performance is related to numerous project 
+related contributors such as client, 
+contractor, environmental, procurement, 
+payment related contributors etc impacting 
+on the performance.  
+The study focused on project related 
+contributors that impact project 
+performance in terms of Procurement 
+Related Contributors (PRC) (Dissanayaka 
+and Kumaraswamy , 2002; Ogunsami, 
+2023; Jiya et al. , 2021). CIOB (2010) 
+supported that, procurement attributes are 
+procurement related contributors 
+absolutely crucial to the performance 
+dimensions. These are the basis for the 
+various processes that bring about the 
+construction of project that meet the client 
+needs known as procurement  related 
+factors which contains function attributes 
+as incorporating principal procurement 
+sub-systems and possible choices that are 
+there in. The procurement related 
+contributors include: payment modali ties, 
+selection methodologies factors , contract 
+conditions among others Jiya et al. (2024). 
+Procurement rela ted contributors are 
+essential in procurement process and 
+project execution at the end impacting 
+building project performance.  
+ 
+LITERATURE REVIEW 
+Project performance in the construction 
+industry is the degree of achievement of 
+certain effort or undertaking.  It invariably 
+involves placing consideration on the 
+major project’s contributory factors in 
+meeting or exceeding stakeholders’ needs 
+and expectations within a given period of 
+time, cost , quality, agreed terms among 
+others (Rahman & Alzubi, 2015; 
+Oladinrin, et al., 2013 ; Manknojiya & 
+Ankitkumar, 2020; Ijigah et al., 2023).   
+ Factors Impacting Project cost and 
+time performance; the Global 
+Perspectives 
+From literature, it was observed that there 
+is no consensus on the identification of 
+enormous factors known as contributors 
+which impact construction cost and time 
+performance of building projects, 
+basically because researches have widely 
+viewed the subject from diverse 
+perspective to define or determine the 
+performance of construction projects. 
+Amongst several research works which 
+have been conducted to identify pro ject 
+related contributors from diverse 
+perspective on building project 
+performance dimensions include: 
+The study conducted by Omran et al 
+(2012) to investigate project performance 
+in Sudan construction industry: A case 
+study.  The result found out that project 
+availability of  time, the size and 
+complexity of projects, the type of project 
+and duration of pr oject, communication 
+among project participants and overall 
+managerial action, adequacy of design and 
+specification, consultants commitment to 
+ensure construction work according to 
+specification, consultant cooperation to 
+solve problems, consultants involv ement 
+to monitor the project progress, client 
+--- PAGE 3 ---
+Comparative impact of procurement-related …. 
+80 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+ability to brief the project objectives, the 
+size of client’s organization and client’s 
+ability to make decision, client’s 
+interference during construction, the 
+economic environment, political, social, 
+skillful workers, quality control of 
+materials, enough  supply of materials, 
+procurement method, tendering method, 
+project team leader experience, planning 
+effort, budget progress monitoring. The 
+result of a similar study by Saraf (2015) of 
+India construction projects which was 
+aimed to investigate factors affecting 
+performance of construction project. The 
+survey findings indicate that the most 
+important factors affecting project 
+performance are: improper planning, 
+improper designing, site management, 
+decision making, methods, shortage of 
+labor and technical personnel, quality and 
+shortage of materials, construction 
+mistakes and defective work and 
+productivity.  
+Eriksson and Vennstrom (2012) carried 
+out a similar study to investigate the  
+Effects of procurement on project  
+performance. The result found that 
+Cooperative procurement procedures of 
+joint specification, limited bid invitation, 
+soft evaluation parameters, joint sub -
+contractor selection, incentives, 
+collaborative tools, contractor self-control 
+and collaboration on project all have 
+various effects on project performance. 
+these factors according to Erickson and 
+Westerberg (2012) shows how various 
+procurement precedence the different 
+procurement related factors at the design, 
+bid invitation, bid evaluation and sub – 
+contracting selection stages, compensation 
+factors that can have various influences on 
+project performance affect different 
+aspects of project performance.  
+Nyangwara and Datche (2015) in Kenya  
+supported that the most important factors 
+agreed by the owners, consultants and 
+contractors were: average delay because of 
+closures and materials shortage; 
+availability of resources as planned 
+through project duration; leadership skills 
+for project manager; escalation of material 
+prices; availability of personals with high 
+experience and qualification; and quality 
+of equipment and raw materials in project.  
+It was concluded that projects were 
+delayed and the actual cost of projects was 
+more than the estimated cost because of 
+coastal region of Kenya political 
+conditions and delayed payments which 
+results to unavailability of materials.  
+Study by Mathonsi and Thawal (2012) 
+also carried out a similar study in South 
+Africa. On the selection of procurement 
+systems in the South African construction 
+industry. The result revealed factors such 
+as internal factors (project and client 
+characteristics) and external factors 
+(market competition, information 
+technology, regulatory environment, 
+natural causes and globalization) influence 
+of the project life cycle, exped ited project 
+delivery; time, quality and price certainty.   
+Dissanayaka and Kumaraswam y (20 02) 
+concluded that significant factors that 
+mainly governed cost and time are 
+contractual payment modalities and 
+project characteristics and client/client 
+representative characteristic. 
+The Nigerian Perspectives on Factors 
+Impacting Project cost and time 
+performance 
+In Nigeria, Oladinrin et al. (2013) 
+conducted a study on the e ffect of the 
+variants of procurement systems common 
+to the Nigerian construction industry on 
+building project performance (cost and 
+quality). The study revealed that the 
+traditional system of procurement is the 
+most adopted option while the design and 
+build system performs better in cost, but 
+lag construction management system in 

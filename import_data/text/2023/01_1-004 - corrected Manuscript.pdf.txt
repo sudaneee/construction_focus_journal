@@ -1,0 +1,241 @@
+--- PAGE 1 ---
+Construction Focus, Vol. 16, No 1 (2023) 1 – 12.                                       
+ 
+RISK MANAGEMENT AND BUILDING PROJECT DELIVERY IN ANAMBRA 
+STATE, NIGERIA 
+ADIMEKWE Ebenezer Oluebube 1, OKOLIE Kevin Chucks 1, EHIMIOBOH Cosmas 
+Oseyende2*, IHEAMA Ndidi Blessing 1 
+1Department of Building, Nnamdi Azikiwe University, Awka, Anambra State, 
+Nigeria 
+2Department of Building, Dennis Osadebay University, Asaba, Delta State, Nigeria 
+ 
+Correspondence: cosmas.ehimioboh@dou.edu.ng  
+ 
+ABSTRACT 
+Frequent delays, cost overruns, and poor -quality outcomes continue to undermine building 
+construction project delivery in Anambra State, Nigeria, necessitating the need to evaluate 
+the underlying causes of these inefficiencies. This study examined the effects of internal and 
+external risk factors on project performance and identified the most critical risks influencing 
+delivery outcomes. A survey research design was adopted, and structured questionnaires 
+were distributed to 172 built environment professiona ls, including Architects, Builders, 
+Engineers, and Quantity Surveyors, out of which 132 responses were validated, representing 
+a 76.7% response rate. Data were analyzed using descriptive statistics such as mean score 
+and standard deviation, and results were ranked by significance. Findings revealed that 
+among internal risks, inaccurate cost estimation (mean = 4.71), delays in 
+approval/documentation (mean = 4.49), and poor scheduling (mean = 4.49) ranked highest, 
+indicating that financial and managerial inefficiencies critically affect project performance. 
+For external risks, legislation and government policy (mean = 4.71), financial failure (mean 
+= 4.49), and political changes (mean = 4.33) were most influential, reflecting regulatory and 
+economic instability. The dominant impacts of these risks were cost overrun and time 
+overrun, these factors collectively led to (mean = 5.00), followed by project abandonment 
+(mean = 3.92), underscoring the severe implications of poor planning and weak risk control. 
+It therefore recommends enforcing strict cost and schedule controls, strengthening financial 
+and risk management systems, ensuring policy stability, and enhancing project monitoring. 
+Furthermore, capacity building, stakeholder collaboration, and digital project management 
+adoption should be prioritized to enhance efficiency and sustainability. 
+KEYWORDS: Anambra State, Building Construction, Project Delivery, Risk, Risk 
+Management. 
+INTRODUCTION  
+The construction industry is widely 
+recognized as a complex and evolving sector 
+involving multiple stakeholders, advanced 
+technologies, and multifaceted processes. 
+Building construction projects, in particular, 
+are highly susceptible to risks that can 
+significantly affect overall performance, 
+often resulting in delays, cost overruns, and 
+compromised quality. According to the 
+Project Management Institute (PMI, 2020), 
+risk refers to any uncertain event or condition 
+that can influence project objectives ei ther 
+positively or negatively. Hence, effective risk 
+--- PAGE 2 ---
+Risk management and building project delivery 
+2 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+ 
+management remains fundamental to the 
+successful delivery of construction projects. 
+Wang, Li and Liu (2022) emphasize that 
+identifying, assessing, and addressing risks 
+early in a project positively influences 
+timelines and budget performance. Building 
+projects face both external risks  such as 
+unpredictable weather, economic instability, 
+and changes in government regulations  and 
+internal risks, including design flaws, 
+construction errors, and labor shortages (Liu, 
+Wang & Li, 2023). Proper management of 
+these risks enhances project efficiency and 
+delivery outcomes. The involvement of 
+owners, contractors, subcontractors, 
+designers, and suppliers further increases 
+project complexity and the potential for 
+conflict or miscommunication (Ali et al., 
+2023; Khan, Zhang & Ali, 2022).  
+Despite its recognized importance, the 
+construction industry still faces challenges in 
+implementing consistent risk management 
+practices. Projects frequently exceed planned 
+timelines and budgets due to unmanaged or 
+poorly managed risks. As noted by Alaloul , 
+Liew and Zawawi (2023), effective decision-
+making in construction depends largely on 
+comprehensive risk analysis, particularly 
+given the influence of financial, quality, and 
+environmental factors. While professionals 
+attempt to avoid, mitigate, or transf er risks 
+(Choudhry & Iqbal, 2013), a deeper 
+understanding of risk perception and 
+response is vital for sustainable project 
+success. 
+In developing countries like Nigeria, this 
+challenge is more evident. Many construction 
+professionals do not systematically apply risk 
+management procedures, resulting in serious 
+setbacks in project execution (Adeleke, 
+Bamgbade & Salami, 2022). Similarly, 
+Okeola, Bamgbade and Salami (2023) report 
+that weak or absent risk strategies are major 
+causes of project delays and cost overruns. In 
+Anambra State  according to Mgbeahuru & 
+Olughu (2022) these issues persist, as 
+construction projects are often plagued by 
+time extensions, budget escalation, and 
+substandard quality linked to inadequate risk 
+management practices. Construction firms in 
+Anambra State report significant cost -
+performance issues, with increased cost 
+variation and reduced value realization in 
+building projects (Mgbeahuru & Olughu, 
+2022). Safety and health planning was shown 
+to significantly affect firm p erformance, 
+underscoring systemic risk exposure in the 
+region (Udeze, et al., 2021). Previous studies 
+(Ogunsanmi, 2013; Okeola et al., 2017) have 
+identified poor risk management as a major 
+cause of project failure in Nigeria. Therefore, 
+this study examined the effect of internal and 
+external risk factors on successful project 
+delivery in Anambra State, Nigeria. 
+Specifically, it seeks to identify the key risks 
+influencing project outcomes, evaluate their 
+effects on delivery performance, and 
+recommend practical strategies for mitigating 
+risks in building construction projects. 
+REVIEW OF RELATED LITERATURE 
+Risk Management in Construction 
+Projects  
+The construction industry is a vital 
+component of economic growth, responsible 
+for providing infrastructure, housing, and 
+commercial facilities. However, it remains 
+one of the most uncertain sectors due to its 
+dynamic nature and exposure to multiple 
+risks (Aneziris, Topali & Papazoglou, 2012 ; 
+Outreville, 2018). Each construction project 
+is unique and influenced by changing site 
+conditions, material availability, financial 
+limitations, and workforce variability. These 
+factors often create uncertainties that lead to 
+delays, cost overruns, and quality issues 
+(Adeleke et al., 2021). 
+Risk in construction refers to the possibility 
+of an event or condition that may adversely 
+or positively affect project objectives such as 
+--- PAGE 3 ---
+Adimekwe et al.  
+3 | P a g e  
+ 
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeri 
+time, cost, quality, and safety (PMI, 2020). 
+Risks can originate internally from the 
+project team or externally from the 
+environment. Internal risks include poor 
+scheduling, inaccurate cost estimation, client 
+change orders, and shortage of skilled labour, 
+which reduce efficiency and affect 
+productivity (Liu et al., 2023). External risks, 
+on the other hand, involve government 
+policies, political instability, financial failure, 
+and inflation, which influence project 
+financing and material costs ( Berg 2010; 
+Okeola et al., 2022; Oladokun, et al. 2016). 
+Effective risk management is therefore 
+essential for successful project delivery. It 
+involves the systematic process of 
+identifying, analysing, and responding to 
+potential risks to reduce negative impacts and 
+maximise opportunities ( Dzingai 2022 ; 
+Wang et al., 2022). Recent research shows 
+that early identification and mitigation of 
+risks significantly enhance project outcomes 
+by improving planning accuracy and resource 
+allocation (Ali et al., 2022). The use of digital 
+tools such as Building Information Modelling 
+(BIM) and data analytics has further 
+strengthened proactive risk monitoring and 
+control (Liu et al., 2023). 
+Risk management in construction projects is 
+a structured process that identifies, assesses, 
+and responds to risks to enhance project 
+outcomes (Douglas, 2009). It involves three 
+key stages —identification, analysis, and 
+response—using strategies such as 
+avoidance, reduction, transfer, or retention. 
+Risk identification and analysis clarify 
+uncertainties and support effective decision -
+making (Alhassan, 2016). Structured risk 
+management improves time and cost 
+performance (Wang et al., 2022) and reduces 
+disruptions through proactive approaches 
+(Liu et al., 2023). Organisational frameworks 
+define ownership, control, and contingency 
+planning (Smith, Merna & Jobling, 2006; 
+Aminu, 2013). Although some perceive it as 
+costly, neglecting risk management causes 
+greater losses (Ali et al., 2023; Okeola et al., 
+2022). Integrated risk management ensures 
+efficiency, safety, and sustainable project 
+success. 
+In the Nigerian context, inadequate financial 
+forecasting, poor documentation, and 
+unstable policies remain key drivers of 
+construction risk (Adeleke et al., 2021 ; 
+Oladapo, 2015). Addressing these challenges 
+requires collaboration between clients, 
+consultants, contractors, and government 
+agencies. Ultimately, embedding risk 
+management throughout the project life cycle 
+promotes transparency, reduces uncertainty, 
+and supports sustainable project performance 
+(Ali, Zhang and Khan 2022). 
+Internal Risk Factors 
+Internal risks arise from within the project 
+organization and directly influence cost, 
+time, and quality performance. Inaccurate 
+cost estimation often leads to cost overrun 
+and poor financial planning (Adeleke et al., 
+2021). Tight schedules and poor progra m 
+scheduling reduce efficiency and increase 
+error rates (Wang et al., 2022). Delays in 
+approvals, documentation, and client change 
+orders create interruptions that affect 
+workflow and completion timelines (Okeola 
+et al., 2022). Incompetent subcontractors and 
+shortages of skilled labour contribute to 
+rework and low productivity (Liu et al., 
+2023). Poor coordination among participants 
+weakens communication and decision -
+making, causing avoidable disputes 
+(Oladokun et al., 2023). Consultant and 
+contractor delays, together with legal actions, 
+further escalate project uncertainty and cost 
+(Khan & Ali, 2020). Theft of materials also 
+raises operational expenses and affects trust 
+among project stakeholders (Chen et al., 
+2023). Overall, these internal factors reflect 
+weaknesses in planning, supervision, and 
+managerial competence that undermine 

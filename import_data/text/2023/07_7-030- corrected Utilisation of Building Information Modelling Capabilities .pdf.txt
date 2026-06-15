@@ -1,0 +1,237 @@
+--- PAGE 1 ---
+Construction Focus, Vol. 16, No1 (2023) 74 – 86                  
+UTILISATION OF BUILDING INFORMATION MODELLING CAPABILITIES IN 
+SMALL BUILDING PROJECTS 
+ 
+ISHAQ Ziyadul Hassan1, LAWAL Yarima Sallau1, CHARLES Sunday Edidiong1,  
+ISAH Ibrahim1, ABDULRAZAQ Abdullahi Taiwo2 
+ 
+1 Department of Building, Ahmadu Bello University Zaria, Nigeria. 
+2 Building Department, Ladoke Akintola University of Technology, Ogbomosho, Nigeria. 
+ 
+Correspondence: ziyadishaq2@gmail.com 
+ 
+ABSTRACT 
+Building Information Modelling (BIM) has emerged as a transformative force in the 
+construction industry, promising improved project efficiency, cost savings, and enhanced 
+collaboration. However, empirical studies to assess the utilisation  of BIM capabilities are 
+still lacking. This study assesses utilisation of BIM capabilities in small building projects. 
+Quantitative research method comprising questionnaire survey was used for this study. Data 
+was obtained using close ended structured questionnaires distributed to 53 professionals in 
+built environment. Descriptive statistic (frequency, mean and standard deviations) and 
+Inferential statistics (Kruskal-Wallis test) were used to analyse the data.  Findings revealed 
+a high level of awareness of construction professionals regarding the benefits of BIM, with 
+‘accurate visualisation of design ’ (MS=4.68), ‘project quality enhancement ’ (4.54) and 
+‘faster project delivery’ (4.52) being the most recogni sed benefits. the findings of the study 
+further revealed that,  the utilisation of BIM capabilities in small projects varies, with 
+capabilities like ‘design visualisation’ (3.68), finding widespread use, while others, such as 
+‘achieving energy efficiency and sustainability’ (1.76), lags behind. Moreover, the findings 
+also revealed that  lack of government support or incentives (4.80), high cost of BIM 
+implementation (4.76), and limited digital education and training (4.50) to be the significant 
+barriers to utilisation of BIM capabilities . The study conclude s that there is a moderate 
+utilisation of BIM capabilities in small building projects. The study recommends that public 
+and private organisations in the construction sector should provide support to train and 
+upskill construction professionals on BIM tools to drive  its successful utilisation in 
+construction projects. 
+ 
+KEYWORDS: Barriers, BIM capabilities, Building Information Modelling (BIM), Small 
+building projects, Utilisation,  
+ 
+INTRODUCTION 
+In the rapidly evolving construction 
+industry, the adoption of Building 
+Information Modelling (BIM) has 
+emerged as a transformative approach to 
+project management and collaboration. 
+BIM represents a digital representation of 
+a building's physical and functional 
+characteristics, integrating design, 
+construction, and operation, offering 
+stakeholders improved project efficiency 
+and reduced errors (Eastman, 2011). BIM 
+is also seen as a means to consolidate 
+building information into a single, 
+collaborative platform, addressing the 
+limitations of previous CAD technologies.  
+The adoption of BIM has been recognised 
+as a key factor in managing project 
+--- PAGE 2 ---
+ Ishaq et al. 
+75 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+information, complexity, and risk within 
+supply chains, improving decision -
+making, and facilitating effective 
+information sharing among project 
+partners (Vidalakis et al. , 2020) . This 
+approach provides a single repository for 
+multidisciplinary construction and design 
+documents, streamlining data 
+administration throughout the entire 
+project lifecycle. 
+The adoption rate and utilisation of BIM is 
+not rapid, and so many countries and firms 
+are still struggling with its adoption and 
+utilisation in construction projects. The 
+adoption rate of developed countries is 
+faster than that of developing countries 
+(Jung and Lee, 2015). In surveys by 
+McGraw Hill (Construction, 2015), there 
+has been an increase in BIM adoption in 
+the United Kingdom, France and 
+Germany, and North America. Similarly, 
+the National BIM report (NBS, 2017) has 
+advocated that the adoption and of BIM in 
+the United Kingdom has increased from 
+13% in 2011 to 60% in 2017. BIM 
+adoption in developed countries such as 
+the United Kingdom, United States, Hong 
+Kong, China, Australia, Norway, Finland, 
+Denmark, and Malaysia enjoys strong 
+government support ( Wong et al . 2011); 
+but this is not the case in developing 
+countries such as Nigeria and Ghana 
+where there is often a lack of government 
+support and guidance for technologies 
+such as BIM (Abubakar et al., 2014) 
+In Nigeria, Abubakar et al , (2013) 
+investigated the readiness of Building 
+Design firms and contracting 
+organisations to adopt BIM and have 
+reported them to be appreciably ready.  
+Abubakar et al, (2014) also identified the 
+barriers and drivers of BIM adoption in 
+Nigerian construction industry.  However, 
+despite some readiness assessments, 
+there's a lack of empirical study  that 
+explored the extent of utilisation of BIM 
+capabilities in small building projects in 
+Nigeria. Small building projects are 
+projects generally characterised by a 
+combination of factors related to having 
+low budget, short duration, minimal 
+complexity, small project team and 
+repetitive or standardised tasks.  The 
+implementation of BIM starts from small 
+projects, which if successful, then can be 
+extended to large building projects.  
+Therefore, exploring the utilisation of BIM 
+capabilities in these small projects 
+becomes crucial for successful BIM 
+implementation in  the Nigerian 
+Construction Industry.  Thus, the 
+objectives of this study are therefore, to: 
+1. assess professionals’ awareness of BIM 
+capabilities and  
+2. assess the utilisation of BIM capabilities 
+in small Building projects 
+  
+RESEARCH METHODOLOGY 
+This study adopted a quantitative research 
+approach. A closed ended s tructured 
+questionnaire was used to collect data  for 
+the study. The questionnaire was designed 
+in four sections. Section A solicited 
+information regarding the demography of 
+the respondents, Section B assessed the 
+level of awareness of construction 
+professionals on the benefits of BIM using 
+a 5-point Likert scale  where 1 represents 
+very low level of awareness and 5 
+represents very high level of awareness . 
+Section C determined the extent of 
+utilisation of BIM capabilities in small 
+building projects on a 5-point Likert scale 
+where 1= to very low extent on one end 
+and 5= to very high extent on the other 
+end. Section D assessed the barriers to 
+BIM utilisation in small building projects, 
+also using a 5-point Likert scale where 1= 
+strongly disagree on one end and 5= 
+strongly agree on the other end.  
+The population of the study includes 
+construction professionals that handled 
+--- PAGE 3 ---
+Utilisation of building information modelling… 
+76 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+small building projects in FCT Abuja. The 
+choice of professionals is for the fact that, 
+they are directly involved in project 
+implementation, from planning and design 
+to execution and delivery. Furthermore, 
+Abuja was selected as the study area 
+because it i s one of the fastest -growing 
+cities in the country and has a very high 
+concentration of construction 
+professionals. This can be attributed to the 
+large quantity of construction works in the 
+area (Ameh & Odusami, 2010).  
+Due to unavailability of a single database 
+to obtain a list of construction 
+professionals that have handled small 
+building projects in the study area from 
+which accurate sample size could be 
+drawn, the sample size for the research 
+was then obtained using a sample size 
+Table for non-finite population developed 
+by Louangrath (2014) which says that the 
+minimum sample size for an unknown 
+population at 95% confidence interval 
+with 5% error level is approximately 34 
+counts. However, 40% of the estimated 
+sample size was added to account for non-
+responses. Therefore, a total of  53 
+questionnaires were administered to 
+construction professionals (Architects, 
+Builders, Quantity surveyors, Structural 
+and Services Engineers) in Abuja, Nigeria. 
+50 properly filled and returned 
+questionnaires (94.3%) were analysed.  
+Descriptive statistics (Frequency, Mean, 
+standard deviations and percentages) and 
+inferential statistics  (Kruskal-Wallis H  
+test) were used to analyse data. 
+Section A of the questionnaire was 
+analysed using frequency and percentages 
+while section B , C and D were  analysed 
+using mean values and standard deviation. 
+Furthermore, Kruskal-Wallis test was used 
+to determine the significance of difference 
+in ratings across the respondents’ groups.  
+Consequently, t he following hypothesis 
+were postulated in this study. 
+H01: There is no significant difference in 
+the respondents’ ratings of the awareness 
+of benefits of BIM 
+H1: There is significant difference in the 
+respondents’ ratings of the awareness of 
+benefits of BIM 
+H02: There is no significant difference in 
+the respondents’ ratings of the Utilisation 
+of BIM capabilities in small building 
+projects 
+H2: There is significant difference in the 
+respondents’ ratings of the Utilisation of 
+BIM capabilities in small building projects 
+H03: There is no significant difference in 
+the respondents’ ratings of the  barriers to 
+Utilisation of BIM capabilities in small 
+building projects 
+H3: There is significant difference in the 
+respondents’ ratings of the barriers to 
+Utilisation of BIM capabilities in small 
+building projects 
+The r eliability of the questionnaire was  
+also tested using internal consistency  test 
+(Cronbach’s alpha Coefficient)  as seen in 
+Table 1.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 

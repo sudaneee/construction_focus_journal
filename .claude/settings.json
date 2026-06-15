@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(myenv/Scripts/python.exe manage.py makemigrations website)",
+      "Bash(myenv/Scripts/python.exe manage.py migrate website)",
+      "Bash(mkdir -p \"/c/Users/ismai/OneDrive/Desktop/Projects2026/ConstructionFocusJournal/import_data\")",
+      "Bash(python -c \"import pypdf; print\\('pypdf ok'\\)\")",
+      "Bash(python -c \"import fitz; print\\('pymupdf ok'\\)\")",
+      "Bash(python -c \"import pdfplumber; print\\('pdfplumber ok'\\)\")",
+      "Bash(python import_data/extract_text.py)",
+      "Bash(./myenv/Scripts/python.exe manage.py shell -c ' *)",
+      "Bash(./myenv/Scripts/python.exe manage.py import_articles)",
+      "Bash(./myenv/Scripts/python.exe manage.py runserver 8000)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://127.0.0.1:8000/volumes/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://127.0.0.1:8000/volumes/4/issues/1/)",
+      "Bash(curl -s -o /dev/null -w \"article: %{http_code}\\\\n\" \"http://127.0.0.1:8000/articles/an-assessment-of-it-tools-required-for-digital-transformation-of-gscm-processes-in-the-nigerian-construction-industry/\")",
+      "Bash(curl -s -o /dev/null -w \"pdf: %{http_code}\\\\n\" \"http://127.0.0.1:8000/media/pdfs/v4-01-an-assessment-of-it-tools-required-for-digital-transformatio.pdf\")",
+      "Bash(kill %1)",
+      "Bash(taskkill //F //IM python.exe)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\ismai\\OneDrive\\Desktop\\Projects2026\\ConstructionFocusJournal"
+    ]
+  }
+}

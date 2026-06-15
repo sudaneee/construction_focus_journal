@@ -1,0 +1,241 @@
+--- PAGE 1 ---
+Construction Focus, Vol 16, No 1, (2023) 54 – 60    
+EXPERIMENTAL EVALUATION OF THE MECHANICAL PROPERTIES OF 
+LATERITE BRICKS PRODUCED WITH PLASTIC WASTE AS BINDER 
+KHALIL Ismail Muhammad1, ABADAKI Becky Oboro1, OKOLI Obumneme 
+Godwin2. and GAMBO Sanusi1 
+1Department of Building, Ahmadu Bello University, Zaria, Nigeria 
+2Department of Building, Nnamdi Azikiwe University, Awka, Anambra State, Nigeria 
+Correspondence: khalismail4ward@gmail.com  
+ABSTRACT 
+Three key issues bordering developing nations such as housin g deficit, waste management 
+and depletion of environmental resources are rampant in Nigeria. Perhaps utilising plastic 
+wastes as alternative materials, specifically in brick production, can be a viable approach to 
+solving these issues. This paper seeks to apply plastic waste as a binder to completely replace 
+cement with the view of producing Stabilised Earth Bricks. Laterite soil was combined with 
+melted plastic to produce brick specimens. The specimens were cured in open air and tested 
+for Densification (D f), Compressive Strength (C s) and Flexural Strength (Fs). An average 
+compressive strength of 8.20N/mm² at 3 days was recorded for the  Laterite Plastic Bricks 
+(LPBs). LPBs have been discovered to be light in weight yet possessing compressive strength 
+comparable to standard requirements of Compressed Stabilised Earth Bricks. This indicates 
+that LPBs can be considered as appropriate building materials. 
+KEYWORDS: Alternative materials, Bricks, Laterite, Plastics, Waste management. 
+ 
+INTRODUCTION  
+Compressed Stabilised Earth Bricks 
+(CSEBs) are considered as green building 
+materials, which supports climate 
+resilience and aligns with the global push 
+for sustainable development  in Nigeria 
+(Building, 2023). Plastic waste has gained 
+recognition in the built environment where 
+it serves as substitute to aggregates , 
+workability modifier in  concrete, and 
+binder in  sandcrete blocks/bricks  
+production (Awoyera & Adesina, 2020) . 
+Distinct from sandcrete blocks and fired 
+clay bricks, it is economical to recycle 
+waste products such as plastic water 
+bottles with laterite for brick production 
+because very little materials, tools and 
+labour are required. The cost of 
+transportation is eliminated as well since 
+production can take place on site  (Khalil, 
+2017). Compared to fired clay bricks, the 
+production of Laterite Plastic Bricks 
+(LPBs) would only involve melting plastic 
+bottles at temperatures as low as 105 0C. 
+Curing of LPBs is by air drying, thereby 
+making the process less labour intensive 
+and environmentally friendly. 
+The largest industry across all economies 
+and the biggest consumer of raw materials 
+is the construction industry thus making it 
+a potential sector where Plastic Waste 
+(PW) can be used advantageously for a 
+variety of purposes. Due to the beneficial 
+properties of plastic, which include 
+adaptability, light weight, hardness, and 
+resistance to chemicals, water, and impact 
+acclaimed by Amit, et al ., (2012) , the 
+potential utilization of plastic waste in the 
+construction sector will assist the sector in 
+achieving its sustainability goals  
+(Schwartz, 2012). 
+--- PAGE 2 ---
+Khalil et al. 
+55 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+White, Franke, & Hindle, (2018), defined  
+recycling as the process of turning waste 
+materials into new materials that can be 
+used to make new products after they have 
+served their present and imminent use . 
+Plastic recycling according to (Hopewell, 
+Dvorak, & Kosior, 2019)  involves 
+collecting instead of discarding plastic 
+trash and putting it  through a series of 
+processes to create new, usable goods . 
+Effective recycling of plastic can decrease 
+the need for landfill space and safeguard 
+the environment from plastic pollution and 
+emission of greenhouse gases  (Al-Salem, 
+Lettieri, & Baeyens, 2019) . According to 
+Isaac & Manasseh, (2020),  recycled 
+polyethylene terephthalate (PET)  bricks 
+can be fire resistant and bulletproof.  
+Normally, water bottles and soft drink 
+bottles are made up of PET  (Rishabh, 
+Mohit, Inder, & Deepa, 2021). 
+In developing countries such as Nigeria 
+and Sudan to mention a few, there is an 
+imbalance between the demands for 
+housing and expensive conventional 
+building materials coupled with the 
+depletion of traditional ones  (Abolo, 
+2019). To address this situation, attention 
+has been focused on low -cost alternative 
+building materials and methods. Plastic 
+has been used  to stabilise sand in the 
+production of interlocking paver s and 
+walling bricks as well, however, sand is 
+expensive and its acquisition may lead to 
+depletion of the environment.  The 
+machineries involved in the recycling and 
+production of plastic bricks are also 
+expensive that the poor cannot afford.  
+Thus, this study improvises a local method 
+of mixing laterite, which is  abundant and 
+inexpensive in conjunction with plastic 
+waste also cheaper and easy to acquire for 
+the production of Compressed Stabilised 
+Earth Bricks (CSEBs). This can go a long 
+way to address the housing needs in 
+developing nations  as well as provide a 
+sustainable way to manage plastic wastes 
+in the environment. 
+ 
+MATERIALS AND METHODS 
+Materials 
+The materials used in the production of 
+LPBs are the waste plastic water bottles 
+made up of polyethylene terephthalate 
+(PET) capable of being molded and 
+remolded repeatedly ; and laterite soil. 
+Identical water Bottles of the same brand 
+(Ever Table Water) bottles were sorted, 
+washed to remove impurities and dried.  
+The laterite soil was obtained from a 
+borrow pit about 2 metres below ground 
+level in Area G Samaru Campus, Ahmadu 
+Bello University Zaria and subjected to 
+preliminary e ngineering property tests 
+such as sieve analysis (SA), moisture 
+content (MC) bulk density (BD), and 
+specific gravity (SG). The laterite was then 
+batched to obtain a consistent soil mix for 
+brick production. 
+Methods 
+LPBs production made use of a few 
+improvised common tools. These are: 
+1. A 5kg gas burner 
+2. A large size aluminium cooking 
+pot 
+3. A 25kg stirring/compaction iron 
+rod 
+4. The ELE International – three gang 
+mould (50mm cube) 
+Preliminary Tests Results 
+The relationships between the specific 
+gravities ( 2.38:1.38) and bulk densities 
+(1703:1398); (Laterite to Plastic) 
+respectively, are close, table 1, thus mix 
+proportions were carried out by weight. 
+ 
+ 
+--- PAGE 3 ---
+Experimental evaluation.…. 
+56 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+Table 1: Specific Gravity (SG) and Bulk Density (BD) Results 
+SN Material D (kg/cn3) 
+Laterite 
+Plastic 
+SG BD  
+1. 2.38 1703  
+2. 1.38 1398  
+NOTE: SG = Specific Gravity; BD = Bulk Density 
+Trial Mixes 
+In the preparation of sandcrete brick or 
+block mortar, cement to sand ratio is 
+usually in the ratio 1:6. Although, ratios of 
+1:3; 1:4 and 1.5 have worked according to 
+Uche, Oko, & Martin, (2022) for 
+cement/sand mortars, there are no records 
+for plastic/laterite proportions as at now. 
+Hence, trail tests were necessary so as to 
+achieve a consistent sticky mix for the 
+production of LPBs. As shown in table 2, 
+the weights in grammes of plastic were 
+varied while keeping the weights of 
+laterite and final melting temperatures 
+constant. 
+Table 2: Mix Proportions 
+SN Materials Content in a Mould IMP (0C) Liquid State 
+(0C) 
+Remarks 
+Ratio P (g) L (g) 
+1 1:10 22.5 225 68 300 Un-sticky Mix 
+2 1:5 45 225 68 300 Partially Sticky Mix 
+3 1:4 56.25 225 68 300 Sticky brittle Mix 
+4 1:3 75 225 68 300 Consistent Sticky Mix 
+5 1:2 112.5 225 68 300 Fluidly Mix 
+Note: P = Plastic; L = Laterite; IMP = Initial Melting Point 
+From table 2, it can be observed that the 
+ratio of plastic to laterite that produced 
+consistent sticky mix, ideal for bricks 
+production is 1:3. Ratios 1:10 t0 1:4 
+produced weak binding effect on laterite 
+while 1:2, turned out to be difficult to 
+compact in the mould due to fluidity, 
+hence the adoption of the 1:3 mix ratio. 
+Laterite Plastic Bricks Production 
+Process 
+The empty metal pot provided for this 
+work was pre-heated on the gas burner for 
+about two minutes, after which plastic 
+content of 22.5g representing 10% of the 
+weight of laterite, was placed in the pot 
+and allowed to completely melt into liquid 
+state at 30 00C, which took nine minutes. 
+The weighed laterite 225g, calculated for 
+one mould, was then carefully introduced 
+into the melted plastic and mixed 
+thoroughly with the 25kg iron rod. When 
+the mixture was observed to be consistent, 
+the content of the pot was emptied into the 
+mould and the same iron rod was used to 
+tamp the mixture in the mould twenty-five 
+times. Prior to this, engine oil was applied 
+to the inside surfaces of the mould before 
+each casting. This was to prevent the 
+specimen from sticking to the sides of the 
+mould during extrusion.  Every test 
+specimen was left to cool and set for 
+roughly fifteen minutes before de -
+moulding and curing in open air. 
+Trial Test Result 
+After three days of open-air curing of 
+specimens, the average compressive 
+strengths for each ratio including the 
+control samples are given in table 3. The 
+lowest early strength at 3days 
+(0.77N/mm2), was recorded for the control 
+sample while the least strength 
+(3.01N/mm2) for plastic stabilised bricks 
+was measured at the ratio 1:10 and hence-
+on, the strengths improved as plastic 
+increased to 1:5; 1:4; and 1:3, (5.82; 7.26; 
+and 8.20N/mm 2) in that order. The 

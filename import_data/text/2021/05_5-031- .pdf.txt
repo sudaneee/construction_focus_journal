@@ -1,0 +1,272 @@
+--- PAGE 1 ---
+Construction Focus, Vol 14, No 1, (2021) 47 – 60 
+  
+PREVALENCE OF CORRUPTION FORMS IN PUBLIC BUILDING 
+PROJECTS 
+ 
+ABDULRAZAQ Abdullahi Taiwo1, ISHAQ Ziyadul Hassan2, ABUBAKAR 
+Muawiya2, 
+ABDULAZEEZ Abubakar Darda’u2, SULEIMAN Aisha Nana3. 
+ 
+1Building Department, Ladoke Akintola University of Technology, Ogbomosho, 
+Nigeria. 
+2Department of Building, Ahmadu Bello University, Zaria, Nigeria. 
+3Department of Building, Federal Polytechnic, Bida, Nigeria. 
+ 
+Correspondence: ziyadishaq2@gmail.com  
+ABSTRACT 
+Public building projects are overwhelmed by different forms of corruption. However, 
+little or no empirical study assessed the prevalence of corruption forms in public building 
+projects. This study, assessed the prevalence of corruption forms in public building 
+projects and the stages mostly associated with corruption . The study adopted a 
+quantitative research approac h. 68 questionnaires were distributed to contracting and 
+consulting organisations who have handled public construction projects using purposive 
+sampling technique . Data obtained were analysed using descriptive statistics . Mann-
+Whitney U (MWU) test was also used to check the significance of the difference in mean 
+scores ratings of the stakeholders’ groups. The study found 
+‘Favouritism/Patronage/Nepotism’, ‘Bribery’, and ‘Kickbacks to be the top corruption  
+forms prevalent within the public building projects. Stakeholders’ ratings showed that 
+‘tendering and bid evaluation’ and ‘contract award’ stages were mostly associated with 
+corruption. The Mann -Whitney U (MWU) test result further showed no significant 
+difference in the stakeholders’ ratings of the prevalence of corruption forms and the 
+stages of procurement mostly affected. The study concludes that corruption forms are 
+prevalent in public building projects with ‘tendering and bid evaluation’ stage being the 
+most vulnerable. It is recommended  that public procurement officers should strive to 
+ensure compliance with the basic principles of public procurement as enshrined in the 
+Nigerian public procurement act to minimise occurrences  of corrupt practices , thus, 
+ensuring transparent, fair and accountable public building projects procurement. 
+KEYWORDS: Corruption Forms,  Prevalence, Public Building Projects,  Public 
+Procurement, Procurement Stages. 
+INTRODUCTION 
+A vibrant and thriving construction 
+sector could well drive a healthy and 
+well-functioning economy, the sector 
+contributes directly to the GDP by 
+entering the national accounts as a 
+component of fixed investments, and 
+fixed investment in turn represents 
+addition to the national capital stock 
+(Alagidede & Odei -Mensah, 2016). It 
+also constantly contributes to 
+improvements in the built environments 
+of human societies (Transparency 
+International, 2016). 
+However, corruption has been one of the 
+major achilles heel of the construction 
+industry globally , with considerable 
+assertions indicating  that corruption in 
+construction has become a notable 
+worldwide challenge confronting all 
+countries (Le et al ., 2014). Facts from 
+Transparency International (2013, 2016) 
+have shown that the construction 
+industry has become the most corrupt 
+--- PAGE 2 ---
+Prevalence of Corruption Forms…….. 
+48 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+circle and the procurement sector is also 
+stigmatized as being the sector most 
+helpless to the frequency of corrupt 
+practices owing to the rapid expansion of 
+the global construction market after 
+entering the 21st century. This is mainly 
+ascribed to the fra gmented nature of the 
+construction industry (involving clients, 
+designers, contractors, consultants and 
+suppliers), which inflicts difficulties in 
+tracking payment information (Chan & 
+Owusu, 2017). (Chan et al. 2017; Owusu 
+et.al., 2021) noted that series of research 
+on corruption over the last two decades 
+has revealed varying corruption forms in 
+the studies available and because of the 
+evolution of corruption over the years 
+different forms of corrupt practices have 
+emerged, and more money is being 
+expended in these newly generated 
+forms. 
+The stages in construction process are 
+perceived to be very much susceptible to 
+corruption from project inception to 
+completion. this situation is facilitated 
+by high -level political connections in 
+awarding contracts, immoderate and 
+careless sole sourcing for public 
+contracts and contractors’ lack of 
+dedication in tackling corruption ( Ogbu 
+& Asuquo, 2018; Ameyaw et al., 2017). 
+The pervasiveness of different 
+corruption forms in the industry cannot 
+be under appraised as corruption has 
+been a recurring issue abrading million  
+in lost resources in al most every sector 
+of the economy and the construction 
+industry sector is not being left out  
+(Agyekum et al., 2020; Adekunle et.al, 
+2019).  
+Several scholars have recorded practical 
+strategic mechanisms to eliminate 
+corrupt practices in construction projects 
+using frameworks and toolkits, namely 
+by: raising public awareness about 
+corruption, conducting stringent contract 
+monitoring, performing rigorous 
+supervision and auditing and 
+establishing a high -standard 
+accountability mechanism, among 
+several others (Ebekozien 2020; Tabish 
+& Jha, 201 1; de Jong et al., 2009; Zou, 
+2006). According to Ebekozien, (2020) 
+and Dza, et al . (2018), public 
+procurement due process controls public 
+construction projects and fights 
+corruption in project planning and 
+procurement, promoting procurement 
+integrity. Ameh and Odusami (2010) 
+opined that the level of corruption and 
+unethical practices in the Nigerian 
+construction industry is on the decline 
+following steps by the BMPIU or the 
+‘Due Process Office ‘to block loopholes 
+arising from reckless processes involved 
+with contract awards and execution at 
+the federal level. Nevertheless, from the 
+review of several studies, the re are a 
+range of views on the prevalence of 
+corruption forms as well the stages 
+mostly associated with the various 
+identified corruption forms in the 
+industry. 
+Review of several studies (Le  et a l., 
+2014; Oyedele, 2018; Owusu et al.,  
+2021; Ameyaw, et al., 2013; Ameyaw et 
+al. 2017), show a range of views on the 
+prevalence of corruption forms as well as 
+the stages mostly associated with the 
+various identified corruption forms in 
+developed and developing countries. 
+The prevalence of corruption forms 
+could be country specific du e to 
+difference in policies applicable to each 
+country, however, evidence of such 
+empirical studies is limited in the 
+Nigerian context. According to Aduwo 
+et. al  (2020) and Oyedele (2018), 
+Nigerian public sector con struction 
+procurement practices are susceptible to 
+corruption. This could hinder the 
+government’s aim of provision of public 
+infrastructure through fair, transparent 
+and accountable procurement process.  
+Yet, little or no empirical study was 
+carried out to determine the corruption 
+forms that are prevalent in public 
+building projects  in Nigeria and the 
+stages mostly associated with 
+corruption. Thus, this  research 
+--- PAGE 3 ---
+Abdulrazaq et al. 
+49 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+aims to provide answers to the following 
+questions: (1)  What are the  most 
+common/prevalent corruption forms  in 
+public building projects in Nigeria ? (2) 
+Which stage of public building project is 
+mostly prone to corruption ? and (3) are 
+there significant differences in 
+stakeholders’ ratings of the  most 
+common/prevalent corruption forms in 
+public building projects and the stages of 
+public building projects mostly prone to 
+corruption?  
+ 
+LITERATURE REVIEW 
+Corruption Forms 
+Corruption forms within the construction 
+industry exist in many manners, Chan 
+and Owusu (2017) identified a total of 28 
+different corruption forms the 
+construction industry, they include; 
+bribery, fraud, collusion, bid rigging, 
+embezzlement, kickback, conflict of 
+interest, dishonesty, extortion, 
+front/shell companies, nepotism, 
+professional negligence, cartel, 
+favoritism, patronage, guanxi, 
+solicitation, facilitation payment, 
+lobbying, influence peddling, ghosting, 
+deception, money laundering, price 
+fixing, intimidation and threats, 
+blackmail, coercion and client 
+abuse/clientelism. To have a better grasp 
+of these corruption forms, they further 
+categorized them into six main 
+constructs based on (1) the relationship 
+and the commonalities that exist among 
+the v ariables (by definition) and (2) 
+using previous studies that classified 
+some of the variables. At the end of the 
+classification, the main constructs 
+identified were Bribery acts (bribery, 
+kickbacks, facilitation payments, 
+influence peddling, lobbying and 
+solicitation), Fraudulent acts (fraud, 
+collusion, front/shell companies, 
+dishonesty, ghosting, money laundering 
+and deception), Collusive acts (cartels, 
+bid rigging and price fixing), 
+Discriminatory acts (nepotism, 
+favoritism, and patronage), Extortionary 
+acts (extortion, client abuse/clientelism, 
+intimidations and threats, coercion and 
+blackmail), Unclassified acts 
+(embezzlement, conflict of interest and 
+professional negligence). 
+Nature of Public Projects 
+Public projects are projects characterized 
+by; large investment commitment, vast 
+complexity (especially in organizational 
+terms) and long -lasting impact on the 
+economy, the environment and society 
+(Brookes & Locatelli, 2015). Public 
+projects are a particul ar class of 
+megaprojects that share most of the 
+aforementioned characteristics. Most 
+megaprojects are often associated with 
+poor performance, even in countries with 
+low signals of corruption. According to 
+Stansbury (2005), not all projects are the 
+same: sp ecific features characterize 
+projects and make them more or less 
+susceptible to corruption.  
+These characteristics are: (1) Size: this is 
+the most important feature because it is 
+easier to hide bribes and inflated claims 
+in large projects than in small projects. 
+(2) Uniqueness: this makes budget costs 
+difficult to compare and therefore it is 
+easier to inflate. (3) Government 
+involvement: public administrators can 
+use their arbitrary power especially 
+where there are insufficient controls on 
+how government officials behave. (4) 
+Number of contractual links: each 
+contractual link provides an opportunit y 
+for someone to pay a bribe in exchange 
+for the contract award. (5) Project 
+complexity: when projects are very 
+complex, factors like mismanagement or 
+poor design can hide bribes and inflate 
+claims. (6) Lack of frequency of 
+projects: winning these projects  may be 
+critical to the survival or profitability of 
+contractors, which provides an incentive 
+for contractors to use bribes. (7) Work is 
+concealed: subsequent processes cover 
+the basic components of the work. The 
+quality of the components can be very 
+costly or difficult to check. (8) 

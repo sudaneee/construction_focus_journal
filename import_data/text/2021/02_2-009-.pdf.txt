@@ -1,0 +1,248 @@
+--- PAGE 1 ---
+Construction Focus, Vol 14, No 1 (2021), 12 – 24              
+ 
+AN ASSESSMENT OF PROFESSIONAL PERCEPTION ON CONTRACTOR-
+RELATED DELAY FACTORS IN PUBLIC CONSTRUCTION PROJECTS 
+1 LAWAL Fadila Muhammad, 2 IBRAHIM Emmanuel Chongcicimmi, 1 ABUBAKAR 
+Ismail, 1 AYENI Olugbenga & 1 OYELEKE Fauziyya Mojirade 
+1Department of Building, Ahmadu Bello University, Zaria 
+2Department of Building Covenant University, Ota 
+ 
+Correspondence: fadilaabdallahlawal@gmail.com   
+ 
+ABSTRACT 
+Delay in construction project is considered one of the most common problems causing a 
+multitude of negative effect on the project and its participating parties.  This study aims to 
+assess contractor-related factors contributing to delays  in public construction projects in 
+Kaduna metropolis. The study adopted a quantitative research approach through the use of 
+structured questionnaire survey. A total of 61 structured questionnaires were distributed to 
+construction professionals drawn from various building firms within Kaduna Metropolis.  
+Out of 61 distributed questionnaires, 44 were retrieved and analyzed for the study.  A 
+descriptive statistical methods encompassing frequency distribution and mean ranking score 
+were used to analyzed data collected. The study revealed that rework due to construc tion 
+errors, improper or obsolete construction methods, and frequent change of subcontractors 
+were identified as the most significant contractor -related delay factors. Also, escalation of 
+material prices, conflicts with consultants and owners, and frequent  changes of 
+subcontractors were revealed as the most frequently occurring delay factors. Despite these 
+challenges, respondents strongly agreed that ensuring availability of resources, employing 
+competent project managers, and implementing effective financial management are the most 
+effective measures for minimizing contractor -related delays in construction projects.  The 
+study concludes that contractor-related delays in public construction projects are primarily 
+caused by rework from construction errors, obsolete methods, and frequent subcontractor 
+changes. Therefore, the study recommends that addressing these issues through better 
+planning, cost management, and effective communication can significantly reduce project 
+delays. 
+KEYWORDS: Causative factors, Construction projects, Contractor delays, Public projects. 
+INTRODUCTION 
+Globally, the construction industry plays 
+an important role in the national socio -
+economic development of a country 
+(Khahro, 2018). In Nigeria, the 
+construction industry occupies an 
+important position in the economy, which 
+provides shelter, infrastructure,  and 
+development (Oladinrin, 2012). 
+Furthermore, Akash and Rum (2011) 
+stated that an improvement in the 
+economic growth of a country will 
+increase the growth of the construction 
+industry and at the same time, there will be 
+an increasing demand for the construction 
+of facilities and buildings.  
+According to Adam, Josephson, and 
+Lindahl (2017), more than 50% of 
+construction projects experience time 
+overruns, which ultimately result in 
+--- PAGE 2 ---
+Lawal et al. 
+13 | P a g e  
+ 
+project delays. As noted by Egwim, Alaka, 
+Toriola-Coker, Balogun, Ajayi, and 
+Oseghale (2017), construction delays are a 
+widespread phenomenon and represent 
+one of the most significant challenges 
+facing the global construction industry. 
+Tafesse, (2021) emphasized that delays 
+occur in almost every construction project, 
+with their extent varying considerably 
+from one project to another. Gebrehiwet 
+and Luo (2017) defined a “delay” in 
+construction as the completion of project 
+activities or the overall projec t later than 
+the planned or contractually agreed 
+schedule. In addition, Odenigbo, Odusami, 
+Okolie, and Okafor (2020) described delay 
+as the slowing down of work progress 
+without a total stoppage of construction, 
+which can result in time overruns beyond 
+the agreed delivery date. Carvalho, Maués, 
+Moreira, and Reis (2021), as well as 
+Rashid (2020), noted that delay is a 
+common factor leading to multiple adverse 
+effects and may occur at any stage of a 
+project. Similarly, Isyaku (2020) stated 
+that construction delay  refers to the 
+situation in which a project is completed 
+later than the time specified in the contract. 
+Consequently, t he critical problems 
+encountered by the construction industry 
+in Nigeria are the inability to complete 
+projects on the scheduled date, at the 
+stipulated cost, and the low quality of work 
+(Mamman, 2019). Gandhak and 
+Sabihuddin (2014), using average 
+responses, showed that factors such as 
+building permit approval , changes in 
+drawings, incomplete documents  and 
+inspection and decision during 
+development stages are the most relevant 
+causes of delays in a construction project. 
+A study by Durdyev and Hosseini (2020) 
+revealed that major construction delays 
+occur primarily due to corruption and 
+bureaucracy, insufficient funding, and 
+price fluctuations. The study also 
+identified excusable, compensable, 
+critical, and concurrent delays as the main 
+types affecting Nigerian power 
+construction projects. Furthermore, 
+differing views between clients and 
+contractors regardi ng these delay types 
+often lead to disputes and additional 
+project setbacks (Durdyev and Hosseini 
+2020).  
+Consequently, previous studies (Egwim et 
+al., (2017) have revealed that contractor -
+related factors are major contributors to 
+schedule delays in construction projects. 
+Fashina and Opti (2020) noted that when 
+construction projects experience delays, 
+the effects are often detrimental to 
+stakeholders. Moreover, the impacts of 
+construction delays are considered the 
+aftermath of unidentified delay causes 
+within a project (Viles, Rudeli, & Santilli, 
+2020). These effects typically have a 
+significant influence on project delivery 
+outcomes. 
+Over the years, several conventional 
+approaches have been adopted for the 
+effective management of construction 
+project delays, emphasizing robust 
+planning, technological integration, clear 
+communication, and financial control 
+(Arlota and Werner, 2020).  According to 
+Bukar and Ibrahim (2021), developing 
+realistic schedules with proper risk 
+assessments and contingencies helps 
+minimize time overruns. Similarly, the use 
+of digital tools such as BIM and IoT 
+enhances real-time monitoring and enables 
+timely corrective actions (Kiani Mavi and 
+Gengatharen, et al. , 2021). Furthermore, 
+strong stakeholder collaboration and clear 
+contract provisions help reduce disputes 
+and coordination issues that often result in 
+project delivery delays (Fashina, Omar, 
+Sheikh, and Fakunle, 2021). Maintaining 
+adequate funding and effective 
+governance can serve as a tool for 
+managing delay in construction project 
+delivery (Celestin, 2020). 
+--- PAGE 3 ---
+An assessment of professional perception on….. 
+14 | P a g e  
+ 
+The persistence of contractor-related delay 
+problems in public construction projects 
+has become a major setback with far -
+reaching consequences for the 
+construction industry, organizations, the 
+economy, and society, particularly in 
+developing countries such  as Nigeria 
+(Tafesse, 2021).  According to Durdyev 
+(2021), contractor delays remain a 
+significant challenge in construction 
+projects, often resulting in cost overruns, 
+schedule extensions, and reputational 
+damage. Previous studies have identified 
+several pr imary causes of contractor -
+related delays in public construction 
+projects, including improper planning, 
+poor site management, inadequate 
+contractor experience, insufficient owner 
+financing and delayed payments for 
+completed work, subcontractor -related 
+problems, shortages of materials and 
+labor, equipment unavailability or failure, 
+and lack of effective communication 
+among project parties, as well as 
+construction-stage errors (Sambasivan & 
+Soon, 2007; Muwafaq, Abdel -Monem, & 
+EL-Dash, 2020) 
+While the need to manage contractor -
+related delay factors in public sector 
+projects remains a recurring concern in the 
+construction industry, there is a growing 
+necessity to assess the specific delay issues 
+associated with contractors within the 
+Nigerian construction industry. Therefore, 
+this study aim ed at  to assessing the 
+perceptions of construction professionals 
+to provide insights into contractor -related 
+delay factors that hinder effective project 
+delivery. The findings are will serve as a 
+guide for ind ustry practitioners in 
+formulating strategies and interventions to 
+minimize delays, enhance project 
+performance, and optimize resource 
+utilization. 
+ 
+ 
+LITERATURE REVIEW 
+Construction Project Delay  
+Construction projects are required to be 
+completed based on the schedule, within 
+the stipulated cost, time, quality and under 
+safe conditions (Abbasi et al., 2020).  As 
+noted by Adam et al. (2017), construction 
+project delays remain a persistent and 
+critical barrier to project success  despite 
+these shared project goals objectives 
+among contracting parties .  According to 
+Celestin (2020) a construction delay is 
+defined as the extension of project 
+duration beyond the contractually agreed 
+completion date or the originally planned 
+timeline. Previous studies ( Masood, Ali, 
+Shafique, Shafique, Zafar, Maqsoom  & 
+Ullah, 2015; Khahro & Memon, 2018; 
+Hasmori, Said, Deraman, Abas, Nagapan, 
+Ismail, Khalid & Roslan, 2018; Jayalath & 
+Perera, 2019 ) have broadly categorized  
+construction project delays into four 
+distinct types based on causation and 
+liability including excusable delays (e.g., 
+natural disasters or "acts of God"), non -
+excusable delays (attributable to 
+contractor or subcontractor negligence), 
+compensable delays (caused by owner -
+related actions), and non -compensable 
+delays (triggered by third -party or 
+sovereign events beyond contractual 
+control). Moreover, each of these types of 
+delay carries different implications for 
+time extensions and financial 
+compensation of a construction project. 
+Causes of Delay in Public Construction 
+Projects 
+Delay in construction project management 
+is caused by different factors. According 
+to Hasmori et al.  (2018). While some 
+factors are major and pervasive as reported 
+by stakeholders, others are minor, leading 
+scholars to prioritize the most prevalent 
+issues in their groupings ((Egwim et al., 
+2017).  As noted by Ahmed (2015) delay 
+related factors are classified into  eleven 

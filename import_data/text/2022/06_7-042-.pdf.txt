@@ -1,0 +1,258 @@
+--- PAGE 1 ---
+Construction Focus, Vol 15, No 1, (2022) 72 – 82     
+  
+COMPARATIVE EVALUATION OF CONSTRUCTION MANAGERS 
+INVOLVEMENT IN SMALL AND LARGE BUILDING PROJECTS 
+ 
+DAVID Joel Ufwai1, MSHELGARU Isa Hassan1, MUHAMMAD Shehu1 
+1Department of Building, Ahmadu Bello University, Zaria, Nigeria. 
+Correspondence: bldrjoeldavid@gmail.com,  
+ 
+ABSTRACT 
+The level of construction managers' involvement in carrying out their roles influence the 
+outcome of a building project However; previous studies have not adequately explored 
+the extent to which construction managers' involvement varies across projects of different 
+sizes. The aim of the study is to evaluate the extent of construction managers' involvement 
+in executing their roles across different phases of small and large-scale building projects. 
+Quantitative research method was  adopted to  qualify respondents ' views using close -
+ended questionnaires. The population consists of  project managers, human resource 
+managers and construction managers, from the 85 construction firms across the six area 
+councils of Abuja. A sample size of 50 was determined using Cochran’s equation. The 
+questionnaire items were measured on a 5 -point Likert Scale. Data collected was 
+analysed by computing the mean item score (MIS ) and ranked based on the mean item 
+score obtained. The findings indicate that the extent of construction manager s 
+involvement across the phases of small-scale building projects has limited engagement  
+(MIS = 3.4) to high (MIS = 3.5).  While in large scale building projects, their involvement 
+is significantly higher (MIS = 4.0 to 4.2). The study concludes that the extent of 
+construction managers involvement in small scale building project is moderate compared 
+with the high extent in large scale building projects. The study recommen ds that 
+construction organisations should develop training that focus on the challenges a nd 
+requirements peculiar to building projects of different sizes, and enlighten construction 
+managers on the expectations associated with building projects of different sizes.  
+ 
+ 
+ KEYWORDS: Building Projects, Construction Managers, Involvement, Large -scale, 
+Small-scale  
+ 
+INTRODUCTION 
+The construction industry is faced with 
+so many challenges among which is 
+inability of construction managers 
+effectively carry out their roles  
+(Ogunsanmi, 2016; Eja & Ramegowda, 
+2020 and Ravi, John, Mohammed. 
+Hashem, 2022).  According to Kang, 
+Jin, Hyun & Park (2018), the level of 
+construction managers' involvement in 
+carrying out their roles influence the 
+outcome of a building project. 
+Construction managers' involvement in 
+a building project is vital such that their 
+absence results in lack of conformity 
+with specified standards. When building 
+project is larger, the requirements of the 
+construction manager increases in such 
+cases, a builder is required  to assist the 
+construction manager (Anyanwu, 
+2013). 
+In the construction of buildings, contracting 
+methods such as design -and-build, 
+construction managements, guaranteed 
+maximum price and management contracts 
+allows for construction managers to be 
+involved at the early stage of a building 
+project (Greg, 2018).  Construction 
+managers are site based managers of 
+construction o rganisations with 
+professional training in the management, 
+--- PAGE 2 ---
+David et al. 
+73 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+production and delivery of Building 
+projects in accordance to the objecti ves 
+(Chartered Institute of Building CIOB, 
+2013). According to Zidane (2012),  as 
+projects vary  in sizes, so do construction 
+managers’ involvement in carrying out their 
+roles effectively.  
+Previous research, as highlighted in 
+Onyia (2019), indicates that the 
+effectiveness of construction managers 
+can be improved through skill 
+development. This finding is consistent 
+with Kang, Jin, Hyun, and Park, (2018), 
+who demonstrated that skills affect the 
+level of involvement of construction 
+managers in executing their roles, 
+ultimately impacting the results of 
+building projects. Nevertheless, these 
+studies have not adequately explored the 
+extent to which construction managers' 
+involvement varies across projects of 
+different sizes. The aim of the study is to 
+evaluate the extent of construction 
+managers' involvement in executing 
+their roles across different phases of 
+small and large -scale building projects, 
+and to identify how this involvement is 
+influenced by project size. This was 
+achieved through the following 
+objectives; To analyze the roles and 
+responsibilities of construction 
+managers in small large -scale building 
+projects, and t o quantify the level of 
+involvement of construction managers 
+in various p roject phases, including 
+planning, execution, monitoring, and 
+completion, for both small and large 
+projects. 
+The findings of the study will serve as 
+management guidelines for construction 
+organisations to focus their trainings and 
+development on programs that enhance 
+managerial effectiveness based on 
+project size. To identify how 
+construction managers ' involveme nt 
+levels differ based on project scale. 
+Furthermore, it can contribute to the 
+existing literature by filling a gap in 
+knowledge regarding the relationship 
+between project size and managerial 
+involvement. 
+LITERATURE REVIEW  
+The Construction Manager 
+According to the Chartered Institute of 
+Building CIOB (2013) construction 
+managers are site based managers of 
+construction organisations with 
+professional training in the 
+management, production and delivery of 
+Building projects in accordance to the 
+objectives. A project manager as 
+described in PMBOK (2013), is a 
+professional assigned by a performing 
+organization to lead a project team to 
+achieve project objectives. Furthermore, 
+in the construction of buildings, 
+contracting methods such as design -
+and-build, construction managements, 
+guaranteed maximum price and 
+management contracts allows for 
+construction managers to be involved at 
+the early stage of a building project 
+(Greg, 2018). 
+The Roles of Construction Managers 
+Construction manager plays an important 
+role in the leadership of a project team 
+necessary in achieving the project’s 
+objectives. Construction manager plays a 
+key role throughout the project life cycle 
+from its initiation phase through closing 
+phase (Project Management Body of 
+Knowledge PMBOK, 2013) . According to 
+Shibani & Sukumar (2015),  a construction 
+project manager has the responsibility of 
+the planning, execution and closing of a 
+project as their roles influence the project . 
+Furthermore, construction project manager 
+communicates with the upper  management 
+level, client and external vendors, whose 
+roles are the ability to hire, fire, supervise, 
+--- PAGE 3 ---
+Comparative evaluation of construction…. 
+74 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+planning, setting goals , timely delivery, 
+cost within budget , the dispute resolution , 
+and risk management.  
+Classification of Building Projects and 
+Influence of Project Scale  
+In the construction sector classifying 
+construction projects is vital for structuring 
+information such as project size 
+classification. In managing construction 
+works, knowing the project size is vital for 
+the estimation and planning for each task of 
+a project . Project classification helps to 
+organize and define the various aspects of a 
+project to enables managing of different 
+types of projects (Josey & England, 2009).  
+The sizing matrix for projects is classified 
+as mega, large, medium and sm all-scale 
+projects (Jos ey & England, 2009 ). 
+However, Collins, Parrish and Gibson Jr 
+(2017), classified the sizing matrix for 
+projects within the context of building 
+construction, as small- and large -scale 
+construction projects
+ 
+Table 1: Differences between small- and large-scale building projects 
+S/n Small building project Large building project 
+1 Less Cost < $100,000 (₦80 million) as at 
+26/12/2022 
+High Cost > $100,000 (above ₦80 million) as 
+at 26/12/2022 
+2 General liability insurance (low financial 
+risk)< $1,200 (960,000) 
+General liability Insurance (financial risk) ≥ 
+$1,200 (₦960,000) per annum 
+3 Duration < 6 months  Duration > 6 months 
+4 Less Participants ˂ 10 team members More Participants > 10 team members 
+5 End users < 25 persons End users > 25 persons 
+(Burgan and Burgan, 2014; Collins, Parrish & Gibson, 2017; Glover, 2021). 
+ 
+METHODOLOGY 
+The research method adopted for this study 
+was quantitative approach because, it 
+enabled quantify or measure the 
+perceptions of the respondent as numerical 
+data. Having identified information from 
+existing literature, it was presented to the 
+respondents th rough a structured 
+questionnaire (Onyia, 2019). The study was 
+conducted across the six area councils of 
+Abuja because being the capital city of 
+Nigeria; Abuja hosts numerous 
+construction firms who are engaged with so 
+many construction projects of various sizes. 
+This make construction managers  to be 
+actively involved in the construction of 
+buildings. Record obtained from the 
+Federal Inland revenue Service has shown 
+that 85 construction firms paid their taxes in 
+the year. The 85 construction firms 
+included both civil and building 
+construction firms and are  small, medium 
+or large construction firms (Technical Tax 
+Office, Federal Inland Revenue Service 
+Abuja, 2022).  The population consists of 
+project managers, human resource 
+managers and construction managers.  They 
+were the respondents of the 85 construction 
+firms from across the six area councils of 
+Abuja. A sample size of 50 was determined 
+using Cochran’s equation (1963 -1975). 
+Cochran equation was adopted for the study 
+because it suitably addressed the small 
+population of the construction firms.  
+Purposive sampling was used in the study  
+because it  is suitable in  
+qualitative research as it is mostly 
+appropriate for small sample sizes where 
+individuals who have the specific 
+characteristics or knowledge (project 
+managers and construction managers) 
+needed to address the research question 
+deliberately selected.  A structured 
+questionnaire designed with closed ended 
+questions was used  for collection of 
+primary data. The data analysis adopted 
+was descriptive statistics (measure of 
+central tendency), where a  cumulative 
+mean score was computed. A cumulative 
+mean score of 3.5 represents the standard 
+decision mean which indicates positive 
+response or high extent on the question, if 

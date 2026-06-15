@@ -1,0 +1,219 @@
+--- PAGE 1 ---
+Construction Focus, Vol 14, No 1, (2021) 86 – 102 
+ 
+ASSESSMENT OF ENERGY CONSUMPTION PERFORMANCE OF SELECTED 
+COMMERCIAL BUILDINGS IN KADUNA METROPOLIS 
+ISAH, Ibrahim1*, ABDULSALAM, Dalhatu1, MUHAMMAD Shehu1, AYENI 
+Olugbenga1 
+1Department of Building, Ahmadu Bello University, Zaria  
+Correspondence: iisah@abu.edu.ng  
+ABSTRACT 
+The building sector accounts for approximately 40% of global energy consumption and 
+nearly 30% of greenhouse gas emissions. Commercial buildings have shown high levels of 
+energy use. Implementing energy-efficient practices can lower energy bills, improve occupant 
+comfort, and reduce carbon emissions. However, there are limited empirical studies on the 
+actual energy consumption of Nigerian commercial buildings. Most research focuses on 
+residential buildings or theoretical savings estimates, leaving a gap in understanding the real 
+operating conditions of commercial buildings. A quantitative research method was used, 
+involving a field survey with a structured checklist to collect data on building features, energy 
+use, and appliance performance. The data were an alyzed using descriptive and inferential 
+statistics. The results indicate that the Energy Use Intensities (EUIs) of the malls (153, 271, 
+354, and 157 kWh/m²/year) all significantly exceed the global best -practice benchmark of 
+130 kWh/m²/year, with some more than doubling it. Disaggregated end-use analysis showed 
+that cooling loads accounted for an average of 55% of annual energy consumption, followed 
+by appliances (26%) and lighting (19%). Despite differences in building size and operation, 
+no statistically significant variation in consumption patterns was observed (p=0.316), 
+suggesting widespread inefficiencies. These results highlight that BEEC provisions alone are 
+insufficient without strict enforcement and monitoring. Targeted interventions, such as 
+horizontal shading, roof insulation, inverter -based HVAC systems, and efficient lighting, 
+along with stronger compliance mechanisms, are necessary to achieve substantial reductions 
+in energy use. 
+KEYWORDS: Benchmarking, Commercial Buildings, Energy Consumption Performance, 
+Energy Efficiency 
+ 
+INTRODUCTION 
+Energy crisis and global warming have 
+been significant issues faced by both 
+developed and developing countries since 
+the 1970s. The building industry alone 
+accounts for about 40% of total energy 
+consumption and 30% of greenhouse gas 
+(GHG) emissions (Boyd et al., 2018). The 
+reliance on fossil fuel -based energy has 
+produced adverse environmental impacts 
+such as ozone layer depletion, global 
+warming, and climate change (Owusu & 
+Asumadu-Sarkodie, 2016) . With the 
+continuous development of human society, 
+global energy demand and consumption 
+continue to rise, making energy 
+conservation a strategic priority of 
+national development policies (Zou et al., 
+--- PAGE 2 ---
+Isah et al. 
+87 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+ 
+2018). Buildings, as essential part of 
+energy use, have consequently become the 
+focus of global attention for over three 
+decades. 
+In response, many governments have 
+introduced mandatory building energy 
+efficiency codes and performance targets. 
+For example, the United States enacted the 
+2007 Energy Independence and Security 
+Act (EISA), which requires specific 
+federal buildings to elim inate fossil 
+emissions by 2030 (Briller, 2013), while 
+the United Kingdom mandates that new 
+buildings achieve a Building Energy 
+Rating (BER) below prescribed thresholds 
+(Menezes et al. , 2012) . China also 
+enforces energy control at the national, 
+regional, and building levels (Zou et al. , 
+2018). In Nigeria, the Federal Ministry of 
+Power, Works and Housing introduced the 
+Nigerian Building Energy Efficiency Code 
+(NBEEC) in 2017 to regulate design 
+practices, reduce operational energy 
+consumption, and mitigate carbon 
+emissions (FMPWH, 2017). 
+Commercial buildings are becoming 
+subject of attention recently. Globally, they 
+account for approximately 12% of final 
+energy use, with significant shares of 
+electricity demand driven by HV AC, 
+lighting, and plug loads in spaces with 
+extended operating hour s and high 
+occupant densities (Rafsanjani et al. , 
+2015; Manic et al., 2016). When compared 
+to residential buildings, commercial 
+buildings typically record nearly five 
+times higher energy intensities, mainly due 
+to longer operating times, inefficient 
+appliances, and occupant indifference 
+toward energy charges (Bhatt et al., 2005; 
+Sadrzadehrafiei et al.  2012). In rapidly 
+urbanising cities globally, commercial 
+buildings, including shopping malls, 
+offices, and retail centres, continue to 
+exhibit highly variable energy 
+performance due to inconsistent 
+construction quality, system maintenance, 
+tenancy patterns, and limited adoption of 
+advanced energy management 
+technologies (Zhou et al., 2012; Cox et al., 
+2013).  
+Understanding the energy consumption 
+performance of commercial buildings in 
+Kaduna, one of Nigeria's largest 
+commercial cities, is essential for three 
+main reasons. First, conducting energy 
+audits can reveal opportunities for cost -
+effective savings through measures such as 
+lighting retrofits, HV AC system upgrades, 
+and improved operational practices. 
+Empirical studies indicate that lighting and 
+HV AC systems together account for 60 –
+80% of energy loads in malls and 
+commercial buildings, representing 
+significant opportunities for savings (Zhou 
+et al., 2012; Azar & Menassa, 2014).  
+Second, commercial buildings hold 
+potential for demand -side management 
+and grid services. HV AC systems  can 
+provide frequency reserves without 
+compromising occupant comfort when 
+supported by effective control strategies 
+(Vrettos et al., 2015). Finally, Occupant 
+behaviour and organizational practices 
+significantly impact actual energy 
+consumption, often more so than the 
+variations predicted by design models. 
+Research shows that implementing 
+--- PAGE 3 ---
+Assessment of energy consumption …. 
+88 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+ 
+targeted management interventions can 
+lead to measurable reductions in 
+commercial energy use, thereby 
+complementing technological retrofits 
+(Azar & Menassa, 2012; Almeida et al. , 
+2020).  
+Despite the opportunities available, 
+empirical studies assessing the actual 
+energy consumption of Nigerian 
+commercial buildings remain limited. 
+Most research focuses on residential 
+buildings or theoretical savings estimates, 
+leaving a gap in understanding the 
+operational realities within commercial 
+buildings. Addressing this gap is essential 
+for guiding benchmarking, setting retrofit 
+priorities, and supporting broader goals of 
+urban sustainability and climate resilience 
+in Nigeria. Therefore, this study evaluates 
+the energy consumption of selected 
+commercial buildings in Kaduna 
+metropolis, comparing actual usage 
+against the Building Energy Efficiency 
+Code (BEEC) and international standards, 
+while also identifying the key factors that 
+drive differences in consumption. 
+LITERATURE REVIEW  
+Building Energy Audit 
+Building energy audit involves 
+investigating and detailed analysis of the 
+energy entering and leaving a building 
+(Harris, 2012). The purpose of an energy 
+audit is to understand where and how 
+energy is used in a specific structure and to 
+identify and prioritise the areas where 
+improvements can be made, either for that 
+building or future designs (Harris, 2012; 
+Ingle, Moezzi, Lutzenhiser & Diamond, 
+2014). 
+Numerous energy audit procedures have 
+been developed by energy and building 
+services’ professional bodies, including 
+the International Energy Agency (IEA, 
+2016), the Chartered Institution of 
+Building Services Engineers (CIBSE) 
+(2008) and the American Society of 
+Heating, Refrigerating , and Air -
+Conditioning Engineers (ASHRAE, 
+2011). A common energy audit procedure 
+for commercial buildings can be classified 
+into three levels: walk -through analysis, 
+energy survey analysis and detailed 
+analysis of capital -intensive 
+modifications. A preliminary energy use 
+analysis is a prerequisite for any audit. 
+Rajagopalan (2019)  insist that an energy 
+audit is essential to understand where and 
+how energy is used in buildings and , 
+consequently, to identify those areas where 
+improvements can be made.  Ideally, 
+energy audits take a whole -building 
+approach by examining the building 
+envelope, building systems, operations 
+and energy consumption, especially the 
+electricity usage.  
+Building Energy Benchmarks 
+The lack of reliable data for residential and 
+non-residential buildings makes it hard to 
+set local benchmarks in Nigeria. The 
+recent development of energy efficiency 
+regulations in South Africa provide a 
+useful case study for Nigeria. While 
+setting simple performance targets in 
+kWh/m²/year is attractive to legislators, in 
+reality, it is very difficult to enforce such 
+targets since the responsibility for 
+excessive energy use can be blamed on 
+many factors such as the original design, 

@@ -1,0 +1,273 @@
+--- PAGE 1 ---
+Construction Focus, Vol 14, No1, (2021), 72 – 85  
+ 
+ASSESSING THE CHALLENGES CONFRONTING SMALL-SCALE 
+BUILDING FIRMS IN ABUJA NIGERIA 
+ 
+AJAYI Oluwaseun David1, SHITTU Abdulazeez Adewale2, KADI Olabanji 
+Micheal1, AUDU Benjamin1, AMADUOBOGHA Ebiela Christy1 
+ 
+1Ibrahim Usman Jibril Institute for the Built Environment, Nasarawa State 
+University Keffi. 
+2Department of Quantity Surveying, Federal University of Technology, Minna  
+ 
+Correspondence: fascoz2004@gmail.com  
+ 
+ABSTRACT 
+Small building construction firms play a critical role in urban development yet face 
+persistent operational challenges that hinder their growth and sustainability in Nigeria. 
+This study investigates the major challenges and strategies influencing the perfo rmance 
+of small construction firms in Abuja. The objectives were to identify key operational 
+constraints, evaluate their impacts on firm performance, and assess effective management 
+strategies for improvement. A survey research design was adopted, and data  were 
+collected from 150 respondents drawn from registered firms in the Abuja Business 
+Directory using structured questionnaires. The data were analyzed using descriptive 
+statistics, Mean Item Score (MIS), and Relative Importance Index (RII ). Findings 
+revealed that financial difficulties, multiple taxation, and macroeconomic instability are 
+the most critical challenges confronting small firms. Conversely, strategies such as waste 
+minimization, technology adoption, and workforce training were p erceived as highly 
+effective in improving productivity. The study concludes that addressing financial 
+barriers, enhancing resource management, and formulating supportive policies are vital 
+for strengthening the competitiveness and sustainability of small c onstruction firms in 
+Nigeria. 
+KEYWORDS: Building, Challenges, Construction Firms, Small-Scale, Strategies 
+ 
+INTRODUCTION 
+The construction industry makes a 
+valuable contribution to national 
+economies, serving as a major driver of 
+employment generation and poverty 
+alleviation. Construction activities 
+stimulate other sectors even before 
+physical development begins (Berisha & 
+Pula, 2015). Small building construction 
+firms (SBCFs) are often regarded as the 
+“backbone” of the industry, contributing 
+significantly to innovation, job creation, 
+and entrepreneurship. They account for 
+about 73% of total sectoral value added, 
+69% of produc tion, employ 71% of the 
+workforce, and generate 75% of the 
+sector’s total pay (Bassam et al., 2019). 
+In Nigeria, the increasing demand for 
+housing and infrastructure has 
+encouraged the proliferation of small 
+construction firms. However, many of 
+these firms face difficulties in sustaining 
+operations due to limited managerial 
+capacity, weak access to financ e, and 
+inadequate technical expertise (Alalou et 
+al., 2016; Tayeh et al.,  2018). Nigeria 
+has about 17.2 million small firms, 
+representing roughly 96% of all 
+businesses and contributing over 75% of 
+employment opportunities (Ilori, 2017). 
+Despite this, small construction firms are 
+often excluded from large-scale or high-
+value projects due to perceived 
+inefficiencies, poor performance 
+--- PAGE 2 ---
+Ajayi et al. 
+73 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+ 
+records, and financial instability 
+(Mitrofanova et al., 2015). 
+Several Nigerian studies have examined 
+the performance and challenges of small-
+scale construction firms. For instance, 
+Aiyetan and Das (2020) identified 
+managerial inefficiency, inadequate 
+supervision, and low technology 
+adoption as major factors limiting 
+productivity among small firms in Lagos 
+State. Similarly, Odediran et al.  (2012) 
+and Odediran and Windapo (2019) 
+observed that small and medium 
+construction enterprises in Nigeria 
+struggle with access to finance, shortage 
+of skilled labour, and limited equ ipment 
+resources, which reduce their project 
+delivery performance. Eze (2012) also 
+noted that poor planning and weak 
+project management practices are 
+dominant causes of project delays among 
+small contractors. Ojo and Gbadebo 
+(2019) further emphasized that unstable 
+government policies, inflation, and lack 
+of financial literacy hinder small 
+construction firms from achieving 
+sustainable growth. 
+While these studies have offered 
+valuable insights into the operational and 
+financial difficulties faced by small 
+construction firms across Nigeria, very 
+few have focused specifically on the 
+Abuja construction environment, where 
+government projects, urban expansion, 
+and real estate development create 
+unique operational dynamics. Moreover, 
+existing literature seldom integrates the 
+perspectives of firm owners and 
+managers to identify both the specific 
+challenges and adaptive strategies used 
+for survival withi n the city’s 
+construction sector. 
+This study therefore seeks to fill this gap 
+by empirically assessing the challenges 
+and strategies of small building 
+construction firms in Abuja, Nigeria. It 
+aims to generate context -specific 
+knowledge that can inform policy and 
+enhance the sustainability,  
+competitiveness, and growth of small 
+construction enterprises in the Federal 
+Capital Territory. To achieve the aim, the 
+following objectives are formulated to:  
+1.  Identify the challenges of small 
+building construction firms in Abuja; 
+and  
+2.  Determine strategies of improving 
+growth of small building construction 
+firms in Abuja 
+LITERATURE REVIEW  
+ Classification of construction firms 
+Contracting organisations are generally 
+classified as small, medium and large 
+firms, on account of a number of criteria 
+that influence the type of works they 
+undertake (Mhando et al. , 2017). The 
+criteria that have been adopted in the 
+classification include scope of operation 
+(local, regional, national, and 
+multinational); specialization (building 
+and engineering); size and category of 
+contracts (small, medium, and large), 
+and the nati onality (foreign and 
+indigenous) of  
+the company’s owner(s) (Ihua & 
+iyanbola, 2012, Balogun et al, 2018). 
+ Firms differ in their levels of 
+capitalisation, sales and employment; 
+hence, definitions that employ measures 
+of size (number of employees, turnover, 
+profitability, net worth, and so on), when 
+applied to one sector, could lead to all 
+firms being classified as small, while the 
+same size definition, when applied to a 
+different sector, could lead to a different 
+result (Owolabi et al., 2014). Kulemeka 
+et al. (2015) contend that the definitions 
+of small and medium -scale enterprises 
+vary according to contexts, a uthors and 
+countries, which are defined by 
+differences in capital requirements and 
+levels of industrial development. In 
+countries such as Japan, Peru and 
+Canada, small-scale business is defined 
+in terms of annual turnover and the 
+number of paid employees (Kulemeka et 
+al. 2015). 
+ Ogunde et al.,  (2017) observe that a 
+small and medium contracting firm is a 
+--- PAGE 3 ---
+Assessing the challenges confronting small-scale ….   
+74 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+ 
+typical sole proprietorship firm, or in 
+many cases, a family-owned business 
+with few foremen who are mostly casual 
+labour Eyiah et al., (2018), define small 
+and medium-sized construction firms as 
+companies with metric (usually number 
+of employees or annual turnover) that 
+fall below certain thresholds. Ukessays 
+(2015) observes that, while the number 
+of employees and rate of turnover are 
+good indicators, the number of 
+employees and the total amount of 
+turnover for defining small and medium-
+scale firms in different countries are 
+certainly not similar.  
+The Nigerian National Policy on Micro, 
+Small and Medium Enterprises 
+(NPMSMEs) (2007) considered the 
+classification of firms on the basis of 
+size, sector, organisation, technology, 
+location, employment, turnover, assets, 
+and paid -up capital, with the view t o 
+understanding the nature, characteristics, 
+performance, problems and challenges 
+of business enterprises and for the 
+purpose of a coherent national policy in 
+Nigeria. In view of this, the NPMSMEs 
+(2007) adopted classifications and 
+definitions based on the  criteria of 
+employment and assets (excluding land 
+and buildings), as shown in Table 1. 
+Table 1: Classification of small and medium-scale firms 
+S/N  Size category  Employment 
+Assets (N million) 
+(excluding land and 
+buildings) 
+1  Micro enterprises  Less than 10  Less than 5 
+2  Small enterprises  10-49  5 less than 50 
+3  Medium enterprises  50-199  50 less than 500 
+Source: SMEDAN, 2009 
+The NPMSMEs (2007) proposes that, 
+where there is a conflict in classification 
+between the criteria of employment and 
+assets, the  employment-based 
+classification will take precedence and 
+the enterprise will be regarded as 
+micro/small. There is no definite  
+agreement in existing literature on the 
+definition of small and  medium-scale 
+firms (Mafimidiwo, 2015). In view of 
+this, the Small and Medium Enterprises 
+Development Agency of Nigeria’s  
+(SMEDAN) (2009) definition of a small 
+firm as an enterprise whose total  assets, 
+including working capital but excluding 
+the cost of land, is  between N5 million 
+and N50 million with a workforce of 
+between 10 to  49 full-time staff, and an 
+annual turnover of not more than N10 
+million, may be considered very 
+worthwhile.  
+SMEDAN (2009) defines a  medium-
+scale enterprise as a company with a total 
+asset, including  working capital but 
+excluding the cost of land and building, 
+of over N50 million, but less than N500 
+million. Moreover, the medium -sized 
+firm has a staff strength of between 50 to 
+199 full -time workers, with  an annual 
+turnover of not more than N20 million. 
+In this article, the  definitions and 
+classifications of small and medium -
+sized firms, as set  out by SMEDAN 
+(2009), are adopted as the operational 
+definitions. 
+Challenges of small building 
+construction firms 
+SMEs development is blocked by several 
+challenges that are related to the 
+regulatory environment, management 
+skills, financial infrastructure, lending 
+capacity and liquidity and the 
+availability of risk sharing instruments. 
+Dil and Shokit, (2014), summariz ed the 
+main challenges facing small contractors 
+in as follows: 
+1. Cash flow 
+2. Construction management skills 
+3. Contract documentation 
+4. Working relationships 
+5. Facilities and equipment 
+6. Communication 
+7. Cultural impact 
+8. Financial management skills 

@@ -1,0 +1,193 @@
+--- PAGE 1 ---
+Construction Focus, Vol 15, No 1, (2022) 58 – 71                                            
+ 
+ASSESSMENT OF COMPLIANCE OF COMMERCIAL BUILDINGS WITH THE 
+BUILDING ENERGY EFFICIENCY CODE IN KADUNA METROPOLIS 
+ISAH, Ibrahim1*, ABDULSALAM, Dalhatu1, MUHAMMAD Shehu1, ISHAQ, 
+Ziyadul Hassan1 
+1Department of Building, Ahmadu Bello University, Zaria  
+Correspondence: iisah@abu.edu.ng  
+ ABSTRACT  
+Buildings account for a large share of energy use and emissions, with commercial facilities 
+among the most energy -intensive. This study assesses the level of compliance of shopping 
+malls in Kaduna metropolis with the Nigerian Building Energy Efficiency Code (BEEC). 
+Using a quantitative case -study design, four purpose -built malls (SM1 –SM4) were 
+purposively sampled and evaluated via a checklist derived from BEEC and international 
+benchmarks. Walkthrough audits, on-site measurements of  Window-to-Wall-Ratio ( WWR) 
+glazing, roof insulation, lighting power density, and illuminance were recorded. The results 
+indicate that compliance is inconsistent and often inadequate. None of the SMs had roof 
+insulation. Additionally, all the SMs used single -clear glazing  with a Solar Heat Gain 
+Coefficient (SHGC) of approximately 0.78 and a thermal transmittance (U -value) of about 
+5.8 W/m²K. Several façades exceeded the allowable window-to-wall ratio prescribed by the 
+BEEC, with one orientation reaching nearly 90%  WWR. Although three  malls met the 
+lighting power density (LPD) limit of 8 W/m², SM3 recorded an LPD of 18.01 W/m². Most 
+HVAC systems in one mall were non-inverter units, with only 22% being inverter types. These 
+deficiencies lead to increased solar gains and cooling loads. Implementing appropriate 
+horizontal shading (between 300 and 900 mm) could reduce cooling demand. Furthermore, 
+switching to inverter HVAC systems can lower compressor energy consumption by up to 50%. 
+Therefore, this study recommends retrofits, including roo f insulation, glazing upgrades, 
+shading, HVAC replacement, and improving lighting and controls. To close compliance gaps, 
+it recommends improving verification during permit and construction, requiring post -
+occupancy monitoring, and offering capacity-building and incentives. 
+KEYWORDS: Building Energy Efficiency Code; Commercial buildings; Compliance; 
+Energy Efficiency; Kaduna   
+INTRODUCTION 
+Energy crisis and global warming have been 
+significant issues faced by all developed and 
+developing countries since the 1970s. The 
+building industry accounts for about 40% of 
+total energy consumption and 30% of 
+greenhouse gas emissions, and significant 
+consumption of fossil -fuel-based energy has 
+caused adverse environmental impacts,  such 
+as ozone layer depletion, global warming, 
+and climate change (Boyd et al.,  2018; 
+Owusu & Asumadu -Sarkodie, 2016). With 
+the continuous development of human 
+society, global energy demand and 
+consumption continue to grow, and the 
+energy problem has become increasingly 
+--- PAGE 2 ---
+Isah et al. 
+59 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+prominent (Zou, Xu, Sanjayan, & Wang, 
+2018). In this context, energy conservation 
+has risen to the strategic level of national 
+development, and building energy has 
+become the focus of attention for most 
+countries over the past three decades (Zou et 
+al., 2018).  
+Many governments have responded by 
+setting building energy efficiency targets and 
+adopting regulatory instruments. The 
+European Union’s Energy Performance of 
+Buildings Directive (EPBD) requires all new 
+buildings to meet nearly zero-energy building 
+(NZEB) standards since 2021, integrated 
+with mandatory energy performance 
+certificates to enhance market transparency 
+(Geissler et al., 2018). In the United States, 
+state-level regulatory autonomy results in 
+patchwork adoption of model codes derived 
+from ASHRAE Standard 90.1 and the 
+International Energy Conservation Code 
+(IECC), with leading states such as California 
+implementing advanced standar ds that 
+incorporate technology evolution and cost -
+effectiveness assessments  (He et al.,  2022; 
+Levinson, 2016) . Similarly, the United 
+Kingdom aligns Building Energy Efficiency 
+(BEE)within its legally binding net -zero 
+target for 2050, enforcing minimum Energy 
+Performance Certi ficate ( EPC) ratings on 
+privately rented properties and requiring 
+energy performance disclosure to drive 
+market demand for efficiency  (Cohen & 
+Bordass, 2015).  
+Emerging economies have also increasingly 
+recognised the need for tailored energy 
+efficiency policies compatible with local 
+climatic and socio -economic contexts. For 
+instance, Nigeria developed its Building 
+Energy Efficiency Code (BEEC) with a focus 
+on precise, enforceable requirements that 
+support energy-efficient mass housing, given 
+infrastructural and grid 
+constraints (FMPWH, 2017a; Geissler et al., 
+2018). South Africa and India have 
+introduced analogous codes that tackle rapid 
+urbanisation while aligning with nationally 
+determined contributions to emissions 
+reduction (Yu et al., 2018). 
+Decisions taken during the design phase 
+strongly influence operational energy use; 
+design choices can therefore reduce building 
+energy consumption and improve building 
+energy performance (Hoes et al., 2009; Wang 
+et al., 2005). Nonetheless, buildings designed 
+to be energy efficient often fail to achieve 
+their expected operational performance, 
+producing a persistent gap between designed 
+and actual performance (Powell, Monaham 
+& Foulds, 2016; Cross, Shelley & Mayer, 
+2017). Even w hen energy efficiency 
+measures are economically justified, 
+individuals and firms may not adopt them to 
+the degree that would be expected . This is 
+based on  weak enforcement, limited 
+awareness, poor equipment performance, or 
+other barriers  (Gerarden et al.,  2017; 
+Laustsen, 2008).  
+The commercial sector is of particular 
+concern. Commercial buildings typically 
+consume much higher energy than residential 
+buildings, often because of longer operating 
+hours, more intensive appliance use and 
+systems that are not designed to respond to 
+variations in demand (Bhatt et al.,  2005). 
+Shopping malls, with high occupant densities 
+and extended operating hours, are 
+particularly energy -intensive types of 
+commercial buildings. Given Nigeria’s 
+chronic shortage of reliable grid electricity , 
+--- PAGE 3 ---
+Assessment of compliance of Compliance… 
+60 | P a g e  
+Construction Focus 
+Department of Building, Ahmadu Bello University Zaria, Nigeria 
+where peak demand far exceeds generation 
+capacity, energy efficiency in commercial 
+buildings is considered to be one of the most 
+cost-effective means of relieving pressure on 
+the national system while reducing operating 
+costs and greenhouse gas emissions 
+(FMPWH, 2016; Geissler et al., 2018).  
+Despite the existence of the BEEC and the 
+clear potential benefits of compliance  for 
+reduced energy bills, increased thermal 
+comfort, improved indoor air quality, and 
+lower greenhouse gas emissions  (Cristino et 
+al., 2021), there is absence of empirical 
+studies that establish the current level of BEE 
+practices in the Nigerian built environment. 
+Without r eliable evidence on how BEEC 
+provisions are applied in practice, the true 
+magnitude of lost energy -saving and 
+emissions-reduction opportunities cannot be 
+known. The limited research attention to 
+BEEC compliance in Nigeria , therefore,  
+constrains policymakers, designers, facility 
+managers and other stakeholders from 
+targeting enforcement, incentives, or training 
+where they are most needed.  
+This study responds to that ga p by focusing 
+on commercial buildings , specifically 
+shopping malls . T he research seeks to 
+appraise the level of compliance with the 
+Building Energy Efficiency Code . The 
+findings are intended to provide feedback to 
+government agencies, designers, builders, 
+facility managers, and other stakeholders on 
+how to improve building design, 
+enforcement, and operation to realise  the 
+energy-saving potential of BEEC provisions. 
+International BEEC Best Practices 
+The international BEEC were  carefully 
+compiled from various continents worldwide. 
+The SANS -10400 originates from Africa, 
+while ASHRAE is from North America. It is 
+important to note that many countries without 
+their own codes have widely adopted 
+ASHRAE standards. Other countries, 
+including Nigeria and Brazil, also refer to 
+ASHRAE when developing their own codes. 
+Finally, Indi a's ECBC was selected from 
+Asia, and Brazil's REELCB from South 
+America.  
+The codes were analysed under seven 
+headings: roof insulation, external wall  
+provision, glass type (fenestration), WWR, 
+hot water supply system, lighting power 
+density, and air conditioning. 
