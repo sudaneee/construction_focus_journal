@@ -27,17 +27,7 @@
           <h2 class="content-heading">
             <span class="heading-accent"></span>Mission & Vision
           </h2>
-          <p>
-            The <strong>Construction Focus Journal A.B.U Zaria (CFJ)</strong> is a peer-reviewed academic publication dedicated to
-            advancing the frontiers of knowledge in construction engineering, infrastructure development,
-            and the built environment. Founded with a commitment to open-access scholarship, CFJ serves
-            as a bridge between academic research and industry practice.
-          </p>
-          <p>
-            Our vision is to be the leading platform for disseminating high-impact, rigorous research that
-            shapes the future of the construction industry — embracing sustainability, digital innovation,
-            and evidence-based practice.
-          </p>
+          {{ site_settings.mission_text|linebreaks }}
         </div>
 
         <!-- Scope -->
@@ -53,7 +43,7 @@
             {% for topic in scope_topics %}
             <div class="col-md-6">
               <div class="scope-topic-item">
-                <i class="fas fa-hard-hat me-2 text-success"></i>{{ topic }}
+                <i class="fas fa-hard-hat me-2 text-success"></i>{{ topic.name }}
               </div>
             </div>
             {% endfor %}
@@ -73,7 +63,7 @@
             {% for step in review_steps %}
             <div class="process-step">
               <div class="process-step-number">{{ forloop.counter }}</div>
-              <div class="process-step-label">{{ step }}</div>
+              <div class="process-step-label">{{ step.name }}</div>
             </div>
             {% if not forloop.last %}
             <div class="process-connector"><i class="fas fa-arrow-right"></i></div>
@@ -90,18 +80,15 @@
           <div class="guidelines-table">
             <table class="table table-striped">
               <tbody>
-                <tr><th>Manuscript Length</th><td>5,000 – 12,000 words (excluding references)</td></tr>
-                <tr><th>Abstract</th><td>150 – 250 words, structured</td></tr>
-                <tr><th>Keywords</th><td>4 – 8 keywords</td></tr>
-                <tr><th>File Format</th><td>PDF (final submission), Word/LaTeX (revision)</td></tr>
-                <tr><th>Citation Style</th><td>APA 7th Edition</td></tr>
-                <tr><th>Language</th><td>English (British or American, consistent)</td></tr>
-                <tr><th>Review Time</th><td>Approximately 6–10 weeks</td></tr>
+                {% for item in guideline_items %}
+                <tr><th>{{ item.label }}</th><td>{{ item.value }}</td></tr>
+                {% endfor %}
               </tbody>
             </table>
           </div>
           <p class="mt-3">
-            For full submission guidelines, please <a href="{% url 'website:contact' %}">contact the editorial office</a>.
+            Ready to submit? <a href="{% url 'website:submit' %}">Submit your paper</a> or
+            <a href="{% url 'website:contact' %}">contact the editorial office</a> with any questions.
           </p>
         </div>
 
@@ -113,12 +100,12 @@
           <div class="info-card">
             <h5 class="info-card-title"><i class="fas fa-info-circle me-2"></i>Journal Info</h5>
             <ul class="info-list">
-              <li><span>ISSN (Online)</span><strong>XXXX-XXXX</strong></li>
-              <li><span>Frequency</span><strong>Quarterly</strong></li>
-              <li><span>Language</span><strong>English</strong></li>
-              <li><span>Access</span><strong>Open Access</strong></li>
-              <li><span>Review Type</span><strong>Double-Blind</strong></li>
-              <li><span>Publisher</span><strong>CFJ Publishing</strong></li>
+              <li><span>ISSN (Online)</span><strong>{{ site_settings.eissn|default:site_settings.issn }}</strong></li>
+              <li><span>Frequency</span><strong>{{ site_settings.frequency }}</strong></li>
+              <li><span>Language</span><strong>{{ site_settings.language }}</strong></li>
+              <li><span>Access</span><strong>{{ site_settings.access_type }}</strong></li>
+              <li><span>Review Type</span><strong>{{ site_settings.review_type }}</strong></li>
+              <li><span>Publisher</span><strong>{{ site_settings.publisher_name }}</strong></li>
             </ul>
           </div>
 
@@ -127,8 +114,8 @@
             <p class="small text-muted">
               For submissions, queries, and correspondence:
             </p>
-            <a href="mailto:editor@cfjournal.org" class="btn btn-primary btn-sm w-100 mt-2">
-              <i class="fas fa-envelope me-2"></i>editor@cfjournal.org
+            <a href="mailto:{{ site_settings.contact_email }}" class="btn btn-primary btn-sm w-100 mt-2">
+              <i class="fas fa-envelope me-2"></i>{{ site_settings.contact_email }}
             </a>
             <a href="{% url 'website:contact' %}" class="btn btn-outline-primary btn-sm w-100 mt-2">
               <i class="fas fa-paper-plane me-2"></i>Contact Form

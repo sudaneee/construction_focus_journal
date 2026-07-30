@@ -9,13 +9,13 @@
             <span>Construction Focus Journal A.B.U Zaria</span>
           </div>
           <p class="footer-tagline">
-            Advancing knowledge in construction, infrastructure, and built environment research through rigorous peer-reviewed scholarship.
+            {{ site_settings.footer_tagline }}
           </p>
           <div class="footer-social">
-            <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#" title="ResearchGate"><i class="fab fa-researchgate"></i></a>
-            <a href="#" title="Twitter/X"><i class="fab fa-x-twitter"></i></a>
-            <a href="#" title="Academia.edu"><i class="fas fa-graduation-cap"></i></a>
+            {% if site_settings.linkedin_url %}<a href="{{ site_settings.linkedin_url }}" title="LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>{% endif %}
+            {% if site_settings.researchgate_url %}<a href="{{ site_settings.researchgate_url }}" title="ResearchGate" target="_blank" rel="noopener"><i class="fab fa-researchgate"></i></a>{% endif %}
+            {% if site_settings.twitter_url %}<a href="{{ site_settings.twitter_url }}" title="Twitter/X" target="_blank" rel="noopener"><i class="fab fa-x-twitter"></i></a>{% endif %}
+            {% if site_settings.academia_url %}<a href="{{ site_settings.academia_url }}" title="Academia.edu" target="_blank" rel="noopener"><i class="fas fa-graduation-cap"></i></a>{% endif %}
           </div>
         </div>
 
@@ -33,7 +33,7 @@
           <h6 class="footer-heading">Authors</h6>
           <ul class="footer-links">
             <li><a href="{% url 'website:about' %}">Aims & Scope</a></li>
-            <li><a href="{% url 'website:about' %}">Submit a Paper</a></li>
+            <li><a href="{% url 'website:submit' %}">Submit a Paper</a></li>
             <li><a href="{% url 'website:about' %}">Review Process</a></li>
             <li><a href="{% url 'website:about' %}">Author Guidelines</a></li>
           </ul>
@@ -44,11 +44,11 @@
           <ul class="footer-contact">
             <li>
               <i class="fas fa-envelope"></i>
-              <span>editor@cfjournal.org</span>
+              <span>{{ site_settings.contact_email }}</span>
             </li>
             <li>
               <i class="fas fa-map-marker-alt"></i>
-              <span>Department of Building<br>Faculty of Environmental Design</span>
+              <span>{{ site_settings.contact_address|linebreaksbr }}</span>
             </li>
           </ul>
         </div>

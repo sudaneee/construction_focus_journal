@@ -1,0 +1,97 @@
+{% extends 'src/base.html' %}
+
+{% block title %}Scope Topics{% endblock %}
+{% block breadcrumb %}Scope Topics{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <div>
+    <h1 class="page-title">Scope Topics</h1>
+    <p class="page-subtitle">Manage the "Aims &amp; Scope" list shown on the homepage and About page</p>
+  </div>
+  <a href="{% url 'src:scope_topic_create' %}" class="btn btn-primary">
+    <i class="fas fa-plus me-2"></i>New Scope Topic
+  </a>
+</div>
+
+<div class="dash-card">
+  <div class="dash-card-header">
+    <form class="search-form" action="" method="get">
+      <div class="input-group">
+        <span class="input-group-text"><i class="fas fa-search text-muted"></i></span>
+        <input type="text" name="q" class="form-control" placeholder="Search scope topics..."
+               value="{{ query }}">
+        {% if query %}
+        <a href="{% url 'src:scope_topic_list' %}" class="btn btn-outline-secondary">
+          <i class="fas fa-times"></i>
+        </a>
+        {% endif %}
+        <button type="submit" class="btn btn-primary">Search</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="dash-card-body p-0">
+    {% if scope_topics %}
+    <div class="table-responsive">
+      <table class="table dash-table mb-0">
+        <thead>
+          <tr>
+            <th>Order</th>
+            <th>Name (About Page)</th>
+            <th>Short Name (Homepage Tag)</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for topic in scope_topics %}
+          <tr>
+            <td>{{ topic.order }}</td>
+            <td>{{ topic.name }}</td>
+            <td class="text-muted">{{ topic.short_name|default:"—" }}</td>
+            <td>
+              <div class="table-actions">
+                <a href="{% url 'src:scope_topic_edit' topic.pk %}" class="table-action-btn edit" title="Edit">
+                  <i class="fas fa-edit"></i>
+                </a>
+                <a href="{% url 'src:scope_topic_delete' topic.pk %}" class="table-action-btn delete" title="Delete">
+                  <i class="fas fa-trash-alt"></i>
+                </a>
+              </div>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    {% if scope_topics.has_other_pages %}
+    <div class="dash-pagination">
+      {% if scope_topics.has_previous %}
+      <a href="?page={{ scope_topics.previous_page_number }}{% if query %}&q={{ query }}{% endif %}" class="btn btn-sm btn-outline-secondary">
+        <i class="fas fa-chevron-left me-1"></i>Prev
+      </a>
+      {% endif %}
+      <span class="pagination-info">
+        Page {{ scope_topics.number }} of {{ scope_topics.paginator.num_pages }}
+      </span>
+      {% if scope_topics.has_next %}
+      <a href="?page={{ scope_topics.next_page_number }}{% if query %}&q={{ query }}{% endif %}" class="btn btn-sm btn-outline-secondary">
+        Next <i class="fas fa-chevron-right ms-1"></i>
+      </a>
+      {% endif %}
+    </div>
+    {% endif %}
+
+    {% else %}
+    <div class="empty-dash text-center py-5">
+      <i class="fas fa-tags fa-3x text-muted mb-3"></i>
+      <p class="text-muted">
+        {% if query %}No scope topics match "{{ query }}".
+        {% else %}No scope topics yet. <a href="{% url 'src:scope_topic_create' %}">Create the first one</a>.{% endif %}
+      </p>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

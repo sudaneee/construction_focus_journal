@@ -10,7 +10,8 @@
         {% endif %}
         <div class="brand-text">
           <span class="brand-name">{{ site_settings.department }}</span>
-          <span class="brand-subtitle">{{ site_settings.faculty }}, {{ site_settings.institution }}</span>
+          <span class="brand-subtitle">{{ site_settings.faculty }}</span>
+          <span class="brand-subtitle">{{ site_settings.institution }}</span>
         </div>
       </div>
     </a>
@@ -38,6 +39,10 @@
             <li>
               <a class="dropdown-item {% if request.resolver_match.url_name == 'volumes' %}active{% endif %}"
                  href="{% url 'website:volumes' %}">Archives</a>
+            </li>
+            <li>
+              <a class="dropdown-item {% if request.resolver_match.url_name == 'submit' %}active{% endif %}"
+                 href="{% url 'website:submit' %}">Submit a Paper</a>
             </li>
             <li>
               <a class="dropdown-item {% if request.resolver_match.url_name == 'contact' %}active{% endif %}"

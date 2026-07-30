@@ -1,6 +1,8 @@
 from django import forms
 from django.forms import formset_factory
-from website.models import Volume, Issue, Article, Author
+from website.models import (
+    Volume, Issue, Article, Author, SiteSettings, ScopeTopic, ReviewStep, GuidelineItem, Submission,
+)
 
 
 class VolumeForm(forms.ModelForm):
@@ -103,3 +105,83 @@ class AuthorSlotForm(forms.Form):
 
 # extra=0: slot count is driven entirely by initial data passed in the view
 AuthorSlotFormSet = formset_factory(AuthorSlotForm, extra=0)
+
+
+class SiteSettingsForm(forms.ModelForm):
+    class Meta:
+        model = SiteSettings
+        fields = [
+            'site_name', 'department', 'faculty', 'institution', 'logo', 'issn', 'eissn',
+            'contact_email', 'contact_phone', 'contact_address', 'contact_response_time',
+            'footer_tagline', 'linkedin_url', 'researchgate_url', 'twitter_url', 'academia_url',
+            'mission_text', 'frequency', 'language', 'access_type', 'review_type', 'publisher_name',
+            'submission_fee', 'payment_instructions',
+        ]
+        widgets = {
+            'site_name': forms.TextInput(attrs={'class': 'form-control'}),
+            'department': forms.TextInput(attrs={'class': 'form-control'}),
+            'faculty': forms.TextInput(attrs={'class': 'form-control'}),
+            'institution': forms.TextInput(attrs={'class': 'form-control'}),
+            'logo': forms.ClearableFileInput(attrs={'class': 'form-control'}),
+            'issn': forms.TextInput(attrs={'class': 'form-control'}),
+            'eissn': forms.TextInput(attrs={'class': 'form-control'}),
+            'contact_email': forms.EmailInput(attrs={'class': 'form-control'}),
+            'contact_phone': forms.TextInput(attrs={'class': 'form-control'}),
+            'contact_address': forms.Textarea(attrs={'class': 'form-control', 'rows': 3}),
+            'contact_response_time': forms.TextInput(attrs={'class': 'form-control'}),
+            'footer_tagline': forms.Textarea(attrs={'class': 'form-control', 'rows': 3}),
+            'linkedin_url': forms.URLInput(attrs={'class': 'form-control'}),
+            'researchgate_url': forms.URLInput(attrs={'class': 'form-control'}),
+            'twitter_url': forms.URLInput(attrs={'class': 'form-control'}),
+            'academia_url': forms.URLInput(attrs={'class': 'form-control'}),
+            'mission_text': forms.Textarea(attrs={'class': 'form-control', 'rows': 6}),
+            'frequency': forms.TextInput(attrs={'class': 'form-control'}),
+            'language': forms.TextInput(attrs={'class': 'form-control'}),
+            'access_type': forms.TextInput(attrs={'class': 'form-control'}),
+            'review_type': forms.TextInput(attrs={'class': 'form-control'}),
+            'publisher_name': forms.TextInput(attrs={'class': 'form-control'}),
+            'submission_fee': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'e.g. NGN 15,000'}),
+            'payment_instructions': forms.Textarea(attrs={'class': 'form-control', 'rows': 4}),
+        }
+
+
+class ScopeTopicForm(forms.ModelForm):
+    class Meta:
+        model = ScopeTopic
+        fields = ['name', 'short_name', 'order']
+        widgets = {
+            'name': forms.TextInput(attrs={'class': 'form-control'}),
+            'short_name': forms.TextInput(attrs={'class': 'form-control'}),
+            'order': forms.NumberInput(attrs={'class': 'form-control'}),
+        }
+
+
+class ReviewStepForm(forms.ModelForm):
+    class Meta:
+        model = ReviewStep
+        fields = ['name', 'order']
+        widgets = {
+            'name': forms.TextInput(attrs={'class': 'form-control'}),
+            'order': forms.NumberInput(attrs={'class': 'form-control'}),
+        }
+
+
+class GuidelineItemForm(forms.ModelForm):
+    class Meta:
+        model = GuidelineItem
+        fields = ['label', 'value', 'order']
+        widgets = {
+            'label': forms.TextInput(attrs={'class': 'form-control'}),
+            'value': forms.TextInput(attrs={'class': 'form-control'}),
+            'order': forms.NumberInput(attrs={'class': 'form-control'}),
+        }
+
+
+class SubmissionReviewForm(forms.ModelForm):
+    class Meta:
+        model = Submission
+        fields = ['status', 'editor_notes']
+        widgets = {
+            'status': forms.Select(attrs={'class': 'form-select'}),
+            'editor_notes': forms.Textarea(attrs={'class': 'form-control', 'rows': 4}),
+        }

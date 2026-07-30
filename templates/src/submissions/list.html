@@ -1,0 +1,118 @@
+{% extends 'src/base.html' %}
+
+{% block title %}Submissions{% endblock %}
+{% block breadcrumb %}Submissions{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <div>
+    <h1 class="page-title">Submissions</h1>
+    <p class="page-subtitle">Manuscripts submitted by authors through the public site</p>
+  </div>
+</div>
+
+<div class="dash-card">
+  <div class="dash-card-header">
+    <form class="search-form d-flex gap-2 flex-wrap" action="" method="get">
+      <div class="input-group" style="max-width: 320px;">
+        <span class="input-group-text"><i class="fas fa-search text-muted"></i></span>
+        <input type="text" name="q" class="form-control" placeholder="Search by title, name, email..." value="{{ query }}">
+      </div>
+      <select name="status" class="form-select" style="max-width: 200px;" onchange="this.form.submit()">
+        <option value="">All Statuses</option>
+        {% for value, label in status_choices %}
+        <option value="{{ value }}" {% if status == value %}selected{% endif %}>{{ label }}</option>
+        {% endfor %}
+      </select>
+      {% if query or status %}
+      <a href="{% url 'src:submission_list' %}" class="btn btn-outline-secondary"><i class="fas fa-times"></i></a>
+      {% endif %}
+      <button type="submit" class="btn btn-primary">Search</button>
+    </form>
+  </div>
+
+  <div class="dash-card-body p-0">
+    {% if submissions %}
+    <div class="table-responsive">
+      <table class="table dash-table mb-0">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Corresponding Author</th>
+            <th>Status</th>
+            <th>Submitted</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for submission in submissions %}
+          <tr>
+            <td>
+              <div class="table-article-title">
+                <a href="{% url 'src:submission_detail' submission.pk %}">
+                  {{ submission.title|truncatewords:10 }}
+                </a>
+              </div>
+            </td>
+            <td class="text-muted small">
+              {{ submission.corresponding_author_name }}<br>
+              <a href="mailto:{{ submission.corresponding_author_email }}">{{ submission.corresponding_author_email }}</a>
+            </td>
+            <td>
+              <span class="badge
+                {% if submission.status == 'pending' %}bg-warning text-dark
+                {% elif submission.status == 'under_review' %}bg-info text-dark
+                {% elif submission.status == 'accepted' %}bg-success
+                {% elif submission.status == 'rejected' %}bg-danger
+                {% elif submission.status == 'published' %}bg-primary
+                {% endif %}">
+                {{ submission.get_status_display }}
+              </span>
+            </td>
+            <td class="text-muted small">{{ submission.submitted_at|date:"d M Y" }}</td>
+            <td>
+              <div class="table-actions">
+                <a href="{% url 'src:submission_detail' submission.pk %}" class="table-action-btn view" title="Review">
+                  <i class="fas fa-eye"></i>
+                </a>
+                <a href="{% url 'src:submission_delete' submission.pk %}" class="table-action-btn delete" title="Delete">
+                  <i class="fas fa-trash-alt"></i>
+                </a>
+              </div>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    {% if submissions.has_other_pages %}
+    <div class="dash-pagination">
+      {% if submissions.has_previous %}
+      <a href="?page={{ submissions.previous_page_number }}{% if query %}&q={{ query }}{% endif %}{% if status %}&status={{ status }}{% endif %}" class="btn btn-sm btn-outline-secondary">
+        <i class="fas fa-chevron-left me-1"></i>Prev
+      </a>
+      {% endif %}
+      <span class="pagination-info">
+        Page {{ submissions.number }} of {{ submissions.paginator.num_pages }}
+      </span>
+      {% if submissions.has_next %}
+      <a href="?page={{ submissions.next_page_number }}{% if query %}&q={{ query }}{% endif %}{% if status %}&status={{ status }}{% endif %}" class="btn btn-sm btn-outline-secondary">
+        Next <i class="fas fa-chevron-right ms-1"></i>
+      </a>
+      {% endif %}
+    </div>
+    {% endif %}
+
+    {% else %}
+    <div class="empty-dash text-center py-5">
+      <i class="fas fa-inbox fa-3x text-muted mb-3"></i>
+      <p class="text-muted">
+        {% if query or status %}No submissions match your filters.
+        {% else %}No submissions yet.{% endif %}
+      </p>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

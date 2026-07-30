@@ -75,21 +75,30 @@
               <div class="contact-info-icon"><i class="fas fa-envelope"></i></div>
               <div>
                 <strong>Email</strong>
-                <p><a href="mailto:editor@cfjournal.org">editor@cfjournal.org</a></p>
+                <p><a href="mailto:{{ site_settings.contact_email }}">{{ site_settings.contact_email }}</a></p>
               </div>
             </div>
+            {% if site_settings.contact_phone %}
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <strong>Phone</strong>
+                <p>{{ site_settings.contact_phone }}</p>
+              </div>
+            </div>
+            {% endif %}
             <div class="contact-info-item">
               <div class="contact-info-icon"><i class="fas fa-map-marker-alt"></i></div>
               <div>
                 <strong>Address</strong>
-                <p>Department of Building<br>Faculty of Environmental Design<br>A.B.U Zaria</p>
+                <p>{{ site_settings.contact_address|linebreaksbr }}</p>
               </div>
             </div>
             <div class="contact-info-item">
               <div class="contact-info-icon"><i class="fas fa-clock"></i></div>
               <div>
                 <strong>Response Time</strong>
-                <p>Within 2–3 business days</p>
+                <p>{{ site_settings.contact_response_time }}</p>
               </div>
             </div>
           </div>

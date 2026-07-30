@@ -1,0 +1,95 @@
+{% extends 'src/base.html' %}
+
+{% block title %}Review Steps{% endblock %}
+{% block breadcrumb %}Review Steps{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <div>
+    <h1 class="page-title">Review Steps</h1>
+    <p class="page-subtitle">Manage the peer-review process timeline shown on the About page</p>
+  </div>
+  <a href="{% url 'src:review_step_create' %}" class="btn btn-primary">
+    <i class="fas fa-plus me-2"></i>New Review Step
+  </a>
+</div>
+
+<div class="dash-card">
+  <div class="dash-card-header">
+    <form class="search-form" action="" method="get">
+      <div class="input-group">
+        <span class="input-group-text"><i class="fas fa-search text-muted"></i></span>
+        <input type="text" name="q" class="form-control" placeholder="Search review steps..."
+               value="{{ query }}">
+        {% if query %}
+        <a href="{% url 'src:review_step_list' %}" class="btn btn-outline-secondary">
+          <i class="fas fa-times"></i>
+        </a>
+        {% endif %}
+        <button type="submit" class="btn btn-primary">Search</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="dash-card-body p-0">
+    {% if review_steps %}
+    <div class="table-responsive">
+      <table class="table dash-table mb-0">
+        <thead>
+          <tr>
+            <th>Order</th>
+            <th>Step Name</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for step in review_steps %}
+          <tr>
+            <td>{{ step.order }}</td>
+            <td>{{ step.name }}</td>
+            <td>
+              <div class="table-actions">
+                <a href="{% url 'src:review_step_edit' step.pk %}" class="table-action-btn edit" title="Edit">
+                  <i class="fas fa-edit"></i>
+                </a>
+                <a href="{% url 'src:review_step_delete' step.pk %}" class="table-action-btn delete" title="Delete">
+                  <i class="fas fa-trash-alt"></i>
+                </a>
+              </div>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    {% if review_steps.has_other_pages %}
+    <div class="dash-pagination">
+      {% if review_steps.has_previous %}
+      <a href="?page={{ review_steps.previous_page_number }}{% if query %}&q={{ query }}{% endif %}" class="btn btn-sm btn-outline-secondary">
+        <i class="fas fa-chevron-left me-1"></i>Prev
+      </a>
+      {% endif %}
+      <span class="pagination-info">
+        Page {{ review_steps.number }} of {{ review_steps.paginator.num_pages }}
+      </span>
+      {% if review_steps.has_next %}
+      <a href="?page={{ review_steps.next_page_number }}{% if query %}&q={{ query }}{% endif %}" class="btn btn-sm btn-outline-secondary">
+        Next <i class="fas fa-chevron-right ms-1"></i>
+      </a>
+      {% endif %}
+    </div>
+    {% endif %}
+
+    {% else %}
+    <div class="empty-dash text-center py-5">
+      <i class="fas fa-tasks fa-3x text-muted mb-3"></i>
+      <p class="text-muted">
+        {% if query %}No review steps match "{{ query }}".
+        {% else %}No review steps yet. <a href="{% url 'src:review_step_create' %}">Create the first one</a>.{% endif %}
+      </p>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

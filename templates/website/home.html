@@ -35,7 +35,7 @@
               <h2 class="hero-scope-title">Scope &amp; Focus Areas</h2>
               <div class="hero-scope-tags">
                 {% for topic in scope_topics %}
-                <span class="hero-scope-tag">{{ topic }}</span>
+                <span class="hero-scope-tag">{{ topic.display_short }}</span>
                 {% endfor %}
               </div>
 
@@ -108,58 +108,6 @@
   </div>
 </section>
 {% endif %}
-
-<!-- Featured Articles -->
-{% if featured_articles %}
-<section class="section-articles py-6 bg-light-green">
-  <div class="container">
-    <div class="section-header">
-      <div>
-        <h2 class="section-title">Featured Articles</h2>
-        <p class="section-subtitle">Highlighted research selected by the editorial board</p>
-      </div>
-    </div>
-
-    <div class="row g-4">
-      {% for article in featured_articles %}
-      <div class="col-lg-4 col-md-6">
-        {% include 'website/partials/article_card.html' %}
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-{% endif %}
-
-<!-- Latest Articles -->
-<section class="section-articles py-6">
-  <div class="container">
-    <div class="section-header">
-      <div>
-        <h2 class="section-title">Latest Articles</h2>
-        <p class="section-subtitle">Recently published research and studies</p>
-      </div>
-      <a href="{% url 'website:volumes' %}" class="btn btn-outline-primary">
-        Browse All <i class="fas fa-arrow-right ms-1"></i>
-      </a>
-    </div>
-
-    {% if latest_articles %}
-    <div class="row g-4">
-      {% for article in latest_articles %}
-      <div class="col-lg-4 col-md-6">
-        {% include 'website/partials/article_card.html' %}
-      </div>
-      {% endfor %}
-    </div>
-    {% else %}
-    <div class="empty-state">
-      <i class="fas fa-newspaper fa-3x mb-3"></i>
-      <p>No articles published yet.</p>
-    </div>
-    {% endif %}
-  </div>
-</section>
 
 <!-- Archives -->
 {% if volumes %}

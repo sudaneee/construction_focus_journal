@@ -2,43 +2,13 @@ from django.shortcuts import render, get_object_or_404, redirect
 from django.db.models import Q, Prefetch
 from django.contrib import messages
 
-from .models import Volume, Issue, Article, Author
-from .forms import ContactForm
+from .models import Volume, Issue, Article, Author, ScopeTopic, ReviewStep, GuidelineItem
+from .forms import ContactForm, SubmissionForm
 
 _ordered_authors = Prefetch('authors', queryset=Author.objects.order_by('articleauthor__order'))
 
-SCOPE_TOPICS = [
-    'Construction Management',
-    'Structural Engineering',
-    'Sustainable Building',
-    'Project Management',
-    'BIM & Digital Construction',
-    'Infrastructure Development',
-    'Materials & Methods',
-    'Health & Safety',
-]
-
-SCOPE_TOPICS_FULL = [
-    'Construction Management & Economics',
-    'Structural Engineering & Analysis',
-    'Sustainable Building & Green Construction',
-    'Project Planning & Scheduling',
-    'Building Information Modelling (BIM)',
-    'Infrastructure Development & Transport',
-    'Construction Materials & Testing',
-    'Health & Safety on Site',
-    'Smart Technologies in Construction',
-    'Environmental Impact Assessment',
-]
-
 
 def home(request):
-    featured_articles = (
-        Article.objects
-        .filter(is_featured=True)
-        .select_related('volume', 'issue')
-        .prefetch_related(_ordered_authors)[:3]
-    )
     current_issue = (
         Issue.objects
         .select_related('volume')
@@ -52,11 +22,6 @@ def home(request):
             .select_related('volume', 'issue')
             .prefetch_related(_ordered_authors)
         )
-    latest_articles = (
-        Article.objects
-        .select_related('volume', 'issue')
-        .prefetch_related(_ordered_authors)[:6]
-    )
     volumes = Volume.objects.prefetch_related('issues').all()[:4]
     stats = {
         'articles': Article.objects.count(),
@@ -64,30 +29,19 @@ def home(request):
         'authors': Author.objects.count(),
     }
     return render(request, 'website/home.html', {
-        'featured_articles': featured_articles,
         'current_issue': current_issue,
         'current_issue_articles': current_issue_articles,
-        'latest_articles': latest_articles,
         'volumes': volumes,
         'stats': stats,
-        'scope_topics': SCOPE_TOPICS,
+        'scope_topics': ScopeTopic.objects.all(),
     })
-
-
-REVIEW_STEPS = [
-    'Submission Received',
-    'Initial Editorial Screening',
-    'Double-Blind Peer Review',
-    'Author Revision',
-    'Final Decision',
-    'Publication',
-]
 
 
 def about(request):
     return render(request, 'website/about.html', {
-        'scope_topics': SCOPE_TOPICS_FULL,
-        'review_steps': REVIEW_STEPS,
+        'scope_topics': ScopeTopic.objects.all(),
+        'review_steps': ReviewStep.objects.all(),
+        'guideline_items': GuidelineItem.objects.all(),
     })
 
 
@@ -169,3 +123,17 @@ def contact(request):
         )
         return redirect('website:contact')
     return render(request, 'website/contact.html', {'form': form})
+
+
+def submit_paper(request):
+    form = SubmissionForm(request.POST or None, request.FILES or None)
+    if request.method == 'POST' and form.is_valid():
+        submission = form.save()
+        messages.success(
+            request,
+            'Thank you for your submission. Your reference number is '
+            f'{submission.reference_code()} — please quote it in any correspondence. '
+            'Our editorial team will review it and be in touch.',
+        )
+        return redirect('website:submit')
+    return render(request, 'website/submit.html', {'form': form})

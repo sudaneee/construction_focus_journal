@@ -1,16 +1,55 @@
 from django.contrib import admin
-from .models import Volume, Issue, Author, Article, ArticleAuthor, SiteSettings
+from .models import (
+    Volume, Issue, Author, Article, ArticleAuthor, SiteSettings,
+    ScopeTopic, ReviewStep, GuidelineItem, Submission,
+)
 
 
 @admin.register(SiteSettings)
 class SiteSettingsAdmin(admin.ModelAdmin):
-    fields = ['site_name', 'department', 'faculty', 'institution', 'logo', 'issn', 'eissn']
+    fieldsets = [
+        ('Identity', {'fields': ['site_name', 'department', 'faculty', 'institution', 'logo', 'issn', 'eissn']}),
+        ('Contact', {'fields': ['contact_email', 'contact_phone', 'contact_address', 'contact_response_time']}),
+        ('Footer & Social', {'fields': ['footer_tagline', 'linkedin_url', 'researchgate_url', 'twitter_url', 'academia_url']}),
+        ('About Page', {'fields': ['mission_text', 'frequency', 'language', 'access_type', 'review_type', 'publisher_name']}),
+        ('Submission & Payment', {'fields': ['submission_fee', 'payment_instructions']}),
+    ]
 
     def has_add_permission(self, request):
         return not SiteSettings.objects.exists()
 
     def has_delete_permission(self, request, obj=None):
         return False
+
+
+@admin.register(ScopeTopic)
+class ScopeTopicAdmin(admin.ModelAdmin):
+    list_display = ['name', 'short_name', 'order']
+    list_editable = ['order']
+    ordering = ['order']
+
+
+@admin.register(ReviewStep)
+class ReviewStepAdmin(admin.ModelAdmin):
+    list_display = ['name', 'order']
+    list_editable = ['order']
+    ordering = ['order']
+
+
+@admin.register(GuidelineItem)
+class GuidelineItemAdmin(admin.ModelAdmin):
+    list_display = ['label', 'value', 'order']
+    list_editable = ['order']
+    ordering = ['order']
+
+
+@admin.register(Submission)
+class SubmissionAdmin(admin.ModelAdmin):
+    list_display = ['title', 'corresponding_author_name', 'status', 'submitted_at']
+    list_filter = ['status']
+    search_fields = ['title', 'corresponding_author_name', 'corresponding_author_email']
+    readonly_fields = ['submitted_at', 'updated_at']
+    date_hierarchy = 'submitted_at'
 
 
 class IssueInline(admin.TabularInline):

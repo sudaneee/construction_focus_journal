@@ -1,0 +1,184 @@
+{% extends 'src/base.html' %}
+
+{% block title %}Site Settings{% endblock %}
+{% block breadcrumb %}Site Settings{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <div>
+    <h1 class="page-title">Site Settings</h1>
+    <p class="page-subtitle">Edit journal identity, contact details, and public-facing copy</p>
+  </div>
+</div>
+
+<form method="post" enctype="multipart/form-data" novalidate>
+  {% csrf_token %}
+  <div class="row g-4">
+    <div class="col-lg-8">
+
+      <div class="dash-card mb-4">
+        <div class="dash-card-header">
+          <h5 class="dash-card-title"><i class="fas fa-building-columns me-2"></i>Identity</h5>
+        </div>
+        <div class="dash-card-body">
+          <div class="mb-3">
+            <label class="form-label fw-500">Site Name</label>
+            {{ form.site_name }}
+          </div>
+          <div class="mb-3">
+            <label class="form-label fw-500">Department</label>
+            {{ form.department }}
+          </div>
+          <div class="mb-3">
+            <label class="form-label fw-500">Faculty</label>
+            {{ form.faculty }}
+          </div>
+          <div class="mb-3">
+            <label class="form-label fw-500">Institution</label>
+            {{ form.institution }}
+          </div>
+          <div class="row g-3 mb-3">
+            <div class="col-md-6">
+              <label class="form-label fw-500">ISSN</label>
+              {{ form.issn }}
+            </div>
+            <div class="col-md-6">
+              <label class="form-label fw-500">EISSN</label>
+              {{ form.eissn }}
+            </div>
+          </div>
+          <div class="mb-0">
+            <label class="form-label fw-500">Logo</label>
+            {{ form.logo }}
+            {% if form.instance.logo %}
+            <div class="form-text">Current: <a href="{{ form.instance.logo.url }}" target="_blank">View logo</a></div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+
+      <div class="dash-card mb-4">
+        <div class="dash-card-header">
+          <h5 class="dash-card-title"><i class="fas fa-address-card me-2"></i>Contact</h5>
+        </div>
+        <div class="dash-card-body">
+          <div class="row g-3 mb-3">
+            <div class="col-md-6">
+              <label class="form-label fw-500">Contact Email</label>
+              {{ form.contact_email }}
+            </div>
+            <div class="col-md-6">
+              <label class="form-label fw-500">Contact Phone</label>
+              {{ form.contact_phone }}
+            </div>
+          </div>
+          <div class="mb-3">
+            <label class="form-label fw-500">Address</label>
+            {{ form.contact_address }}
+          </div>
+          <div class="mb-0">
+            <label class="form-label fw-500">Response Time</label>
+            {{ form.contact_response_time }}
+          </div>
+        </div>
+      </div>
+
+      <div class="dash-card mb-4">
+        <div class="dash-card-header">
+          <h5 class="dash-card-title"><i class="fas fa-share-alt me-2"></i>Footer &amp; Social</h5>
+        </div>
+        <div class="dash-card-body">
+          <div class="mb-3">
+            <label class="form-label fw-500">Footer Tagline</label>
+            {{ form.footer_tagline }}
+          </div>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label fw-500">LinkedIn URL</label>
+              {{ form.linkedin_url }}
+            </div>
+            <div class="col-md-6">
+              <label class="form-label fw-500">ResearchGate URL</label>
+              {{ form.researchgate_url }}
+            </div>
+            <div class="col-md-6">
+              <label class="form-label fw-500">Twitter/X URL</label>
+              {{ form.twitter_url }}
+            </div>
+            <div class="col-md-6">
+              <label class="form-label fw-500">Academia.edu URL</label>
+              {{ form.academia_url }}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dash-card mb-4">
+        <div class="dash-card-header">
+          <h5 class="dash-card-title"><i class="fas fa-bullseye me-2"></i>About Page</h5>
+        </div>
+        <div class="dash-card-body">
+          <div class="mb-3">
+            <label class="form-label fw-500">Mission &amp; Vision Text</label>
+            {{ form.mission_text }}
+            <div class="form-text">Separate paragraphs with a blank line.</div>
+          </div>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label fw-500">Frequency</label>
+              {{ form.frequency }}
+            </div>
+            <div class="col-md-6">
+              <label class="form-label fw-500">Language</label>
+              {{ form.language }}
+            </div>
+            <div class="col-md-6">
+              <label class="form-label fw-500">Access Type</label>
+              {{ form.access_type }}
+            </div>
+            <div class="col-md-6">
+              <label class="form-label fw-500">Review Type</label>
+              {{ form.review_type }}
+            </div>
+            <div class="col-md-6">
+              <label class="form-label fw-500">Publisher Name</label>
+              {{ form.publisher_name }}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dash-card mb-4">
+        <div class="dash-card-header">
+          <h5 class="dash-card-title"><i class="fas fa-money-bill-wave me-2"></i>Submission &amp; Payment</h5>
+        </div>
+        <div class="dash-card-body">
+          <div class="mb-3">
+            <label class="form-label fw-500">Submission Fee</label>
+            {{ form.submission_fee }}
+            {% if form.submission_fee.help_text %}<div class="form-text">{{ form.submission_fee.help_text }}</div>{% endif %}
+          </div>
+          <div class="mb-0">
+            <label class="form-label fw-500">Payment Instructions</label>
+            {{ form.payment_instructions }}
+            {% if form.payment_instructions.help_text %}<div class="form-text">{{ form.payment_instructions.help_text }}</div>{% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="dash-card">
+        <div class="dash-card-body">
+          <button type="submit" class="btn btn-primary w-100 btn-lg mb-3">
+            <i class="fas fa-save me-2"></i>Save Settings
+          </button>
+          <a href="{% url 'website:home' %}" target="_blank" class="btn btn-outline-secondary w-100">
+            View Public Site
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+{% endblock %}

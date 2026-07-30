@@ -37,6 +37,36 @@
       <i class="fas fa-users sidebar-icon"></i>
       <span>Authors</span>
     </a>
+    <a href="{% url 'src:submission_list' %}"
+       class="sidebar-link {% if 'submission' in request.resolver_match.url_name %}active{% endif %}">
+      <i class="fas fa-inbox sidebar-icon"></i>
+      <span>Submissions</span>
+      {% if pending_submissions_count %}
+      <span class="badge bg-danger ms-auto">{{ pending_submissions_count }}</span>
+      {% endif %}
+    </a>
+
+    <div class="sidebar-section-label mt-3">Site Content</div>
+    <a href="{% url 'src:site_settings_edit' %}"
+       class="sidebar-link {% if 'site_settings' in request.resolver_match.url_name %}active{% endif %}">
+      <i class="fas fa-cog sidebar-icon"></i>
+      <span>Site Settings</span>
+    </a>
+    <a href="{% url 'src:scope_topic_list' %}"
+       class="sidebar-link {% if 'scope_topic' in request.resolver_match.url_name %}active{% endif %}">
+      <i class="fas fa-tags sidebar-icon"></i>
+      <span>Scope Topics</span>
+    </a>
+    <a href="{% url 'src:review_step_list' %}"
+       class="sidebar-link {% if 'review_step' in request.resolver_match.url_name %}active{% endif %}">
+      <i class="fas fa-tasks sidebar-icon"></i>
+      <span>Review Steps</span>
+    </a>
+    <a href="{% url 'src:guideline_item_list' %}"
+       class="sidebar-link {% if 'guideline' in request.resolver_match.url_name %}active{% endif %}">
+      <i class="fas fa-list-check sidebar-icon"></i>
+      <span>Guidelines</span>
+    </a>
 
     <div class="sidebar-divider"></div>
 

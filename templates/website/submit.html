@@ -1,0 +1,161 @@
+{% extends 'website/base.html' %}
+
+{% block title %}Submit a Paper — Construction Focus Journal A.B.U Zaria{% endblock %}
+
+{% block content %}
+
+<section class="page-hero">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{% url 'website:home' %}">Home</a></li>
+        <li class="breadcrumb-item active">Submit a Paper</li>
+      </ol>
+    </nav>
+    <h1 class="page-hero-title">Submit a Paper</h1>
+    <p class="page-hero-subtitle">Send us your manuscript for peer review</p>
+  </div>
+</section>
+
+<section class="py-6">
+  <div class="container">
+    <div class="row g-5">
+      <!-- Submission Form -->
+      <div class="col-lg-7">
+        <div class="contact-form-card">
+          <h3 class="mb-1">Manuscript Details</h3>
+          <p class="text-muted mb-4">Fields marked <span class="text-danger">*</span> are required.</p>
+          <form method="post" enctype="multipart/form-data" novalidate>
+            {% csrf_token %}
+            <div class="row g-3">
+              <div class="col-12">
+                <label class="form-label">Title <span class="text-danger">*</span></label>
+                {{ form.title }}
+                {% if form.title.errors %}
+                <div class="invalid-feedback d-block">{{ form.title.errors|join:", " }}</div>
+                {% endif %}
+              </div>
+              <div class="col-12">
+                <label class="form-label">Abstract <span class="text-danger">*</span></label>
+                {{ form.abstract }}
+                {% if form.abstract.errors %}
+                <div class="invalid-feedback d-block">{{ form.abstract.errors|join:", " }}</div>
+                {% endif %}
+              </div>
+              <div class="col-12">
+                <label class="form-label">Keywords <span class="text-danger">*</span></label>
+                {{ form.keywords }}
+                <div class="form-text">Separate keywords with commas</div>
+                {% if form.keywords.errors %}
+                <div class="invalid-feedback d-block">{{ form.keywords.errors|join:", " }}</div>
+                {% endif %}
+              </div>
+
+              <div class="col-12 mt-4"><h5 class="mb-0">Corresponding Author</h5></div>
+              <div class="col-md-6">
+                <label class="form-label">Full Name <span class="text-danger">*</span></label>
+                {{ form.corresponding_author_name }}
+                {% if form.corresponding_author_name.errors %}
+                <div class="invalid-feedback d-block">{{ form.corresponding_author_name.errors|join:", " }}</div>
+                {% endif %}
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">Email Address <span class="text-danger">*</span></label>
+                {{ form.corresponding_author_email }}
+                {% if form.corresponding_author_email.errors %}
+                <div class="invalid-feedback d-block">{{ form.corresponding_author_email.errors|join:", " }}</div>
+                {% endif %}
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">Affiliation <span class="text-danger">*</span></label>
+                {{ form.corresponding_author_affiliation }}
+                {% if form.corresponding_author_affiliation.errors %}
+                <div class="invalid-feedback d-block">{{ form.corresponding_author_affiliation.errors|join:", " }}</div>
+                {% endif %}
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">Phone Number</label>
+                {{ form.corresponding_author_phone }}
+                {% if form.corresponding_author_phone.errors %}
+                <div class="invalid-feedback d-block">{{ form.corresponding_author_phone.errors|join:", " }}</div>
+                {% endif %}
+              </div>
+
+              <div class="col-12 mt-4"><h5 class="mb-0">Files</h5></div>
+              <div class="col-12">
+                <label class="form-label">Manuscript File <span class="text-danger">*</span></label>
+                {{ form.manuscript_file }}
+                <div class="form-text">PDF, DOC or DOCX — max 10MB</div>
+                {% if form.manuscript_file.errors %}
+                <div class="invalid-feedback d-block">{{ form.manuscript_file.errors|join:", " }}</div>
+                {% endif %}
+              </div>
+              <div class="col-12">
+                <label class="form-label">Payment Receipt <span class="text-danger">*</span></label>
+                {{ form.payment_receipt }}
+                <div class="form-text">PDF, JPG or PNG — max 10MB. Proof of payment of the submission fee below.</div>
+                {% if form.payment_receipt.errors %}
+                <div class="invalid-feedback d-block">{{ form.payment_receipt.errors|join:", " }}</div>
+                {% endif %}
+              </div>
+
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary btn-lg px-5">
+                  <i class="fas fa-paper-plane me-2"></i>Submit Paper
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Payment Info -->
+      <div class="col-lg-5">
+        <div class="contact-info-section">
+          <h4 class="mb-4">Submission Fee &amp; Payment</h4>
+          {% if site_settings.submission_fee %}
+          <div class="contact-info-item mb-3">
+            <div class="contact-info-icon"><i class="fas fa-money-bill-wave"></i></div>
+            <div>
+              <strong>Fee</strong>
+              <p>{{ site_settings.submission_fee }}</p>
+            </div>
+          </div>
+          {% endif %}
+          {% if site_settings.payment_instructions %}
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><i class="fas fa-university"></i></div>
+            <div>
+              <strong>Payment Instructions</strong>
+              <p>{{ site_settings.payment_instructions|linebreaksbr }}</p>
+            </div>
+          </div>
+          {% endif %}
+          <p class="text-muted small mt-3">
+            Please make payment before submitting and attach the receipt above as evidence.
+            You will receive a reference number after submission — quote it in any correspondence.
+          </p>
+
+          <div class="contact-topics mt-4">
+            <h6 class="mb-3">Before You Submit</h6>
+            <div class="contact-topic-chip">
+              <i class="fas fa-check me-2"></i>Manuscript is 5,000–12,000 words
+            </div>
+            <div class="contact-topic-chip">
+              <i class="fas fa-check me-2"></i>Abstract is 150–250 words
+            </div>
+            <div class="contact-topic-chip">
+              <i class="fas fa-check me-2"></i>Payment receipt is ready to upload
+            </div>
+          </div>
+
+          <a href="{% url 'website:about' %}" class="btn btn-outline-primary btn-sm w-100 mt-4">
+            <i class="fas fa-book me-2"></i>View Full Author Guidelines
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

@@ -12,6 +12,54 @@ class SiteSettings(models.Model):
     issn = models.CharField(max_length=50, blank=True, default='2006-0262')
     eissn = models.CharField(max_length=50, blank=True)
 
+    # Contact
+    contact_email = models.EmailField(blank=True, default='editor@cfjournal.org')
+    contact_phone = models.CharField(max_length=50, blank=True)
+    contact_address = models.TextField(
+        blank=True,
+        default='Department of Building\nFaculty of Environmental Design\nAhmadu Bello University Zaria, Nigeria',
+    )
+    contact_response_time = models.CharField(max_length=100, blank=True, default='Within 2–3 business days')
+
+    # Footer / social
+    footer_tagline = models.TextField(
+        blank=True,
+        default='Advancing knowledge in construction, infrastructure, and built environment research through rigorous peer-reviewed scholarship.',
+    )
+    linkedin_url = models.URLField(blank=True)
+    researchgate_url = models.URLField(blank=True)
+    twitter_url = models.URLField(blank=True)
+    academia_url = models.URLField(blank=True)
+
+    # About page
+    mission_text = models.TextField(
+        blank=True,
+        default=(
+            'The Construction Focus Journal A.B.U Zaria (CFJ) is a peer-reviewed academic publication dedicated to '
+            'advancing the frontiers of knowledge in construction engineering, infrastructure development, and the '
+            'built environment. Founded with a commitment to open-access scholarship, CFJ serves as a bridge between '
+            'academic research and industry practice.\n\n'
+            'Our vision is to be the leading platform for disseminating high-impact, rigorous research that shapes '
+            'the future of the construction industry — embracing sustainability, digital innovation, and '
+            'evidence-based practice.'
+        ),
+    )
+
+    # Journal Info box
+    frequency = models.CharField(max_length=100, blank=True, default='Quarterly')
+    language = models.CharField(max_length=100, blank=True, default='English')
+    access_type = models.CharField(max_length=100, blank=True, default='Open Access')
+    review_type = models.CharField(max_length=100, blank=True, default='Double-Blind')
+    publisher_name = models.CharField(max_length=200, blank=True, default='CFJ Publishing')
+
+    # Submission / payment
+    submission_fee = models.CharField(
+        max_length=100, blank=True, help_text='e.g. NGN 15,000 — shown to authors before they submit',
+    )
+    payment_instructions = models.TextField(
+        blank=True, help_text='Bank account details / payment steps shown on the submission page',
+    )
+
     class Meta:
         verbose_name = 'Site Settings'
         verbose_name_plural = 'Site Settings'
@@ -129,3 +177,86 @@ class Article(models.Model):
                 counter += 1
             self.slug = slug
         super().save(*args, **kwargs)
+
+
+class ScopeTopic(models.Model):
+    name = models.CharField(max_length=200, help_text='Full label, shown on the About page')
+    short_name = models.CharField(
+        max_length=100, blank=True,
+        help_text='Optional shorter label for the homepage tag; falls back to Name',
+    )
+    order = models.PositiveSmallIntegerField(default=0)
+
+    class Meta:
+        ordering = ['order']
+
+    def __str__(self):
+        return self.name
+
+    def display_short(self):
+        return self.short_name or self.name
+
+
+class ReviewStep(models.Model):
+    name = models.CharField(max_length=200)
+    order = models.PositiveSmallIntegerField(default=0)
+
+    class Meta:
+        ordering = ['order']
+
+    def __str__(self):
+        return self.name
+
+
+class GuidelineItem(models.Model):
+    label = models.CharField(max_length=200, help_text='e.g. Manuscript Length')
+    value = models.CharField(max_length=300, help_text='e.g. 5,000 – 12,000 words (excluding references)')
+    order = models.PositiveSmallIntegerField(default=0)
+
+    class Meta:
+        ordering = ['order']
+
+    def __str__(self):
+        return self.label
+
+
+class Submission(models.Model):
+    STATUS_PENDING = 'pending'
+    STATUS_UNDER_REVIEW = 'under_review'
+    STATUS_ACCEPTED = 'accepted'
+    STATUS_REJECTED = 'rejected'
+    STATUS_PUBLISHED = 'published'
+    STATUS_CHOICES = [
+        (STATUS_PENDING, 'Pending Review'),
+        (STATUS_UNDER_REVIEW, 'Under Review'),
+        (STATUS_ACCEPTED, 'Accepted'),
+        (STATUS_REJECTED, 'Rejected'),
+        (STATUS_PUBLISHED, 'Published'),
+    ]
+
+    title = models.CharField(max_length=500)
+    abstract = models.TextField()
+    keywords = models.CharField(max_length=500, help_text='Comma-separated keywords')
+
+    corresponding_author_name = models.CharField(max_length=200)
+    corresponding_author_email = models.EmailField()
+    corresponding_author_affiliation = models.CharField(max_length=300)
+    corresponding_author_phone = models.CharField(max_length=50, blank=True)
+
+    manuscript_file = models.FileField(upload_to='submissions/manuscripts/')
+    payment_receipt = models.FileField(upload_to='submissions/receipts/')
+
+    status = models.CharField(max_length=20, choices=STATUS_CHOICES, default=STATUS_PENDING)
+    editor_notes = models.TextField(blank=True, help_text='Internal notes, not visible to the author')
+
+    submitted_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        ordering = ['-submitted_at']
+
+    def __str__(self):
+        return self.title
+
+    def reference_code(self):
+        return f"CFJ-{self.submitted_at:%Y}-{self.pk:05d}"

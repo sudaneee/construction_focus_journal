@@ -1,0 +1,99 @@
+{% extends 'src/base.html' %}
+
+{% block title %}{{ submission.title }}{% endblock %}
+{% block breadcrumb %}
+  <a href="{% url 'src:submission_list' %}">Submissions</a> / {{ submission.reference_code }}
+{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <div>
+    <h1 class="page-title">{{ submission.title }}</h1>
+    <p class="page-subtitle">Reference: {{ submission.reference_code }} &middot; Submitted {{ submission.submitted_at|date:"d M Y, H:i" }}</p>
+  </div>
+  <a href="{% url 'src:submission_list' %}" class="btn btn-outline-secondary">
+    <i class="fas fa-arrow-left me-2"></i>Back to Submissions
+  </a>
+</div>
+
+<div class="row g-4">
+  <div class="col-lg-8">
+    <div class="dash-card mb-4">
+      <div class="dash-card-header">
+        <h5 class="dash-card-title"><i class="fas fa-file-alt me-2"></i>Manuscript</h5>
+      </div>
+      <div class="dash-card-body">
+        <div class="mb-3">
+          <strong>Abstract</strong>
+          <p class="text-muted">{{ submission.abstract }}</p>
+        </div>
+        <div class="mb-0">
+          <strong>Keywords</strong>
+          <p class="text-muted mb-0">{{ submission.keywords }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="dash-card mb-4">
+      <div class="dash-card-header">
+        <h5 class="dash-card-title"><i class="fas fa-user me-2"></i>Corresponding Author</h5>
+      </div>
+      <div class="dash-card-body">
+        <div class="row g-3">
+          <div class="col-md-6"><strong>Name</strong><p class="text-muted mb-0">{{ submission.corresponding_author_name }}</p></div>
+          <div class="col-md-6"><strong>Email</strong><p class="text-muted mb-0"><a href="mailto:{{ submission.corresponding_author_email }}">{{ submission.corresponding_author_email }}</a></p></div>
+          <div class="col-md-6"><strong>Affiliation</strong><p class="text-muted mb-0">{{ submission.corresponding_author_affiliation }}</p></div>
+          <div class="col-md-6"><strong>Phone</strong><p class="text-muted mb-0">{{ submission.corresponding_author_phone|default:"—" }}</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dash-card">
+      <div class="dash-card-header">
+        <h5 class="dash-card-title"><i class="fas fa-paperclip me-2"></i>Files</h5>
+      </div>
+      <div class="dash-card-body">
+        <a href="{{ submission.manuscript_file.url }}" target="_blank" class="btn btn-outline-primary me-2 mb-2">
+          <i class="fas fa-file-alt me-2"></i>Download Manuscript
+        </a>
+        <a href="{{ submission.payment_receipt.url }}" target="_blank" class="btn btn-outline-success mb-2">
+          <i class="fas fa-receipt me-2"></i>View Payment Receipt
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-4">
+    <div class="dash-card">
+      <div class="dash-card-header">
+        <h5 class="dash-card-title"><i class="fas fa-clipboard-check me-2"></i>Editorial Review</h5>
+      </div>
+      <div class="dash-card-body">
+        <form method="post" novalidate>
+          {% csrf_token %}
+          <div class="mb-3">
+            <label class="form-label fw-500">Status</label>
+            {{ form.status }}
+          </div>
+          <div class="mb-3">
+            <label class="form-label fw-500">Internal Notes</label>
+            {{ form.editor_notes }}
+            <div class="form-text">Not visible to the author.</div>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">
+            <i class="fas fa-save me-2"></i>Update Submission
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div class="dash-card mt-4">
+      <div class="dash-card-body">
+        <a href="{% url 'src:submission_delete' submission.pk %}" class="btn btn-outline-danger w-100">
+          <i class="fas fa-trash-alt me-2"></i>Delete Submission
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
