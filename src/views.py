@@ -8,11 +8,12 @@ from django.urls import reverse
 
 from website.models import (
     Volume, Issue, Article, Author, ArticleAuthor, SiteSettings,
-    ScopeTopic, ReviewStep, GuidelineItem, Submission,
+    ScopeTopic, ReviewStep, GuidelineItem, Submission, Announcement,
 )
 from .forms import (
     VolumeForm, IssueForm, ArticleForm, AuthorForm, AuthorSlotFormSet,
     SiteSettingsForm, ScopeTopicForm, ReviewStepForm, GuidelineItemForm, SubmissionReviewForm,
+    AnnouncementForm,
 )
 
 # Reusable prefetch that returns authors in defined position order
@@ -468,6 +469,56 @@ def guideline_item_delete(request, pk):
         return redirect('src:guideline_item_list')
     return render(request, 'src/confirm_delete.html', {
         'object': item, 'object_type': 'Guideline', 'cancel_url': reverse('src:guideline_item_list'),
+    })
+
+
+# ── Announcements ─────────────────────────────────────────────────────────────
+
+@login_required
+def announcement_list(request):
+    query = request.GET.get('q', '').strip()
+    qs = Announcement.objects.all()
+    if query:
+        qs = qs.filter(Q(title__icontains=query) | Q(summary__icontains=query) | Q(body__icontains=query))
+    paginator = Paginator(qs, 15)
+    return render(request, 'src/announcements/list.html', {
+        'announcements': paginator.get_page(request.GET.get('page')),
+        'query': query,
+    })
+
+
+@login_required
+def announcement_create(request):
+    form = AnnouncementForm(request.POST or None)
+    if form.is_valid():
+        form.save()
+        messages.success(request, 'Announcement created successfully.')
+        return redirect('src:announcement_list')
+    return render(request, 'src/announcements/form.html', {'form': form, 'action': 'Create'})
+
+
+@login_required
+def announcement_edit(request, pk):
+    announcement = get_object_or_404(Announcement, pk=pk)
+    form = AnnouncementForm(request.POST or None, instance=announcement)
+    if form.is_valid():
+        form.save()
+        messages.success(request, 'Announcement updated successfully.')
+        return redirect('src:announcement_list')
+    return render(request, 'src/announcements/form.html', {
+        'form': form, 'action': 'Edit', 'object': announcement,
+    })
+
+
+@login_required
+def announcement_delete(request, pk):
+    announcement = get_object_or_404(Announcement, pk=pk)
+    if request.method == 'POST':
+        announcement.delete()
+        messages.success(request, 'Announcement deleted successfully.')
+        return redirect('src:announcement_list')
+    return render(request, 'src/confirm_delete.html', {
+        'object': announcement, 'object_type': 'Announcement', 'cancel_url': reverse('src:announcement_list'),
     })
 
 

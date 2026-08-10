@@ -1,0 +1,69 @@
+{% extends 'website/base.html' %}
+
+{% block title %}{{ announcement.title }} — CFJ{% endblock %}
+{% block meta_description %}{{ announcement.display_summary|truncatewords:25 }}{% endblock %}
+
+{% block content %}
+
+<section class="page-hero">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{% url 'website:home' %}">Home</a></li>
+        <li class="breadcrumb-item"><a href="{% url 'website:announcements' %}">Announcements</a></li>
+        <li class="breadcrumb-item active">Announcement</li>
+      </ol>
+    </nav>
+  </div>
+</section>
+
+<section class="py-6">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-8">
+        <article class="article-full">
+          <div class="article-full-meta mb-3">
+            <span class="text-muted small">
+              <i class="far fa-calendar-alt me-1"></i>{{ announcement.date_posted|date:"d F Y" }}
+            </span>
+          </div>
+
+          <h1 class="article-full-title">{{ announcement.title }}</h1>
+
+          <hr class="article-divider">
+
+          <div class="article-section">
+            <p class="article-abstract" style="white-space: pre-line;">{{ announcement.body }}</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="sidebar-sticky">
+          {% if recent_announcements %}
+          <div class="info-card">
+            <h5 class="info-card-title"><i class="fas fa-bullhorn me-2"></i>Other Announcements</h5>
+            {% for rel in recent_announcements %}
+            <div class="related-article">
+              <a href="{{ rel.get_absolute_url }}">{{ rel.title|truncatewords:12 }}</a>
+              <div class="related-article-meta">
+                {{ rel.date_posted|date:"M Y" }}
+              </div>
+            </div>
+            {% if not forloop.last %}<hr class="my-2">{% endif %}
+            {% endfor %}
+          </div>
+          {% endif %}
+
+          <div class="info-card mt-4">
+            <a href="{% url 'website:announcements' %}" class="btn btn-outline-primary w-100">
+              <i class="fas fa-list me-2"></i>All Announcements
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

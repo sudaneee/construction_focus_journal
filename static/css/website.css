@@ -587,6 +587,90 @@ a.keyword-chip:hover { background: var(--primary); color: white; }
   .toc-item-actions { width: 100%; }
 }
 
+/* ── Announcements (homepage column list) ───────────────── */
+.announcement-list {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--white);
+}
+
+.announcement-list-item {
+  display: block;
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid var(--border);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.announcement-list-item:last-child { border-bottom: none; }
+
+.announcement-list-item:hover { background: var(--primary-tint); }
+
+.announcement-list-date {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-bottom: 0.35rem;
+}
+
+.announcement-list-title {
+  font-size: 1rem;
+  color: var(--text);
+  margin-bottom: 0.35rem;
+}
+
+.announcement-list-item:hover .announcement-list-title { color: var(--primary); }
+
+.announcement-list-excerpt {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 0;
+}
+
+/* ── Announcements (dedicated list page cards) ──────────── */
+.announcement-card {
+  display: block;
+  height: 100%;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.announcement-card:hover {
+  border-color: var(--primary);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  transform: translateY(-2px);
+}
+
+.announcement-card-date {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 0.6rem;
+}
+
+.announcement-card-title {
+  font-size: 1.2rem;
+  color: var(--text);
+  margin-bottom: 0.6rem;
+}
+
+.announcement-card:hover .announcement-card-title { color: var(--primary); }
+
+.announcement-card-excerpt {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+.announcement-card-link {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--primary);
+}
+
 /* ── Volume Cards ────────────────────────────────────────── */
 .volume-card {
   display: flex;

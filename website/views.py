@@ -2,7 +2,7 @@ from django.shortcuts import render, get_object_or_404, redirect
 from django.db.models import Q, Prefetch
 from django.contrib import messages
 
-from .models import Volume, Issue, Article, Author, ScopeTopic, ReviewStep, GuidelineItem
+from .models import Volume, Issue, Article, Author, ScopeTopic, ReviewStep, GuidelineItem, Announcement
 from .forms import ContactForm, SubmissionForm
 
 _ordered_authors = Prefetch('authors', queryset=Author.objects.order_by('articleauthor__order'))
@@ -28,12 +28,14 @@ def home(request):
         'volumes': Volume.objects.count(),
         'authors': Author.objects.count(),
     }
+    recent_announcements = Announcement.objects.filter(is_published=True)[:3]
     return render(request, 'website/home.html', {
         'current_issue': current_issue,
         'current_issue_articles': current_issue_articles,
         'volumes': volumes,
         'stats': stats,
         'scope_topics': ScopeTopic.objects.all(),
+        'recent_announcements': recent_announcements,
     })
 
 
@@ -89,6 +91,24 @@ def article_detail(request, slug):
     return render(request, 'website/article_detail.html', {
         'article': article,
         'related': related,
+    })
+
+
+def announcements_list(request):
+    announcements = Announcement.objects.filter(is_published=True)
+    return render(request, 'website/announcements.html', {
+        'announcements': announcements,
+    })
+
+
+def announcement_detail(request, slug):
+    announcement = get_object_or_404(Announcement, slug=slug, is_published=True)
+    recent_announcements = (
+        Announcement.objects.filter(is_published=True).exclude(pk=announcement.pk)[:5]
+    )
+    return render(request, 'website/announcement_detail.html', {
+        'announcement': announcement,
+        'recent_announcements': recent_announcements,
     })
 
 

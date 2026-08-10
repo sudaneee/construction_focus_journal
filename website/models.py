@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils import timezone
 from django.utils.text import slugify
 from django.urls import reverse
 
@@ -173,6 +174,43 @@ class Article(models.Model):
             slug = base_slug
             counter = 1
             while Article.objects.filter(slug=slug).exclude(pk=self.pk).exists():
+                slug = f"{base_slug}-{counter}"
+                counter += 1
+            self.slug = slug
+        super().save(*args, **kwargs)
+
+
+class Announcement(models.Model):
+    title = models.CharField(max_length=300)
+    slug = models.SlugField(max_length=300, unique=True, blank=True)
+    summary = models.CharField(
+        max_length=300, blank=True,
+        help_text='Short teaser shown on the homepage and list page (falls back to the start of the body)',
+    )
+    body = models.TextField()
+    date_posted = models.DateField(default=timezone.now)
+    is_published = models.BooleanField(default=True, help_text='Uncheck to hide without deleting')
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        ordering = ['-date_posted', '-created_at']
+
+    def __str__(self):
+        return self.title
+
+    def get_absolute_url(self):
+        return reverse('website:announcement_detail', kwargs={'slug': self.slug})
+
+    def display_summary(self):
+        return self.summary or (self.body[:200] + ('…' if len(self.body) > 200 else ''))
+
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            base_slug = slugify(self.title)
+            slug = base_slug
+            counter = 1
+            while Announcement.objects.filter(slug=slug).exclude(pk=self.pk).exists():
                 slug = f"{base_slug}-{counter}"
                 counter += 1
             self.slug = slug

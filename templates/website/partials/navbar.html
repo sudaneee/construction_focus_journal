@@ -41,6 +41,10 @@
                  href="{% url 'website:volumes' %}">Archives</a>
             </li>
             <li>
+              <a class="dropdown-item {% if 'announcement' in request.resolver_match.url_name %}active{% endif %}"
+                 href="{% url 'website:announcements' %}">Announcements</a>
+            </li>
+            <li>
               <a class="dropdown-item {% if request.resolver_match.url_name == 'submit' %}active{% endif %}"
                  href="{% url 'website:submit' %}">Submit a Paper</a>
             </li>

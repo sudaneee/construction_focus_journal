@@ -1,0 +1,47 @@
+{% extends 'website/base.html' %}
+
+{% block title %}Announcements — Construction Focus Journal A.B.U Zaria{% endblock %}
+
+{% block content %}
+
+<section class="page-hero">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{% url 'website:home' %}">Home</a></li>
+        <li class="breadcrumb-item active">Announcements</li>
+      </ol>
+    </nav>
+    <h1 class="page-hero-title">Announcements</h1>
+    <p class="page-hero-subtitle">News, calls for papers, and updates from the editorial team</p>
+  </div>
+</section>
+
+<section class="py-6">
+  <div class="container">
+    {% if announcements %}
+    <div class="row g-4">
+      {% for announcement in announcements %}
+      <div class="col-lg-6">
+        <a href="{{ announcement.get_absolute_url }}" class="announcement-card">
+          <div class="announcement-card-date">
+            <i class="far fa-calendar-alt me-1"></i>{{ announcement.date_posted|date:"d M Y" }}
+          </div>
+          <h3 class="announcement-card-title">{{ announcement.title }}</h3>
+          <p class="announcement-card-excerpt">{{ announcement.display_summary }}</p>
+          <span class="announcement-card-link">Read More <i class="fas fa-arrow-right ms-1"></i></span>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+    {% else %}
+    <div class="empty-state">
+      <i class="fas fa-bullhorn fa-4x mb-3"></i>
+      <h4>No announcements yet</h4>
+      <p class="text-muted">Check back soon for news and updates.</p>
+    </div>
+    {% endif %}
+  </div>
+</section>
+
+{% endblock %}

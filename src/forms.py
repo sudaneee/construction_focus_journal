@@ -2,6 +2,7 @@ from django import forms
 from django.forms import formset_factory
 from website.models import (
     Volume, Issue, Article, Author, SiteSettings, ScopeTopic, ReviewStep, GuidelineItem, Submission,
+    Announcement,
 )
 
 
@@ -175,6 +176,31 @@ class GuidelineItemForm(forms.ModelForm):
             'value': forms.TextInput(attrs={'class': 'form-control'}),
             'order': forms.NumberInput(attrs={'class': 'form-control'}),
         }
+
+
+class AnnouncementForm(forms.ModelForm):
+    class Meta:
+        model = Announcement
+        fields = ['title', 'slug', 'summary', 'body', 'date_posted', 'is_published']
+        widgets = {
+            'title': forms.TextInput(attrs={'class': 'form-control', 'id': 'id_title'}),
+            'slug': forms.TextInput(attrs={
+                'class': 'form-control',
+                'placeholder': 'Auto-generated from title (or enter manually)',
+            }),
+            'summary': forms.TextInput(attrs={
+                'class': 'form-control',
+                'placeholder': 'Short teaser shown on the homepage (optional)',
+            }),
+            'body': forms.Textarea(attrs={'class': 'form-control', 'rows': 8}),
+            'date_posted': forms.DateInput(attrs={'class': 'form-control', 'type': 'date'}),
+            'is_published': forms.CheckboxInput(attrs={'class': 'form-check-input'}),
+        }
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.fields['slug'].required = False
+        self.fields['summary'].required = False
 
 
 class SubmissionReviewForm(forms.ModelForm):

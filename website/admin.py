@@ -1,7 +1,7 @@
 from django.contrib import admin
 from .models import (
     Volume, Issue, Author, Article, ArticleAuthor, SiteSettings,
-    ScopeTopic, ReviewStep, GuidelineItem, Submission,
+    ScopeTopic, ReviewStep, GuidelineItem, Submission, Announcement,
 )
 
 
@@ -41,6 +41,16 @@ class GuidelineItemAdmin(admin.ModelAdmin):
     list_display = ['label', 'value', 'order']
     list_editable = ['order']
     ordering = ['order']
+
+
+@admin.register(Announcement)
+class AnnouncementAdmin(admin.ModelAdmin):
+    list_display = ['title', 'date_posted', 'is_published']
+    list_filter = ['is_published']
+    search_fields = ['title', 'summary', 'body']
+    prepopulated_fields = {'slug': ('title',)}
+    date_hierarchy = 'date_posted'
+    readonly_fields = ['created_at', 'updated_at']
 
 
 @admin.register(Submission)

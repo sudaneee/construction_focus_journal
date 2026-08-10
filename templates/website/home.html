@@ -79,32 +79,71 @@
   </div>
 </section>
 
-<!-- Current Issue -->
-{% if current_issue %}
+<!-- Current Issue & Announcements -->
+{% if current_issue or recent_announcements %}
 <section class="section-toc py-6">
   <div class="container">
-    <div class="section-header">
-      <div>
-        <h2 class="section-title">Current Issue</h2>
-        <p class="section-subtitle">{{ current_issue }} &mdash; {{ current_issue.publication_date|date:"M Y" }}</p>
-      </div>
-      <a href="{{ current_issue.get_absolute_url }}" class="btn btn-outline-primary">
-        View Issue <i class="fas fa-arrow-right ms-1"></i>
-      </a>
-    </div>
+    <div class="row g-5">
+      <!-- Current Issue -->
+      <div class="col-lg-7">
+        {% if current_issue %}
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Current Issue</h2>
+            <p class="section-subtitle">{{ current_issue }} &mdash; {{ current_issue.publication_date|date:"M Y" }}</p>
+          </div>
+          <a href="{{ current_issue.get_absolute_url }}" class="btn btn-outline-primary">
+            View Issue <i class="fas fa-arrow-right ms-1"></i>
+          </a>
+        </div>
 
-    {% if current_issue_articles %}
-    <div class="toc-list">
-      {% for article in current_issue_articles %}
-      {% include 'website/partials/article_toc_item.html' %}
-      {% endfor %}
+        {% if current_issue_articles %}
+        <div class="toc-list">
+          {% for article in current_issue_articles %}
+          {% include 'website/partials/article_toc_item.html' %}
+          {% endfor %}
+        </div>
+        {% else %}
+        <div class="empty-state">
+          <i class="fas fa-newspaper fa-3x mb-3"></i>
+          <p>No articles in this issue yet.</p>
+        </div>
+        {% endif %}
+        {% endif %}
+      </div>
+
+      <!-- Announcements -->
+      <div class="col-lg-5">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Announcements</h2>
+            <p class="section-subtitle">Latest news &amp; updates</p>
+          </div>
+          <a href="{% url 'website:announcements' %}" class="btn btn-outline-primary">
+            View All <i class="fas fa-arrow-right ms-1"></i>
+          </a>
+        </div>
+
+        {% if recent_announcements %}
+        <div class="announcement-list">
+          {% for announcement in recent_announcements %}
+          <a href="{{ announcement.get_absolute_url }}" class="announcement-list-item">
+            <div class="announcement-list-date">
+              <i class="far fa-calendar-alt me-1"></i>{{ announcement.date_posted|date:"d M Y" }}
+            </div>
+            <h4 class="announcement-list-title">{{ announcement.title }}</h4>
+            <p class="announcement-list-excerpt">{{ announcement.display_summary|truncatewords:18 }}</p>
+          </a>
+          {% endfor %}
+        </div>
+        {% else %}
+        <div class="empty-state">
+          <i class="fas fa-bullhorn fa-3x mb-3"></i>
+          <p>No announcements yet.</p>
+        </div>
+        {% endif %}
+      </div>
     </div>
-    {% else %}
-    <div class="empty-state">
-      <i class="fas fa-newspaper fa-3x mb-3"></i>
-      <p>No articles in this issue yet.</p>
-    </div>
-    {% endif %}
   </div>
 </section>
 {% endif %}

@@ -47,6 +47,11 @@
     </a>
 
     <div class="sidebar-section-label mt-3">Site Content</div>
+    <a href="{% url 'src:announcement_list' %}"
+       class="sidebar-link {% if 'announcement' in request.resolver_match.url_name %}active{% endif %}">
+      <i class="fas fa-bullhorn sidebar-icon"></i>
+      <span>Announcements</span>
+    </a>
     <a href="{% url 'src:site_settings_edit' %}"
        class="sidebar-link {% if 'site_settings' in request.resolver_match.url_name %}active{% endif %}">
       <i class="fas fa-cog sidebar-icon"></i>

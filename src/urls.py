@@ -35,6 +35,12 @@ urlpatterns = [
     path('authors/<int:pk>/edit/', views.author_edit, name='author_edit'),
     path('authors/<int:pk>/delete/', views.author_delete, name='author_delete'),
 
+    # Announcements
+    path('announcements/', views.announcement_list, name='announcement_list'),
+    path('announcements/create/', views.announcement_create, name='announcement_create'),
+    path('announcements/<int:pk>/edit/', views.announcement_edit, name='announcement_edit'),
+    path('announcements/<int:pk>/delete/', views.announcement_delete, name='announcement_delete'),
+
     # Submissions
     path('submissions/', views.submission_list, name='submission_list'),
     path('submissions/<int:pk>/', views.submission_detail, name='submission_detail'),
