@@ -20,6 +20,10 @@ env/
 *.log
 /staticfiles/
 
+# Local/production data (not synced via git)
+db.sqlite3
+media/
+
 # Environment variables
 .env
 .env.*
